@@ -307,7 +307,161 @@ export const themes: Theme[] = [
             level: 3,
             parentId: "biblical-figures",
             description: "Estudos focados em Jesus Cristo",
-            children: [],
+            children: [
+                  {
+                    id: "aboliu-a-morte",
+                    name: "Aboliu a Morte",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre como Jesus aboliu a morte.",
+                    children: [],
+                    articles: ["aboliu-a-morte"]
+                  },
+                  {
+                    id: "dia-da-ressurreicao",
+                    name: "Dia da Ressurreição",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre o dia da ressurreição de Jesus.",
+                    children: [],
+                    articles: ["dia-da-ressurreicao"]
+                  },
+                  {
+                    id: "chamado-nazareno",
+                    name: "Chamado Nazareno",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre por que Jesus foi chamado de Nazareno.",
+                    children: [],
+                    articles: ["chamado-nazareno"]
+                  },
+                  {
+                    id: "templo-restaurado",
+                    name: "Templo Restaurado",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre Jesus como o templo restaurado.",
+                    children: [],
+                    articles: ["templo-restaurado"]
+                  },
+                  {
+                    id: "culpados-pelo-sangue",
+                    name: "Culpados pelo Sangue",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre os culpados pelo sangue de Jesus.",
+                    children: [],
+                    articles: ["culpados-pelo-sangue"]
+                  },
+                  {
+                    id: "levou-nossos-pecados",
+                    name: "Levou Nossos Pecados",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre como Jesus levou nossos pecados.",
+                    children: [],
+                    articles: ["levou-nossos-pecados"]
+                  },
+                  {
+                    id: "tentacao-no-deserto",
+                    name: "Tentação no Deserto",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre a tentação de Jesus no deserto.",
+                    children: [],
+                    articles: ["tentacao-no-deserto"]
+                  },
+                  {
+                    id: "pedra-da-igreja",
+                    name: "Pedra da Igreja",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre a pedra da igreja.",
+                    children: [],
+                    articles: ["pedra-da-igreja"]
+                  },
+                  {
+                    id: "nome",
+                    name: "Nome",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre o nome de Jesus.",
+                    children: [],
+                    articles: ["nome"]
+                  },
+                  {
+                    id: "palavra-de-deus",
+                    name: "Palavra de Deus",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre Jesus como a Palavra de Deus.",
+                    children: [],
+                    articles: ["palavra-de-deus"]
+                  },
+                  {
+                    id: "natureza-em-3-etapas",
+                    name: "Natureza em 3 Etapas",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre a natureza de Cristo em 3 etapas.",
+                    children: [],
+                    articles: ["natureza-em-3-etapas"]
+                  },
+                  {
+                    id: "genealogia",
+                    name: "Genealogia",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre a genealogia de Jesus.",
+                    children: [],
+                    articles: ["genealogia"]
+                  },
+                  {
+                    id: "profecia-de-moises",
+                    name: "Profecia de Moisés",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre a profecia de Moisés a respeito de Jesus.",
+                    children: [],
+                    articles: ["profecia-de-moises"]
+                  },
+                  {
+                    id: "ordem-melquisedeque",
+                    name: "Ordem Melquisedeque",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre Jesus e a ordem de Melquisedeque.",
+                    children: [],
+                    articles: ["ordem-melquisedeque"]
+                  },
+                  {
+                    id: "levantado-na-cruz",
+                    name: "Levantado na Cruz",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre Jesus sendo levantado na cruz.",
+                    children: [],
+                    articles: ["levantado-na-cruz"]
+                  },
+                  {
+                    id: "dia-e-hora",
+                    name: "Dia e Hora",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre o dia e a hora da volta de Jesus.",
+                    children: [],
+                    articles: ["dia-e-hora"]
+                  },
+                  {
+                    id: "batismo",
+                    name: "Batismo",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre o batismo de Jesus.",
+                    children: [],
+                    articles: ["batismo"]
+                  }
+                ],
             articles: []
           },
           {
@@ -799,6 +953,159 @@ export const articles: Article[] = [
     url: "https://otaviotolentino.wordpress.com/2021/12/11/tarifa-zero/",
     tags: ["Finanças", "Bancos", "Economia"],
     category: "Dicas Úteis"
+  },
+  {
+    id: "aboliu-a-morte",
+    title: "Aboliu a Morte",
+    date: "June 22, 2025",
+    summary: "A morte sempre foi o grande terror da humanidade, uma realidade inevitável que assombra todos os povos e culturas ao longo da história. Porém, as Escrituras Sagradas nos revelam uma verdade extraordinária e transformadora: Jesus Cristo aboliu a morte.",
+    url: "https://otaviotolentino.wordpress.com/2025/06/22/jesus-aboliu-a-morte/",
+    tags: ["Jesus Cristo", "Morte", "Ressurreição"],
+    category: "Estudos"
+  },
+  {
+    id: "dia-da-ressurreicao",
+    title: "Dia da Ressurreição",
+    date: "November 3, 2024",
+    summary: "Será DOMINGO o DIA da RESSURREIÇÃO de Jesus Cristo?",
+    url: "https://otaviotolentino.wordpress.com/2024/11/03/dia-da-ressurreicao-de-jesus-cristo/",
+    tags: ["Jesus Cristo", "Ressurreição", "Domingo"],
+    category: "Estudos"
+  },
+  {
+    id: "chamado-nazareno",
+    title: "Chamado Nazareno",
+    date: "July 21, 2024",
+    summary: "No Evangelho de Mateus há uma referência ao cumprimento de uma profecia que não foi dada nenhum detalhe de quem ou onde estava esta profecia. E chegou, e habitou numa cidade chamada Nazaré, para que se cumprisse o que fora dito pelos profetas: Ele será chamado Nazareno. Mateus 2:23",
+    url: "https://otaviotolentino.wordpress.com/2024/07/21/jesus-nazareno/",
+    tags: ["Jesus Cristo", "Nazareno", "Profecia"],
+    category: "Estudos"
+  },
+  {
+    id: "templo-restaurado",
+    title: "Templo Restaurado",
+    date: "March 31, 2024",
+    summary: "O nome de Jesus carrega a Glória e Honra de Deus, pois ele é o Templo restabelecido por Deus.",
+    url: "https://otaviotolentino.wordpress.com/2024/03/31/jesus-e-o-templo/",
+    tags: ["Jesus Cristo", "Templo", "Glória de Deus"],
+    category: "Estudos"
+  },
+  {
+    id: "culpados-pelo-sangue",
+    title: "Culpados pelo Sangue",
+    date: "November 12, 2023",
+    summary: "Seremos breves e diretos na abordagem dos responsáveis pelo derramamento do sangue de Jesus, dos profetas e dos santos em Apocalipse.",
+    url: "https://otaviotolentino.wordpress.com/2023/11/12/sangue-de-jesus-dos-profetas-e-dos-santos/",
+    tags: ["Jesus Cristo", "Sangue", "Apocalipse"],
+    category: "Estudos"
+  },
+  {
+    id: "levou-nossos-pecados",
+    title: "Levou Nossos Pecados",
+    date: "October 15, 2023",
+    summary: "Jesus teve que vir em carne, em forma plenamente humana, e tomou sobre si os nossos pecados, enfermidades, dores, iniquidades etc, para que pudesse remir os nossos pecados e resgatar as nossas almas diante de Deus.",
+    url: "https://otaviotolentino.wordpress.com/2023/10/15/jesus-levou-nossos-pecados/",
+    tags: ["Jesus Cristo", "Pecado", "Salvação"],
+    category: "Estudos"
+  },
+  {
+    id: "tentacao-no-deserto",
+    title: "Tentação no Deserto",
+    date: "October 1, 2023",
+    summary: "A tentação de Jesus no deserto representa uma declaração de intenções e comprometimentos através do testemunho de fé dado por Jesus.",
+    url: "https://otaviotolentino.wordpress.com/2023/10/01/tentacao-de-jesus-no-deserto/",
+    tags: ["Jesus Cristo", "Tentação", "Fé"],
+    category: "Estudos"
+  },
+  {
+    id: "pedra-da-igreja",
+    title: "Pedra da Igreja",
+    date: "July 30, 2023",
+    summary: "Será Pedro a Pedra sobre a qual Jesus construiria a sua Igreja?",
+    url: "https://otaviotolentino.wordpress.com/2023/07/30/pedra-da-igreja-de-cristo/",
+    tags: ["Jesus Cristo", "Igreja", "Pedro"],
+    category: "Estudos"
+  },
+  {
+    id: "nome",
+    title: "Nome",
+    date: "June 25, 2023",
+    summary: "Esse nome foi anunciado pelo anjo de Deus a Maria e também a José que o Filho de Deus, que nasceria de Maria, deveria ser chamado Jesus. Então o nome em questão a ser analisado neste estudo, numa abordagem de questão semântica, é o nome “JESUS“.",
+    url: "https://otaviotolentino.wordpress.com/2023/06/25/nome-de-jesus/",
+    tags: ["Jesus Cristo", "Nome", "Anjo"],
+    category: "Estudos"
+  },
+  {
+    id: "palavra-de-deus",
+    title: "Palavra de Deus",
+    date: "June 18, 2023",
+    summary: "Importante saber que Jesus sustenta todas as coisas com a Palavra do seu Poder, dando assim o cumprimento e a confirmação de toda palavra e promessa de Deus.",
+    url: "https://otaviotolentino.wordpress.com/2023/06/18/jesus-cristo-a-palavra-de-deus/",
+    tags: ["Jesus Cristo", "Palavra de Deus", "Poder"],
+    category: "Estudos"
+  },
+  {
+    id: "natureza-em-3-etapas",
+    title: "Natureza em 3 Etapas",
+    date: "June 11, 2023",
+    summary: "Cristo Teve 3 etapas diferentes em sua vida, por causa da sua vinda à Terra em forma humana. Quais são elas?",
+    url: "https://otaviotolentino.wordpress.com/2023/06/11/natureza-de-cristo-em-3-etapas/",
+    tags: ["Jesus Cristo", "Natureza de Cristo", "Humanidade"],
+    category: "Estudos"
+  },
+  {
+    id: "genealogia",
+    title: "Genealogia",
+    date: "April 16, 2023",
+    summary: "Existem muitos segredos e mistérios revelados nas genealogias da Bíblia. Neste artigo vamos desvendar um dos grandes mistérios revelados na genealogia de Jesus e que poucas pessoas dão atenção.",
+    url: "https://otaviotolentino.wordpress.com/2023/04/16/genealogia-de-jesus/",
+    tags: ["Jesus Cristo", "Genealogia", "Bíblia"],
+    category: "Estudos"
+  },
+  {
+    id: "profecia-de-moises",
+    title: "Profecia de Moisés",
+    date: "December 18, 2022",
+    summary: "Pouco se fala entre os cristãos sobre a profecia de Moisés de que viria um profeta dentre o povo de Israel e que falaria as palavras de Deus. Essa profecia é uma das maiores expectativas que o povo de Israel tem sobre a vinda do Messias, chamado de Cristo.",
+    url: "https://otaviotolentino.wordpress.com/2022/12/18/moises-e-jesus/",
+    tags: ["Jesus Cristo", "Moisés", "Profecia"],
+    category: "Estudos"
+  },
+  {
+    id: "ordem-melquisedeque",
+    title: "Ordem Melquisedeque",
+    date: "November 6, 2022",
+    summary: "Jesus Cristo é Rei e Sumo sacerdote eternamente, segundo a ordem de Melquisedeque.",
+    url: "https://otaviotolentino.wordpress.com/2022/11/06/jesus-sumo-sacerdote/",
+    tags: ["Jesus Cristo", "Melquisedeque", "Sacerdote"],
+    category: "Estudos"
+  },
+  {
+    id: "levantado-na-cruz",
+    title: "Levantado na Cruz",
+    date: "May 1, 2022",
+    summary: "O que será que tem a ver a serpente ardente do deserto, numa haste de metal, com Jesus Cristo pendurado na Cruz?",
+    url: "https://otaviotolentino.wordpress.com/2022/05/01/serpente-e-jesus/",
+    tags: ["Jesus Cristo", "Cruz", "Serpente"],
+    category: "Estudos"
+  },
+  {
+    id: "dia-e-hora",
+    title: "Dia e Hora",
+    date: "March 6, 2022",
+    summary: "Perceba que não se trata apenas de saber ou não o dia e a hora, trata-se também de saber as demais implicações. Ninguém sabe o dia nem a hora da volta de Jesus, pois virá de improviso quando ninguém pensar que vem.",
+    url: "https://otaviotolentino.wordpress.com/2022/03/06/dia-e-hora-jesus/",
+    tags: ["Jesus Cristo", "Volta de Jesus", "Escatologia"],
+    category: "Estudos"
+  },
+  {
+    id: "batismo",
+    title: "Batismo",
+    date: "February 1, 2022",
+    summary: "Os critérios do Batismo, morrer para o pecado e nascer do Espírito, se aplicam a Jesus Cristo? Ou será que o Batismo de Jesus tem outro significado?",
+    url: "https://otaviotolentino.wordpress.com/2022/02/01/batismo-jesus/",
+    tags: ["Jesus Cristo", "Batismo", "Espírito Santo"],
+    category: "Estudos"
   }
 ];
 

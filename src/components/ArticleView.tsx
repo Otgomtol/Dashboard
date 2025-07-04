@@ -15,7 +15,7 @@ const ArticleView: React.FC<ArticleViewProps> = ({
 }) => {
   if (!article) {
     return (
-      <div className="article-view p-6 border rounded-lg bg-white dark:bg-gray-800 shadow-sm h-full flex items-center justify-center">
+      <div className="article-view p-6 border rounded-lg bg-white dark:bg-gray-800 shadow-sm flex items-center justify-center">
         <p className="text-gray-500 dark:text-gray-400 text-center">
           Selecione um tema ou artigo para ver o seu conteúdo
         </p>
@@ -27,7 +27,7 @@ const ArticleView: React.FC<ArticleViewProps> = ({
   const readingTime = Math.ceil((article.content?.split(' ') || []).length / 200); // Média de 200 palavras por minuto
 
   return (
-    <div className="article-view p-6 border rounded-lg bg-white dark:bg-gray-800 shadow-sm h-full overflow-y-auto">
+    <div className="article-view p-6 border rounded-lg bg-white dark:bg-gray-800 shadow-sm overflow-y-auto">
       <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
         {article.url ? (
           <a 

@@ -1,0 +1,10 @@
+Altere o sistema Projeto Dashboard no path C:\Users\otgom\Documents\Machine Learning\Manus\Projeto_Dashboard com as solicitações abaixo:
+Completar e habilitar os dados do sistema para o conteúdo da expansão da categoria Figuras Bíblicas (Categoria PAI):
+1) Mude o status do atual artigo Jesus Cristo para Subcategoria Jesus Cristo. Faça isso espelhando a configuração padrão do sistema e usando como exemplo a configuração da subcategoria Salvação.
+2) Vamos criar 17 artigos como próximo nível depois que expandir a Subcategoria Jesus Cristo. 
+3) Vamos fazer a população de todos os artigos no sistema para essa Subcategoria Jesus Cristo, mantendo o padrão de funcionamento do sistema atual e traremos todas as informações necessárias para completarmos todos os artigos correspondentes que serão criados.
+4) Perceba que será necessário acrescentar todos os dados, que estão no arquivo Dados.txt, correspondentes aos 17 artigos.
+5) Ao fim teremos 17 artigos dentro da Subcategoria Jesus Cristo que usarão os labels: Aboliu a Morte, Dia da Ressurreição, Chamado Nazareno, Templo Restaurado, Culpados pelo Sangue, Levou Nossos Pecados, Tentação no Deserto, Pedra da Igreja, Nome, Palavra de Deus, Natureza em 3 Etapas, Genealogia, Profecia de Moisés, Ordem Melquisedeque, Levantado na Cruz, Dia e Hora, Batismo
+6) Todas as alterações devem ser refletidas mantendo o padrão em todas as áreas: Search Bar, Theme Connections, Navigation Theme, e Vizualização de Artigos. 
+7) Lembre-se sempre de reproduzir o mesmo padrão do sistema Dashboard em todos os 17 artigos.
+8) Leia os dados dos artigos no arquivo Dados.txt no Diretório do Projeto.

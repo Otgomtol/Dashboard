@@ -471,30 +471,46 @@ Para tudo. Não aguento mais tanta incapacidade e incompetência para identifica
 
 OT
 
-Search Bar, Navigation Theme, Theme Connections e Área Visualizador de Artigos
+ Panel Order Reordering:
+       * Problem: User wanted to change the vertical display order of the main content panels. The current order was:
+         "Navigation Theme", "Visualization Articles", "Connections Theme". The desired order was: "Connections Theme",
+         "Navigation Theme", "Visualization Articles".
+       * Solution: Reordered the corresponding div blocks for Mindmap, ThemeNavigator, and the "Article List & Content"
+         area within src/App.tsx to reflect the new vertical sequence.
+       * Status: Confirmed working.
 
-/chat save AlterDashb20250702
-
+No início do Chat do dia:
+/chat resume AlterDash20250704
+No fim do Chat do dia:
 /Compress
+/chat save AlterDash20250705
 
 C:\Users\otgom\Documents\Machine Learning\Manus\Projeto_Dashboard
 
+Host da rede local visível para todos os dispositivos da rede:
 npm run dev -- --host 0.0.0.0
 VITE v6.3.5  ready in 593 ms
   ➜  Local:   http://localhost:5173/
   ➜  Network: http://192.168.25.230:5173/
 
-URL Dados.txt   Solicitacao.txt 
+Arquivos auxiliares: Dados.txt, Erro.txt, Solicitacao.txt, URL_List.txt
 
-Leia arquivo Solicitacao.txt. Apresente um resumo curto dos tópicos que você vai alterar. Qualquer dúvida pergunte.
+Leia os arquivos Solicitacao.txt e Dados.txt. Apresente um resumo curto dos tópicos que você vai alterar. Qualquer dúvida pergunte.
 
 Shell: export GEMINI_MODEL="gemini-2.5-pro"
-
 Command-Line Arguments
 Arguments passed directly when running the CLI can override other configurations for that specific session.
 --model <model_name> (-m <model_name>):
 Specifies the Gemini model to use for this session.
 Example: npm start -- --model gemini-2.5-pro-latest   (dentro do diretório .gemini => C:\Users\otgom\.gemini)
+Solução: Criei a linha "model"="gemini-2.5-pro" dentro do Settings.json dentro do diretório .gemini => C:\Users\otgom\.gemini
+
+Gemini CLI update available! 0.1.7 → 0.1.9 
+npm install -g @google/gemini-cli@latest
+
+Erro: (node:12352) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Solução: npm install punycode --save
 
 
 
@@ -800,101 +816,107 @@ OT
 Altere o sistema Projeto Dashboard no path C:\Users\otgom\Documents\Machine Learning\Manus\Projeto_Dashboard com as solicitações abaixo:
 Completar e habilitar os dados do sistema para o conteúdo da expansão da categoria Figuras Bíblicas (Categoria PAI):
 1) Mude o status do atual artigo Jesus Cristo para Subcategoria Jesus Cristo. Faça isso espelhando a configuração padrão do sistema e usando como exemplo a configuração da subcategoria Salvação.
-2) Vamos criar 4 artigos como próximo nível depois que expandir a Subcategoria Jesus Cristo. 
+2) Vamos criar 17 artigos como próximo nível depois que expandir a Subcategoria Jesus Cristo. 
 3) Vamos fazer a população de todos os artigos no sistema para essa Subcategoria Jesus Cristo, mantendo o padrão de funcionamento do sistema atual e traremos todas as informações necessárias para completarmos todos os artigos correspondentes que serão criados.
-4) Perceba que será necessário acrescentar todos os dados, que estão no fim deste arquivo abaixo do último item, correspondentes aos 4 artigos.
-5) Ao fim teremos 4 artigos dentro da Subcategoria Jesus Cristo que usarão os labels: SÓ em JESUS CRISTO, Qual o preço?, Janela de Oportunidade, Mensagem de Fé e Esperança
-6) Todas as alterações devem ser refletidas mantendo o padrão em todas as áreas: Search Bar, Navigation Theme, Vizualização de Artigos e Theme Connections. 
-7) Lembre-se sempre de reproduzir o mesmo padrão do sistema Dashboard em todos os 4 artigos.
-8) Os dados dos artigos seguem abaixo:
+4) Perceba que será necessário acrescentar todos os dados, que estão no arquivo Dados.txt, correspondentes aos 17 artigos.
+5) Ao fim teremos 17 artigos dentro da Subcategoria Jesus Cristo que usarão os labels: Aboliu a Morte, Dia da Ressurreição, Chamado Nazareno, Templo Restaurado, Culpados pelo Sangue, Levou Nossos Pecados, Tentação no Deserto, Pedra da Igreja, Nome, Palavra de Deus, Natureza em 3 Etapas, Genealogia, Profecia de Moisés, Ordem Melquisedeque, Levantado na Cruz, Dia e Hora, Batismo
+6) Todas as alterações devem ser refletidas mantendo o padrão em todas as áreas: Search Bar, Theme Connections, Navigation Theme, e Vizualização de Artigos. 
+7) Lembre-se sempre de reproduzir o mesmo padrão do sistema Dashboard em todos os 17 artigos.
+8) Leia os dados dos artigos no arquivo Dados.txt no Diretório do Projeto.
 
 URL   - https://otaviotolentino.wordpress.com/2025/06/22/jesus-aboliu-a-morte/
-Title - JESUS ABOLIU a MORTE
-Resumo- 
+Article - Aboliu a Morte
+Resumo- A morte sempre foi o grande terror da humanidade, uma realidade inevitável que assombra todos os povos e culturas ao longo da história. Porém, as Escrituras Sagradas nos revelam uma verdade extraordinária e transformadora: Jesus Cristo aboliu a morte.
 
 URL   - https://otaviotolentino.wordpress.com/2024/11/03/dia-da-ressurreicao-de-jesus-cristo/
-Title - Qual é o DIA da RESSURREIÇÃO de JESUS CRISTO?
-Resumo- 
+Article - Dia da Ressurreição
+Resumo- Será DOMINGO o DIA da RESSURREIÇÃO de Jesus Cristo?
 
 URL   - https://otaviotolentino.wordpress.com/2024/07/21/jesus-nazareno/
-Title - JESUS: Chamado NAZARENO. Por que?
-Resumo- 
+Article - Chamado Nazareno
+Resumo- No Evangelho de Mateus há uma referência ao cumprimento de uma profecia que não foi dada nenhum detalhe de quem ou onde estava esta profecia. E chegou, e habitou numa cidade chamada Nazaré, para que se cumprisse o que fora dito pelos profetas: Ele será chamado Nazareno. Mateus 2:23
 
 URL   - https://otaviotolentino.wordpress.com/2024/03/31/jesus-e-o-templo/
-Title - JESUS é o TEMPLO que foi RESTAURADO
-Resumo- 
+Article - Templo Restaurado
+Resumo- O nome de Jesus carrega a Glória e Honra de Deus, pois ele é o Templo restabelecido por Deus.
 
 URL   - https://otaviotolentino.wordpress.com/2023/11/12/sangue-de-jesus-dos-profetas-e-dos-santos/
-Title - RESPONSÁVEIS pelo sangue de JESUS, dos Profetas e dos santos em Apocalipse
-Resumo- 
-
-URL   - https://otaviotolentino.wordpress.com/2023/11/05/levou-cativo-o-cativeiro/
-Title - JESUS Levou Cativo o Cativeiro: Significado
-Resumo- 
+Article - Culpados pelo Sangue
+Resumo- Seremos breves e diretos na abordagem dos responsáveis pelo derramamento do sangue de Jesus, dos profetas e dos santos em Apocalipse.
 
 URL   - https://otaviotolentino.wordpress.com/2023/10/15/jesus-levou-nossos-pecados/
-Title - JESUS Levou Sobre SI os NOSSOS PECADOS
-Resumo- 
+Article - Levou Nossos Pecados
+Resumo- Jesus teve que vir em carne, em forma plenamente humana, e tomou sobre si os nossos pecados, enfermidades, dores, iniquidades etc, para que pudesse remir os nossos pecados e resgatar as nossas almas diante de Deus.
 
 URL   - https://otaviotolentino.wordpress.com/2023/10/01/tentacao-de-jesus-no-deserto/
-Title - TENTAÇÃO de JESUS no DESERTO
-Resumo- 
+Article - Tentação no Deserto
+Resumo- A tentação de Jesus no deserto representa uma declaração de intenções e comprometimentos através do testemunho de fé dado por Jesus.
 
 URL   - https://otaviotolentino.wordpress.com/2023/07/30/pedra-da-igreja-de-cristo/
-Title - QUEM é a PEDRA sobre a qual a IGREJA de CRISTO seria erguida?
-Resumo- 
-
-URL   - https://otaviotolentino.wordpress.com/2023/07/16/gen-3-15-primeira-profecia-sobre-jesus/
-Title - GÊN. 3:15. Primeira profecia sobre JESUS: Será?
-Resumo- 
+Article - Pedra da Igreja
+Resumo- Será Pedro a Pedra sobre a qual Jesus construiria a sua Igreja?
 
 URL   - https://otaviotolentino.wordpress.com/2023/06/25/nome-de-jesus/
-Title - NOME de JESUS: Significado
-Resumo- 
+Article - Nome
+Resumo- Esse nome foi anunciado pelo anjo de Deus a Maria e também a José que o Filho de Deus, que nasceria de Maria, deveria ser chamado Jesus. Então o nome em questão a ser analisado neste estudo, numa abordagem de questão semântica, é o nome “JESUS“.
 
 URL   - https://otaviotolentino.wordpress.com/2023/06/18/jesus-cristo-a-palavra-de-deus/
-Title - JESUS Cristo: A PALAVRA de DEUS
-Resumo- 
+Article - Palavra de Deus
+Resumo- Importante saber que Jesus sustenta todas as coisas com a Palavra do seu Poder, dando assim o cumprimento e a confirmação de toda palavra e promessa de Deus.
 
 URL   - https://otaviotolentino.wordpress.com/2023/06/11/natureza-de-cristo-em-3-etapas/
-Title - NATUREZA de CRISTO em 3 ETAPAS
-Resumo- 
+Article - Natureza em 3 Etapas
+Resumo- Cristo Teve 3 etapas diferentes em sua vida, por causa da sua vinda à Terra em forma humana. Quais são elas?
 
 URL   - https://otaviotolentino.wordpress.com/2023/04/16/genealogia-de-jesus/
-Title - Entendendo a GENEALOGIA de JESUS
-Resumo- 
-
-URL   - https://otaviotolentino.wordpress.com/2023/01/29/moradas-de-deus/
-Title - MORADAS que JESUS foi PREPARAR
-Resumo- 
+Article - Genealogia
+Resumo- Existem muitos segredos e mistérios revelados nas genealogias da Bíblia. Neste artigo vamos desvendar um dos grandes mistérios revelados na genealogia de Jesus e que poucas pessoas dão atenção.
 
 URL   - https://otaviotolentino.wordpress.com/2022/12/18/moises-e-jesus/
-Title - JESUS: Profeta anunciado por Moisés
-Resumo- 
+Article - Profecia de Moisés
+Resumo- Pouco se fala entre os cristãos sobre a profecia de Moisés de que viria um profeta dentre o povo de Israel e que falaria as palavras de Deus. Essa profecia é uma das maiores expectativas que o povo de Israel tem sobre a vinda do Messias, chamado de Cristo.
 
 URL   - https://otaviotolentino.wordpress.com/2022/11/06/jesus-sumo-sacerdote/
-Title - JESUS CRISTO: REI e SUMO SACERDOTE eternamente, segundo a ordem de MELQUISEDEQUE
-Resumo- 
-
-URL   - https://otaviotolentino.wordpress.com/2022/09/04/paz/
-Title - PAZ em JESUS
-Resumo- 
-
-URL   - https://otaviotolentino.wordpress.com/2022/05/08/ministerio-30-anos/
-Title - MINISTÉRIO de JESUS aos 30 ANOS
-Resumo- 
+Article - Ordem Melquisedeque
+Resumo- Jesus Cristo é Rei e Sumo sacerdote eternamente, segundo a ordem de Melquisedeque.
 
 URL   - https://otaviotolentino.wordpress.com/2022/05/01/serpente-e-jesus/
-Title - SERPENTE Ardente do Deserto (Neustã) e JESUS
-Resumo- 
+Article - Levantado na Cruz
+Resumo- O que será que tem a ver a serpente ardente do deserto, numa haste de metal, com Jesus Cristo pendurado na Cruz?
 
 URL   - https://otaviotolentino.wordpress.com/2022/03/06/dia-e-hora-jesus/
-Title - DIA e HORA da Volta de Jesus
-Resumo- 
+Article - Dia e Hora
+Resumo- Perceba que não se trata apenas de saber ou não o dia e a hora, trata-se também de saber as demais implicações. Ninguém sabe o dia nem a hora da volta de Jesus, pois virá de improviso quando ninguém pensar que vem.
 
 URL   - https://otaviotolentino.wordpress.com/2022/02/01/batismo-jesus/
-Title - BATISMO de JESUS: Significado
-Resumo- 
+Article - Batismo
+Resumo- Os critérios do Batismo, morrer para o pecado e nascer do Espírito, se aplicam a Jesus Cristo? Ou será que o Batismo de Jesus tem outro significado?
+
+
+
+
+
+Artigos sobre Jesus que ficaram para depois:
+
+URL   - https://otaviotolentino.wordpress.com/2022/05/08/ministerio-30-anos/
+Title - MINISTÉRIO aos 30
+Resumo- Será apenas coincidência ou existe alguma referência bíblica para que fosse assim? E, se há, qual seria essa referência então?
+
+URL   - https://otaviotolentino.wordpress.com/2022/09/04/paz/
+Title - PAZ
+Resumo- Jesus quando se aproximava de Jerusalém faz uma ressalva que o povo não conhecia o que implicava para que eles tivessem paz, porque estavam sem entendimento.
+
+URL   - https://otaviotolentino.wordpress.com/2023/01/29/moradas-de-deus/
+Title - MORADAS que foi PREPARAR
+Resumo- Muitos cristãos ainda não entenderam que essas moradas são lugares para que os seus seguidores estivessem sempre com ele.
+
+URL   - https://otaviotolentino.wordpress.com/2023/07/16/gen-3-15-primeira-profecia-sobre-jesus/
+Title - Primeira profecia
+Resumo- Apresentaremos, incontestavelmente, algumas outras profecias anteriores a Gênesis 3:15, que remetem diretamente a Jesus e, obviamente, as devidas referências bíblicas que confirmam essa afirmação.
+
+URL   - https://otaviotolentino.wordpress.com/2023/11/05/levou-cativo-o-cativeiro/
+Title - Levou o Cativeiro
+Resumo- Precisamos primeiro identificar o que é o cativeiro e quais são os cativos em questão.
 
 
 

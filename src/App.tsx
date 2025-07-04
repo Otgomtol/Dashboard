@@ -181,7 +181,7 @@ function App() {
         </header>
         
         <main className="container mx-auto px-4 py-6">
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
             {/* Right Panel: Mindmap */}
             <div className="md:col-span-3">
               <Mindmap 
@@ -193,93 +193,92 @@ function App() {
               />
             </div>
 
-            {/* Left Panel: Theme Navigator */}
-            <div className="md:col-span-3">
+            {/* Main Content Panel (Navigator + Articles) */}
+            <div className="md:col-span-9 flex flex-col">
+              {/* Theme Navigator is placed here */}
               <ThemeNavigator 
                 themes={themes} 
                 onSelectTheme={handleThemeSelect}
                 selectedThemeId={selectedThemeId}
               />
-            </div>
-            
-            {/* Center Panel: Article List & Content */}
-            <div>
-              <div><p></p></div>
-              {isSearchMode && searchResults.length > 0 && (
-                <div className="mb-4 p-3 bg-blue-50 dark:bg-blue-900 rounded-lg">
-                  <p className="text-blue-800 dark:text-blue-200">
-                    {`Encontrados ${searchResults.length} resultados`}
-                  </p>
-                </div>
-              )}
-              
-              {!selectedArticle && displayedArticles.length > 0 && (
-                <div className={isSearchMode && searchResults.length > 1 ? "article-list overflow-y-auto" : "article-list grid gap-4 overflow-y-auto p-2"}>
-                  {displayedArticles.map(article => (
-                    <div 
-                      key={article.id}
-                      className={isSearchMode && searchResults.length > 1 ? "flex items-center py-2 px-3 rounded-md cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700" : "p-4 border rounded-lg bg-white dark:bg-gray-800 shadow-sm hover:shadow cursor-pointer dark:border-gray-700"}
-                      onClick={() => setSelectedArticleId(article.id)}
-                    >
-                      {isSearchMode && searchResults.length > 1 && <div className="w-4 h-4 mr-2" />}
-                      <span className="truncate dark:text-gray-200 flex-grow min-w-0">{article.title}</span>
-                      {(isSearchMode && searchResults.length > 1) || isSimpleListView ? null : (
-                        <>
-                          <div className="flex items-center text-sm text-gray-500 dark:text-gray-400 mb-2">
-                            <span className="mr-3">{article.date}</span>
-                            <span>{article.category}</span>
-                          </div>
-                          <p className="text-gray-700 dark:text-gray-300">{article.summary.substring(0, 150)}...</p>
-                          <div className="mt-3 flex flex-wrap gap-2">
-                            {article.tags.slice(0, 3).map(tag => (
-                              <span 
-                                key={tag} 
-                                className="px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-xs"
-                              >
-                                {tag}
-                              </span>
-                            ))}
-                            {article.tags.length > 3 && (
-                              <span className="px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-xs">
-                                {`+${article.tags.length - 3} mais`}
-                              </span>
-                            )}
-                          </div>
-                        </>
-                      )}
-                    </div>
-                  ))}
-                </div>
-              )}
-              
-              {selectedArticle && (
-                <ArticleView 
-                  article={selectedArticle}
-                  relatedArticles={relatedArticles}
-                  onSelectArticle={setSelectedArticleId}
-                />
-              )}
-              
-              {/* Welcome message removed from here */}
-              {!selectedArticle && displayedArticles.length === 0 && !isSearchMode && (
-                <div className="flex items-center justify-center h-full bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-6">
-                  <div className="text-center">
-                    {/* Placeholder or instruction if needed, otherwise empty */}
-                    <p className="text-gray-500 dark:text-gray-400">Selecione um tema ou pesquise para ver os artigos.</p>
-                  </div>
-                </div>
-              )}
-              
-              {!selectedArticle && displayedArticles.length === 0 && isSearchMode && (
-                <div className="flex items-center justify-center h-full bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-6">
-                  <div className="text-center">
-                    <h2 className="text-xl font-semibold mb-2 dark:text-white">Nenhum Resultado Encontrado</h2>
-                    <p className="text-gray-600 dark:text-gray-300">
-                      Tente termos de pesquisa diferentes ou navegue pelos temas no painel esquerdo.
+
+              {/* Article List & Content follows, in the same container */}
+              <div className="mt-6">
+                <div><p></p></div>
+                {isSearchMode && searchResults.length > 0 && (
+                  <div className="mb-4 p-3 bg-blue-50 dark:bg-blue-900 rounded-lg">
+                    <p className="text-blue-800 dark:text-blue-200">
+                      {`Encontrados ${searchResults.length} resultados`}
                     </p>
                   </div>
-                </div>
-              )}
+                )}
+                
+                {!selectedArticle && displayedArticles.length > 0 && (
+                  <div className={isSearchMode && searchResults.length > 1 ? "article-list overflow-y-auto" : "article-list grid gap-4 overflow-y-auto p-2"}>
+                    {displayedArticles.map(article => (
+                      <div 
+                        key={article.id}
+                        className={isSearchMode && searchResults.length > 1 ? "flex items-center py-2 px-3 rounded-md cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700" : "p-4 border rounded-lg bg-white dark:bg-gray-800 shadow-sm hover:shadow cursor-pointer dark:border-gray-700"}
+                        onClick={() => setSelectedArticleId(article.id)}
+                      >
+                        {isSearchMode && searchResults.length > 1 && <div className="w-4 h-4 mr-2" />}
+                        <span className="truncate dark:text-gray-200 flex-grow min-w-0">{article.title}</span>
+                        {(isSearchMode && searchResults.length > 1) || isSimpleListView ? null : (
+                          <>
+                            <div className="flex items-center text-sm text-gray-500 dark:text-gray-400 mb-2">
+                              <span className="mr-3">{article.date}</span>
+                              <span>{article.category}</span>
+                            </div>
+                            <p className="text-gray-700 dark:text-gray-300">{article.summary.substring(0, 150)}...</p>
+                            <div className="mt-3 flex flex-wrap gap-2">
+                              {article.tags.slice(0, 3).map(tag => (
+                                <span 
+                                  key={tag} 
+                                  className="px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-xs"
+                                >
+                                  {tag}
+                                </span>
+                              ))}
+                              {article.tags.length > 3 && (
+                                <span className="px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-xs">
+                                  {`+${article.tags.length - 3} mais`}
+                                </span>
+                              )}
+                            </div>
+                          </>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
+                
+                {selectedArticle && (
+                  <ArticleView 
+                    article={selectedArticle}
+                    relatedArticles={relatedArticles}
+                    onSelectArticle={setSelectedArticleId}
+                  />
+                )}
+                
+                {!selectedArticle && displayedArticles.length === 0 && !isSearchMode && (
+                  <div className="flex items-center justify-center h-full bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-6">
+                    <div className="text-center">
+                      <p className="text-gray-500 dark:text-gray-400">Selecione um tema ou pesquise para ver os artigos.</p>
+                    </div>
+                  </div>
+                )}
+                
+                {!selectedArticle && displayedArticles.length === 0 && isSearchMode && (
+                  <div className="flex items-center justify-center h-full bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-6">
+                    <div className="text-center">
+                      <h2 className="text-xl font-semibold mb-2 dark:text-white">Nenhum Resultado Encontrado</h2>
+                      <p className="text-gray-600 dark:text-gray-300">
+                        Tente termos de pesquisa diferentes ou navegue pelos temas no painel esquerdo.
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </main>

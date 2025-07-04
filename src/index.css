@@ -28,17 +28,11 @@ body {
   overflow-x: hidden;
 }
 
-.theme-navigator {
-  max-height: calc(100vh - 200px);
-}
 
-.article-list {
-  max-height: calc(100vh - 250px);
-}
 
-.article-view {
-  max-height: calc(100vh - 200px);
-}
+
+
+
 
 /* Mindmap customizations */
 .mindmap-container {
@@ -71,9 +65,6 @@ body {
     grid-template-columns: 1fr;
   }
   
-  .theme-navigator,
-  .article-list,
-  .article-view,
   .mindmap-container {
     max-height: 400px;
   }
