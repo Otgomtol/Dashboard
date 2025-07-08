@@ -241,7 +241,12 @@ const ThemeNavigator: React.FC<ThemeNavigatorProps> = ({
             ${isSelected ? 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200' : 'hover:bg-gray-100 dark:hover:bg-gray-700'}
           `}
           style={{ paddingLeft: `${level * 16 + 12}px` }}
-          onClick={() => onSelectTheme(theme.id)} // Click row selects theme
+          onClick={() => {
+            onSelectTheme(theme.id);
+            if (hasChildren) {
+              toggleExpand(theme.id, theme.parentId);
+            }
+          }}
         >
           {hasChildren && (
             <button 

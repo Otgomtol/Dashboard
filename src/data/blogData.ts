@@ -465,6 +465,151 @@ export const themes: Theme[] = [
             articles: []
           },
           {
+            id: "deus",
+            name: "Deus",
+            level: 3,
+            parentId: "biblical-figures",
+            description: "Estudos focados em Deus",
+            children: [
+              {
+                id: "descendencia",
+                name: "Descendência",
+                level: 4,
+                parentId: "deus",
+                description: "Artigo sobre a descendência para Deus.",
+                children: [],
+                articles: ["descendencia"]
+              },
+              {
+                id: "coracao-preparado",
+                name: "Coração Preparado",
+                level: 4,
+                parentId: "deus",
+                description: "Artigo sobre ter um coração preparado para Deus.",
+                children: [],
+                articles: ["coracao-preparado"]
+              },
+              {
+                id: "viver-da-palavra",
+                name: "Viver da Palavra",
+                level: 4,
+                parentId: "deus",
+                description: "Artigo sobre viver da Palavra de Deus.",
+                children: [],
+                articles: ["viver-da-palavra"]
+              },
+              {
+                id: "sangue-clama",
+                name: "Sangue Clama",
+                level: 4,
+                parentId: "deus",
+                description: "Artigo sobre o sangue que clama diante de Deus.",
+                children: [],
+                articles: ["sangue-clama"]
+              },
+              {
+                id: "aliancas",
+                name: "Alianças",
+                level: 4,
+                parentId: "deus",
+                description: "Artigo sobre as alianças de Deus com os homens.",
+                children: [],
+                articles: ["aliancas"]
+              },
+              {
+                id: "sacrificio-de-louvor",
+                name: "Sacrifício de Louvor",
+                level: 4,
+                parentId: "deus",
+                description: "Artigo sobre o sacrifício de louvor a Deus.",
+                children: [],
+                articles: ["sacrificio-de-louvor"]
+              },
+              {
+                id: "perdao-diario",
+                name: "Perdão Diário",
+                level: 4,
+                parentId: "deus",
+                description: "Artigo sobre o perdão diário.",
+                children: [],
+                articles: ["perdao-diario"]
+              },
+              {
+                id: "honrar",
+                name: "Honrar",
+                level: 4,
+                parentId: "deus",
+                description: "Artigo sobre como honrar a Deus.",
+                children: [],
+                articles: ["honrar"]
+              },
+              {
+                id: "reis-e-sacerdotes",
+                name: "Reis e Sacerdotes",
+                level: 4,
+                parentId: "deus",
+                description: "Artigo sobre sermos reis e sacerdotes para Deus.",
+                children: [],
+                articles: ["reis-e-sacerdotes"]
+              },
+              {
+                id: "dar-gloria",
+                name: "Dar Glória",
+                level: 4,
+                parentId: "deus",
+                description: "Artigo sobre dar glória a Deus.",
+                children: [],
+                articles: ["dar-gloria"]
+              },
+              {
+                id: "visitacao",
+                name: "Visitação",
+                level: 4,
+                parentId: "deus",
+                description: "Artigo sobre a visitação de Deus.",
+                children: [],
+                articles: ["visitacao"]
+              },
+              {
+                id: "justica",
+                name: "Justiça",
+                level: 4,
+                parentId: "deus",
+                description: "Artigo sobre a justiça de Deus.",
+                children: [],
+                articles: ["justica"]
+              },
+              {
+                id: "quem-viu",
+                name: "Quem viu",
+                level: 4,
+                parentId: "deus",
+                description: "Artigo sobre quem viu a Deus.",
+                children: [],
+                articles: ["quem-viu"]
+              },
+              {
+                id: "oracao-do-pai",
+                name: "Oração do Pai",
+                level: 4,
+                parentId: "deus",
+                description: "Artigo sobre a Oração do Pai Nosso.",
+                children: [],
+                articles: ["oracao-do-pai"]
+              },
+              {
+                id: "nome-de-deus",
+                name: "Nome de Deus",
+                level: 4,
+                parentId: "deus",
+                description: "Artigo sobre o nome de Deus.",
+                children: [],
+                articles: ["nome-de-deus"]
+              }
+            ],
+            articles: []
+          },
+          {
             id: "paul",
             name: "Paulo",
             level: 3,
@@ -1105,6 +1250,141 @@ export const articles: Article[] = [
     summary: "Os critérios do Batismo, morrer para o pecado e nascer do Espírito, se aplicam a Jesus Cristo? Ou será que o Batismo de Jesus tem outro significado?",
     url: "https://otaviotolentino.wordpress.com/2022/02/01/batismo-jesus/",
     tags: ["Jesus Cristo", "Batismo", "Espírito Santo"],
+    category: "Estudos"
+  },
+  {
+    id: "descendencia",
+    title: "Descendência",
+    date: "June 15, 2025",
+    summary: "Desde os primeiros capítulos de Gênesis até as páginas finais do Apocalipse, mostrando-nos como o Criador tem trabalhado incansavelmente para formar um povo que seja verdadeiramente Seu.",
+    url: "https://otaviotolentino.wordpress.com/2025/06/15/descendencia-para-deus-o-que-significa/",
+    tags: ["Deus", "Descendência", "Gênesis", "Apocalipse"],
+    category: "Estudos"
+  },
+  {
+    id: "coracao-preparado",
+    title: "Coração Preparado",
+    date: "January 26, 2025",
+    summary: "Para os que leem a Bíblia com atenção Deus já deixou muito claro que o que ele quer do ser humano é que ele, individualmente, ame a Deus com inteireza do seu coração.",
+    url: "https://otaviotolentino.wordpress.com/2025/01/26/nosso-coracao-esta-preparado-para-deus/",
+    tags: ["Deus", "Coração", "Bíblia"],
+    category: "Estudos"
+  },
+  {
+    id: "viver-da-palavra",
+    title: "Viver da Palavra",
+    date: "June 2, 2024",
+    summary: "O pão alimenta a carne, mas a palavra de Deus é o alimento da alma e do espírito, saindo direto do seu coração.",
+    url: "https://otaviotolentino.wordpress.com/2024/06/02/nem-so-de-pao-vivera-o-homem/",
+    tags: ["Deus", "Palavra de Deus", "Alma", "Espírito"],
+    category: "Estudos"
+  },
+  {
+    id: "sangue-clama",
+    title: "Sangue Clama",
+    date: "March 24, 2024",
+    summary: "A expressão ‘clama ou fala diante de Deus’, quer dizer que ‘chamou a atenção de Deus’ ou que ‘chegou aos seus ouvidos’. Então, como podemos entender o que isso significa: ‘o SANGUE que CLAMA ou FALA diante de Deus’?",
+    url: "https://otaviotolentino.wordpress.com/2024/03/24/sangue-que-clama-diante-de-deus/",
+    tags: ["Deus", "Sangue", "Clamor"],
+    category: "Estudos"
+  },
+  {
+    id: "aliancas",
+    title: "Alianças",
+    date: "March 17, 2024",
+    summary: "Você sabe a cronologia, desde Adão, das Alianças estipuladas por Deus e as várias quebras pelo ser humano?",
+    url: "https://otaviotolentino.wordpress.com/2024/03/17/aliancas-de-deus-com-os-homens/",
+    tags: ["Deus", "Aliança", "Adão"],
+    category: "Estudos"
+  },
+  {
+    id: "sacrificio-de-louvor",
+    title: "Sacrifício de Louvor",
+    date: "February 4, 2024",
+    summary: "Existia no serviço do sacerdócio judaico um sacrifício chamado ‘Todah‘, que é a oferta do sacrifício de agradecimento a Deus ou de ação de graças.",
+    url: "https://otaviotolentino.wordpress.com/2024/02/04/agradecimento-sacrificio-de-louvor-a-deus/",
+    tags: ["Deus", "Sacrifício", "Louvor", "Agradecimento"],
+    category: "Estudos"
+  },
+  {
+    id: "perdao-diario",
+    title: "Perdão Diário",
+    date: "January 15, 2023",
+    summary: "Perdão diário dos nossos pecados involuntários para o processo de santificação até a volta de Cristo.",
+    url: "https://otaviotolentino.wordpress.com/2023/01/15/perdao-diario/",
+    tags: ["Deus", "Perdão", "Santificação", "Jesus Cristo"],
+    category: "Estudos"
+  },
+  {
+    id: "honrar",
+    title: "Honrar",
+    date: "November 20, 2022",
+    summary: "Como todo tema bíblico, obviamente, tem base e referência bíblica que define o que ‘Honrar a Deus’ significa e o que devemos fazer para efetivamente honrarmos a Deus de maneira que de fato o agrade.",
+    url: "https://otaviotolentino.wordpress.com/2022/11/20/honrar-a-deus/",
+    tags: ["Deus", "Honra", "Bíblia"],
+    category: "Estudos"
+  },
+  {
+    id: "reis-e-sacerdotes",
+    title: "Reis e Sacerdotes",
+    date: "November 13, 2022",
+    summary: "Jesus foi consagrado por uma ordem excepcional, não prevista na Lei de Moisés; para que, além de derrogar a regra anterior, pudesse estipular uma nova ordem de Reis e sacerdotes para Deus.",
+    url: "https://otaviotolentino.wordpress.com/2022/11/13/reis-e-sacerdotes/",
+    tags: ["Deus", "Reis", "Sacerdotes", "Jesus Cristo", "Moisés"],
+    category: "Estudos"
+  },
+  {
+    id: "dar-gloria",
+    title: "Dar Glória",
+    date: "October 23, 2022",
+    summary: "Dar Glória a Deus e ao cordeiro, Jesus Cristo, seu filho, é uma ordem, pois somos o povo de Deus e fomos escolhidos e chamados para o adorar e glorificar.",
+    url: "https://otaviotolentino.wordpress.com/2022/10/23/gloria-a-deus/",
+    tags: ["Deus", "Glória", "Jesus Cristo"],
+    category: "Estudos"
+  },
+  {
+    id: "visitacao",
+    title: "Visitação",
+    date: "July 10, 2022",
+    summary: "A Plenitude dos Tempos é o tempo em que foi consumada a promessa da visitação de Deus na Terra, concretizada através de Jesus Cristo.",
+    url: "https://otaviotolentino.wordpress.com/2022/07/10/plenitude-tempos/",
+    tags: ["Deus", "Visitação", "Jesus Cristo"],
+    category: "Estudos"
+  },
+  {
+    id: "justica",
+    title: "Justiça",
+    date: "January 11, 2022",
+    summary: "As pessoas sempre perguntam: Por que Deus permite que coisas injustas aconteçam? Será que estamos prontos para encarar de vez essa questão?",
+    url: "https://otaviotolentino.wordpress.com/2022/01/11/justica-ou-injustica/",
+    tags: ["Deus", "Justiça", "Injustiça"],
+    category: "Estudos"
+  },
+  {
+    id: "quem-viu",
+    title: "Quem viu",
+    date: "December 28, 2021",
+    summary: "Será que alguém já viu a face de Deus? Algum dos patriarcas, os profetas, Jesus ou Paulo? Quem?",
+    url: "https://otaviotolentino.wordpress.com/2021/12/28/quem-viu-deus/",
+    tags: ["Deus", "Face de Deus", "Profetas", "Jesus", "Paulo"],
+    category: "Estudos"
+  },
+  {
+    id: "oracao-do-pai",
+    title: "Oração do Pai",
+    date: "December 21, 2021",
+    summary: "Jesus nos deu uma oração pronta, para ser repetida, ou nos ensinou a orar?",
+    url: "https://otaviotolentino.wordpress.com/2021/12/21/oracao-pai-nosso/",
+    tags: ["Deus", "Oração", "Pai Nosso", "Jesus"],
+    category: "Estudos"
+  },
+  {
+    id: "nome-de-deus",
+    title: "Nome de Deus",
+    date: "December 14, 2021",
+    summary: "Muito se fala categoricamente que o nome de Deus é YHWH (יהוה) – o Tetragrama. Essa abordagem, pela sua importância divina, requer maior reflexão e consequente elaboração sobre o verdadeiro nome de Deus.",
+    url: "https://otaviotolentino.wordpress.com/2021/12/14/nome-deus/",
+    tags: ["Deus", "Nome de Deus", "YHWH", "Tetragrama"],
     category: "Estudos"
   }
 ];
