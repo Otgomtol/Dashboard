@@ -214,41 +214,44 @@ function App() {
                 )}
                 
                 {!selectedArticle && displayedArticles.length > 0 && (
-                  <div className={isSearchMode && searchResults.length > 1 ? "article-list overflow-y-auto" : "article-list grid gap-4 overflow-y-auto p-2"}>
-                    {displayedArticles.map(article => (
-                      <div 
-                        key={article.id}
-                        className={isSearchMode && searchResults.length > 1 ? "flex items-center py-2 px-3 rounded-md cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700" : "p-4 border rounded-lg bg-white dark:bg-gray-800 shadow-sm hover:shadow cursor-pointer dark:border-gray-700"}
-                        onClick={() => setSelectedArticleId(article.id)}
-                      >
-                        {isSearchMode && searchResults.length > 1 && <div className="w-4 h-4 mr-2" />}
-                        <span className="truncate dark:text-gray-200 flex-grow min-w-0">{article.title}</span>
-                        {(isSearchMode && searchResults.length > 1) || isSimpleListView ? null : (
-                          <>
-                            <div className="flex items-center text-sm text-gray-500 dark:text-gray-400 mb-2">
-                              <span className="mr-3">{article.date}</span>
-                              <span>{article.category}</span>
-                            </div>
-                            <p className="text-gray-700 dark:text-gray-300">{article.summary.substring(0, 150)}...</p>
-                            <div className="mt-3 flex flex-wrap gap-2">
-                              {article.tags.slice(0, 3).map(tag => (
-                                <span 
-                                  key={tag} 
-                                  className="px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-xs"
-                                >
-                                  {tag}
-                                </span>
-                              ))}
-                              {article.tags.length > 3 && (
-                                <span className="px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-xs">
-                                  {`+${article.tags.length - 3} mais`}
-                                </span>
-                              )}
-                            </div>
-                          </>
-                        )}
-                      </div>
-                    ))}
+                  <div className="border rounded-lg bg-white dark:bg-gray-800 shadow-sm overflow-y-auto">
+                    <h2 className="text-lg font-semibold p-3 border-b dark:border-gray-700 mb-2 dark:text-white">Visualizador de Artigos</h2>
+                    <div className={isSearchMode && searchResults.length > 1 ? "article-list overflow-y-auto" : "article-list grid gap-4 overflow-y-auto p-2"}>
+                      {displayedArticles.map(article => (
+                        <div 
+                          key={article.id}
+                          className={isSearchMode && searchResults.length > 1 ? "flex items-center py-2 px-3 rounded-md cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700" : "p-4 border rounded-lg bg-white dark:bg-gray-800 shadow-sm hover:shadow cursor-pointer dark:border-gray-700"}
+                          onClick={() => setSelectedArticleId(article.id)}
+                        >
+                          {isSearchMode && searchResults.length > 1 && <div className="w-4 h-4 mr-2" />}
+                          <span className="truncate dark:text-gray-200 flex-grow min-w-0">{article.title}</span>
+                          {(isSearchMode && searchResults.length > 1) || isSimpleListView ? null : (
+                            <>
+                              <div className="flex items-center text-sm text-gray-500 dark:text-gray-400 mb-2">
+                                <span className="mr-3">{article.date}</span>
+                                <span>{article.category}</span>
+                              </div>
+                              <p className="text-gray-700 dark:text-gray-300">{article.summary.substring(0, 150)}...</p>
+                              <div className="mt-3 flex flex-wrap gap-2">
+                                {article.tags.slice(0, 3).map(tag => (
+                                  <span 
+                                    key={tag} 
+                                    className="px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-xs"
+                                  >
+                                    {tag}
+                                  </span>
+                                ))}
+                                {article.tags.length > 3 && (
+                                  <span className="px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-xs">
+                                    {`+${article.tags.length - 3} mais`}
+                                  </span>
+                                )}
+                              </div>
+                            </>
+                          )}
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 )}
                 
@@ -261,7 +264,8 @@ function App() {
                 )}
                 
                 {!selectedArticle && displayedArticles.length === 0 && !isSearchMode && (
-                  <div className="flex items-center justify-center h-full bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-6">
+                  <div className="flex flex-col items-center justify-center h-full bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-6">
+                    <h2 className="text-lg font-semibold mb-4 dark:text-white">Visualizador de Artigos</h2>
                     <div className="text-center">
                       <p className="text-gray-500 dark:text-gray-400">Selecione um tema ou pesquise para ver os artigos.</p>
                     </div>
