@@ -318,13 +318,13 @@ export const themes: Theme[] = [
                     articles: ["aboliu-a-morte"]
                   },
                   {
-                    id: "dia-da-ressurreicao",
-                    name: "Dia da Ressurreição",
+                    id: "batismo",
+                    name: "Batismo",
                     level: 4,
                     parentId: "jesus-christ",
-                    description: "Artigo sobre o dia da ressurreição de Jesus.",
+                    description: "Artigo sobre o batismo de Jesus.",
                     children: [],
-                    articles: ["dia-da-ressurreicao"]
+                    articles: ["batismo"]
                   },
                   {
                     id: "chamado-nazareno",
@@ -336,15 +336,6 @@ export const themes: Theme[] = [
                     articles: ["chamado-nazareno"]
                   },
                   {
-                    id: "templo-restaurado",
-                    name: "Templo Restaurado",
-                    level: 4,
-                    parentId: "jesus-christ",
-                    description: "Artigo sobre Jesus como o templo restaurado.",
-                    children: [],
-                    articles: ["templo-restaurado"]
-                  },
-                  {
                     id: "culpados-pelo-sangue",
                     name: "Culpados pelo Sangue",
                     level: 4,
@@ -354,94 +345,13 @@ export const themes: Theme[] = [
                     articles: ["culpados-pelo-sangue"]
                   },
                   {
-                    id: "levou-nossos-pecados",
-                    name: "Levou Nossos Pecados",
+                    id: "dia-da-ressurreicao",
+                    name: "Dia da Ressurreição",
                     level: 4,
                     parentId: "jesus-christ",
-                    description: "Artigo sobre como Jesus levou nossos pecados.",
+                    description: "Artigo sobre o dia da ressurreição de Jesus.",
                     children: [],
-                    articles: ["levou-nossos-pecados"]
-                  },
-                  {
-                    id: "tentacao-no-deserto",
-                    name: "Tentação no Deserto",
-                    level: 4,
-                    parentId: "jesus-christ",
-                    description: "Artigo sobre a tentação de Jesus no deserto.",
-                    children: [],
-                    articles: ["tentacao-no-deserto"]
-                  },
-                  {
-                    id: "pedra-da-igreja",
-                    name: "Pedra da Igreja",
-                    level: 4,
-                    parentId: "jesus-christ",
-                    description: "Artigo sobre a pedra da igreja.",
-                    children: [],
-                    articles: ["pedra-da-igreja"]
-                  },
-                  {
-                    id: "nome",
-                    name: "Nome",
-                    level: 4,
-                    parentId: "jesus-christ",
-                    description: "Artigo sobre o nome de Jesus.",
-                    children: [],
-                    articles: ["nome"]
-                  },
-                  {
-                    id: "palavra-de-deus",
-                    name: "Palavra de Deus",
-                    level: 4,
-                    parentId: "jesus-christ",
-                    description: "Artigo sobre Jesus como a Palavra de Deus.",
-                    children: [],
-                    articles: ["palavra-de-deus"]
-                  },
-                  {
-                    id: "natureza-em-3-etapas",
-                    name: "Natureza em 3 Etapas",
-                    level: 4,
-                    parentId: "jesus-christ",
-                    description: "Artigo sobre a natureza de Cristo em 3 etapas.",
-                    children: [],
-                    articles: ["natureza-em-3-etapas"]
-                  },
-                  {
-                    id: "genealogia",
-                    name: "Genealogia",
-                    level: 4,
-                    parentId: "jesus-christ",
-                    description: "Artigo sobre a genealogia de Jesus.",
-                    children: [],
-                    articles: ["genealogia"]
-                  },
-                  {
-                    id: "profecia-de-moises",
-                    name: "Profecia de Moisés",
-                    level: 4,
-                    parentId: "jesus-christ",
-                    description: "Artigo sobre a profecia de Moisés a respeito de Jesus.",
-                    children: [],
-                    articles: ["profecia-de-moises"]
-                  },
-                  {
-                    id: "ordem-melquisedeque",
-                    name: "Ordem Melquisedeque",
-                    level: 4,
-                    parentId: "jesus-christ",
-                    description: "Artigo sobre Jesus e a ordem de Melquisedeque.",
-                    children: [],
-                    articles: ["ordem-melquisedeque"]
-                  },
-                  {
-                    id: "levantado-na-cruz",
-                    name: "Levantado na Cruz",
-                    level: 4,
-                    parentId: "jesus-christ",
-                    description: "Artigo sobre Jesus sendo levantado na cruz.",
-                    children: [],
-                    articles: ["levantado-na-cruz"]
+                    articles: ["dia-da-ressurreicao"]
                   },
                   {
                     id: "dia-e-hora",
@@ -453,13 +363,13 @@ export const themes: Theme[] = [
                     articles: ["dia-e-hora"]
                   },
                   {
-                    id: "batismo",
-                    name: "Batismo",
+                    id: "genealogia",
+                    name: "Genealogia",
                     level: 4,
                     parentId: "jesus-christ",
-                    description: "Artigo sobre o batismo de Jesus.",
+                    description: "Artigo sobre a genealogia de Jesus.",
                     children: [],
-                    articles: ["batismo"]
+                    articles: ["genealogia"]
                   },
                   {
                     id: "haja-luz",
@@ -471,6 +381,78 @@ export const themes: Theme[] = [
                     articles: ["haja-luz"]
                   },
                   {
+                    id: "levantado-na-cruz",
+                    name: "Levantado na Cruz",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre Jesus sendo levantado na cruz.",
+                    children: [],
+                    articles: ["levantado-na-cruz"]
+                  },
+                  {
+                    id: "levou-nossos-pecados",
+                    name: "Levou Nossos Pecados",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre como Jesus levou nossos pecados.",
+                    children: [],
+                    articles: ["levou-nossos-pecados"]
+                  },
+                  {
+                    id: "natureza-em-3-etapas",
+                    name: "Natureza em 3 Etapas",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre a natureza de Cristo em 3 etapas.",
+                    children: [],
+                    articles: ["natureza-em-3-etapas"]
+                  },
+                  {
+                    id: "nome",
+                    name: "Nome",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre o nome de Jesus.",
+                    children: [],
+                    articles: ["nome"]
+                  },
+                  {
+                    id: "ordem-melquisedeque",
+                    name: "Ordem Melquisedeque",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre Jesus e a ordem de Melquisedeque.",
+                    children: [],
+                    articles: ["ordem-melquisedeque"]
+                  },
+                  {
+                    id: "palavra-de-deus",
+                    name: "Palavra de Deus",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre Jesus como a Palavra de Deus.",
+                    children: [],
+                    articles: ["palavra-de-deus"]
+                  },
+                  {
+                    id: "pedra-da-igreja",
+                    name: "Pedra da Igreja",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre a pedra da igreja.",
+                    children: [],
+                    articles: ["pedra-da-igreja"]
+                  },
+                  {
+                    id: "profecia-de-moises",
+                    name: "Profecia de Moisés",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre a profecia de Moisés a respeito de Jesus.",
+                    children: [],
+                    articles: ["profecia-de-moises"]
+                  },
+                  {
                     id: "siga-jesus",
                     name: "Siga Jesus",
                     level: 4,
@@ -478,8 +460,26 @@ export const themes: Theme[] = [
                     description: "Artigo sobre seguir Jesus.",
                     children: [],
                     articles: ["siga-jesus"]
+                  },
+                  {
+                    id: "templo-restaurado",
+                    name: "Templo Restaurado",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre Jesus como o templo restaurado.",
+                    children: [],
+                    articles: ["templo-restaurado"]
+                  },
+                  {
+                    id: "tentacao-no-deserto",
+                    name: "Tentação no Deserto",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre a tentação de Jesus no deserto.",
+                    children: [],
+                    articles: ["tentacao-no-deserto"]
                   }
-                ],
+                ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },
           {
@@ -490,13 +490,13 @@ export const themes: Theme[] = [
             description: "Estudos focados em Deus",
             children: [
               {
-                id: "descendencia",
-                name: "Descendência",
+                id: "aliancas",
+                name: "Alianças",
                 level: 4,
                 parentId: "deus",
-                description: "Artigo sobre a descendência para Deus.",
+                description: "Artigo sobre as alianças de Deus com os homens.",
                 children: [],
-                articles: ["descendencia"]
+                articles: ["aliancas"]
               },
               {
                 id: "coracao-preparado",
@@ -508,49 +508,22 @@ export const themes: Theme[] = [
                 articles: ["coracao-preparado"]
               },
               {
-                id: "viver-da-palavra",
-                name: "Viver da Palavra",
+                id: "dar-gloria",
+                name: "Dar Glória",
                 level: 4,
                 parentId: "deus",
-                description: "Artigo sobre viver da Palavra de Deus.",
+                description: "Artigo sobre dar glória a Deus.",
                 children: [],
-                articles: ["viver-da-palavra"]
+                articles: ["dar-gloria"]
               },
               {
-                id: "sangue-clama",
-                name: "Sangue Clama",
+                id: "descendencia",
+                name: "Descendência",
                 level: 4,
                 parentId: "deus",
-                description: "Artigo sobre o sangue que clama diante de Deus.",
+                description: "Artigo sobre a descendência para Deus.",
                 children: [],
-                articles: ["sangue-clama"]
-              },
-              {
-                id: "aliancas",
-                name: "Alianças",
-                level: 4,
-                parentId: "deus",
-                description: "Artigo sobre as alianças de Deus com os homens.",
-                children: [],
-                articles: ["aliancas"]
-              },
-              {
-                id: "sacrificio-de-louvor",
-                name: "Sacrifício de Louvor",
-                level: 4,
-                parentId: "deus",
-                description: "Artigo sobre o sacrifício de louvor a Deus.",
-                children: [],
-                articles: ["sacrificio-de-louvor"]
-              },
-              {
-                id: "perdao-diario",
-                name: "Perdão Diário",
-                level: 4,
-                parentId: "deus",
-                description: "Artigo sobre o perdão diário.",
-                children: [],
-                articles: ["perdao-diario"]
+                articles: ["descendencia"]
               },
               {
                 id: "honrar",
@@ -562,33 +535,6 @@ export const themes: Theme[] = [
                 articles: ["honrar"]
               },
               {
-                id: "reis-e-sacerdotes",
-                name: "Reis e Sacerdotes",
-                level: 4,
-                parentId: "deus",
-                description: "Artigo sobre sermos reis e sacerdotes para Deus.",
-                children: [],
-                articles: ["reis-e-sacerdotes"]
-              },
-              {
-                id: "dar-gloria",
-                name: "Dar Glória",
-                level: 4,
-                parentId: "deus",
-                description: "Artigo sobre dar glória a Deus.",
-                children: [],
-                articles: ["dar-gloria"]
-              },
-              {
-                id: "visitacao",
-                name: "Visitação",
-                level: 4,
-                parentId: "deus",
-                description: "Artigo sobre a visitação de Deus.",
-                children: [],
-                articles: ["visitacao"]
-              },
-              {
                 id: "justica",
                 name: "Justiça",
                 level: 4,
@@ -598,13 +544,13 @@ export const themes: Theme[] = [
                 articles: ["justica"]
               },
               {
-                id: "quem-viu",
-                name: "Quem viu",
+                id: "nome-de-deus",
+                name: "Nome de Deus",
                 level: 4,
                 parentId: "deus",
-                description: "Artigo sobre quem viu a Deus.",
+                description: "Artigo sobre o nome de Deus.",
                 children: [],
-                articles: ["quem-viu"]
+                articles: ["nome-de-deus"]
               },
               {
                 id: "oracao-do-pai",
@@ -616,15 +562,69 @@ export const themes: Theme[] = [
                 articles: ["oracao-do-pai"]
               },
               {
-                id: "nome-de-deus",
-                name: "Nome de Deus",
+                id: "perdao-diario",
+                name: "Perdão Diário",
                 level: 4,
                 parentId: "deus",
-                description: "Artigo sobre o nome de Deus.",
+                description: "Artigo sobre o perdão diário.",
                 children: [],
-                articles: ["nome-de-deus"]
+                articles: ["perdao-diario"]
+              },
+              {
+                id: "quem-viu",
+                name: "Quem viu",
+                level: 4,
+                parentId: "deus",
+                description: "Artigo sobre quem viu a Deus.",
+                children: [],
+                articles: ["quem-viu"]
+              },
+              {
+                id: "reis-e-sacerdotes",
+                name: "Reis e Sacerdotes",
+                level: 4,
+                parentId: "deus",
+                description: "Artigo sobre sermos reis e sacerdotes para Deus.",
+                children: [],
+                articles: ["reis-e-sacerdotes"]
+              },
+              {
+                id: "sacrificio-de-louvor",
+                name: "Sacrifício de Louvor",
+                level: 4,
+                parentId: "deus",
+                description: "Artigo sobre o sacrifício de louvor a Deus.",
+                children: [],
+                articles: ["sacrificio-de-louvor"]
+              },
+              {
+                id: "sangue-clama",
+                name: "Sangue Clama",
+                level: 4,
+                parentId: "deus",
+                description: "Artigo sobre o sangue que clama diante de Deus.",
+                children: [],
+                articles: ["sangue-clama"]
+              },
+              {
+                id: "visitacao",
+                name: "Visitação",
+                level: 4,
+                parentId: "deus",
+                description: "Artigo sobre a visitação de Deus.",
+                children: [],
+                articles: ["visitacao"]
+              },
+              {
+                id: "viver-da-palavra",
+                name: "Viver da Palavra",
+                level: 4,
+                parentId: "deus",
+                description: "Artigo sobre viver da Palavra de Deus.",
+                children: [],
+                articles: ["viver-da-palavra"]
               }
-            ],
+            ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },
           {
@@ -1460,7 +1460,14 @@ export const getArticlesForTheme = (themeId: string): Article[] => {
   
   // Remove duplicates and map IDs to actual articles
   const uniqueArticleIds = [...new Set(articleIds)];
-  return uniqueArticleIds.map(id => articles.find(a => a.id === id)).filter(a => a !== undefined) as Article[];
+  let resultArticles = uniqueArticleIds.map(id => articles.find(a => a.id === id)).filter(a => a !== undefined) as Article[];
+
+  // Apply sorting for specific themes
+  if (themeId === "jesus-christ" || themeId === "deus") {
+    resultArticles.sort((a, b) => a.title.localeCompare(b.title));
+  }
+
+  return resultArticles;
 };
 
 // Helper function to find a theme by ID
