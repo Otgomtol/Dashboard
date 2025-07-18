@@ -460,6 +460,24 @@ export const themes: Theme[] = [
                     description: "Artigo sobre o batismo de Jesus.",
                     children: [],
                     articles: ["batismo"]
+                  },
+                  {
+                    id: "haja-luz",
+                    name: "Haja Luz",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre Haja Luz.",
+                    children: [],
+                    articles: ["haja-luz"]
+                  },
+                  {
+                    id: "siga-jesus",
+                    name: "Siga Jesus",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre seguir Jesus.",
+                    children: [],
+                    articles: ["siga-jesus"]
                   }
                 ],
             articles: []
@@ -1385,6 +1403,24 @@ export const articles: Article[] = [
     summary: "Muito se fala categoricamente que o nome de Deus é YHWH (יהוה) – o Tetragrama. Essa abordagem, pela sua importância divina, requer maior reflexão e consequente elaboração sobre o verdadeiro nome de Deus.",
     url: "https://otaviotolentino.wordpress.com/2021/12/14/nome-deus/",
     tags: ["Deus", "Nome de Deus", "YHWH", "Tetragrama"],
+    category: "Estudos"
+  },
+  {
+    id: "haja-luz",
+    title: "Haja Luz",
+    date: "July 13, 2025",
+    summary: "Assim como a terra estava em trevas antes da luz divina, o coração humano permanece nas trevas espirituais até que Cristo, a verdadeira luz, o ilumine.",
+    url: "https://otaviotolentino.wordpress.com/2025/07/13/haja-luz-e-jesus-iluminou-o-coracao-dos-homens/",
+    tags: ["Jesus Cristo", "Luz", "Coração", "Trevas"],
+    category: "Estudos"
+  },
+  {
+    id: "siga-jesus",
+    title: "Siga Jesus",
+    date: "July 6, 2025",
+    summary: "Jesus Cristo nos convida a uma jornada de transformação radical através de três imperativos fundamentais: tomar a cruz, negar a si mesmo e segui-Lo.",
+    url: "https://otaviotolentino.wordpress.com/2025/07/06/tome-sua-cruz-negue-a-si-mesmo-e-siga-a-jesus/",
+    tags: ["Jesus Cristo", "Cruz", "Transformação"],
     category: "Estudos"
   }
 ];
