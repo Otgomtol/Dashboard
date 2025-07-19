@@ -444,15 +444,6 @@ export const themes: Theme[] = [
                     articles: ["pedra-da-igreja"]
                   },
                   {
-                    id: "profecia-de-moises",
-                    name: "Profecia de Moisés",
-                    level: 4,
-                    parentId: "jesus-christ",
-                    description: "Artigo sobre a profecia de Moisés a respeito de Jesus.",
-                    children: [],
-                    articles: ["profecia-de-moises"]
-                  },
-                  {
                     id: "siga-jesus",
                     name: "Siga Jesus",
                     level: 4,
@@ -642,7 +633,35 @@ export const themes: Theme[] = [
             level: 3,
             parentId: "biblical-figures",
             description: "Estudos focados em Moisés",
-            children: [],
+            children: [
+              {
+                id: "impedido",
+                name: "Impedido",
+                level: 4,
+                parentId: "moses",
+                description: "Por que DEUS impediu Moisés de entrar na Terra Prometida? Leia o Artigo completo para saber a resposta.",
+                children: [],
+                articles: ["impedido"]
+              },
+              {
+                id: "pentecostes",
+                name: "Pentecostes",
+                level: 4,
+                parentId: "moses",
+                description: "Estamos falando de eventos específicos em que ocorreram a distribuição do Espírito Santo, como promessa de Deus, para uma quantidade específica de pessoas do povo de Israel.",
+                children: [],
+                articles: ["pentecostes"]
+              },
+              {
+                id: "profecia-jesus",
+                name: "Profecia Jesus",
+                level: 4,
+                parentId: "moses",
+                description: "Artigo sobre a profecia de Moisés a respeito de Jesus.",
+                children: [],
+                articles: ["profecia-jesus"]
+              }
+            ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },
           {
@@ -1226,8 +1245,8 @@ export const articles: Article[] = [
     category: "Estudos"
   },
   {
-    id: "profecia-de-moises",
-    title: "Profecia de Moisés",
+    id: "profecia-jesus",
+    title: "Profecia Jesus",
     date: "December 18, 2022",
     summary: "Pouco se fala entre os cristãos sobre a profecia de Moisés de que viria um profeta dentre o povo de Israel e que falaria as palavras de Deus. Essa profecia é uma das maiores expectativas que o povo de Israel tem sobre a vinda do Messias, chamado de Cristo.",
     url: "https://otaviotolentino.wordpress.com/2022/12/18/moises-e-jesus/",
@@ -1422,6 +1441,24 @@ export const articles: Article[] = [
     url: "https://otaviotolentino.wordpress.com/2025/07/06/tome-sua-cruz-negue-a-si-mesmo-e-siga-a-jesus/",
     tags: ["Jesus Cristo", "Cruz", "Transformação"],
     category: "Estudos"
+  },
+  {
+    id: "pentecostes",
+    title: "Pentecostes",
+    date: "July 19, 2025",
+    summary: "Estamos falando de eventos específicos em que ocorreram a distribuição do Espírito Santo, como promessa de Deus, para uma quantidade específica de pessoas do povo de Israel.",
+    url: "https://otaviotolentino.wordpress.com/2022/05/15/pentecoste-velho-testamento/",
+    tags: ["Pentecostes", "Moisés"],
+    category: "Estudos"
+  },
+  {
+    id: "impedido",
+    title: "Impedido",
+    date: "July 19, 2025",
+    summary: "Por que DEUS impediu Moisés de entrar na Terra Prometida? Leia o Artigo completo para saber a resposta.",
+    url: "https://otaviotolentino.wordpress.com/2023/06/04/moises-nao-entrou-na-terra-prometida/",
+    tags: ["Impedido", "Moisés"],
+    category: "Estudos"
   }
 ];
 
@@ -1463,7 +1500,7 @@ export const getArticlesForTheme = (themeId: string): Article[] => {
   let resultArticles = uniqueArticleIds.map(id => articles.find(a => a.id === id)).filter(a => a !== undefined) as Article[];
 
   // Apply sorting for specific themes
-  if (themeId === "jesus-christ" || themeId === "deus") {
+  if (themeId === "jesus-christ" || themeId === "deus" || themeId === "moses") {
     resultArticles.sort((a, b) => a.title.localeCompare(b.title));
   }
 
