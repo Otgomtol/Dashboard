@@ -747,15 +747,6 @@ export const themes: Theme[] = [
             description: "Estudos focados no Rei Davi",
             children: [],
             articles: []
-          },
-          {
-            id: "melchisedech",
-            name: "Melquisedeque",
-            level: 3,
-            parentId: "biblical-figures",
-            description: "Estudos focados em Melquisedeque",
-            children: [],
-            articles: []
           }
         ],
         articles: []
@@ -1114,7 +1105,7 @@ export const articles: Article[] = [
   },
   {
     id: "expiacao-yom-kippur",
-    title: "Festas Judaicas: 6. EXPIAÇÃO (YOM KIPPUR)",
+    title: "Expiação (Yom Kippur)",
     date: "September 15, 2024",
     summary: "Yom Kippur, conhecido como o Dia da Expiação ou Dia do Perdão, é considerado o dia mais sagrado do calendário judaico. Esta festa única foca na expiação dos pecados, na reconciliação com Deus e na purificação espiritual para que possamos viver e andar na presença de Deus.",
     url: "festas-judaicas-6-expiacao-yom-kippur",
@@ -1135,34 +1126,34 @@ export const articles: Article[] = [
     title: "Festas Judaicas: 4. PENTECOSTES (SHAVUOT)",
     date: "September 01, 2024",
     summary: "Shavuot, também conhecida como Festa das Semanas ou Pentecostes, é uma das três festas de peregrinação no calendário judaico. Esta celebração marca o fim da colheita da cevada e o início da colheita do trigo, além de comemorar a entrega da Torá no Monte Sinai.",
-    url: "festas-judaicas-4-pentecostes-shavuot",
+    url: "https://otaviotolentino.wordpress.com/2024/09/01/festas-judaicas-4-pentecostes-shavuot/",
     tags: ["Festas Judaicas", "Bíblia", "Shavuot"],
     category: "Estudos"
   },
   {
     id: "primicias-hag-habikkurim",
-    title: "Festas Judaicas: 3. PRIMÍCIAS (HAG HABIKKURIM)",
+    title: "Primícias (Hag HaBikkurim)",
     date: "August 25, 2024",
     summary: "Bikkurim, ou a Festa das Primícias, é uma celebração única no calendário judaico que marca o início da colheita da cevada e expressa gratidão a Deus pela abundância da terra. Esta festa carrega um profundo significado espiritual e profético, apontando para a ressurreição de Jesus Cristo.",
-    url: "festas-judaicas-3-primicias-hag-habikkurim",
+    url: "https://otaviotolentino.wordpress.com/2024/08/25/festas-judaicas-3-primicias-hag-habikkurim/",
     tags: ["Festas Judaicas", "Bíblia", "Primícias"],
     category: "Estudos"
   },
   {
     id: "paes-azimos-hag-hamatzot",
-    title: "Festas Judaicas: 2. PÃES ÁZIMOS (HAG HAMATZOT)",
+    title: "Pães Ázimos (Hag HaMatzot)",
     date: "August 18, 2024",
     summary: "Hag HaMatzot, ou a Festa dos Pães Ázimos, é uma celebração intimamente ligada ao Pessach (Páscoa), ocorrendo imediatamente após esta. Esta festa enfatiza a importância da pureza e da santidade na vida do povo de Deus, utilizando o simbolismo do pão sem fermento.",
-    url: "festas-judaicas-2-paes-azimos-hag-hamatzot",
+    url: "https://otaviotolentino.wordpress.com/2024/08/18/festas-judaicas-2-paes-azimos-hag-hamatzot/",
     tags: ["Festas Judaicas", "Bíblia", "Pães Ázimos"],
     category: "Estudos"
   },
   {
     id: "pascoa-pessach",
-    title: "Festas Judaicas: 1. PÁSCOA (PESSACH)",
+    title: "Páscoa (Pessach)",
     date: "August 11, 2024",
     summary: "Esta festa comemora a libertação do povo de Israel da escravidão no Egito e carrega profundas implicações espirituais e proféticas que se estendem até o Novo Testamento. E o sacrifício do cordeiro imaculado serviria de sinal entre o Povo de Israel, para que soubessem como eles seriam resgatados diante de Deus e se lembrassem disso para sempre.",
-    url: "festas-judaicas-1-pascoa-pessach",
+    url: "https://otaviotolentino.wordpress.com/2024/08/11/festas-judaicas-1-pascoa-pessach/",
     tags: ["Festas Judaicas", "Bíblia", "Páscoa"],
     category: "Estudos"
   },
@@ -1171,7 +1162,7 @@ export const articles: Article[] = [
     title: "FESTAS JUDAICAS: Introdução Geral",
     date: "August 04, 2024",
     summary: "As festas judaicas são celebrações fundamentais na fé e cultura do povo judeu, estabelecidas por Deus no Antigo Testamento e carregadas de significado profético e espiritual. Essas festas não apenas comemoram eventos históricos cruciais na jornada do povo de Israel, mas também apontam para o plano redentor de Deus, culminando no Messias.",
-    url: "festas-judaicas-introducao-geral",
+    url: "https://otaviotolentino.wordpress.com/2024/08/04/festas-judaicas-introducao-geral/",
     tags: ["Festas Judaicas", "Bíblia", "Introdução"],
     category: "Estudos"
   },
@@ -1191,7 +1182,7 @@ export const articles: Article[] = [
     summary: "Conselhos práticos sobre como evitar taxas bancárias no Brasil, com base na Resolução 3.919/2010 do Banco Central. O artigo fornece informações legais e passos práticos para os leitores economizarem dinheiro em serviços bancários.",
     url: "https://otaviotolentino.wordpress.com/2021/12/11/tarifa-zero/",
     tags: ["Finanças", "Bancos", "Economia"],
-    category: "Dicas Úteis"
+    category: "Estudos"
   },
   {
     id: "aboliu-a-morte",
@@ -1681,4 +1672,3 @@ export const searchArticles = (query: string): Article[] => {
     article.tags.some(tag => tag.toLowerCase().includes(lowerCaseQuery))
   );
 };
-
