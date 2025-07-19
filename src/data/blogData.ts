@@ -698,7 +698,17 @@ export const themes: Theme[] = [
             level: 3,
             parentId: "biblical-figures",
             description: "Estudos focados em Abraão",
-            children: [],
+            children: [
+              {
+                id: "profetizou-jesus",
+                name: "Profetizou Jesus",
+                level: 4,
+                parentId: "abraham",
+                description: "Será que Deus realmente queria que Abraão sacrificasse o seu único filho de verdade? Veremos qual a verdadeira intenção de Deus ao pedir que Abraão sacrificasse seu Filho único.",
+                children: [],
+                articles: ["profetizou-jesus"]
+              }
+            ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },
           {
@@ -1514,6 +1524,15 @@ export const articles: Article[] = [
     url: "https://otaviotolentino.wordpress.com/2022/07/31/carta-laodicenses/",
     tags: ["Paulo", "Laodicenses"],
     category: "Estudos"
+  },
+  {
+    id: "profetizou-jesus",
+    title: "Profetizou Jesus",
+    date: "July 19, 2025",
+    summary: "Será que Deus realmente queria que Abraão sacrificasse o seu único filho de verdade? Veremos qual a verdadeira intenção de Deus ao pedir que Abraão sacrificasse seu Filho único.",
+    url: "https://otaviotolentino.wordpress.com/2024/01/07/sacrificio-de-isaque/",
+    tags: ["Abraão", "Isaque", "Sacrifício"],
+    category: "Estudos"
   }
 ];
 
@@ -1555,7 +1574,7 @@ export const getArticlesForTheme = (themeId: string): Article[] => {
   let resultArticles = uniqueArticleIds.map(id => articles.find(a => a.id === id)).filter(a => a !== undefined) as Article[];
 
   // Apply sorting for specific themes
-  if (themeId === "jesus-christ" || themeId === "deus" || themeId === "moses" || themeId === "paul") {
+  if (themeId === "jesus-christ" || themeId === "deus" || themeId === "moses" || themeId === "paul" || themeId === "abraham") {
     resultArticles.sort((a, b) => a.title.localeCompare(b.title));
   }
 
