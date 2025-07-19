@@ -624,7 +624,35 @@ export const themes: Theme[] = [
             level: 3,
             parentId: "biblical-figures",
             description: "Estudos focados no Apóstolo Paulo",
-            children: [],
+            children: [
+              {
+                id: "assinatura-cartas",
+                name: "Assinatura Cartas",
+                level: 4,
+                parentId: "paul",
+                description: "Uma característica interessante em todas as Cartas ou Epístolas de Paulo, que na verdade se torna sua marca, e deveria servir como parâmetro de avaliação se o documento tem origem autoral da parte de Paulo é a sua assinatura.",
+                children: [],
+                articles: ["assinatura-cartas"]
+              },
+              {
+                id: "autor-hebreus",
+                name: "Autor Hebreus",
+                level: 4,
+                parentId: "paul",
+                description: "Segue análise sobre o texto do Livro de Hebreus, utilizando critério de comparação com todos os outros textos considerados, irrefutavelmente, como sendo de autoria do apóstolo Paulo.",
+                children: [],
+                articles: ["autor-hebreus"]
+              },
+              {
+                id: "carta-laodicenses",
+                name: "Carta Laodicenses",
+                level: 4,
+                parentId: "paul",
+                description: "Surpreenda-se com a leitura completa desse Artigo sobre a Carta aos Laodicenses: Correção de Destinatário e através dos textos bíblicos descubra sobre esse encontro?",
+                children: [],
+                articles: ["carta-laodicenses"]
+              }
+            ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },
           {
@@ -1459,6 +1487,33 @@ export const articles: Article[] = [
     url: "https://otaviotolentino.wordpress.com/2023/06/04/moises-nao-entrou-na-terra-prometida/",
     tags: ["Impedido", "Moisés"],
     category: "Estudos"
+  },
+  {
+    id: "assinatura-cartas",
+    title: "Assinatura Cartas",
+    date: "July 19, 2025",
+    summary: "Uma característica interessante em todas as Cartas ou Epístolas de Paulo, que na verdade se torna sua marca, e deveria servir como parâmetro de avaliação se o documento tem origem autoral da parte de Paulo é a sua assinatura.",
+    url: "https://otaviotolentino.wordpress.com/2021/12/13/assinatura-paulo-cartas/",
+    tags: ["Paulo", "Assinatura"],
+    category: "Estudos"
+  },
+  {
+    id: "autor-hebreus",
+    title: "Autor Hebreus",
+    date: "July 19, 2025",
+    summary: "Segue análise sobre o texto do Livro de Hebreus, utilizando critério de comparação com todos os outros textos considerados, irrefutavelmente, como sendo de autoria do apóstolo Paulo.",
+    url: "https://otaviotolentino.wordpress.com/2023/02/19/autor-de-hebreus/",
+    tags: ["Paulo", "Hebreus"],
+    category: "Estudos"
+  },
+  {
+    id: "carta-laodicenses",
+    title: "Carta Laodicenses",
+    date: "July 19, 2025",
+    summary: "Surpreenda-se com a leitura completa desse Artigo sobre a Carta aos Laodicenses: Correção de Destinatário e através dos textos bíblicos descubra sobre esse encontro?",
+    url: "https://otaviotolentino.wordpress.com/2022/07/31/carta-laodicenses/",
+    tags: ["Paulo", "Laodicenses"],
+    category: "Estudos"
   }
 ];
 
@@ -1500,7 +1555,7 @@ export const getArticlesForTheme = (themeId: string): Article[] => {
   let resultArticles = uniqueArticleIds.map(id => articles.find(a => a.id === id)).filter(a => a !== undefined) as Article[];
 
   // Apply sorting for specific themes
-  if (themeId === "jesus-christ" || themeId === "deus" || themeId === "moses") {
+  if (themeId === "jesus-christ" || themeId === "deus" || themeId === "moses" || themeId === "paul") {
     resultArticles.sort((a, b) => a.title.localeCompare(b.title));
   }
 
