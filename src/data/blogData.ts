@@ -712,12 +712,31 @@ export const themes: Theme[] = [
             articles: []
           },
           {
-            id: "samuel",
-            name: "Samuel",
+            id: "jo",
+            name: "Jó",
             level: 3,
             parentId: "biblical-figures",
-            description: "Estudos focados em Samuel",
-            children: [],
+            description: "Estudos focados em Jó",
+            children: [
+              {
+                id: "origem-periodo",
+                name: "Origem/Período",
+                level: 4,
+                parentId: "jo",
+                description: "Há muito tempo nos perguntamos qual a origem de Jò? E qual o seu tempo ou momento dentro da cronologia da Bíblia? É o que analisamos.",
+                children: [],
+                articles: ["origem-periodo"]
+              },
+              {
+                id: "sabio-davi-salomao",
+                name: "Sábio Davi/Salomão",
+                level: 4,
+                parentId: "jo",
+                description: "Até onde vai a sabedoria de Jó? Será que sua sabedoria, exposta expressamente nos capítulos do seu Livro, merece o mesmo grau de reconhecimento da sabedoria apresentada por Davi e seu filho Salomão?",
+                children: [],
+                articles: ["sabio-davi-salomao"]
+              }
+            ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },
           {
@@ -1533,6 +1552,24 @@ export const articles: Article[] = [
     url: "https://otaviotolentino.wordpress.com/2024/01/07/sacrificio-de-isaque/",
     tags: ["Abraão", "Isaque", "Sacrifício"],
     category: "Estudos"
+  },
+  {
+    id: "origem-periodo",
+    title: "Origem/Período",
+    date: "July 19, 2025",
+    summary: "Há muito tempo nos perguntamos qual a origem de Jò? E qual o seu tempo ou momento dentro da cronologia da Bíblia? É o que analisamos.",
+    url: "https://otaviotolentino.wordpress.com/2023/02/26/jo-origem-e-periodo/",
+    tags: ["Jó", "Origem"],
+    category: "Estudos"
+  },
+  {
+    id: "sabio-davi-salomao",
+    title: "Sábio Davi/Salomão",
+    date: "July 19, 2025",
+    summary: "Até onde vai a sabedoria de Jó? Será que sua sabedoria, exposta expressamente nos capítulos do seu Livro, merece o mesmo grau de reconhecimento da sabedoria apresentada por Davi e seu filho Salomão?",
+    url: "https://otaviotolentino.wordpress.com/2024/05/26/jo-era-sabio-como-davi-e-salomao/",
+    tags: ["Jó", "Sabedoria"],
+    category: "Estudos"
   }
 ];
 
@@ -1574,7 +1611,7 @@ export const getArticlesForTheme = (themeId: string): Article[] => {
   let resultArticles = uniqueArticleIds.map(id => articles.find(a => a.id === id)).filter(a => a !== undefined) as Article[];
 
   // Apply sorting for specific themes
-  if (themeId === "jesus-christ" || themeId === "deus" || themeId === "moses" || themeId === "paul" || themeId === "abraham") {
+  if (themeId === "jesus-christ" || themeId === "deus" || themeId === "moses" || themeId === "paul" || themeId === "abraham" || themeId === "jo") {
     resultArticles.sort((a, b) => a.title.localeCompare(b.title));
   }
 
