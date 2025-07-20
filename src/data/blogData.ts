@@ -946,7 +946,7 @@ export const articles: Article[] = [
     title: "Cartas de Paulo aos Colaboradores: 1 TIMÓTEO",
     date: "May 18, 2025",
     summary: "A Primeira Carta a Timóteo é uma das cartas pastorais de Paulo, escrita provavelmente em 64 d.C. Ela é endereçada a Timóteo, um jovem colaborador de Paulo, que estava encarregado de supervisionar a igreja em Éfeso.",
-    url: "cartas-de-paulo-aos-colaboradores-1-timoteo",
+    url: "https://otaviotolentino.wordpress.com/2025/05/18/cartas-de-paulo-aos-colaboradores-1-timoteo/",
     tags: ["Paulo", "Epístolas", "Timóteo", "Colaboradores"],
     category: "Estudos"
   },
@@ -955,7 +955,7 @@ export const articles: Article[] = [
     title: "Cartas de Paulo aos Colaboradores: 2 TIMOTEO",
     date: "June 1, 2025",
     summary: "A Segunda Carta a Timóteo é considerada a última carta escrita pelo apóstolo Paulo, provavelmente durante seu segundo aprisionamento em Roma, por volta de 66-67 d.C. Esta carta tem um tom pessoal e urgente, pois Paulo acredita que sua execução está próxima.",
-    url: "cartas-de-paulo-aos-colaboradores-2-timoteo",
+    url: "https://otaviotolentino.wordpress.com/2025/06/01/cartas-de-paulo-aos-colaboradores-2-timoteo/",
     tags: ["Paulo", "Epístolas", "Timóteo", "Colaboradores"],
     category: "Estudos"
   },
@@ -964,7 +964,7 @@ export const articles: Article[] = [
     title: "Cartas de Paulo aos Colaboradores: TITO",
     date: "May 25, 2025",
     summary: "A Carta a Tito é uma das cartas pastorais de Paulo, escrita provavelmente entre 63-65 d.C. Ela é dirigida a Tito, um colaborador grego de Paulo, que estava encarregado de organizar e supervisionar as igrejas na ilha de Creta.",
-    url: "cartas-de-paulo-aos-colaboradores-tito",
+    url: "https://otaviotolentino.wordpress.com/2025/05/25/cartas-de-paulo-aos-colaboradores-tito/",
     tags: ["Paulo", "Epístolas", "Tito", "Colaboradores"],
     category: "Estudos"
   },
@@ -973,7 +973,7 @@ export const articles: Article[] = [
     title: "Cartas de Paulo aos Colaboradores: FILEMOM",
     date: "May 11, 2025",
     summary: "Escrita provavelmente durante o primeiro aprisionamento de Paulo em Roma, por volta de 60-62 d.C.. Esta carta aborda uma situação delicada envolvendo Filemom, um cristão proeminente e cooperador de Paulo, e Onésimo, seu escravo fugitivo que se converteu ao cristianismo através do ministério de Paulo.",
-    url: "cartas-de-paulo-aos-colaboradores-filemom",
+    url: "https://otaviotolentino.wordpress.com/2025/05/11/cartas-de-paulo-aos-colaboradores-filemom/",
     tags: ["Paulo", "Epístolas", "Filemom", "Colaboradores"],
     category: "Estudos"
   },
@@ -982,7 +982,7 @@ export const articles: Article[] = [
     title: "Introdução Geral - Colaboradores",
     date: "May 4, 2025",
     summary: "Cartas de Paulo em geral, com foco especial nas cartas dirigidas aos seus colaboradores: Filemom, Timóteo e Tito.",
-    url: "cartas-de-paulo-aos-colaboradores-introducao-geral",
+    url: "https://otaviotolentino.wordpress.com/2025/05/04/cartas-de-paulo-aos-colaboradores-introducao-geral/",
     tags: ["Paulo", "Epístolas", "Colaboradores", "Timóteo", "Filemom", "Tito"],
     category: "Estudos"
   },
@@ -991,7 +991,7 @@ export const articles: Article[] = [
     title: "Epístolas de Paulo às Igrejas: HEBREUS",
     date: "April 27, 2025",
     summary: "A Carta aos Hebreus é uma obra única no Novo Testamento, combinando exposição teológica profunda com exortação prática, escrita provavelmente por volta de 64-68 d.C. Dirigida a cristãos de origem judaica, a Epístola visa fortalecer a fé em Cristo diante de alertas para evitar a desobediência dos judeus e a perda do repouso prometido por Deus.",
-    url: "epistolas-de-paulo-as-igrejas-hebreus",
+    url: "https://otaviotolentino.wordpress.com/2025/04/27/epistolas-de-paulo-as-igrejas-hebreus/",
     tags: ["Paulo", "Epístolas", "Hebreus", "Igrejas"],
     category: "Estudos"
   },
@@ -1000,7 +1000,7 @@ export const articles: Article[] = [
     title: "Epístolas de Paulo às Igrejas: FILIPENSES",
     date: "April 20, 2025",
     summary: "A Carta aos Filipenses é um dos textos do apóstolo Paulo, escrita provavelmente durante seu primeiro aprisionamento em Roma, por volta de 61-62 d.C. Esta carta foi endereçada à igreja de Filipos, que ficava na Macedônia. A primeira igreja fundada por Paulo na Europa (Atos 16:11-40).",
-    url: "epistolas-de-paulo-as-igrejas-filipenses",
+    url: "https://otaviotolentino.wordpress.com/2025/04/20/epistolas-de-paulo-as-igrejas-filipenses/",
     tags: ["Paulo", "Epístolas", "Filipenses", "Igrejas"],
     category: "Estudos"
   },
@@ -1009,7 +1009,7 @@ export const articles: Article[] = [
     title: "Epístolas de Paulo às Igrejas: COLOSSENSES",
     date: "April 13, 2025",
     summary: "A Carta aos Colossenses é um dos textos do apóstolo Paulo, escrita provavelmente durante seu primeiro aprisionamento em Roma, por volta de 60-62 d.C. Esta carta foi endereçada à igreja de Colossos, uma cidade na região da Frígia, na Ásia Menor (atual Turquia).",
-    url: "epistolas-de-paulo-as-igrejas-colossenses",
+    url: "https://otaviotolentino.wordpress.com/2025/04/13/epistolas-de-paulo-as-igrejas-colossenses/",
     tags: ["Paulo", "Epístolas", "Colossenses", "Igrejas"],
     category: "Estudos"
   },
@@ -1018,7 +1018,7 @@ export const articles: Article[] = [
     title: "Epístolas de Paulo às Igrejas: EFÉSIOS",
     date: "April 06, 2025",
     summary: "A Carta aos Efésios, atribuída ao apóstolo Paulo e escrita por volta de 60-62 d.C., é uma epístola profunda e inspiradora que aborda temas centrais da fé cristã. Éfeso localizava-se na região então chamada de Ásia Menor. Uma das cartas mais inspiradas de toda a Bíblia, por seu conteúdo doutrinária de extrema relevância. Paulo, nesse texto, faz um fantástico resumo de conceitos e doutrinas condensadas em apenas 6 capítulos. Apresenta Temas de extrema relevância e maturidade espiritual.",
-    url: "epistolas-de-paulo-as-igrejas-efesios",
+    url: "https://otaviotolentino.wordpress.com/2025/04/06/epistolas-de-paulo-as-igrejas-efesios/",
     tags: ["Paulo", "Epístolas", "Efésios", "Igrejas"],
     category: "Estudos"
   },
@@ -1027,7 +1027,7 @@ export const articles: Article[] = [
     title: "Epístolas de Paulo às Igrejas: ROMANOS",
     date: "March 30, 2025",
     summary: "A Carta aos Romanos, escrita pelo apóstolo Paulo por volta de 57 d.C., é considerada uma das mais profundas e influentes epístolas do Novo Testamento. Este texto apresenta uma exposição sistemática do evangelho e da doutrina cristã, abordando temas fundamentais como justificação pela fé, pecado, graça, santificação e o plano de Deus para judeus e gentios.",
-    url: "epistolas-de-paulo-as-igrejas-romanos",
+    url: "https://otaviotolentino.wordpress.com/2025/03/30/epistolas-de-paulo-as-igrejas-romanos/",
     tags: ["Paulo", "Epístolas", "Romanos", "Igrejas"],
     category: "Estudos"
   },
@@ -1036,7 +1036,7 @@ export const articles: Article[] = [
     title: "Epístolas de Paulo às Igrejas: 2 CORÍNTIOS",
     date: "March 23, 2025",
     summary: "A Segunda Carta aos Coríntios, escrita pelo apóstolo Paulo por volta de 55-56 d.C., é uma epístola profundamente pessoal e emocional. Ela revela o coração pastoral de Paulo e sua defesa apaixonada do ministério apostólico, ao mesmo tempo em que aborda questões cruciais sobre o serviço cristão, a reconciliação e a vida no Espírito.",
-    url: "epistolas-de-paulo-as-igrejas-2-corintios",
+    url: "https://otaviotolentino.wordpress.com/2025/03/23/epistolas-de-paulo-as-igrejas-2-corintios/",
     tags: ["Paulo", "Epístolas", "Coríntios", "Igrejas"],
     category: "Estudos"
   },
@@ -1045,7 +1045,7 @@ export const articles: Article[] = [
     title: "Epístolas de Paulo às Igrejas: 1 CORÍNTIOS",
     date: "March 16, 2025",
     summary: "A Primeira Carta aos Coríntios, escrita pelo apóstolo Paulo por volta de 55 d.C., é um texto pastoral endereçada à igreja de Corinto, na região da Acaia no sul da Grécia, uma comunidade cristã enfrentando diversos desafios espirituais e morais. Este texto oferece orientações práticas e doutrinárias para uma igreja em meio a uma cultura moralmente permissiva.",
-    url: "epistolas-de-paulo-as-igrejas-1-corintios",
+    url: "https://otaviotolentino.wordpress.com/2025/03/16/epistolas-de-paulo-as-igrejas-1-corintios/",
     tags: ["Paulo", "Epístolas", "Coríntios", "Igrejas"],
     category: "Estudos"
   },
@@ -1054,7 +1054,7 @@ export const articles: Article[] = [
     title: "Epístolas de Paulo às Igrejas: 2 TESSALONICENSES",
     date: "March 09, 2025",
     summary: "A Segunda Carta aos Tessalonicenses, escrita pelo apóstolo Paulo pouco tempo após a primeira epístola, provavelmente por volta de 51-52 d.C., aborda questões escatológicas e práticas que surgiram na igreja de Tessalônica, na Macedônia. Esta carta visa corrigir mal-entendidos sobre a segunda vinda de Cristo e fornece orientações para a vida cristã em meio à expectativa do retorno do Senhor.",
-    url: "epistolas-de-paulo-as-igrejas-2-tessalonicenses",
+    url: "https://otaviotolentino.wordpress.com/2025/03/09/epistolas-de-paulo-as-igrejas-2-tessalonicenses/",
     tags: ["Paulo", "Epístolas", "Tessalonicenses", "Igrejas"],
     category: "Estudos"
   },
@@ -1063,7 +1063,7 @@ export const articles: Article[] = [
     title: "Epístolas de Paulo às Igrejas: 1 TESSALONICENSES",
     date: "March 02, 2025",
     summary: "A Primeira Carta aos Tessalonicenses, escrita pelo apóstolo Paulo por volta de 50-51 d.C., é considerada uma das primeiras epístolas do Novo Testamento. Dirigida à igreja de Tessalônica, fundada por Paulo durante sua segunda viagem missionária.",
-    url: "epistolas-de-paulo-as-igrejas-1-tessalonicenses",
+    url: "https://otaviotolentino.wordpress.com/2025/03/02/epistolas-de-paulo-as-igrejas-1-tessalonicenses/",
     tags: ["Paulo", "Epístolas", "Tessalonicenses", "Igrejas"],
     category: "Estudos"
   },
@@ -1072,7 +1072,7 @@ export const articles: Article[] = [
     title: "Epístolas de Paulo às Igrejas: GÁLATAS",
     date: "February 23, 2025",
     summary: "A Carta aos Gálatas, escrita pelo apóstolo Paulo por volta de 49 d.C., é uma das epístolas teologicamente mais intensas do Novo Testamento. Dirigida às igrejas da Galácia, este texto aborda questões cruciais sobre a natureza do evangelho, a justificação pela fé e a liberdade cristã.",
-    url: "epistolas-de-paulo-as-igrejas-galatas",
+    url: "https://otaviotolentino.wordpress.com/2025/02/23/epistolas-de-paulo-as-igrejas-galatas/",
     tags: ["Paulo", "Epístolas", "Gálatas", "Igrejas"],
     category: "Estudos"
   },
@@ -1081,7 +1081,7 @@ export const articles: Article[] = [
     title: "EPÍSTOLAS de PAULO às IGREJAS: Introdução Geral",
     date: "February 16, 2025",
     summary: "As Cartas de Paulo são uma parte fundamental do Novo Testamento, oferecendo ensinamentos teológicos profundos e orientações práticas para as primeiras comunidades cristãs. Escritas pelo apóstolo Paulo, estas cartas abordam uma variedade de temas e questões enfrentadas pelos primeiros cristãos, fornecendo uma base sólida para a doutrina e prática cristãs.",
-    url: "epistolas-de-paulo-as-igrejas-introducao-geral",
+    url: "https://otaviotolentino.wordpress.com/2025/02/16/epistolas-de-paulo-as-igrejas-introducao-geral/",
     tags: ["Paulo", "Epístolas", "Igrejas", "Introdução"],
     category: "Estudos"
   },
@@ -1090,7 +1090,7 @@ export const articles: Article[] = [
     title: "FESTAS JUDAICAS: Conclusão",
     date: "September 29, 2024",
     summary: "As Festas Judaicas, instituídas por Deus no Antigo Testamento e ricas em significado no Novo Testamento, oferecem um panorama abrangente do plano redentor de Deus para a humanidade. Cada festa não apenas comemora eventos históricos cruciais, mas também aponta profeticamente para a obra de Cristo e para a esperança futura dos crentes.",
-    url: "festas-judaicas-conclusao",
+    url: "https://otaviotolentino.wordpress.com/2024/09/29/festas-judaicas-conclusao/",
     tags: ["Festas Judaicas", "Bíblia", "Conclusão"],
     category: "Estudos"
   },
@@ -1099,7 +1099,7 @@ export const articles: Article[] = [
     title: "Festas Judaicas: 7. TABERNÁCULOS (SUKKOT)",
     date: "September 22, 2024",
     summary: "Sukkot em Hebraico significa Cabana, Tenda, Tabernáculo ou construção precária de moradia temporária. Era o que os nômades costumavam usar em suas peregrinações sobre a terra em busca de um ambiente com melhores condições de provisão que desse sustento para manutenção da vida das pessoas e seus animais.",
-    url: "festas-judaicas-7-tabernaculos-sukkot",
+    url: "https://otaviotolentino.wordpress.com/2024/09/22/festas-judaicas-7-tabernaculos-sukkot/",
     tags: ["Festas Judaicas", "Bíblia", "Sukkot"],
     category: "Estudos"
   },
@@ -1108,7 +1108,7 @@ export const articles: Article[] = [
     title: "Expiação (Yom Kippur)",
     date: "September 15, 2024",
     summary: "Yom Kippur, conhecido como o Dia da Expiação ou Dia do Perdão, é considerado o dia mais sagrado do calendário judaico. Esta festa única foca na expiação dos pecados, na reconciliação com Deus e na purificação espiritual para que possamos viver e andar na presença de Deus.",
-    url: "festas-judaicas-6-expiacao-yom-kippur",
+    url: "https://otaviotolentino.wordpress.com/2024/09/15/festas-judaicas-6-expiacao-yom-kippur/",
     tags: ["Festas Judaicas", "Bíblia", "Yom Kippur"],
     category: "Estudos"
   },
@@ -1117,7 +1117,7 @@ export const articles: Article[] = [
     title: "Festas Judaicas: 5. TROMBETAS (YOM TERUAH)",
     date: "September 08, 2024",
     summary: "Yom Teruah, também conhecida como Festa das Trombetas ou Rosh Hashanah (Ano Novo Judaico), é uma celebração única no calendário judaico. Esta festa marca o início do ano civil judaico e inicia os Dias Temíveis, um período de introspecção e arrependimento que culmina no Yom Kippur, dia da Expiação ou dia do Perdão.",
-    url: "festas-judaicas-5-trombetas-yom-teruah",
+    url: "https://otaviotolentino.wordpress.com/2024/09/08/festas-judaicas-5-trombetas-yom-teruah/",
     tags: ["Festas Judaicas", "Bíblia", "Yom Teruah"],
     category: "Estudos"
   },
