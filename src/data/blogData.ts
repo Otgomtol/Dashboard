@@ -38,7 +38,7 @@ export const themes: Theme[] = [
         children: [
           {
             id: "jewish-feasts-intro",
-            name: "Introdução Geral - Festas Judaicas",
+            name: "Introdução Geral",
             level: 3,
             parentId: "jewish-feasts",
             description: "Introdução geral às festas judaicas.",
@@ -110,7 +110,7 @@ export const themes: Theme[] = [
           },
           {
             id: "conclusao-festas-judaicas",
-            name: "Conclusão - Festas Judaicas",
+            name: "Conclusão",
             level: 3,
             parentId: "jewish-feasts",
             description: "Conclusão sobre as festas judaicas.",
@@ -136,7 +136,7 @@ export const themes: Theme[] = [
             children: [
               {
                 id: "churches-intro",
-                name: "Introdução Geral - Igrejas",
+                name: "Introdução Geral",
                 level: 4,
                 parentId: "letters-to-churches",
                 description: "Introdução geral às cartas de Paulo às igrejas.",
@@ -245,7 +245,7 @@ export const themes: Theme[] = [
             children: [
               {
                 id: "collaborators-intro",
-                name: "Introdução Geral - Colaboradores",
+                name: "Introdução Geral",
                 level: 4,
                 parentId: "letters-to-collaborators",
                 description: "Introdução geral às cartas de Paulo aos seus colaboradores.",
@@ -767,7 +767,7 @@ export const themes: Theme[] = [
             children: [
               {
                 id: "salvacao-so-em-jesus-cristo",
-                name: "SÓ em JESUS CRISTO",
+                name: "Só em Jesus Cristo",
                 level: 4,
                 parentId: "salvation",
                 description: "Artigo sobre a salvação somente em Jesus Cristo.",
@@ -785,7 +785,7 @@ export const themes: Theme[] = [
               },
               {
                 id: "salvacao-janela-de-oportunidade",
-                name: "Janela de Oportunidade",
+                name: "Janela Oportunidade",
                 level: 4,
                 parentId: "salvation",
                 description: "Artigo sobre a janela de oportunidade para a salvação.",
@@ -794,7 +794,7 @@ export const themes: Theme[] = [
               },
               {
                 id: "salvacao-fe-e-esperanca",
-                name: "Mensagem de Fé e Esperança",
+                name: "Fé e Esperança",
                 level: 4,
                 parentId: "salvation",
                 description: "Artigo sobre a mensagem de fé e esperança.",
@@ -875,13 +875,13 @@ export const themes: Theme[] = [
   },
   {
     id: "practical-knowledge",
-    name: "Conhecimentos Práticos",
+    name: "Conhec. Práticos",
     level: 1,
     description: "Informações e dicas práticas",
     children: [
       {
         id: "mathematical-concepts",
-        name: "Conceitos Matemáticos",
+        name: "Segredos Matemáticos",
         level: 2,
         parentId: "practical-knowledge",
         description: "Estudos sobre princípios e aplicações matemáticas",
@@ -933,7 +933,7 @@ export const articles: Article[] = [
   },
   {
     id: "salvacao-so-em-jesus-cristo",
-    title: "SÓ em JESUS CRISTO",
+    title: "Só em Jesus Cristo",
     date: "June 13, 2022",
     summary: "Não nos deixemos enganar mais por nenhuma outra afirmação e nem devemos perder mais tempo com outras artimanhas, que não a verdade. Nenhum outro nome há pelo qual devamos ser salvos.",
     url: "https://otaviotolentino.wordpress.com/2022/06/13/salvacao-jesus-cristo/",
@@ -979,7 +979,7 @@ export const articles: Article[] = [
   },
   {
     id: "collaborators-intro",
-    title: "Introdução Geral - Colaboradores",
+    title: "CARTAS de PAULO aos COLABORADORES: Introdução Geral",
     date: "May 4, 2025",
     summary: "Cartas de Paulo em geral, com foco especial nas cartas dirigidas aos seus colaboradores: Filemom, Timóteo e Tito.",
     url: "https://otaviotolentino.wordpress.com/2025/05/04/cartas-de-paulo-aos-colaboradores-introducao-geral/",
@@ -1105,7 +1105,7 @@ export const articles: Article[] = [
   },
   {
     id: "expiacao-yom-kippur",
-    title: "Expiação (Yom Kippur)",
+    title: "Festas Judaicas: 6. EXPIAÇÃO (YOM KIPPUR)",
     date: "September 15, 2024",
     summary: "Yom Kippur, conhecido como o Dia da Expiação ou Dia do Perdão, é considerado o dia mais sagrado do calendário judaico. Esta festa única foca na expiação dos pecados, na reconciliação com Deus e na purificação espiritual para que possamos viver e andar na presença de Deus.",
     url: "https://otaviotolentino.wordpress.com/2024/09/15/festas-judaicas-6-expiacao-yom-kippur/",
@@ -1132,7 +1132,7 @@ export const articles: Article[] = [
   },
   {
     id: "primicias-hag-habikkurim",
-    title: "Primícias (Hag HaBikkurim)",
+    title: "Festas Judaicas: 3. PRIMÍCIAS (HAG HABIKKURIM)",
     date: "August 25, 2024",
     summary: "Bikkurim, ou a Festa das Primícias, é uma celebração única no calendário judaico que marca o início da colheita da cevada e expressa gratidão a Deus pela abundância da terra. Esta festa carrega um profundo significado espiritual e profético, apontando para a ressurreição de Jesus Cristo.",
     url: "https://otaviotolentino.wordpress.com/2024/08/25/festas-judaicas-3-primicias-hag-habikkurim/",
@@ -1141,7 +1141,7 @@ export const articles: Article[] = [
   },
   {
     id: "paes-azimos-hag-hamatzot",
-    title: "Pães Ázimos (Hag HaMatzot)",
+    title: "Festas Judaicas: 2. PÃES ÁZIMOS (HAG HAMATZOT)",
     date: "August 18, 2024",
     summary: "Hag HaMatzot, ou a Festa dos Pães Ázimos, é uma celebração intimamente ligada ao Pessach (Páscoa), ocorrendo imediatamente após esta. Esta festa enfatiza a importância da pureza e da santidade na vida do povo de Deus, utilizando o simbolismo do pão sem fermento.",
     url: "https://otaviotolentino.wordpress.com/2024/08/18/festas-judaicas-2-paes-azimos-hag-hamatzot/",
@@ -1150,7 +1150,7 @@ export const articles: Article[] = [
   },
   {
     id: "pascoa-pessach",
-    title: "Páscoa (Pessach)",
+    title: "Festas Judaicas: 1. PÁSCOA (PESSACH)",
     date: "August 11, 2024",
     summary: "Esta festa comemora a libertação do povo de Israel da escravidão no Egito e carrega profundas implicações espirituais e proféticas que se estendem até o Novo Testamento. E o sacrifício do cordeiro imaculado serviria de sinal entre o Povo de Israel, para que soubessem como eles seriam resgatados diante de Deus e se lembrassem disso para sempre.",
     url: "https://otaviotolentino.wordpress.com/2024/08/11/festas-judaicas-1-pascoa-pessach/",
@@ -1168,7 +1168,7 @@ export const articles: Article[] = [
   },
   {
     id: "math-secrets",
-    title: "SEGREDOS MATEMÁTICOS sobre QUADRADO, RAIZ QUADRADA e PROVA do TEOREMA de PITÁGORAS resolvidos através de VISUALIZAÇÃO GRÁFICA",
+    title: "Quadrado/Raiz Quadrada",
     date: "December 1, 2024",
     summary: "Uma exploração de conceitos matemáticos relacionados a quadrados, raízes quadradas e o teorema de Pitágoras, usando visualização gráfica para tornar esses conceitos mais acessíveis e compreensíveis.",
     url: "https://otaviotolentino.wordpress.com/2024/12/01/square-square-root-pythagoras-claude-ai-subjected-to-god-en/",
@@ -1177,7 +1177,7 @@ export const articles: Article[] = [
   },
   {
     id: "tarifa-zero",
-    title: "TARIFA ZERO no seu Banco",
+    title: "Tarifa Zero no Banco",
     date: "November 15, 2024",
     summary: "Conselhos práticos sobre como evitar taxas bancárias no Brasil, com base na Resolução 3.919/2010 do Banco Central. O artigo fornece informações legais e passos práticos para os leitores economizarem dinheiro em serviços bancários.",
     url: "https://otaviotolentino.wordpress.com/2021/12/11/tarifa-zero/",
