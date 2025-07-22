@@ -752,6 +752,43 @@ export const themes: Theme[] = [
         articles: []
       },
       {
+        id: "apocalypse",
+        name: "Apocalipse",
+        level: 2,
+        parentId: "biblical-studies",
+        description: "Estudos sobre o Livro de Apocalipse",
+        children: [
+          {
+            id: "apocalypse-audiovisual",
+            name: "Audiovisual",
+            level: 3,
+            parentId: "apocalypse",
+            description: "Estudo do Livro de Apocalipse em 34 Vídeos. Podcast e mais.",
+            children: [],
+            articles: ["apocalypse-audiovisual"]
+          },
+          {
+            id: "apocalypse-book-commented",
+            name: "Livro Comentado",
+            level: 3,
+            parentId: "apocalypse",
+            description: `Livro "APOCALIPSE. Entendendo a Revelação de Jesus Cristo: Comentários e Mistérios Revelados". Solicite agora e aproveite essa oportunidade única de conhecer e entender a revelação dos mistérios do Livro Apocalipse.`,
+            children: [],
+            articles: ["apocalypse-book-commented"]
+          },
+          {
+            id: "apocalypse-author-prophetized",
+            name: "Autor Profetizado",
+            level: 3,
+            parentId: "apocalypse",
+            description: "Em uma das profecias de Jesus sobre a sua volta Ele acaba revelando quem seria o autor do Livro de Apocalipse. Você já tinha se apercebido disso quando fez a leitura desse texto em João 21?",
+            children: [],
+            articles: ["apocalypse-author-prophetized"]
+          }
+        ].sort((a, b) => a.name.localeCompare(b.name)),
+        articles: []
+      },
+      {
         id: "biblical-concepts",
         name: "Conceitos Bíblicos",
         level: 2,
@@ -1615,6 +1652,33 @@ export const articles: Article[] = [
     summary: "Após o nascimento espiritual, devemos nos alimentar pela Palavra de Deus a ser guardada em nossos corações para a obediência da fé. A Palavra de Deus é Espírito e Vida. Deus é a fonte da Vida, o manancial de águas vivas.",
     url: "https://otaviotolentino.wordpress.com/2022/02/27/arvore-e-manancial/",
     tags: ["Manancial", "Palavra de Deus", "Vida"],
+    category: "Estudos"
+  },
+  {
+    id: "apocalypse-audiovisual",
+    title: "Audiovisual",
+    date: "January 18, 2022",
+    summary: "Estudo do Livro de Apocalipse em 34 Vídeos. Podcast e mais.",
+    url: "https://otaviotolentino.wordpress.com/2022/01/18/apocalipse-comentado-otavio-tolentino/",
+    tags: ["Apocalipse", "Audiovisual", "Estudo"],
+    category: "Estudos"
+  },
+  {
+    id: "apocalypse-book-commented",
+    title: "Livro Comentado",
+    date: "January 18, 2022",
+    summary: "Livro \"APOCALIPSE. Entendendo a Revelação de Jesus Cristo: Comentários e Mistérios Revelados\". Solicite agora e aproveite essa oportunidade única de conhecer e entender a revelação dos mistérios do Livro Apocalipse.",
+    url: "https://otaviotolentino.wordpress.com/livro-apocalipse-comentado-otavio-tolentino/",
+    tags: ["Apocalipse", "Livro", "Comentário"],
+    category: "Estudos"
+  },
+  {
+    id: "apocalypse-author-prophetized",
+    title: "Autor Profetizado",
+    date: "April 14, 2024",
+    summary: "Em uma das profecias de Jesus sobre a sua volta Ele acaba revelando quem seria o autor do Livro de Apocalipse. Você já tinha se apercebido disso quando fez a leitura desse texto em João 21?",
+    url: "https://otaviotolentino.wordpress.com/2024/04/14/autor-do-livro-de-apocalipse-profetizado/",
+    tags: ["Apocalipse", "Profecia", "Jesus"],
     category: "Estudos"
   }
 ];

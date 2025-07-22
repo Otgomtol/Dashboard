@@ -31,7 +31,7 @@ const Mindmap: React.FC<MindmapProps> = ({
   selectedId,
   onNodeClick 
 }) => {
-  const graphRef = useRef<ForceGraph2D | undefined>(undefined);
+  const graphRef = useRef<any>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   // Use fixed dimensions as requested, width will adapt via ResizeObserver
   const [dimensions, setDimensions] = React.useState({ width: 1264, height: 850 - 48 }); // Target height 850, subtract header

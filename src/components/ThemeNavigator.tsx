@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Theme, findThemeById } from '../data/blogData'; // Import findThemeById
+import { Theme, findThemeById, Article } from '../data/blogData'; // Import findThemeById
 import { ChevronDown, ChevronRight } from 'lucide-react';
 
 interface ThemeNavigatorProps {
