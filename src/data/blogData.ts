@@ -805,12 +805,40 @@ export const themes: Theme[] = [
             articles: []
           },
           {
-            id: "faith",
-            name: "Fé",
+            id: "erva-seca",
+            name: "Erva Seca",
             level: 3,
             parentId: "biblical-concepts",
-            description: "Estudos sobre fé",
-            children: [],
+            description: "Estudos sobre a Erva Seca, a Palavra Eterna, a Árvore de Vida e o Manancial.",
+            children: [
+              {
+                id: "palavra-eterna",
+                name: "1. Palavra Eterna",
+                level: 4,
+                parentId: "erva-seca",
+                description: "Seca-se a erva, murcha e cai a flor, porém a palavra de nosso Deus subsiste eternamente.",
+                children: [],
+                articles: ["palavra-eterna"]
+              },
+              {
+                id: "arvore-de-vida",
+                name: "2. Árvore de Vida",
+                level: 4,
+                parentId: "erva-seca",
+                description: "Os nascidos de semente incorruptível somos feitos novas criaturas para viver eternamente. Afirmamos que nos tornamos e somos assim chamados de Árvores de Vida, que dão frutos de justiça, agradáveis a Deus e duram para sempre.",
+                children: [],
+                articles: ["arvore-de-vida"]
+              },
+              {
+                id: "manancial",
+                name: "3. Manancial",
+                level: 4,
+                parentId: "erva-seca",
+                description: "Após o nascimento espiritual, devemos nos alimentar pela Palavra de Deus a ser guardada em nossos corações para a obediência da fé. A Palavra de Deus é Espírito e Vida. Deus é a fonte da Vida, o manancial de águas vivas.",
+                children: [],
+                articles: ["manancial"]
+              }
+            ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },
           {
@@ -1561,6 +1589,33 @@ export const articles: Article[] = [
     url: "https://otaviotolentino.wordpress.com/2024/05/26/jo-era-sabio-como-davi-e-salomao/",
     tags: ["Jó", "Sabedoria"],
     category: "Estudos"
+  },
+  {
+    id: "palavra-eterna",
+    title: "1. Palavra Eterna",
+    date: "February 13, 2022",
+    summary: "Seca-se a erva, murcha e cai a flor, porém a palavra de nosso Deus subsiste eternamente.",
+    url: "https://otaviotolentino.wordpress.com/2022/02/13/erva-seca/",
+    tags: ["Palavra Eterna", "Erva Seca", "Deus"],
+    category: "Estudos"
+  },
+  {
+    id: "arvore-de-vida",
+    title: "2. Árvore de Vida",
+    date: "February 20, 2022",
+    summary: "Os nascidos de semente incorruptível somos feitos novas criaturas para viver eternamente. Afirmamos que nos tornamos e somos assim chamados de Árvores de Vida, que dão frutos de justiça, agradáveis a Deus e duram para sempre.",
+    url: "https://otaviotolentino.wordpress.com/2022/02/20/arvore-de-vida/",
+    tags: ["Árvore de Vida", "Justiça", "Deus"],
+    category: "Estudos"
+  },
+  {
+    id: "manancial",
+    title: "3. Manancial",
+    date: "February 27, 2022",
+    summary: "Após o nascimento espiritual, devemos nos alimentar pela Palavra de Deus a ser guardada em nossos corações para a obediência da fé. A Palavra de Deus é Espírito e Vida. Deus é a fonte da Vida, o manancial de águas vivas.",
+    url: "https://otaviotolentino.wordpress.com/2022/02/27/arvore-e-manancial/",
+    tags: ["Manancial", "Palavra de Deus", "Vida"],
+    category: "Estudos"
   }
 ];
 
@@ -1599,7 +1654,7 @@ export const getArticlesForTheme = (themeId: string): Article[] => {
   
   // Remove duplicates and map IDs to actual articles
   const uniqueArticleIds = [...new Set(articleIds)];
-  let resultArticles = uniqueArticleIds.map(id => articles.find(a => a.id === id)).filter(a => a !== undefined) as Article[];
+  const resultArticles = uniqueArticleIds.map(id => articles.find(a => a.id === id)).filter(a => a !== undefined) as Article[];
 
   // Apply sorting for specific themes
   if (themeId === "jesus-christ" || themeId === "deus" || themeId === "moses" || themeId === "paul" || themeId === "abraham" || themeId === "jo") {

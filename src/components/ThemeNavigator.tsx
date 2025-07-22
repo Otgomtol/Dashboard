@@ -126,7 +126,7 @@ const ThemeNavigator: React.FC<ThemeNavigatorProps> = ({
       if (fromSearch) {
         if (articles && articles.length > 0) {
           const articleThemes = articles
-            .map((article: any) => findThemeContainingArticle(themes, article.id))
+            .map((article: Article) => findThemeContainingArticle(themes, article.id))
             .filter((t: string | null): t is string => t !== null);
 
           if (articleThemes.length === 0) {
@@ -139,14 +139,14 @@ const ThemeNavigator: React.FC<ThemeNavigatorProps> = ({
             return;
           }
 
-          const ancestries = articleThemes.map(themeId => getAncestry(themeId));
+          const ancestries = articleThemes.map((themeId: string) => getAncestry(themeId));
           let lowestCommonAncestor: string | null = null;
           
           if (ancestries.length > 0) {
             const firstAncestry = ancestries[0];
             for (let i = 0; i < firstAncestry.length; i++) {
               const ancestor = firstAncestry[i];
-              const isCommon = ancestries.slice(1).every(path => path.length > i && path[i] === ancestor);
+              const isCommon = ancestries.slice(1).every((path: string[]) => path.length > i && path[i] === ancestor);
               if (isCommon) {
                 lowestCommonAncestor = ancestor;
               } else {

@@ -17,7 +17,7 @@ import './App.css';
 
 function App() {
   // Use dark mode hook
-  const isDarkMode = useDarkMode();
+  useDarkMode();
   
   const [selectedThemeId, setSelectedThemeId] = useState<string | null>(null);
   const [selectedArticleId, setSelectedArticleId] = useState<string | null>(null);
@@ -156,7 +156,7 @@ function App() {
                 Bem-vindo ao Painel do Blog
               </h2>
               <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">
-                Pesquise artigos para começar ou selecione um tema no painel 'Navegador de Temas' abaixo.
+                Pesquise artigos para começar ou selecione um tema no painel &apos;Navegador de Temas&apos; abaixo.
               </p>
             </div>
             <div className="flex justify-end items-center mt-1">

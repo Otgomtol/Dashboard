@@ -31,7 +31,7 @@ const Mindmap: React.FC<MindmapProps> = ({
   selectedId,
   onNodeClick 
 }) => {
-  const graphRef = useRef<any>(null);
+  const graphRef = useRef<ForceGraph2D | undefined>(undefined);
   const containerRef = useRef<HTMLDivElement>(null);
   // Use fixed dimensions as requested, width will adapt via ResizeObserver
   const [dimensions, setDimensions] = React.useState({ width: 1264, height: 850 - 48 }); // Target height 850, subtract header
@@ -217,7 +217,7 @@ const Mindmap: React.FC<MindmapProps> = ({
 
 // Helper function to get all themes (flattened)
 function getAllThemes(themes: Theme[]): Theme[] {
-  let result: Theme[] = [];
+  const result: Theme[] = [];
   
   const traverse = (themeList: Theme[]) => {
     for (const theme of themeList) {
