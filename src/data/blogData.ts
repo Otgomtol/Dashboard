@@ -801,7 +801,7 @@ export const themes: Theme[] = [
                 children: [],
                 articles: ["salvacao-fe-e-esperanca"]
               }
-            ],
+            ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },
           {
