@@ -181,20 +181,9 @@ function App() {
         </header>
         
         <main className="container mx-auto px-4 py-6">
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
-            {/* Panel: Mindmap */}
-            <div className="md:col-span-3">
-              <Mindmap 
-                connections={connections}
-                themes={themes}
-                articles={articles}
-                selectedId={selectedArticleId || selectedThemeId}
-                onNodeClick={handleNodeClick}
-              />
-            </div>
-
+          <div className="flex flex-col gap-6">
             {/* Main Content Panel (Navigator + Articles) */}
-            <div className="md:col-span-9 flex flex-col">
+            <div className="w-full flex flex-col">
               {/* Theme Navigator is placed here */}
               <ThemeNavigator 
                 themes={themes} 
@@ -303,6 +292,17 @@ function App() {
                   </div>
                 )}
               </div>
+            </div>
+
+            {/* Panel: Mindmap */}
+            <div className="w-full mt-6">
+              <Mindmap 
+                connections={connections}
+                themes={themes}
+                articles={articles}
+                selectedId={selectedArticleId || selectedThemeId}
+                onNodeClick={handleNodeClick}
+              />
             </div>
           </div>
         </main>
