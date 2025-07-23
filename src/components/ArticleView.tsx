@@ -36,7 +36,7 @@ const ArticleView: React.FC<ArticleViewProps> = ({
               href={`https://otaviotolentino.wordpress.com/${article.url || ''}`} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="hover:underline"
+              className="hover:underline clickable"
             >
               <h1 className="text-2xl font-bold text-blue-700 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300">{article.title}</h1>
             </a>
@@ -97,16 +97,33 @@ const ArticleView: React.FC<ArticleViewProps> = ({
           <div className="related-articles mt-8">
             <h3 className="text-lg font-semibold mb-3 dark:text-white">Artigos Relacionados</h3>
             <div className="grid gap-4 md:grid-cols-2">
-              {relatedArticles.map(related => (
-                <div 
-                  key={related.id}
-                  className="p-4 border rounded hover:bg-gray-50 dark:hover:bg-gray-700 cursor-pointer dark:border-gray-700"
-                  onClick={() => onSelectArticle(related.id)}
-                >
-                  <h4 className="font-medium mb-2 dark:text-white">{related.title}</h4>
-                  <p className="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">{related.summary}</p>
-                </div>
-              ))}
+              {relatedArticles.map(related => {
+                const isClickable = !!related.url;
+                const relatedClasses = [
+                  'p-4',
+                  'border',
+                  'rounded',
+                  'dark:border-gray-700',
+                  'article-list-item' // Add the base class for CSS rule
+                ];
+
+                if (isClickable) {
+                  relatedClasses.push('hover:bg-gray-50', 'dark:hover:bg-gray-700', 'clickable');
+                } else {
+                  relatedClasses.push('not-clickable');
+                }
+
+                return (
+                  <div 
+                    key={related.id}
+                    className={relatedClasses.join(' ')}
+                    onClick={() => isClickable && onSelectArticle(related.id)}
+                  >
+                    <h4 className="font-medium mb-2 dark:text-white">{related.title}</h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">{related.summary}</p>
+                  </div>
+                );
+              })}
             </div>
           </div>
         )}
@@ -116,4 +133,3 @@ const ArticleView: React.FC<ArticleViewProps> = ({
 };
 
 export default ArticleView;
-

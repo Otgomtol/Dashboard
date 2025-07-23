@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Theme, findThemeById, Article } from '../data/blogData'; // Import findThemeById
+import { Theme, findThemeById, Article, articles as allArticles } from '../data/blogData'; // Import findThemeById and allArticles
 import { ChevronDown, ChevronRight } from 'lucide-react';
 
 interface ThemeNavigatorProps {
@@ -36,6 +36,26 @@ const getAllDescendantIds = (themeId: string): string[] => {
     }
   }
   return ids;
+};
+
+// Helper function to check if a theme or its descendants lead to a complete article
+const isPathToCompleteArticle = (theme: Theme): boolean => {
+  // Check direct articles
+  const hasCompleteDirectArticle = theme.articles.some(articleId => {
+    const article = allArticles.find(a => a.id === articleId);
+    return article && article.url;
+  });
+
+  if (hasCompleteDirectArticle) {
+    return true;
+  }
+
+  // Check children recursively
+  if (theme.children.length > 0) {
+    return theme.children.some(child => isPathToCompleteArticle(child));
+  }
+
+  return false;
 };
 
 const ThemeNavigator: React.FC<ThemeNavigatorProps> = ({ 
@@ -224,31 +244,62 @@ const ThemeNavigator: React.FC<ThemeNavigatorProps> = ({
     const isExpanded = expandedThemes[theme.id] || false;
     const isSelected = theme.id === selectedThemeId;
     const hasChildren = theme.children.length > 0;
-    
+    const isClickable = isPathToCompleteArticle(theme);
+
+    const themeClasses = [
+      'flex',
+      'items-center',
+      'py-2',
+      'px-3',
+      'rounded-md',
+      'theme-item' // Add the base class for CSS rule
+    ];
+
+    if (isSelected) {
+      themeClasses.push('bg-blue-100', 'text-blue-800', 'dark:bg-blue-900', 'dark:text-blue-200');
+    } else {
+      themeClasses.push('hover:bg-gray-100', 'dark:hover:bg-gray-700');
+    }
+
+    if (isClickable) {
+      themeClasses.push('clickable'); // Add the clickable class
+    } else {
+      themeClasses.push('not-clickable'); // Add the not-clickable class
+    }
+
+    const buttonClasses = ['mr-2', 'focus:outline-none', 'flex-shrink-0'];
+    if (isClickable) {
+      buttonClasses.push('clickable'); // Add the clickable class
+    } else {
+      buttonClasses.push('not-clickable'); // Add the not-clickable class
+    }
+
     return (
       <div key={theme.id} className="theme-item">
         <div 
-          className={`
-            flex items-center py-2 px-3 rounded-md cursor-pointer
-            ${isSelected ? 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200' : 'hover:bg-gray-100 dark:hover:bg-gray-700'}
-          `}
+          className={themeClasses.join(' ')}
           style={{ paddingLeft: `${level * 16 + 12}px` }}
           onClick={() => {
-            onSelectTheme(theme.id);
-            if (hasChildren) {
-              toggleExpand(theme.id, theme.parentId);
+            if (isClickable) {
+              onSelectTheme(theme.id);
+              if (hasChildren) {
+                toggleExpand(theme.id, theme.parentId);
+              }
             }
           }}
         >
           {hasChildren && (
             <button 
-              className="mr-2 focus:outline-none flex-shrink-0"
+              className={buttonClasses.join(' ')}
               onClick={(e) => {
-                e.stopPropagation();
-                toggleExpand(theme.id, theme.parentId);
+                if (isClickable) {
+                  e.stopPropagation();
+                  toggleExpand(theme.id, theme.parentId);
+                }
               }}
               aria-expanded={isExpanded}
               aria-label={`Expandir ${theme.name}`}
+              disabled={!isClickable}
             >
               {isExpanded ? (
                 <ChevronDown size={16} className="dark:text-gray-300" />
