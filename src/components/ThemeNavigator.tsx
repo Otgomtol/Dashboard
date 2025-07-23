@@ -304,9 +304,9 @@ const ThemeNavigator: React.FC<ThemeNavigatorProps> = ({
               disabled={!isClickable}
             >
               {isExpanded ? (
-                <ChevronDown size={16} className="dark:text-gray-300" />
+                <ChevronDown size={16} className="text-black dark:text-white" />
               ) : (
-                <ChevronRight size={16} className="dark:text-gray-300" />
+                <ChevronRight size={16} className="text-black dark:text-white" />
               )}
             </button>
           )}
