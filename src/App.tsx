@@ -182,7 +182,7 @@ function App() {
         
         <main className="container mx-auto px-4 py-6">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
-            {/* Right Panel: Mindmap */}
+            {/* Panel: Mindmap */}
             <div className="md:col-span-3">
               <Mindmap 
                 connections={connections}
