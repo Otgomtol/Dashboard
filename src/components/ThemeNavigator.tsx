@@ -252,11 +252,13 @@ const ThemeNavigator: React.FC<ThemeNavigatorProps> = ({
       'py-2',
       'px-3',
       'rounded-md',
-      'theme-item' // Add the base class for CSS rule
+      'theme-item', // Add the base class for CSS rule
+      'text-gray-800',
+      'dark:text-gray-200'
     ];
 
     if (isSelected) {
-      themeClasses.push('bg-blue-100', 'text-blue-800', 'dark:bg-blue-900', 'dark:text-blue-200');
+      themeClasses.push('bg-blue-100', 'dark:bg-blue-900');
     } else {
       themeClasses.push('hover:bg-gray-100', 'dark:hover:bg-gray-700');
     }
@@ -309,7 +311,7 @@ const ThemeNavigator: React.FC<ThemeNavigatorProps> = ({
             </button>
           )}
           {!hasChildren && <div className="w-4 h-4 mr-2" />}
-          <span className="truncate dark:text-gray-200 flex-grow min-w-0">{theme.name}</span>
+          <span className="truncate flex-grow min-w-0">{theme.name}</span>
         </div>
         
         {isExpanded && hasChildren && (

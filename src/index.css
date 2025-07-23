@@ -781,5 +781,4 @@ main {
 .theme-item:not(.clickable),
 .article-list-item:not(.clickable) {
   cursor: not-allowed;
-  opacity: 0.6;
 }
