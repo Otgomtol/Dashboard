@@ -203,7 +203,7 @@ function App() {
                 {!selectedArticle && displayedArticles.length > 0 && (
                   <div className="border rounded-lg bg-white dark:bg-gray-800 shadow-sm overflow-y-auto">
                     <h2 className="text-lg font-semibold p-3 border-b dark:border-gray-700 mb-2 dark:text-white">Visualizador de Artigos</h2>
-                    <div className={isSearchMode && searchResults.length > 1 ? "article-list overflow-y-auto" : "article-list grid gap-4 overflow-y-auto p-2"}>
+                    <div className="article-list overflow-y-auto space-y-1 p-2">
                       {displayedArticles.map(article => {
                         const isClickable = !!article.url;
                         const articleClasses = ['article-list-item'];
@@ -211,7 +211,7 @@ function App() {
                         if (isSearchMode && searchResults.length > 1) {
                           articleClasses.push('flex', 'items-center', 'py-2', 'px-3', 'rounded-md');
                         } else {
-                          articleClasses.push('p-4', 'border', 'rounded-lg', 'bg-white', 'dark:bg-gray-800', 'shadow-sm', 'hover:shadow', 'dark:border-gray-700');
+                          articleClasses.push('flex', 'items-center', 'py-2', 'px-3', 'rounded-md', 'bg-white', 'dark:bg-gray-800');
                         }
 
                         if (isClickable) {

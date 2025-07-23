@@ -96,19 +96,21 @@ const ArticleView: React.FC<ArticleViewProps> = ({
         {relatedArticles.length > 0 && (
           <div className="related-articles mt-8">
             <h3 className="text-lg font-semibold mb-3 dark:text-white">Artigos Relacionados</h3>
-            <div className="grid gap-4 md:grid-cols-2">
+            <div>
               {relatedArticles.map(related => {
                 const isClickable = !!related.url;
                 const relatedClasses = [
-                  'p-4',
-                  'border',
-                  'rounded',
-                  'dark:border-gray-700',
-                  'article-list-item' // Add the base class for CSS rule
+                  'flex',
+                  'items-center',
+                  'py-2',
+                  'px-3',
+                  'rounded-md',
+                  'bg-white',
+                  'dark:bg-gray-800'
                 ];
 
                 if (isClickable) {
-                  relatedClasses.push('hover:bg-gray-50', 'dark:hover:bg-gray-700', 'clickable');
+                  relatedClasses.push('hover:bg-gray-100', 'dark:hover:bg-gray-700', 'clickable');
                 } else {
                   relatedClasses.push('not-clickable');
                 }
@@ -119,8 +121,7 @@ const ArticleView: React.FC<ArticleViewProps> = ({
                     className={relatedClasses.join(' ')}
                     onClick={() => isClickable && onSelectArticle(related.id)}
                   >
-                    <h4 className="font-medium mb-2 dark:text-white">{related.title}</h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">{related.summary}</p>
+                    <h4 className="font-medium dark:text-white">{related.title}</h4>
                   </div>
                 );
               })}
