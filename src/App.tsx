@@ -49,8 +49,6 @@ function App() {
       setIsSimpleListView(false); // Deactivate simple list view
       // Clear search query when an article is selected
       setSearchQuery('');
-    } else {
-      setRelatedArticles([]);
     }
   }, [selectedArticleId]);
 
@@ -159,7 +157,7 @@ function App() {
                 Pesquise artigos para começar ou selecione um tema no painel &apos;Navegador de Temas&apos; abaixo.
               </p>
             </div>
-            <div className="flex justify-end items-center mt-1">
+            <div className="flex justify-center items-center mt-1">
               <a 
                 href="https://otaviotolentino.wordpress.com/" 
                 target="_blank" 
@@ -169,7 +167,7 @@ function App() {
                 Visitar Blog Original
               </a>
             </div>
-            <div className="mt-4">
+            <div className="mt-4 flex justify-center">
               <SearchBar 
                 onSearchResults={setSearchResults} 
                 searchQuery={searchQuery}
