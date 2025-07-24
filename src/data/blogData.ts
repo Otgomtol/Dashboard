@@ -478,6 +478,42 @@ export const themes: Theme[] = [
                     description: "Artigo sobre a primeira profecia de Jesus em Gênesis.",
                     children: [],
                     articles: ["primeira-profecia"]
+                  },
+                  {
+                    id: "ministerio-aos-30",
+                    name: "Ministério aos 30",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre o ministério de Jesus aos 30 anos.",
+                    children: [],
+                    articles: ["ministerio-aos-30"]
+                  },
+                  {
+                    id: "paz",
+                    name: "Paz",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre a paz que Jesus oferece.",
+                    children: [],
+                    articles: ["paz"]
+                  },
+                  {
+                    id: "moradas-foi-preparar",
+                    name: "Moradas foi Preparar",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Muitos cristãos ainda não entenderam que essas moradas são lugares para que os seus seguidores estivessem para sempre com ele.",
+                    children: [],
+                    articles: ["moradas-foi-preparar"]
+                  },
+                  {
+                    id: "levou-o-cativeiro",
+                    name: "Levou o Cativeiro",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre Jesus ter levado cativo o cativeiro.",
+                    children: [],
+                    articles: ["levou-o-cativeiro"]
                   }
                 ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -1797,6 +1833,42 @@ export const articles: Article[] = [
     summary: "Apresentaremos, incontestavelmente, algumas outras profecias anteriores a Gênesis 3:15, que remetem diretamente a Jesus e, obviamente, as devidas referências bíblicas que confirmam essa afirmação.",
     url: "https://otaviotolentino.wordpress.com/2023/07/16/gen-3-15-primeira-profecia-sobre-jesus/",
     tags: ["Jesus", "Profecia", "Gênesis"],
+    category: "Estudos"
+  },
+  {
+    id: "ministerio-aos-30",
+    title: "Ministério aos 30",
+    date: "May 8, 2022",
+    summary: "Será apenas coincidência ou existe alguma referência bíblica para que fosse assim? E, se há, qual seria essa referência então?",
+    url: "https://otaviotolentino.wordpress.com/2022/05/08/ministerio-30-anos/",
+    tags: ["Jesus", "Ministério", "30 anos"],
+    category: "Estudos"
+  },
+  {
+    id: "paz",
+    title: "Paz",
+    date: "September 4, 2022",
+    summary: "Jesus quando se aproximava de Jerusalém faz uma ressalva que o povo não conhecia o que implicava para que eles tivessem paz, porque estavam sem entendimento.",
+    url: "https://otaviotolentino.wordpress.com/2022/09/04/paz/",
+    tags: ["Jesus", "Paz", "Jerusalém"],
+    category: "Estudos"
+  },
+  {
+    id: "moradas-foi-preparar",
+    title: "Moradas foi Preparar",
+    date: "January 29, 2023",
+    summary: "Muitos cristãos ainda não entenderam que essas moradas são lugares para que os seus seguidores estivessem para sempre com ele.",
+    url: "https://otaviotolentino.wordpress.com/2023/01/29/moradas-de-deus/",
+    tags: ["Jesus", "Moradas", "Deus"],
+    category: "Estudos"
+  },
+  {
+    id: "levou-o-cativeiro",
+    title: "Levou o Cativeiro",
+    date: "November 5, 2023",
+    summary: "Precisamos primeiro identificar o que é o cativeiro e quais são os cativos em questão.",
+    url: "https://otaviotolentino.wordpress.com/2023/11/05/levou-cativo-o-cativeiro/",
+    tags: ["Jesus", "Cativeiro", "Salvação"],
     category: "Estudos"
   }
 ];
