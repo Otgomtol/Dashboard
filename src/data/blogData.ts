@@ -783,15 +783,6 @@ export const themes: Theme[] = [
               }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
-          },
-          {
-            id: "david",
-            name: "Davi",
-            level: 3,
-            parentId: "biblical-figures",
-            description: "Estudos focados no Rei Davi",
-            children: [],
-            articles: []
           }
         ].sort((a, b) => a.name.localeCompare(b.name)),
         articles: []
@@ -976,60 +967,6 @@ export const themes: Theme[] = [
                 articles: ["manancial"]
               }
             ].sort((a, b) => a.name.localeCompare(b.name)),
-            articles: []
-          },
-          {
-            id: "obedience",
-            name: "Obediência",
-            level: 3,
-            parentId: "biblical-concepts",
-            description: "Estudos sobre obediência a Deus",
-            children: [],
-            articles: []
-          },
-          {
-            id: "eternal-life",
-            name: "Vida Eterna",
-            level: 3,
-            parentId: "biblical-concepts",
-            description: "Estudos sobre vida eterna",
-            children: [],
-            articles: []
-          },
-          {
-            id: "love",
-            name: "Amor",
-            level: 3,
-            parentId: "biblical-concepts",
-            description: "Estudos sobre o amor bíblico",
-            children: [],
-            articles: []
-          },
-          {
-            id: "repentance",
-            name: "Arrependimento",
-            level: 3,
-            parentId: "biblical-concepts",
-            description: "Estudos sobre arrependimento",
-            children: [],
-            articles: []
-          },
-          {
-            id: "sanctification",
-            name: "Santificação",
-            level: 3,
-            parentId: "biblical-concepts",
-            description: "Estudos sobre santificação",
-            children: [],
-            articles: []
-          },
-          {
-            id: "word-of-god",
-            name: "Palavra de Deus",
-            level: 3,
-            parentId: "biblical-concepts",
-            description: "Estudos sobre a Palavra de Deus",
-            children: [],
             articles: []
           }
         ].sort((a, b) => a.name.localeCompare(b.name)),
