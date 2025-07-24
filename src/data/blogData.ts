@@ -748,7 +748,7 @@ export const themes: Theme[] = [
             children: [],
             articles: []
           }
-        ],
+        ].sort((a, b) => a.name.localeCompare(b.name)),
         articles: []
       },
       {
@@ -784,6 +784,61 @@ export const themes: Theme[] = [
             description: "Em uma das profecias de Jesus sobre a sua volta Ele acaba revelando quem seria o autor do Livro de Apocalipse. Você já tinha se apercebido disso quando fez a leitura desse texto em João 21?",
             children: [],
             articles: ["apocalypse-author-prophetized"]
+          },
+          {
+            id: "babilonia",
+            name: "Babilônia",
+            level: 3,
+            parentId: "apocalypse",
+            description: "Estudos sobre a Babilônia do Apocalipse.",
+            children: [
+              {
+                id: "babilonia-anunciada-por-jesus",
+                name: "Anunciada por Jesus",
+                level: 4,
+                parentId: "babilonia",
+                description: "Há diversos relatos de Jesus, em todo o Evangelho de Mateus e outros livros, que nos apontam para o entendimento de qual é a babilônia do Apocalipse e os motivos.",
+                children: [],
+                articles: ["babilonia-anunciada-por-jesus"]
+              },
+              {
+                id: "babilonia-declarada-por-pedro",
+                name: "Declarada por Pedro",
+                level: 4,
+                parentId: "babilonia",
+                description: "Precisamos entender alguns outros aspectos para saber qual era esse lugar físico, chamado babilônia, e que já existia na época de Pedro e conhecido por todos os apóstolos e irmãos da época.",
+                children: [],
+                articles: ["babilonia-declarada-por-pedro"]
+              },
+              {
+                id: "babilonia-revelacao-biblica",
+                name: "Revelação Bíblica",
+                level: 4,
+                parentId: "babilonia",
+                description: "Será revelado o nome da grande cidade de babilônia citada em Apocalipse. E não é o que todos costumam pensar ou dizer, porém essa resposta está anunciada clara e explicitamente nos textos bíblicos, portanto é entendimento espiritual.",
+                children: [],
+                articles: ["babilonia-revelacao-biblica"]
+              },
+              {
+                id: "babilonia-sai-dela",
+                name: "Sai dela",
+                level: 4,
+                parentId: "babilonia",
+                description: "Sai dela, povo meu, para que não sejas participante dos seus pecados, e para que não incorras nas suas pragas.",
+                children: [],
+                articles: ["babilonia-sai-dela"]
+              },
+              {
+                id: "babilonia-volta-a-origem",
+                name: "Volta à Origem",
+                level: 4,
+                parentId: "babilonia",
+                description: "Que origem será essa? Quase ninguém se lembra mais do lugar do nascimento do Povo de Israel. Qual a importância desse entendimento para sabermos quem é a babilônia do Apocalipse?",
+                children: [],
+                articles: ["babilonia-volta-a-origem"]
+              }
+            ].sort((a, b) => a.name.localeCompare(b.name)),
+            articles: []
           }
         ].sort((a, b) => a.name.localeCompare(b.name)),
         articles: []
@@ -932,10 +987,10 @@ export const themes: Theme[] = [
             children: [],
             articles: []
           }
-        ],
+        ].sort((a, b) => a.name.localeCompare(b.name)),
         articles: []
       }
-    ],
+    ].sort((a, b) => a.name.localeCompare(b.name)),
     articles: []
   },
   {
@@ -962,7 +1017,7 @@ export const themes: Theme[] = [
         children: [],
         articles: ["tarifa-zero"]
       }
-    ],
+    ].sort((a, b) => a.name.localeCompare(b.name)),
     articles: []
   }
 ];
@@ -1680,6 +1735,51 @@ export const articles: Article[] = [
     url: "https://otaviotolentino.wordpress.com/2024/04/14/autor-do-livro-de-apocalipse-profetizado/",
     tags: ["Apocalipse", "Profecia", "Jesus"],
     category: "Estudos"
+  },
+  {
+    id: "babilonia-declarada-por-pedro",
+    title: "Declarada por Pedro",
+    date: "July 18, 2022",
+    summary: "Precisamos entender alguns outros aspectos para saber qual era esse lugar físico, chamado babilônia, e que já existia na época de Pedro e conhecido por todos os apóstolos e irmãos da época.",
+    url: "https://otaviotolentino.wordpress.com/2022/07/18/babilonia-pedro/",
+    tags: ["Babilônia", "Apocalipse", "Pedro"],
+    category: "Estudos"
+  },
+  {
+    id: "babilonia-anunciada-por-jesus",
+    title: "Anunciada por Jesus",
+    date: "April 24, 2022",
+    summary: "Há diversos relatos de Jesus, em todo o Evangelho de Mateus e outros livros, que nos apontam para o entendimento de qual é a babilônia do Apocalipse e os motivos.",
+    url: "https://otaviotolentino.wordpress.com/2022/04/24/babilonia-por-jesus/",
+    tags: ["Babilônia", "Apocalipse", "Jesus", "Mateus"],
+    category: "Estudos"
+  },
+  {
+    id: "babilonia-sai-dela",
+    title: "Sai dela",
+    date: "July 24, 2022",
+    summary: "Sai dela, povo meu, para que não sejas participante dos seus pecados, e para que não incorras nas suas pragas.",
+    url: "https://otaviotolentino.wordpress.com/2022/07/24/babilonia-sai-dela/",
+    tags: ["Babilônia", "Apocalipse", "Pecado", "Pragas"],
+    category: "Estudos"
+  },
+  {
+    id: "babilonia-volta-a-origem",
+    title: "Volta à Origem",
+    date: "April 17, 2022",
+    summary: "Que origem será essa? Quase ninguém se lembra mais do lugar do nascimento do Povo de Israel. Qual a importância desse entendimento para sabermos quem é a babilônia do Apocalipse?",
+    url: "https://otaviotolentino.wordpress.com/2022/04/17/jerusalem-babilonia/",
+    tags: ["Babilônia", "Apocalipse", "Israel", "Jerusalém"],
+    category: "Estudos"
+  },
+  {
+    id: "babilonia-revelacao-biblica",
+    title: "Revelação Bíblica",
+    date: "April 10, 2022",
+    summary: "Será revelado o nome da grande cidade de babilônia citada em Apocalipse. E não é o que todos costumam pensar ou dizer, porém essa resposta está anunciada clara e explicitamente nos textos bíblicos, portanto é entendimento espiritual.",
+    url: "https://otaviotolentino.wordpress.com/2022/04/10/nome-da-babilonia/",
+    tags: ["Babilônia", "Apocalipse", "Revelação", "Bíblia"],
+    category: "Estudos"
   }
 ];
 
@@ -1721,7 +1821,7 @@ export const getArticlesForTheme = (themeId: string): Article[] => {
   const resultArticles = uniqueArticleIds.map(id => articles.find(a => a.id === id)).filter(a => a !== undefined) as Article[];
 
   // Apply sorting for specific themes
-  if (themeId === "jesus-christ" || themeId === "deus" || themeId === "moses" || themeId === "paul" || themeId === "abraham" || themeId === "jo") {
+  if (themeId === "jesus-christ" || themeId === "deus" || themeId === "moses" || themeId === "paul" || themeId === "abraham" || themeId === "jo" || themeId === "babilonia") {
     resultArticles.sort((a, b) => a.title.localeCompare(b.title));
   }
 
