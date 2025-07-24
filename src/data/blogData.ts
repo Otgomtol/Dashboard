@@ -144,14 +144,32 @@ export const themes: Theme[] = [
                 articles: ["churches-intro"]
               },
               {
-                id: "romans",
-                name: "Romanos",
+                id: "galatians",
+                name: "Gálatas",
                 level: 4,
                 parentId: "letters-to-churches",
-                description: "Estudos sobre a carta de Paulo aos Romanos",
+                description: "Estudos sobre a carta de Paulo aos Gálatas",
                 children: [],
-                articles: ["romans"]
+                articles: ["galatians"]
+              },	
+              {
+                id: "1-thessalonians",
+                name: "1 Tessalonicenses",
+                level: 4,
+                parentId: "letters-to-churches",
+                description: "Estudos sobre a primeira carta de Paulo aos Tessalonicenses",
+                children: [],
+                articles: ["1-thessalonians"]
               },
+              {
+                id: "2-thessalonians",
+                name: "2 Tessalonicenses",
+                level: 4,
+                parentId: "letters-to-churches",
+                description: "Estudos sobre a segunda carta de Paulo aos Tessalonicenses",
+                children: [],
+                articles: ["2-thessalonians"]
+              },			  
               {
                 id: "1-corinthians",
                 name: "1 Coríntios",
@@ -171,14 +189,14 @@ export const themes: Theme[] = [
                 articles: ["2-corinthians"]
               },
               {
-                id: "galatians",
-                name: "Gálatas",
+                id: "romans",
+                name: "Romanos",
                 level: 4,
                 parentId: "letters-to-churches",
-                description: "Estudos sobre a carta de Paulo aos Gálatas",
+                description: "Estudos sobre a carta de Paulo aos Romanos",
                 children: [],
-                articles: ["galatians"]
-              },
+                articles: ["romans"]
+              },			  
               {
                 id: "ephesians",
                 name: "Efésios",
@@ -187,15 +205,6 @@ export const themes: Theme[] = [
                 description: "Estudos sobre a carta de Paulo aos Efésios",
                 children: [],
                 articles: ["ephesians"]
-              },
-              {
-                id: "philippians",
-                name: "Filipenses",
-                level: 4,
-                parentId: "letters-to-churches",
-                description: "Estudos sobre a carta de Paulo aos Filipenses",
-                children: [],
-                articles: ["philippians"]
               },
               {
                 id: "colossians",
@@ -207,23 +216,14 @@ export const themes: Theme[] = [
                 articles: ["colossians"]
               },
               {
-                id: "1-thessalonians",
-                name: "1 Tessalonicenses",
+                id: "philippians",
+                name: "Filipenses",
                 level: 4,
                 parentId: "letters-to-churches",
-                description: "Estudos sobre a primeira carta de Paulo aos Tessalonicenses",
+                description: "Estudos sobre a carta de Paulo aos Filipenses",
                 children: [],
-                articles: ["1-thessalonians"]
-              },
-              {
-                id: "2-thessalonians",
-                name: "2 Tessalonicenses",
-                level: 4,
-                parentId: "letters-to-churches",
-                description: "Estudos sobre a segunda carta de Paulo aos Tessalonicenses",
-                children: [],
-                articles: ["2-thessalonians"]
-              },
+                articles: ["philippians"]
+              },			  
               {
                 id: "hebreus",
                 name: "Hebreus",
@@ -253,24 +253,6 @@ export const themes: Theme[] = [
                 articles: ["collaborators-intro"]
               },
               {
-                id: "1-timothy",
-                name: "1 Timóteo",
-                level: 4,
-                parentId: "letters-to-collaborators",
-                description: "Estudos sobre a primeira carta de Paulo a Timóteo",
-                children: [],
-                articles: ["1-timothy"]
-              },
-              {
-                id: "2-timothy",
-                name: "2 Timóteo",
-                level: 4,
-                parentId: "letters-to-collaborators",
-                description: "Estudos sobre a segunda carta de Paulo a Timóteo",
-                children: [],
-                articles: ["2-timothy"]
-              },
-              {
                 id: "philemon",
                 name: "Filemom",
                 level: 4,
@@ -287,7 +269,25 @@ export const themes: Theme[] = [
                 description: "Estudos sobre a carta de Paulo a Tito",
                 children: [],
                 articles: ["tito"]
-              }
+              },
+              {
+                id: "1-timothy",
+                name: "1 Timóteo",
+                level: 4,
+                parentId: "letters-to-collaborators",
+                description: "Estudos sobre a primeira carta de Paulo a Timóteo",
+                children: [],
+                articles: ["1-timothy"]
+              },
+              {
+                id: "2-timothy",
+                name: "2 Timóteo",
+                level: 4,
+                parentId: "letters-to-collaborators",
+                description: "Estudos sobre a segunda carta de Paulo a Timóteo",
+                children: [],
+                articles: ["2-timothy"]
+              }			  
             ],
             articles: []
           }
@@ -469,6 +469,15 @@ export const themes: Theme[] = [
                     description: "Artigo sobre a tentação de Jesus no deserto.",
                     children: [],
                     articles: ["tentacao-no-deserto"]
+                  },
+                  {
+                    id: "primeira-profecia",
+                    name: "Primeira Profecia",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Artigo sobre a primeira profecia de Jesus em Gênesis.",
+                    children: [],
+                    articles: ["primeira-profecia"]
                   }
                 ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -1779,6 +1788,15 @@ export const articles: Article[] = [
     summary: "Será revelado o nome da grande cidade de babilônia citada em Apocalipse. E não é o que todos costumam pensar ou dizer, porém essa resposta está anunciada clara e explicitamente nos textos bíblicos, portanto é entendimento espiritual.",
     url: "https://otaviotolentino.wordpress.com/2022/04/10/nome-da-babilonia/",
     tags: ["Babilônia", "Apocalipse", "Revelação", "Bíblia"],
+    category: "Estudos"
+  },
+  {
+    id: "primeira-profecia",
+    title: "Primeira Profecia",
+    date: "July 16, 2023",
+    summary: "Apresentaremos, incontestavelmente, algumas outras profecias anteriores a Gênesis 3:15, que remetem diretamente a Jesus e, obviamente, as devidas referências bíblicas que confirmam essa afirmação.",
+    url: "https://otaviotolentino.wordpress.com/2023/07/16/gen-3-15-primeira-profecia-sobre-jesus/",
+    tags: ["Jesus", "Profecia", "Gênesis"],
     category: "Estudos"
   }
 ];
