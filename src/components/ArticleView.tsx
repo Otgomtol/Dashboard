@@ -71,14 +71,14 @@ const ArticleView: React.FC<ArticleViewProps> = ({
           {article.tags.map(tag => (
             <span 
               key={tag} 
-              className="px-2 py-1 bg-blue-100 dark:bg-blue-800 text-blue-800 dark:text-blue-200 rounded-full text-xs"
+              className="px-2 py-1 text-gray-600 dark:text-gray-400 text-sm"
             >
               {tag}
             </span>
           ))}
         </div>
         
-        <div className="article-summary mb-6 p-4 bg-gray-50 dark:bg-gray-700 border-l-4 border-blue-500 rounded">
+        <div className="article-summary mb-6">
           <h3 className="font-semibold mb-2 dark:text-white">Resumo</h3>
           <p className="dark:text-gray-300">{article.summary}</p>
         </div>
@@ -88,7 +88,7 @@ const ArticleView: React.FC<ArticleViewProps> = ({
             <p className="dark:text-gray-300">{article.content}</p>
           </div>
         ) : (
-          <div className="article-content mb-8 p-4 bg-yellow-50 dark:bg-yellow-900 border border-yellow-200 dark:border-yellow-800 rounded">
+          <div className="article-content mb-8">
             <p className="dark:text-gray-300">Esta é uma visualização resumida. Para ler o artigo completo, visite a postagem original no blog.</p>
           </div>
         )}
