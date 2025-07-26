@@ -32,10 +32,19 @@ function App() {
   useEffect(() => {
     if (selectedThemeId) {
       const themeArticles = getArticlesForTheme(selectedThemeId);
-      setDisplayedArticles(themeArticles);
-      setSelectedArticleId(null);
+      
+      if (themeArticles.length === 1) {
+        // If there's only one article, select it directly
+        setSelectedArticleId(themeArticles[0].id);
+        setDisplayedArticles([]); // Clear the list view
+      } else {
+        // Otherwise, display the list of articles
+        setDisplayedArticles(themeArticles);
+        setSelectedArticleId(null);
+        setIsSimpleListView(true); // Activate simple list view
+      }
+      
       setIsSearchMode(false);
-      setIsSimpleListView(true); // Activate simple list view
       // Clear search query when a theme is selected
       setSearchQuery('');
     }
@@ -61,10 +70,10 @@ function App() {
         setSelectedArticleId(null); // Ensure no single article is selected
         setSelectedThemeId(null);
       } else if (searchResults.length === 1) {
-        // Single result: Automatically select the article
+        // Single result: Automatically select the article and clear the list
         setSelectedArticleId(searchResults[0].id);
-        // Also update displayed articles to show it in context if needed
-        // This might be handled by the selectedArticleId effect
+        setDisplayedArticles([]); // Clear the list to show only the ArticleView
+        setSelectedThemeId(null);
       } else {
         // No results
         setDisplayedArticles([]);
