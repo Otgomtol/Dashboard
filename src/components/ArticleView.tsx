@@ -49,9 +49,7 @@ const ArticleView: React.FC<ArticleViewProps> = ({
             </span>
           )}
         </div>
-        
-        <p className="text-sm text-gray-500 dark:text-gray-400 italic mb-4">Pressione o Título para Ler o artigo completo</p>
-        
+                
         <div className="flex flex-wrap gap-2 mb-6 text-sm text-gray-600 dark:text-gray-400">
           <div className="flex items-center">
             <Calendar size={16} className="mr-1" />
@@ -89,7 +87,7 @@ const ArticleView: React.FC<ArticleViewProps> = ({
           </div>
         ) : (
           <div className="article-content mb-8">
-            <p className="dark:text-gray-300">Esta é uma visualização resumida. Para ler o artigo completo, visite a postagem original no blog.</p>
+            <p className="dark:text-gray-300">Obs.: Esta é uma visualização resumida. Pressione o Título para Ler o artigo completo no Blog.</p>
           </div>
         )}
         

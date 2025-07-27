@@ -200,7 +200,6 @@ function App() {
 
               {/* Article List & Content follows, in the same container */}
               <div className="mt-6">
-                <div><p></p></div>
                 {isSearchMode && searchResults.length > 0 && (
                   <div className="mb-4 p-3 bg-blue-50 dark:bg-blue-900 rounded-lg">
                     <p className="text-blue-800 dark:text-blue-200">
@@ -283,7 +282,8 @@ function App() {
                   <div className="flex flex-col items-center justify-center h-full bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-6">
                     <h2 className="text-lg font-semibold mb-4 dark:text-white">Visualizador de Artigos</h2>
                     <div className="text-center">
-                      <p className="text-gray-500 dark:text-gray-400">Selecione um tema ou pesquise para ver os artigos.</p>
+                      <p className="text-gray-500 dark:text-gray-400">1) Selecione um tema ou pesquise para ver os artigos.</p>
+                      <p className="text-gray-500 dark:text-gray-400">2) Selecione um artigo da lista para mostrar resumo do artigo.</p>					  				  
                     </div>
                   </div>
                 )}
@@ -293,7 +293,7 @@ function App() {
                     <div className="text-center">
                       <h2 className="text-xl font-semibold mb-2 dark:text-white">Nenhum Resultado Encontrado</h2>
                       <p className="text-gray-600 dark:text-gray-300">
-                        Tente termos de pesquisa diferentes ou navegue pelos temas no painel esquerdo.
+                        Tente termos de pesquisa diferentes ou navegue pelos temas no painel &apos;Navegador de Temas&apos;.
                       </p>
                     </div>
                   </div>
