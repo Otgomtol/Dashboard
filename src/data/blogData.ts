@@ -336,15 +336,6 @@ export const themes: Theme[] = [
                     articles: ["chamado-nazareno"]
                   },
                   {
-                    id: "culpados-pelo-sangue",
-                    name: "Culpados pelo Sangue",
-                    level: 4,
-                    parentId: "jesus-christ",
-                    description: "Artigo sobre os culpados pelo sangue de Jesus.",
-                    children: [],
-                    articles: ["culpados-pelo-sangue"]
-                  },
-                  {
                     id: "dia-da-ressurreicao",
                     name: "Dia da Ressurreição",
                     level: 4,
@@ -542,15 +533,6 @@ export const themes: Theme[] = [
                 description: "Artigo sobre ter um coração preparado para Deus.",
                 children: [],
                 articles: ["coracao-preparado"]
-              },
-              {
-                id: "dar-gloria",
-                name: "Dar Glória",
-                level: 4,
-                parentId: "deus",
-                description: "Artigo sobre dar glória a Deus.",
-                children: [],
-                articles: ["dar-gloria"]
               },
               {
                 id: "descendencia",
@@ -795,6 +777,33 @@ export const themes: Theme[] = [
         description: "Estudos sobre o Livro de Apocalipse",
         children: [
           {
+            id: "arrebatamento",
+            name: "Arrebatamento",
+            level: 3,
+            parentId: "apocalypse",
+            description: "Será que a doutrina do Arrebatamento Antecipado da Igreja, antes da Tribulação, está prevista em Apocalipse ou na Bíblia?f",
+            children: [],
+            articles: ["arrebatamento"]
+          },
+          {
+            id: "livrar-da-ira",
+            name: "Livrar da Ira",
+            level: 3,
+            parentId: "apocalypse",
+            description: "Esse Dia será crucial, pois nele ocorrerá a Vinda de Jesus onde ele pisará o lagar da Ira de Deus, previsto no final dos capítulos 14 e 19 do livro de Apocalipse. Ainda, sendo mais específico, é o dia da Volta de Cristo e não os dias que antecedem sua volta e nem os dias posteriores.",
+            children: [],
+            articles: ["livrar-da-ira"]
+          },
+          {
+            id:  "operacao-do-erro",
+            name: "Operação do Erro",
+            level: 3,
+            parentId: "apocalypse",
+            description: "Muita gente se admira e se pergunta como alguém seria enganado com mentira? Pois é, parece admirável que assim aconteça, mas é assim mesmo que vai acontecer e vai enganar muita gente e até muitos que se dizem cristãos.",
+            children: [],
+            articles: ["operacao-do-erro"]
+          },		
+          {
             id: "apocalypse-audiovisual",
             name: "Audiovisual",
             level: 3,
@@ -821,6 +830,24 @@ export const themes: Theme[] = [
             children: [],
             articles: ["apocalypse-author-prophetized"]
           },
+		  {
+			id: "dar-gloria",
+			name: "Dar Glória a Deus",
+			level: 3,
+			parentId: "apocalypse",
+			description: "Artigo sobre dar glória a Deus.",
+			children: [],
+			articles: ["dar-gloria"]
+		  },
+		  {
+			id: "culpados-pelo-sangue",
+			name: "Culpados pelo Sangue",
+			level: 3,
+			parentId: "apocalypse",
+			description: "Artigo sobre os culpados pelo sangue de Jesus.",
+			children: [],
+			articles: ["culpados-pelo-sangue"]
+		  },
           {
             id: "babilonia",
             name: "Babilônia",
@@ -1088,6 +1115,33 @@ export const themes: Theme[] = [
 
 // Article data
 export const articles: Article[] = [
+  {
+    id: "arrebatamento",
+    title: "Arrebatamento",
+    date: "2022-06-26",
+    summary: "Será que a doutrina do Arrebatamento Antecipado da Igreja, antes da Tribulação, está prevista em Apocalipse ou na Bíblia?",
+    url: "https://otaviotolentino.wordpress.com/2022/06/26/arrebatamento-antecipado/",
+    tags: ["Apocalipse", "Arrebatamento", "Tribulação"],
+    category: "Estudos"
+  },
+  {
+    id: "livrar-da-ira",
+    title: "Livrar da Ira",
+    date: "2023-12-10",
+    summary: "Esse Dia será crucial, pois nele ocorrerá a Vinda de Jesus onde ele pisará o lagar da Ira de Deus, previsto no final dos capítulos 14 e 19 do livro de Apocalipse. Ainda, sendo mais específico, é o dia da Volta de Cristo e não os dias que antecedem sua volta e nem os dias posteriores.",
+    url: "https://otaviotolentino.wordpress.com/2023/12/10/livrar-do-dia-da-ira/",
+    tags: ["Apocalipse", "Ira de Deus", "Volta de Cristo"],
+    category: "Estudos"
+  },
+  {
+    id: "operacao-do-erro",
+    title: "Operação do Erro",
+    date: "2023-02-05",
+    summary: "Muita gente se admira e se pergunta como alguém seria enganado com mentira? Pois é, parece admirável que assim aconteça, mas é assim mesmo que vai acontecer e vai enganar muita gente e até muitos que se dizem cristãos.",
+    url: "https://otaviotolentino.wordpress.com/2023/02/05/operacao-do-erro/",
+    tags: ["Apocalipse", "Engano", "Mentira"],
+    category: "Estudos"
+  },
   {
     id: "discipulo-missoes",
     title: "Discípulo/Missões",
@@ -1676,7 +1730,7 @@ export const articles: Article[] = [
   },
   {
     id: "dar-gloria",
-    title: "Dar Glória",
+    title: "Dar Glória a Deus",
     date: "October 23, 2022",
     summary: "Dar Glória a Deus e ao cordeiro, Jesus Cristo, seu filho, é uma ordem, pois somos o povo de Deus e fomos escolhidos e chamados para o adorar e glorificar.",
     url: "https://otaviotolentino.wordpress.com/2022/10/23/gloria-a-deus/",
