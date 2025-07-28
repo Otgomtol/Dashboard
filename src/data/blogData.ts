@@ -932,6 +932,88 @@ export const themes: Theme[] = [
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },
+		  {
+            id: "discipleship",
+            name: "Discipulado",
+            level: 3,
+            parentId: "biblical-concepts",
+            description: "Estudos sobre o discipulado cristão.",
+            children: [
+              {
+                id: "discipulo-missoes",
+                name: "Discípulo/Missões",
+                level: 4,
+                parentId: "discipleship",
+                description: "Repercussão desta Obra de Deus sobre toda a face da Terra; alcançando, por enquanto, mais de 90 Países, somando mais de 48.000 visitações ao Blog 'ÁGUAS VIVAS QUE CORREM MANSAMENTE' até 2025.",
+                children: [],
+                articles: ["discipulo-missoes"]
+              },
+              {
+                id: "passo-a-passo",
+                name: "Passo a Passo",
+                level: 4,
+                parentId: "discipleship",
+                description: "Aspectos fundamentais do discipulado cristão descritos passo a passo. Baseando-nos nos textos Bíblicos do Novo Testamento, podemos identificar vários aspectos cruciais do discipulado.",
+                children: [],
+                articles: ["passo-a-passo"]
+              },
+              {
+                id: "bem-aventurancas",
+                name: "Bem-Aventuranças",
+                level: 4,
+                parentId: "discipleship",
+                description: "As Bem-Aventuranças, como todo o resto do sermão do Monte, faziam parte dos ensinamentos de Jesus sobre o Reino de Deus e como aqueles que queriam segui-lo deveriam se comportar.",
+                children: [],
+                articles: ["bem-aventurancas"]
+              },
+              {
+                id: "lava-pes",
+                name: "Lava Pés",
+                level: 4,
+                parentId: "discipleship",
+                description: "O que será que Cristo quis ensinar quando transmitiu essa doutrina para os seus discípulos e ainda disse que deveriam repetir?",
+                children: [],
+                articles: ["lava-pes"]
+              },
+              {
+                id: "verdade-libertara",
+                name: "Verdade Libertará",
+                level: 4,
+                parentId: "discipleship",
+                description: "Esta frase, dita por Jesus, é tão manipulada por oportunistas que a utilizam fora do contexto e, por isso, nem eles mesmos conseguem entender e, muito menos, manifestar seu real significado. Vamos aproveitar para refletir sobre esse tema extremamente relevante e entender, afinal, o quê Jesus quis dizer com essa afirmação.",
+                children: [],
+                articles: ["verdade-libertara"]
+              },
+              {
+                id: "somos-deuses",
+                name: "Somos deuses",
+                level: 4,
+                parentId: "discipleship",
+                description: "Jesus manifesta abertamente que os santificados e enviados por Deus são Filhos de Deus, logo são deuses. Será que essa afirmação de Jesus tem a ver conosco?",
+                children: [],
+                articles: ["somos-deuses"]
+              },
+              {
+                id: "perseveranca-fe",
+                name: "Perseverança Fé",
+                level: 4,
+                parentId: "discipleship",
+                description: "A 'paciência ou perseverança de Jesus ou dos santos' é uma expressão que perpassa todo o Novo Testamento, revelando um dos aspectos mais fundamentais da fé cristã: a necessidade de permanecermos firmes até o fim.",
+                children: [],
+                articles: ["perseveranca-fe"]
+              },
+              {
+                id: "viver-por-jesus",
+                name: "Viver por Jesus",
+                level: 4,
+                parentId: "discipleship",
+                description: "Há muito tempo que o crente tenta entender como fazer para viver por meio de Cristo, assim como Jesus Cristo vivia por meio do PAI.",
+                children: [],
+                articles: ["viver-por-jesus"]
+              }
+            ].sort((a, b) => a.name.localeCompare(b.name)),
+            articles: []
+          },
           {
             id: "erva-seca",
             name: "Erva Seca",
@@ -1006,6 +1088,78 @@ export const themes: Theme[] = [
 
 // Article data
 export const articles: Article[] = [
+  {
+    id: "discipulo-missoes",
+    title: "Discípulo/Missões",
+    date: "2025-07-28",
+    summary: "Repercussão desta Obra de Deus sobre toda a face da Terra; alcançando, por enquanto, mais de 90 Países, somando mais de 48.000 visitações ao Blog 'ÁGUAS VIVAS QUE CORREM MANSAMENTE' até 2025.",
+    url: "https://otaviotolentino.wordpress.com/missoes/",
+    tags: ["Discipulado", "Missões", "Evangelismo"],
+    category: "Estudos"
+  },
+  {
+    id: "passo-a-passo",
+    title: "Passo a Passo",
+    date: "2024-07-28",
+    summary: "Aspectos fundamentais do discipulado cristão descritos passo a passo. Baseando-nos nos textos Bíblicos do Novo Testamento, podemos identificar vários aspectos cruciais do discipulado.",
+    url: "https://otaviotolentino.wordpress.com/2024/07/28/discipulado-em-cristo-passo-a-passo/",
+    tags: ["Discipulado", "Passo a Passo", "Novo Testamento"],
+    category: "Estudos"
+  },
+  {
+    id: "bem-aventurancas",
+    title: "Bem-Aventuranças",
+    date: "2022-01-04",
+    summary: "As Bem-Aventuranças, como todo o resto do sermão do Monte, faziam parte dos ensinamentos de Jesus sobre o Reino de Deus e como aqueles que queriam segui-lo deveriam se comportar.",
+    url: "https://otaviotolentino.wordpress.com/2022/01/04/bem-aventurancas/",
+    tags: ["Discipulado", "Bem-Aventuranças", "Sermão do Monte", "Jesus"],
+    category: "Estudos"
+  },
+  {
+    id: "lava-pes",
+    title: "Lava Pés",
+    date: "2023-05-14",
+    summary: "O que será que Cristo quis ensinar quando transmitiu essa doutrina para os seus discípulos e ainda disse que deveriam repetir?",
+    url: "https://otaviotolentino.wordpress.com/2023/05/14/lava-pes/",
+    tags: ["Discipulado", "Lava Pés", "Doutrina", "Discípulos"],
+    category: "Estudos"
+  },
+  {
+    id: "verdade-libertara",
+    title: "Verdade Libertará",
+    date: "2023-04-30",
+    summary: "Esta frase, dita por Jesus, é tão manipulada por oportunistas que a utilizam fora do contexto e, por isso, nem eles mesmos conseguem entender e, muito menos, manifestar seu real significado. Vamos aproveitar para refletir sobre esse tema extremamente relevante e entender, afinal, o quê Jesus quis dizer com essa afirmação.",
+    url: "https://otaviotolentino.wordpress.com/2023/04/30/verdade-vos-libertara/",
+    tags: ["Discipulado", "Verdade", "Jesus"],
+    category: "Estudos"
+  },
+  {
+    id: "somos-deuses",
+    title: "Somos deuses",
+    date: "2022-03-13",
+    summary: "Jesus manifesta abertamente que os santificados e enviados por Deus são Filhos de Deus, logo são deuses. Será que essa afirmação de Jesus tem a ver conosco?",
+    url: "https://otaviotolentino.wordpress.com/2022/03/13/somos-deuses/",
+    tags: ["Discipulado", "Filhos de Deus", "Santificação"],
+    category: "Estudos"
+  },
+  {
+    id: "perseveranca-fe",
+    title: "Perseverança Fé",
+    date: "2025-07-27",
+    summary: "A 'paciência ou perseverança de Jesus ou dos santos' é uma expressão que perpassa todo o Novo Testamento, revelando um dos aspectos mais fundamentais da fé cristã: a necessidade de permanecermos firmes até o fim.",
+    url: "https://otaviotolentino.wordpress.com/2025/07/27/paciencia-ou-perseveranca-de-jesus-ou-dos-santos/",
+    tags: ["Discipulado", "Perseverança", "Fé", "Novo Testamento"],
+    category: "Estudos"
+  },
+  {
+    id: "viver-por-jesus",
+    title: "Viver por Jesus",
+    date: "2023-01-08",
+    summary: "Há muito tempo que o crente tenta entender como fazer para viver por meio de Cristo, assim como Jesus Cristo vivia por meio do PAI.",
+    url: "https://otaviotolentino.wordpress.com/2023/01/08/viver-por-jesus/",
+    tags: ["Discipulado", "Viver por Cristo", "Fé"],
+    category: "Estudos"
+  },
   {
     id: "salvacao-fe-e-esperanca",
     title: "Mensagem de Fé e Esperança",
@@ -1704,7 +1858,7 @@ export const articles: Article[] = [
     id: "apocalypse-book-commented",
     title: "Livro Comentado",
     date: "January 18, 2022",
-    summary: "Livro \"APOCALIPSE. Entendendo a Revelação de Jesus Cristo: Comentários e Mistérios Revelados\". Solicite agora e aproveite essa oportunidade única de conhecer e entender a revelação dos mistérios do Livro Apocalipse.",
+    summary: `Livro "APOCALIPSE. Entendendo a Revelação de Jesus Cristo: Comentários e Mistérios Revelados". Solicite agora e aproveite essa oportunidade única de conhecer e entender a revelação dos mistérios do Livro Apocalipse.`,
     url: "https://otaviotolentino.wordpress.com/livro-apocalipse-comentado-otavio-tolentino/",
     tags: ["Apocalipse", "Livro", "Comentário"],
     category: "Estudos"
@@ -1848,7 +2002,7 @@ export const getArticlesForTheme = (themeId: string): Article[] => {
   const resultArticles = uniqueArticleIds.map(id => articles.find(a => a.id === id)).filter(a => a !== undefined) as Article[];
 
   // Apply sorting for specific themes
-  if (themeId === "jesus-christ" || themeId === "deus" || themeId === "moses" || themeId === "paul" || themeId === "abraham" || themeId === "jo" || themeId === "babilonia") {
+  if (themeId === "jesus-christ" || themeId === "deus" || themeId === "moses" || themeId === "paul" || themeId === "abraham" || themeId === "jo" || themeId === "babilonia" || themeId === "discipleship") {
     resultArticles.sort((a, b) => a.title.localeCompare(b.title));
   }
 

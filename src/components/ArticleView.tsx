@@ -87,7 +87,7 @@ const ArticleView: React.FC<ArticleViewProps> = ({
           </div>
         ) : (
           <div className="article-content mb-8">
-            <p className="dark:text-gray-300">Obs.: Esta é uma visualização resumida. Pressione o Título para Ler o artigo completo no Blog.</p>
+            <p className="dark:text-gray-300">Obs.: Esta é uma visualização resumida. Clique no Título azul para Ler o artigo completo no Blog.</p>
           </div>
         )}
         
