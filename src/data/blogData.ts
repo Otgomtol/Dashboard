@@ -169,7 +169,7 @@ export const themes: Theme[] = [
                 description: "Estudos sobre a segunda carta de Paulo aos Tessalonicenses",
                 children: [],
                 articles: ["2-thessalonians"]
-              },			  
+              },				  
               {
                 id: "1-corinthians",
                 name: "1 Coríntios",
@@ -196,7 +196,7 @@ export const themes: Theme[] = [
                 description: "Estudos sobre a carta de Paulo aos Romanos",
                 children: [],
                 articles: ["romans"]
-              },			  
+              },				  
               {
                 id: "ephesians",
                 name: "Efésios",
@@ -223,7 +223,7 @@ export const themes: Theme[] = [
                 description: "Estudos sobre a carta de Paulo aos Filipenses",
                 children: [],
                 articles: ["philippians"]
-              },			  
+              },				  
               {
                 id: "hebreus",
                 name: "Hebreus",
@@ -287,7 +287,7 @@ export const themes: Theme[] = [
                 description: "Estudos sobre a segunda carta de Paulo a Timóteo",
                 children: [],
                 articles: ["2-timothy"]
-              }			  
+              }				  
             ],
             articles: []
           }
@@ -932,6 +932,15 @@ export const themes: Theme[] = [
           }
         ].sort((a, b) => a.name.localeCompare(b.name)),
         articles: []
+      },
+      {
+        id: "pdfs-gratis",
+        name: "Pdf's Grátis",
+        level: 2,
+        parentId: "biblical-studies",
+        description: "Arquivos em formato 'Pdf' que estão disponíveis para serem baixados gratuitamente.",
+        children: [],
+        articles: ["pdfs-gratis"]
       },
       {
         id: "biblical-concepts",
@@ -2068,6 +2077,15 @@ export const articles: Article[] = [
     summary: "A pressão era extrema e Moisés não aguentou a carga de liderança, dada por Deus, na condução do Povo de Israel da saída do Egito até a entrada na Terra prometida. Mesmo Moisés, tendo recebido capacitação espiritual de Deus para exercê-la, pede a Deus que reduza sua responsabilidade perante o Povo.",
     url: "https://otaviotolentino.wordpress.com/2024/02/18/moises-e-a-lideranca/",
     tags: ["Moisés", "Liderança", "Israel"],
+    category: "Estudos"
+  },
+  {
+    id: "pdfs-gratis",
+    title: "Pdf's Grátis",
+    date: "2025-07-29",
+    summary: "Arquivos anexados a determinados artigos que disponibilizam o conteúdo completo de estudos sobre temas específicos. São arquivos em formato 'Pdf' que estão disponíveis para serem baixados gratuitamente.",
+    url: "https://otaviotolentino.wordpress.com/pdfs-gratis/",
+    tags: ["Pdf's Grátis", "Downloads", "Estudos"],
     category: "Estudos"
   }
 ];
