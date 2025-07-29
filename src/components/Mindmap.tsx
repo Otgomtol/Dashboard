@@ -2,6 +2,13 @@ import React, { useRef, useEffect } from 'react';
 import ForceGraph2D from 'react-force-graph-2d';
 import { Theme, Article, Connection } from '../data/blogData';
 
+interface ForceGraphInstance {
+  centerAt: (x: number, y: number, duration: number) => void;
+  zoom: (factor: number, duration: number) => void;
+  d3Force: (name: string, force?: unknown) => unknown;
+  cooldownTicks: (ticks: number) => void;
+}
+
 interface MindmapProps {
   connections: Connection[];
   themes: Theme[];
@@ -24,14 +31,14 @@ interface GraphLink {
   value: number;
 }
 
-const Mindmap: React.FC<MindmapProps> = ({ 
-  connections, 
-  themes, 
-  articles, 
+const Mindmap: React.FC<MindmapProps> = ({
+  connections,
+  themes,
+  articles,
   selectedId,
-  onNodeClick 
+  onNodeClick
 }) => {
-  const graphRef = useRef<any>(null);
+  const graphRef = useRef<ForceGraphInstance | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   // Use fixed dimensions as requested, width will adapt via ResizeObserver
   const [dimensions, setDimensions] = React.useState({ width: 1264, height: 850 - 48 }); // Target height 850, subtract header

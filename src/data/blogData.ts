@@ -505,6 +505,15 @@ export const themes: Theme[] = [
                     description: "Artigo sobre Jesus ter levado cativo o cativeiro.",
                     children: [],
                     articles: ["levou-o-cativeiro"]
+                  },
+                  {
+                    id: "nossa-pascoa",
+                    name: "Nossa Páscoa",
+                    level: 4,
+                    parentId: "jesus-christ",
+                    description: "Para entendermos a revelação desse mistério de Deus e podermos torná-lo claro, precisamos olhar para o conteúdo do Evangelho de João de maneira abrangente e completa, considerando todo o contexto apresentado no livro do princípio até o fim.",
+                    children: [],
+                    articles: ["nossa-pascoa"]
                   }
                 ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -678,6 +687,15 @@ export const themes: Theme[] = [
                 description: "Surpreenda-se com a leitura completa desse Artigo sobre a Carta aos Laodicenses: Correção de Destinatário e através dos textos bíblicos descubra sobre esse encontro?",
                 children: [],
                 articles: ["carta-laodicenses"]
+              },
+              {
+                id: "pedro-redesignado",
+                name: "Pedro Redesignado",
+                level: 4,
+                parentId: "paul",
+                description: "Pedro não estava cumprindo bem a tarefa dada a ele por Jesus, por isso fez-se necessário a redesignação do Ministério da Ciruncisão de Pedro para Paulo.",
+                children: [],
+                articles: ["pedro-redesignado"]
               }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -715,6 +733,15 @@ export const themes: Theme[] = [
                 description: "Artigo sobre a profecia de Moisés a respeito de Jesus.",
                 children: [],
                 articles: ["profecia-jesus"]
+              },
+              {
+                id: "peso-da-lideranca",
+                name: "Peso da Liderança",
+                level: 4,
+                parentId: "moses",
+                description: "A pressão era extrema e Moisés não aguentou a carga de liderança, dada por Deus, na condução do Povo de Israel da saída do Egito até a entrada na Terra prometida. Mesmo Moisés, tendo recebido capacitação espiritual de Deus para exercê-la, pede a Deus que reduza sua responsabilidade perante o Povo.",
+                children: [],
+                articles: ["peso-da-lideranca"]
               }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -2007,13 +2034,40 @@ export const articles: Article[] = [
     tags: ["Jesus", "Moradas", "Deus"],
     category: "Estudos"
   },
-  {
+    {
     id: "levou-o-cativeiro",
     title: "Levou o Cativeiro",
-    date: "November 5, 2023",
-    summary: "Precisamos primeiro identificar o que é o cativeiro e quais são os cativos em questão.",
-    url: "https://otaviotolentino.wordpress.com/2023/11/05/levou-cativo-o-cativeiro/",
-    tags: ["Jesus", "Cativeiro", "Salvação"],
+    date: "July 20, 2025",
+    summary: "Artigo sobre Jesus ter levado cativo o cativeiro.",
+    url: "https://otaviotolentino.wordpress.com/2022/09/11/levou-cativo-o-cativeiro/",
+    tags: ["Jesus", "Cativeiro", "Libertação"],
+    category: "Estudos"
+  },
+  {
+    id: "nossa-pascoa",
+    title: "Nossa Páscoa",
+    date: "2024-05-19",
+    summary: "Para entendermos a revelação desse mistério de Deus e podermos torná-lo claro, precisamos olhar para o conteúdo do Evangelho de João de maneira abrangente e completa, considerando todo o contexto apresentado no livro do princípio até o fim.",
+    url: "https://otaviotolentino.wordpress.com/2024/05/19/misterio-ev-de-joao-jesus-cumprimento-da-pascoa/",
+    tags: ["Jesus Cristo", "Páscoa", "Evangelho de João"],
+    category: "Estudos"
+  },
+  {
+    id: "pedro-redesignado",
+    title: "Pedro Redesignado",
+    date: "2023-04-09",
+    summary: "Pedro não estava cumprindo bem a tarefa dada a ele por Jesus, por isso fez-se necessário a redesignação do Ministério da Ciruncisão de Pedro para Paulo.",
+    url: "https://otaviotolentino.wordpress.com/2023/04/09/ministerio-dos-gentios-redesignacao/",
+    tags: ["Pedro", "Paulo", "Ministério"],
+    category: "Estudos"
+  },
+  {
+    id: "peso-da-lideranca",
+    title: "Peso da Liderança",
+    date: "2024-02-18",
+    summary: "A pressão era extrema e Moisés não aguentou a carga de liderança, dada por Deus, na condução do Povo de Israel da saída do Egito até a entrada na Terra prometida. Mesmo Moisés, tendo recebido capacitação espiritual de Deus para exercê-la, pede a Deus que reduza sua responsabilidade perante o Povo.",
+    url: "https://otaviotolentino.wordpress.com/2024/02/18/moises-e-a-lideranca/",
+    tags: ["Moisés", "Liderança", "Israel"],
     category: "Estudos"
   }
 ];
