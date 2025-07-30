@@ -782,3 +782,14 @@ main {
 .article-list-item:not(.clickable) {
   cursor: not-allowed;
 }
+
+/* Regra de layout responsivo para as colunas principais */
+.main-content-columns {
+  flex-direction: column; /* Padrão: colunas verticais para celular */
+}
+
+@media (min-width: 768px) {
+  .main-content-columns {
+    flex-direction: row; /* Altera para colunas horizontais em telas maiores */
+  }
+}

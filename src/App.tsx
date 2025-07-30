@@ -190,16 +190,18 @@ function App() {
         <main className="container mx-auto px-4 py-6">
           <div className="flex flex-col gap-6">
             {/* Main Content Panel (Navigator + Articles) */}
-            <div className="w-full flex flex-col">
+                        <div className="w-full flex gap-6 main-content-columns">
               {/* Theme Navigator is placed here */}
-              <ThemeNavigator 
-                themes={themes} 
-                onSelectTheme={handleThemeSelect}
-                selectedThemeId={selectedThemeId}
-              />
+              <div className="flex-grow flex-shrink-0 basis-1/2 min-w-0">
+                <ThemeNavigator 
+                  themes={themes} 
+                  onSelectTheme={handleThemeSelect}
+                  selectedThemeId={selectedThemeId}
+                />
+              </div>
 
               {/* Article List & Content follows, in the same container */}
-              <div className="mt-6">
+              <div className="flex-grow flex-shrink-0 basis-1/2 min-w-0">
                 {isSearchMode && searchResults.length > 0 && (
                   <div className="mb-4 p-3 bg-blue-50 dark:bg-blue-900 rounded-lg">
                     <p className="text-blue-800 dark:text-blue-200">
