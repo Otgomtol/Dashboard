@@ -777,7 +777,7 @@ export const themes: Theme[] = [
                 name: "Origem/Período",
                 level: 4,
                 parentId: "jo",
-                description: "Há muito tempo nos perguntamos qual a origem de Jò? E qual o seu tempo ou momento dentro da cronologia da Bíblia? É o que analisamos.",
+                description: "Há muito tempo nos perguntamos qual a origem de Jó? E qual o seu tempo ou momento dentro da cronologia da Bíblia? É o que analisamos.",
                 children: [],
                 articles: ["origem-periodo"]
               },
@@ -1298,7 +1298,7 @@ export const articles: Article[] = [
   },
   {
     id: "2-timothy",
-    title: "Cartas de Paulo aos Colaboradores: 2 TIMOTEO",
+    title: "Cartas de Paulo aos Colaboradores: 2 TIMÓTEO",
     date: "June 1, 2025",
     summary: "A Segunda Carta a Timóteo é considerada a última carta escrita pelo apóstolo Paulo, provavelmente durante seu segundo aprisionamento em Roma, por volta de 66-67 d.C. Esta carta tem um tom pessoal e urgente, pois Paulo acredita que sua execução está próxima.",
     url: "https://otaviotolentino.wordpress.com/2025/06/01/cartas-de-paulo-aos-colaboradores-2-timoteo/",
@@ -1894,7 +1894,7 @@ export const articles: Article[] = [
     id: "origem-periodo",
     title: "Origem/Período",
     date: "July 19, 2025",
-    summary: "Há muito tempo nos perguntamos qual a origem de Jò? E qual o seu tempo ou momento dentro da cronologia da Bíblia? É o que analisamos.",
+    summary: "Há muito tempo nos perguntamos qual a origem de Jó? E qual o seu tempo ou momento dentro da cronologia da Bíblia? É o que analisamos.",
     url: "https://otaviotolentino.wordpress.com/2023/02/26/jo-origem-e-periodo/",
     tags: ["Jó", "Origem"],
     category: "Estudos"

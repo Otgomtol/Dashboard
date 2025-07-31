@@ -188,20 +188,19 @@ function App() {
         </header>
         
         <main className="container mx-auto px-4 py-6">
-          <div className="flex flex-col gap-6">
-            {/* Main Content Panel (Navigator + Articles) */}
-            <div className="w-full flex gap-6 main-content-columns">
-              {/* Theme Navigator is placed here */}
-              <div className="flex-grow basis-1/2 min-w-0">
-                <ThemeNavigator 
-                  themes={themes} 
-                  onSelectTheme={handleThemeSelect}
-                  selectedThemeId={selectedThemeId}
-                />
-              </div>
+          {/* Grid Container - 2 colunas no desktop, 1 coluna no mobile */}
+          <div className="main-grid-container">
+            {/* Primeira Coluna: Theme Navigator */}
+            <div className="main-grid-item">
+              <ThemeNavigator 
+                themes={themes} 
+                onSelectTheme={handleThemeSelect}
+                selectedThemeId={selectedThemeId}
+              />
+            </div>
 
-              {/* Article List & Content follows, in the same container */}
-              <div className="flex-grow basis-1/2 min-w-0">
+            {/* Segunda Coluna: Article List & Content */}
+            <div className="main-grid-item">
                 {isSearchMode && searchResults.length > 0 && (
                   <div className="mb-4 p-3 bg-blue-50 dark:bg-blue-900 rounded-lg">
                     <p className="text-blue-800 dark:text-blue-200">
@@ -300,19 +299,18 @@ function App() {
                     </div>
                   </div>
                 )}
-              </div>
             </div>
+          </div>
 
-            {/* Panel: Mindmap */}
-            <div className="w-full mt-6">
-              <Mindmap 
-                connections={connections}
-                themes={themes}
-                articles={articles}
-                selectedId={selectedArticleId || selectedThemeId}
-                onNodeClick={handleNodeClick}
-              />
-            </div>
+          {/* Mindmap - Separado do grid, ocupando toda a largura */}
+          <div className="w-full mt-6">
+            <Mindmap 
+              connections={connections}
+              themes={themes}
+              articles={articles}
+              selectedId={selectedArticleId || selectedThemeId}
+              onNodeClick={handleNodeClick}
+            />
           </div>
         </main>
         

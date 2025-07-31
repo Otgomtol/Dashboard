@@ -28,11 +28,26 @@ body {
   overflow-x: hidden;
 }
 
+/* NOVO: Grid Container Principal para 2 colunas */
+.main-grid-container {
+  display: grid;
+  grid-template-columns: 1fr; /* 1 coluna no mobile por padrão */
+  gap: 1.5rem; /* 24px gap */
+  width: 100%;
+}
 
+/* NOVO: Items do grid principal */
+.main-grid-item {
+  width: 100%;
+  min-width: 0; /* Previne overflow em grid items */
+}
 
-
-
-
+/* NOVO: Media query para desktop - 2 colunas lado a lado */
+@media (min-width: 1024px) {
+  .main-grid-container {
+    grid-template-columns: 1fr 1fr; /* 2 colunas iguais de 50% cada */
+  }
+}
 
 /* Mindmap customizations */
 .mindmap-container {
@@ -66,7 +81,7 @@ body {
   }
   
   .mindmap-container {
-    max-height: 400px;
+    max-height: 700px;
   }
 }
 
@@ -241,6 +256,11 @@ main {
 
 .md\:grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+/* NOVO: Adicionando suporte para lg:grid-cols-2 */
+.lg\:grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 /* Custom styles for the column span */
@@ -783,13 +803,5 @@ main {
   cursor: not-allowed;
 }
 
-/* Regra de layout responsivo para as colunas principais */
-.main-content-columns {
-  flex-direction: column; /* Padrão: colunas verticais para celular */
-}
-
-@media (min-width: 768px) {
-  .main-content-columns {
-    flex-direction: row; /* Altera para colunas horizontais em telas maiores */
-  }
-}
+/* REMOVIDO: Regra de layout responsivo anterior que usava flex */
+/* Substituído pela nova implementação de grid acima */
