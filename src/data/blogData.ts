@@ -995,6 +995,97 @@ export const themes: Theme[] = [
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },
+          {
+            id: "biblical-terms",
+            name: "Termos Bíblicos",
+            level: 3,
+            parentId: "biblical-concepts",
+            description: "Estudos sobre termos bíblicos específicos.",
+            children: [
+              {
+                id: "hosana",
+                name: "Hosana",
+                level: 4,
+                parentId: "biblical-terms",
+                description: "Artigo sobre o termo Hosana.",
+                children: [],
+                articles: ["hosana"]
+              },
+              {
+                id: "jedidiah",
+                name: "Jedidiah",
+                level: 4,
+                parentId: "biblical-terms",
+                description: "Artigo sobre o termo Jedidiah.",
+                children: [],
+                articles: ["jedidiah"]
+              },
+              {
+                id: "jesurun",
+                name: "Jesurun",
+                level: 4,
+                parentId: "biblical-terms",
+                description: "Artigo sobre o termo Jesurun.",
+                children: [],
+                articles: ["jesurun"]
+              },
+              {
+                id: "aleluia",
+                name: "Aleluia",
+                level: 4,
+                parentId: "biblical-terms",
+                description: "Artigo sobre o termo Aleluia.",
+                children: [],
+                articles: ["aleluia"]
+              },
+              {
+                id: "raabe-racabe",
+                name: "Raabe ou Racabe",
+                level: 4,
+                parentId: "biblical-terms",
+                description: "Artigo sobre a distinção entre Raabe e Racabe.",
+                children: [],
+                articles: ["raabe-racabe"]
+              },
+              {
+                id: "a-tua-paz-pertence",
+                name: "À tua Paz Pertence",
+                level: 4,
+                parentId: "biblical-terms",
+                description: "Artigo sobre a expressão 'o que à tua paz pertence'.",
+                children: [],
+                articles: ["a-tua-paz-pertence"]
+              },
+              {
+                id: "soberba-e-as-trevas",
+                name: "Soberba e as Trevas",
+                level: 4,
+                parentId: "biblical-terms",
+                description: "Artigo sobre a relação entre soberba e trevas.",
+                children: [],
+                articles: ["soberba-e-as-trevas"]
+              },
+              {
+                id: "nao-peques-mais",
+                name: "Não Peques mais",
+                level: 4,
+                parentId: "biblical-terms",
+                description: "Artigo sobre a expressão 'vai e não peques mais'.",
+                children: [],
+                articles: ["nao-peques-mais"]
+              },
+              {
+                id: "fe-salvou-ou-curou",
+                name: "Fé Salvou ou Curou",
+                level: 4,
+                parentId: "biblical-terms",
+                description: "Artigo sobre a relação entre fé, salvação e cura.",
+                children: [],
+                articles: ["fe-salvou-ou-curou"]
+              }
+            ].sort((a, b) => a.name.localeCompare(b.name)),
+            articles: []
+          },		  
 		  {
             id: "discipleship",
             name: "Discipulado",
@@ -1909,6 +2000,87 @@ export const articles: Article[] = [
     category: "Estudos"
   },
   {
+    id: "hosana",
+    title: "Hosana",
+    date: "2022-08-28",
+    summary: "O termo HOSANA aparece na passagem que aborda a Entrada triunfal de Jesus em Jerusalém. Ele se repete nos Evangelhos de Mateus 21, Marcos 11 e João 12. Afinal qual o significado desse termo? O que ele quer dizer?",
+    url: "https://otaviotolentino.wordpress.com/2022/08/28/hosana/",
+    tags: ["Hosana", "Jesus", "Jerusalém", "Evangelhos"],
+    category: "Estudos"
+  },
+  {
+    id: "jedidiah",
+    title: "Jedidiah",
+    date: "2024-07-14",
+    summary: "Quem ou o que é Jedidiah ou Jedidias? A quem será então que este nome está se referindo? Será que foi usado em referência a uma pessoa específica ou a várias pessoas na Bíblia?",
+    url: "https://otaviotolentino.wordpress.com/2024/07/14/jedidiah-amado-de-deus/",
+    tags: ["Jedidiah", "Jedidias", "Bíblia"],
+    category: "Estudos"
+  },
+  {
+    id: "jesurun",
+    title: "Jesurun",
+    date: "2022-10-09",
+    summary: "Foi o título honorífico de Israel. Na Septuaginta grega, “Jesurun” torna-se um termo afetuoso, sendo traduzido “amado”. O designativo “Jesurun” devia lembrar Israel da sua chamada como povo pactuado de Deus, e, assim, da sua obrigação de permanecer reto. Porém, em Deuteronômio 32:15, o nome Jesurun é usado de forma irônica. Por quê?",
+    url: "https://otaviotolentino.wordpress.com/2022/10/09/jesurun/",
+    tags: ["Jesurun", "Israel", "Septuaginta", "Deuteronômio"],
+    category: "Estudos"
+  },
+{
+    id: "aleluia",
+    title: "Aleluia",
+    date: "2022-10-30",
+    summary: "Essa questão é bastante interessante, pois Aleluia é um termo em hebraico que significa “Louvai a Deus” ou “Louvai ao Senhor” e não foi traduzido e sim transliterado como encontramos nas citações de Apocalipse 19:1-6. Em poucos textos da bíblia em grego, no Novo Testamento, aparece a palavra Ἁλληλουϊά· transliterada do hebraico הַּלֲלוּיָהּ, Haleluyah, para o grego.",
+    url: "https://otaviotolentino.wordpress.com/2022/10/30/aleluia/",
+    tags: ["Aleluia", "Hebraico", "Grego", "Apocalipse"],
+    category: "Estudos"
+  },
+  {
+    id: "raabe-racabe",
+    title: "Raabe ou Racabe",
+    date: "2025-06-08",
+    summary: "A Bíblia apresenta diversos personagens cujos nomes, à primeira vista, parecem idênticos, mas que na verdade carregam significados e origens completamente distintos. Um exemplo fascinante dessa complexidade linguística e teológica encontra-se no que comumente chamamos de “Raabe”.",
+    url: "https://otaviotolentino.wordpress.com/2025/06/08/raabe-e-racabe-revelando-a-distincao-entre-dois-nomes/",
+    tags: ["Raabe", "Racabe", "Bíblia", "Personagens"],
+    category: "Estudos"
+  },
+  {
+    id: "a-tua-paz-pertence",
+    title: "À tua Paz Pertence",
+    date: "2023-11-26",
+    summary: "Qual o significado da expressão “o que à tua paz pertence” em Lucas 19:41-44? Interessante que nessa mesma passagem Jesus fala que havia uma paz reservada à Jerusalém e seu povo, mas logo em seguida menciona que a cidade e seu povo seriam cercados e destruídos.",
+    url: "https://otaviotolentino.wordpress.com/2023/11/26/o-que-a-tua-paz-pertence/",
+    tags: ["Paz", "Jerusalém", "Lucas", "Jesus"],
+    category: "Estudos"
+  },
+  {
+    id: "soberba-e-as-trevas",
+    title: "Soberba e as Trevas",
+    date: "2022-12-11",
+    summary: "A soberba é o motivo da queda dos chamados “anjos caídos”, principalmente o líder deles, chamado de “Luz ou estrela da manhã” ou Lúcifer, bem como de todos os seus seguidores. Não causando nenhuma estranheza, portanto, a clara alusão da atitude e comportamento do maligno com o comportamento das nações e com a sua decorrente destruição por Deus como demonstração da manifestação da justiça divina.",
+    url: "https://otaviotolentino.wordpress.com/2022/12/11/soberba-trevas/",
+    tags: ["Soberba", "Trevas", "Anjos Caídos", "Lúcifer"],
+    category: "Estudos"
+  },
+  {
+    id: "nao-peques-mais",
+    title: "Não Peques mais",
+    date: "2022-04-03",
+    summary: "Neste estudo daremos atenção a uma expressão mencionada algumas vezes por Jesus: “vai e não peques mais”. Alguns acham que por sermos justificados pela fé, estarmos debaixo da graça e sob a lei da liberdade, então não precisamos nos preocupar em deixar de pecar. Será?",
+    url: "https://otaviotolentino.wordpress.com/2022/04/03/nao-peques/",
+    tags: ["Pecado", "Jesus", "Fé", "Graça", "Lei da Liberdade"],
+    category: "Estudos"
+  },
+  {
+    id: "fe-salvou-ou-curou",
+    title: "Fé Salvou ou Curou",
+    date: "2022-03-27",
+    summary: "Claro que a fé salva, mas a fé também é necessária para que haja cura e milagres. E precisamos entender que se todos os que foram curados por Jesus tivessem sido salvos, então a vinda de Jesus teria sido o período de maior quantidade de pessoas salvas. Porém vemos que, na verdade, Jesus passa o capítulo inteiro de Mateus 11 falando exatamente dos lugares onde os milagres de cura aconteceram e que não se converteram.",
+    url: "https://otaviotolentino.wordpress.com/2022/03/27/fe-curou/",
+    tags: ["Fé", "Salvação", "Cura", "Milagres", "Jesus"],
+    category: "Estudos"
+  },  
+  {
     id: "palavra-eterna",
     title: "1. Palavra Eterna",
     date: "February 13, 2022",
@@ -2128,7 +2300,7 @@ export const getArticlesForTheme = (themeId: string): Article[] => {
   const resultArticles = uniqueArticleIds.map(id => articles.find(a => a.id === id)).filter(a => a !== undefined) as Article[];
 
   // Apply sorting for specific themes
-  if (themeId === "jesus-christ" || themeId === "deus" || themeId === "moses" || themeId === "paul" || themeId === "abraham" || themeId === "jo" || themeId === "babilonia" || themeId === "discipleship") {
+  if (themeId === "jesus-christ" || themeId === "deus" || themeId === "moses" || themeId === "paul" || themeId === "abraham" || themeId === "jo" || themeId === "babilonia" || themeId === "discipleship" || themeId === "biblical-terms") {
     resultArticles.sort((a, b) => a.title.localeCompare(b.title));
   }
 
