@@ -623,15 +623,6 @@ export const themes: Theme[] = [
                 articles: ["reis-e-sacerdotes"]
               },
               {
-                id: "sacrificio-de-louvor",
-                name: "Sacrifício de Louvor",
-                level: 4,
-                parentId: "deus",
-                description: "Artigo sobre o sacrifício de louvor a Deus.",
-                children: [],
-                articles: ["sacrificio-de-louvor"]
-              },
-              {
                 id: "sangue-clama",
                 name: "Sangue Clama",
                 level: 4,
@@ -1044,6 +1035,43 @@ export const themes: Theme[] = [
                 description: "Artigo sobre a origem de Efraim ou Efrata.",
                 children: [],
                 articles: ["efrata"]
+              }
+            ].sort((a, b) => a.name.localeCompare(b.name)),
+            articles: []
+          },
+          {
+            id: "sacrifices",
+            name: "Sacrifícios",
+            level: 3,
+            parentId: "biblical-concepts",
+            description: "Estudos sobre o conceito de sacrifícios",
+            children: [
+              {
+                id: "louvor-a-deus",
+                name: "Louvor a Deus",
+                level: 4,
+                parentId: "sacrifices",
+                description: "Artigo sobre o sacrifício de louvor a Deus.",
+                children: [],
+                articles: ["louvor-a-deus"]
+              },
+              {
+                id: "motivo-idolatria",
+                name: "Motivo Idolatria",
+                level: 4,
+                parentId: "sacrifices",
+                description: "Artigo sobre o motivo da idolatria.",
+                children: [],
+                articles: ["motivo-idolatria"]
+              },
+              {
+                id: "holocausto-continuo",
+                name: "Holocausto Contínuo",
+                level: 4,
+                parentId: "sacrifices",
+                description: "Artigo sobre o holocausto contínuo.",
+                children: [],
+                articles: ["holocausto-continuo"]
               }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -1905,15 +1933,6 @@ export const articles: Article[] = [
     category: "Estudos"
   },
   {
-    id: "sacrificio-de-louvor",
-    title: "Sacrifício de Louvor",
-    date: "February 4, 2024",
-    summary: "Existia no serviço do sacerdócio judaico um sacrifício chamado ‘Todah‘, que é a oferta do sacrifício de agradecimento a Deus ou de ação de graças.",
-    url: "https://otaviotolentino.wordpress.com/2024/02/04/agradecimento-sacrificio-de-louvor-a-deus/",
-    tags: ["Deus", "Sacrifício", "Louvor", "Agradecimento"],
-    category: "Estudos"
-  },
-  {
     id: "perdao-diario",
     title: "Perdão Diário",
     date: "January 15, 2023",
@@ -2379,6 +2398,33 @@ export const articles: Article[] = [
     summary: "Arquivos anexados a determinados artigos que disponibilizam o conteúdo completo de estudos sobre temas específicos. São arquivos em formato 'Pdf' que estão disponíveis para serem baixados gratuitamente.",
     url: "https://otaviotolentino.wordpress.com/pdfs-gratis/",
     tags: ["Pdf's Grátis", "Downloads", "Estudos"],
+    category: "Estudos"
+  },
+    {
+    id: "louvor-a-deus",
+    title: "Louvor a Deus",
+    date: "2024-02-04",
+    summary: "Existia no serviço do sacerdócio judaico um sacrifício chamado 'Todah', que é a oferta do sacrifício de agradecimento a Deus ou de ação de graças. O termo 'Todah' em hebraico significa 'obrigado', ou seja, é uma declaração de agradecimento.",
+    url: "https://otaviotolentino.wordpress.com/2024/02/04/agradecimento-sacrificio-de-louvor-a-deus/",
+    tags: ["Sacrifício", "Louvor", "Agradecimento", "Todah"],
+    category: "Estudos"
+  },
+  {
+    id: "holocausto-continuo",
+    title: "Holocausto Contínuo",
+    date: "2024-10-27",
+    summary: "O que é o Holocausto ou Sacrifício Contínuo? Qual o significado por trás do sacrifício contínuo, instituído por Deus a Moisés para ser cumprido pelos sacerdotes da descendência de Arão? E, consequentemente, o que implica a interrupção do sacrifício contínuo?",
+    url: "https://otaviotolentino.wordpress.com/2024/10/27/interrupcao-do-sacrificio-continuo/",
+    tags: ["Sacrifício", "Holocausto", "Contínuo", "Moisés", "Arão"],
+    category: "Estudos"
+  },
+  {
+    id: "motivo-idolatria",
+    title: "Motivo Idolatria",
+    date: "2024-01-28",
+    summary: "Qual será o verdadeiro motivo desse tema abordado com abundância e tanto detalhe nos textos bíblicos do Velho Testamento? Por outro lado, encontramos diversas referências bíblicas de repúdio, da parte de Deus, aos holocaustos e sacrifícios.",
+    url: "https://otaviotolentino.wordpress.com/2024/01/28/os-sacrificios-ao-povo-de-israel/",
+    tags: ["Sacrifício", "Idolatria", "Velho Testamento", "Holocausto"],
     category: "Estudos"
   }
 ];
