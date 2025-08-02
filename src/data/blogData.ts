@@ -1283,11 +1283,38 @@ export const themes: Theme[] = [
       }
     ].sort((a, b) => a.name.localeCompare(b.name)),
     articles: []
-  }
+  },
+  {
+    id: "ferramentas",
+    name: "Ferramentas",
+    level: 1,
+    description: "Ferramentas e utilitários para análise e estudo.",
+    children: [
+      {
+        id: "analise-de-textos-theme",
+        name: "Análise de textos",
+        level: 2,
+        parentId: "ferramentas",
+        description: "Ferramentas para análise de textos digitais.",
+        children: [],
+        articles: ["analise-de-textos"]
+      }
+    ],
+    articles: []
+  }  
 ];
 
 // Article data
 export const articles: Article[] = [
+  {
+    id: "analise-de-textos",
+    title: "Análise de textos",
+    date: "2023-11-28",
+    summary: "A equipe Voyant Tools disponibiliza a ferramenta de modo púbico, livre e gratuito; porém, o conteúdo ou o texto a ser lido ou analisado é inserido por qualquer um que quiser fazer uso da ferramenta.",
+    url: "https://otaviotolentino.wordpress.com/2023/11/28/analise-textos-digitais/",
+    tags: ["Ferramentas", "Análise de Texto", "Voyant Tools"],
+    category: "Ferramentas"
+  },
   {
     id: "arrebatamento",
     title: "Arrebatamento",
