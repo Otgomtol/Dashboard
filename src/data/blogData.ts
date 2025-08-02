@@ -996,6 +996,52 @@ export const themes: Theme[] = [
             articles: []
           },
           {
+            id: "localidade",
+            name: "Localidade",
+            level: 3,
+            parentId: "biblical-concepts",
+            description: "Estudos sobre localidades bíblicas.",
+            children: [
+              {
+                id: "salem",
+                name: "Salém",
+                level: 4,
+                parentId: "localidade",
+                description: "Artigo sobre a cidade de Salém.",
+                children: [],
+                articles: ["salem"]
+              },
+              {
+                id: "jebus",
+                name: "Jebus",
+                level: 4,
+                parentId: "localidade",
+                description: "Artigo sobre a cidade de Jebus.",
+                children: [],
+                articles: ["jebus"]
+              },
+              {
+                id: "zelza",
+                name: "Zelza ou Tzeltzach",
+                level: 4,
+                parentId: "localidade",
+                description: "Artigo sobre o lugar da morte e sepultamento de Raquel.",
+                children: [],
+                articles: ["zelza"]
+              },
+              {
+                id: "efrata",
+                name: "Efrata",
+                level: 4,
+                parentId: "localidade",
+                description: "Artigo sobre a origem de Efraim ou Efrata.",
+                children: [],
+                articles: ["efrata"]
+              }
+            ].sort((a, b) => a.name.localeCompare(b.name)),
+            articles: []
+          },		  
+          {
             id: "biblical-terms",
             name: "Termos Bíblicos",
             level: 3,
@@ -2252,6 +2298,42 @@ export const articles: Article[] = [
     category: "Estudos"
   },
   {
+    id: "salem",
+    title: "Salém",
+    date: "2024-06-16",
+    summary: "Qual a importância da cidade de Salém e por que devemos identificá-la? Ora, seria mais fácil responder, e a todos parece ser, que Salém é a cidade de Jerusalém. Porém, parece, mas “só que não”, como dizem hodiernamente.",
+    url: "https://otaviotolentino.wordpress.com/2024/06/16/salem-seria-jerusalem/",
+    tags: ["Salém", "Jerusalém", "Bíblia"],
+    category: "Estudos"
+  },
+  {
+    id: "jebus",
+    title: "Jebus",
+    date: "2024-04-07",
+    summary: "Você sabe qual era o nome prévio da cidade Jerusalém? A cidade de Jerusalém não se chamava assim nos primórdios, pois era habitada originalmente por outra nação, antes do Povo de Israel entrar na terra prometida e de uma de suas tribos herdá-la e tomar posse dela.",
+    url: "https://otaviotolentino.wordpress.com/2024/04/07/jerusalem-nome-previo-e-tribo-herdeira/",
+    tags: ["Jebus", "Jerusalém", "Israel"],
+    category: "Estudos"
+  },
+  {
+    id: "zelza",
+    title: "Zelza ou Tzeltzach",
+    date: "2024-11-24",
+    summary: "Raquel morreu quando deu à luz Benjamim, pois teve trabalho em seu parto. A pergunta é simples e direta. Qual o nome do lugar onde Raquel, a mulher de Jacó, foi enterrada?",
+    url: "https://otaviotolentino.wordpress.com/2024/11/24/lugar-da-morte-e-sepultamento-de-raquel/",
+    tags: ["Zelza", "Tzeltzach", "Raquel", "Jacó"],
+    category: "Estudos"
+  },
+  {
+    id: "efrata",
+    title: "Efrata",
+    date: "2024-04-28",
+    summary: "Qual a diferença entre a origem de Efraim ou Efrata? Ao fim e ao cabo, chegaremos a uma conclusão surpreendente jamais vista ou indicada mesmo nas próprias escrituras, mas prepare o seu coração para mais uma revelação de Deus diante dos seus olhos.",
+    url: "https://otaviotolentino.wordpress.com/2024/04/28/belem-efrata/",
+    tags: ["Efrata", "Efraim", "Belém"],
+    category: "Estudos"
+  },  
+  {
     id: "pdfs-gratis",
     title: "Pdf's Grátis",
     date: "2025-07-29",
@@ -2300,7 +2382,7 @@ export const getArticlesForTheme = (themeId: string): Article[] => {
   const resultArticles = uniqueArticleIds.map(id => articles.find(a => a.id === id)).filter(a => a !== undefined) as Article[];
 
   // Apply sorting for specific themes
-  if (themeId === "jesus-christ" || themeId === "deus" || themeId === "moses" || themeId === "paul" || themeId === "abraham" || themeId === "jo" || themeId === "babilonia" || themeId === "discipleship" || themeId === "biblical-terms") {
+  if (themeId === "jesus-christ" || themeId === "deus" || themeId === "moses" || themeId === "paul" || themeId === "abraham" || themeId === "jo" || themeId === "babilonia" || themeId === "discipleship" || themeId === "biblical-terms" || themeId === "localidade") {
     resultArticles.sort((a, b) => a.title.localeCompare(b.title));
   }
 
