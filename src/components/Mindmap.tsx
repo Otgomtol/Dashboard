@@ -71,7 +71,7 @@ const Mindmap: React.FC<MindmapProps> = ({
   const themeNodes: GraphNode[] = getAllThemes(themes).map(theme => ({
     id: theme.id,
     name: theme.name,
-    val: 5 + (theme.level === 1 ? 5 : 0), // Size based on level
+    val: 5 + (theme.level === 0 ? 5 : 0), // Size based on level
     color: getThemeColor(theme.level),
     type: 'theme' as const
   }));
@@ -233,6 +233,7 @@ function getAllThemes(themes: Theme[]): Theme[] {
 // Helper function to get color based on theme level
 function getThemeColor(level: number): string {
   switch(level) {
+    case 0: return '#4CAF50'; // Green for top level
     case 1: return '#2196F3'; // Blue for top level
     case 2: return '#9C27B0'; // Purple for second level
     case 3: return '#FF9800'; // Orange for third level

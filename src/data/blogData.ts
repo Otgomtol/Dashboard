@@ -23,10 +23,17 @@ export interface Theme {
 
 // Theme hierarchy data
 export const themes: Theme[] = [
+ {
+  id: "Living-Waters",
+  name: "Águas Vivas Correm",
+  level: 0,
+  description: "Blog de Origem",
+  children: [
   {
     id: "biblical-studies",
     name: "Estudos Bíblicos",
     level: 1,
+    parentId: "Living-Waters",
     description: "Estudos focados em conteúdo bíblico e interpretação",
     children: [
       {
@@ -1261,10 +1268,11 @@ export const themes: Theme[] = [
     id: "practical-knowledge",
     name: "Conhec. Práticos",
     level: 1,
+    parentId: "Living-Waters",	
     description: "Informações e dicas práticas",
     children: [
       {
-        id: "mathematical-concepts",
+        id: "math-secrets",
         name: "Segredos Matemáticos",
         level: 2,
         parentId: "practical-knowledge",
@@ -1273,7 +1281,7 @@ export const themes: Theme[] = [
         articles: ["math-secrets"]
       },
       {
-        id: "financial-tips",
+        id: "tarifa-zero",
         name: "Dicas Financeiras",
         level: 2,
         parentId: "practical-knowledge",
@@ -1288,10 +1296,11 @@ export const themes: Theme[] = [
     id: "ferramentas",
     name: "Ferramentas",
     level: 1,
+    parentId: "Living-Waters",	
     description: "Ferramentas e utilitários para análise e estudo.",
     children: [
       {
-        id: "analise-de-textos-theme",
+        id: "analise-de-textos",
         name: "Análise de textos",
         level: 2,
         parentId: "ferramentas",
@@ -1301,7 +1310,10 @@ export const themes: Theme[] = [
       }
     ],
     articles: []
-  }  
+  },
+ ],
+ articles: []
+ }  
 ];
 
 // Article data
