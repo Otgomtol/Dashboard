@@ -37,6 +37,52 @@ export const themes: Theme[] = [
     description: "Estudos focados em conteúdo bíblico e interpretação",
     children: [
       {
+        id: "igreja",
+        name: "Igreja",
+        level: 2,
+        parentId: "biblical-studies",
+        description: "Estudos sobre a Igreja.",
+        children: [
+          {
+            id: "desigrejados",
+            name: "Desigrejados",
+            level: 3,
+            parentId: "igreja",
+            description: "Quem são os verdadeiros desigrejados de acordo com a BÍBLIA? Estamos falando dos desigrejados que são convertidos, frequentam a Igreja e tem alto nível espiritual e de participação nas suas Igrejas, mas foram “desestimulados” a frequentarem a sua Igreja por motivos dados pela própria Igreja.",
+            children: [],
+            articles: ["desigrejados"]
+          },
+          {
+            id: "multiforme-sabedoria",
+            name: "Multiforme Sabedoria",
+            level: 3,
+            parentId: "igreja",
+            description: "Qual é o meio pelo qual essa variada ou múltiplas formas da sabedoria de Deus será manifestada? Qual o objetivo ou para quem será manifestada essa diversificada sabedoria de Deus? Quando surgiu ou passou a vigorar essa novidade que deve ser anunciada? Em qual dimensão deve ser anunciada?",
+            children: [],
+            articles: ["multiforme-sabedoria"]
+          },
+          {
+            id: "voto-nas-eleicoes",
+            name: "Voto nas Eleições",
+            level: 3,
+            parentId: "igreja",
+            description: "O que a Bíblia diz sobre Voto nas eleições? Quais os critérios e será que o cristão deve seguir voto indicado por algum líder espiritual?",
+            children: [],
+            articles: ["voto-nas-eleicoes"]
+          },
+          {
+            id: "traducao-e-versao",
+            name: "Tradução e Versão",
+            level: 3,
+            parentId: "igreja",
+            description: "Por ser a Bíblia composta por textos inspirados por Deus, que dão origem aos livros do Velho e do Novo Testamento, devemos zelar em ter o melhor resultado final, que são as traduções e versões que dão origem às Bíblias disponíveis nas mais diversas línguas em nosso planeta.",
+            children: [],
+            articles: ["traducao-e-versao"]
+          }
+        ].sort((a, b) => a.name.localeCompare(b.name)),
+        articles: []
+      },
+      {
         id: "jewish-feasts",
         name: "Festas Judaicas",
         level: 2,
@@ -1383,6 +1429,42 @@ export const themes: Theme[] = [
 
 // Article data
 export const articles: Article[] = [
+  {
+    id: "desigrejados",
+    title: "Desigrejados",
+    date: "2024-05-12",
+    summary: "Quem são os verdadeiros desigrejados de acordo com a BÍBLIA? Estamos falando dos desigrejados que são convertidos, frequentam a Igreja e tem alto nível espiritual e de participação nas suas Igrejas, mas foram “desestimulados” a frequentarem a sua Igreja por motivos dados pela própria Igreja.",
+    url: "https://otaviotolentino.wordpress.com/2024/05/12/desigrejados/",
+    tags: ["Igreja", "Desigrejados", "Bíblia"],
+    category: "Estudos"
+  },
+  {
+    id: "multiforme-sabedoria",
+    title: "Multiforme Sabedoria",
+    date: "2022-02-07",
+    summary: "Qual é o meio pelo qual essa variada ou múltiplas formas da sabedoria de Deus será manifestada? Qual o objetivo ou para quem será manifestada essa diversificada sabedoria de Deus? Quando surgiu ou passou a vigorar essa novidade que deve ser anunciada? Em qual dimensão deve ser anunciada?",
+    url: "https://otaviotolentino.wordpress.com/2022/02/07/igreja-sabedoria/",
+    tags: ["Igreja", "Sabedoria", "Deus"],
+    category: "Estudos"
+  },
+  {
+    id: "voto-nas-eleicoes",
+    title: "Voto nas Eleições",
+    date: "2022-09-18",
+    summary: "O que a Bíblia diz sobre Voto nas eleições? Quais os critérios e será que o cristão deve seguir voto indicado por algum líder espiritual?",
+    url: "https://otaviotolentino.wordpress.com/2022/09/18/cristaos-eleicoes/",
+    tags: ["Igreja", "Eleições", "Voto"],
+    category: "Estudos"
+  },
+  {
+    id: "traducao-e-versao",
+    title: "Tradução e Versão",
+    date: "2023-07-02",
+    summary: "Por ser a Bíblia composta por textos inspirados por Deus, que dão origem aos livros do Velho e do Novo Testamento, devemos zelar em ter o melhor resultado final, que são as traduções e versões que dão origem às Bíblias disponíveis nas mais diversas línguas em nosso planeta.",
+    url: "https://otaviotolentino.wordpress.com/2023/07/02/biblia-traducao-e-versao/",
+    tags: ["Bíblia", "Tradução", "Versão"],
+    category: "Estudos"
+  },
   {
     id: "analise-de-textos",
     title: "Análise de textos",
