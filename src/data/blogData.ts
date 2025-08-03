@@ -1075,6 +1075,43 @@ export const themes: Theme[] = [
               }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
+          },
+          {
+            id: "sabados",
+            name: "Sábados",
+            level: 3,
+            parentId: "biblical-concepts",
+            description: "Estudos sobre o conceito de Sábado",
+            children: [
+              {
+                id: "sabado",
+                name: "Sábado",
+                level: 4,
+                parentId: "sabados",
+                description: "Qual o conceito do Sábado e como podemos entender a resposta de Jesus que trabalhava no sábado quando a Lei de Moisés diz para não trabalhar? Analisemos essa questão de extrema relevância, por ser um mandamento de Deus e pelas suas consequências na vida de todos os cristãos.",
+                children: [],
+                articles: ["sabado"]
+              },
+              {
+                id: "todos-os-sabados",
+                name: "Todos os Sábados",
+                level: 4,
+                parentId: "sabados",
+                description: "Quantos tipos de Sábado criados por Deus existem? Você conhece algum outro Sábado que não seja o dos fins de semana? Pois bem, isso é o que veremos, pois já está mais do que na hora de sermos apresentados a todos os tipos de Sábados do Senhor, além do “Sábado Comum” ou tradicional.",
+                children: [],
+                articles: ["todos-os-sabados"]
+              },
+              {
+                id: "70-anos-x-70-semanas",
+                name: "70 Anos X 70 Semanas",
+                level: 4,
+                parentId: "sabados",
+                description: "Você sabe identificar qual a ligação desses 2 temas? Os 70 anos de exílio na Babilônia e as 70 semanas profetizadas em Daniel 9 são dois pilares interligados que revelam o plano divino de juízo, restauração e redenção.",
+                children: [],
+                articles: ["70-anos-x-70-semanas"]
+              }
+            ],
+            articles: []
           },		  
           {
             id: "biblical-terms",
@@ -2426,7 +2463,34 @@ export const articles: Article[] = [
     url: "https://otaviotolentino.wordpress.com/2024/01/28/os-sacrificios-ao-povo-de-israel/",
     tags: ["Sacrifício", "Idolatria", "Velho Testamento", "Holocausto"],
     category: "Estudos"
-  }
+  },
+  {
+    id: "sabado",
+    title: "Sábado",
+    date: "2022-12-04",
+    summary: "Qual o conceito do Sábado e como podemos entender a resposta de Jesus que trabalhava no sábado quando a Lei de Moisés diz para não trabalhar? Analisemos essa questão de extrema relevância, por ser um mandamento de Deus e pelas suas consequências na vida de todos os cristãos.",
+    url: "https://otaviotolentino.wordpress.com/2022/12/04/sabado/",
+    tags: ["Sábado", "Lei de Moisés", "Jesus", "Mandamento"],
+    category: "Estudos"
+  },
+  {
+    id: "todos-os-sabados",
+    title: "Todos os Sábados",
+    date: "2024-10-13",
+    summary: "Quantos tipos de Sábado criados por Deus existem? Você conhece algum outro Sábado que não seja o dos fins de semana? Pois bem, isso é o que veremos, pois já está mais do que na hora de sermos apresentados a todos os tipos de Sábados do Senhor, além do “Sábado Comum” ou tradicional.",
+    url: "https://otaviotolentino.wordpress.com/2024/10/13/shabbaton-todos-os-sabados-do-senhor/",
+    tags: ["Sábado", "Shabbaton", "Sábados do Senhor"],
+    category: "Estudos"
+  },
+  {
+    id: "70-anos-x-70-semanas",
+    title: "70 Anos X 70 Semanas",
+    date: "2025-02-02",
+    summary: "Você sabe identificar qual a ligação desses 2 temas? Os 70 anos de exílio na Babilônia e as 70 semanas profetizadas em Daniel 9 são dois pilares interligados que revelam o plano divino de juízo, restauração e redenção.",
+    url: "https://otaviotolentino.wordpress.com/2025/02/02/70-anos-do-exilio-x-70-semanas-qual-a-relacao/",
+    tags: ["Exílio", "Babilônia", "Daniel 9", "Profecia"],
+    category: "Estudos"
+  }  
 ];
 
 // Generate connections for mindmap visualization
