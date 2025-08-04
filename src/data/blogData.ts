@@ -1129,6 +1129,24 @@ export const themes: Theme[] = [
 			articles: ["culpados-pelo-sangue"]
 		  },
           {
+            id: "noite-vem",
+            name: "Noite Vem",
+            level: 3,
+            parentId: "apocalypse",
+            description: "Veremos neste Artigo que Satanás transferirá seu poder para a Besta e o falso profeta de sorte que eles poderão fazer maravilhas e intentarão batalha contra os santos do Altíssimo, leia-se os cristãos que seguem Jesus.",
+            children: [],
+            articles: ["noite-vem"]
+          },
+          {
+            id: "soberba-das-nacoes",
+            name: "Soberba das Nações",
+            level: 3,
+            parentId: "apocalypse",
+            description: "Afinal, o que levará à queda das nações no fim dos tempos, na volta de Jesus?",
+            children: [],
+            articles: ["soberba-das-nacoes"]
+          },		  
+          {
             id: "babilonia",
             name: "Babilônia",
             level: 3,
@@ -1656,6 +1674,24 @@ export const themes: Theme[] = [
 
 // Article data
 export const articles: Article[] = [
+  {
+    id: "noite-vem",
+    title: "Noite Vem",
+    date: "2023-03-05",
+    summary: "Veremos neste Artigo que Satanás transferirá seu poder para a Besta e o falso profeta de sorte que eles poderão fazer maravilhas e intentarão batalha contra os santos do Altíssimo, leia-se os cristãos que seguem Jesus. E os destruirá assim como vai blasfemar contra a Palavra de Deus, Bíblia e Jesus, e vai prosperar de alguma maneira.",
+    url: "https://otaviotolentino.wordpress.com/2023/03/05/noite-ninguem-pode-trabalhar/",
+    tags: ["Apocalipse", "Noite", "Besta", "Falso Profeta"],
+    category: "Estudos"
+  },
+  {
+    id: "soberba-das-nacoes",
+    title: "Soberba das Nações",
+    date: "2022-08-21",
+    summary: "Afinal, o que levará à queda das nações no fim dos tempos, na volta de Jesus? Também chamado de dia da Ira de Deus ou do Cordeiro.",
+    url: "https://otaviotolentino.wordpress.com/2022/08/21/soberba/",
+    tags: ["Apocalipse", "Soberba", "Nações", "Fim dos Tempos"],
+    category: "Estudos"
+  },
   {
     id: "sombra-de-deus",
     title: "Sombra de Deus",
