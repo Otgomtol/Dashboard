@@ -1455,7 +1455,25 @@ export const themes: Theme[] = [
                 description: "Artigo sobre a relação entre fé, salvação e cura.",
                 children: [],
                 articles: ["fe-salvou-ou-curou"]
-              }
+              },
+              {
+                id: "sombra-de-deus",
+                name: "Sombra de Deus",
+                level: 4,
+                parentId: "biblical-terms",
+                description: "O que vem a ser a expressão bíblica relacionada à vida eterna com Deus e Jesus que fala sobre 'viver debaixo da sua sombra'?",
+                children: [],
+                articles: ["sombra-de-deus"]
+              },
+              {
+                id: "trindade",
+                name: "Trindade",
+                level: 4,
+                parentId: "biblical-terms",
+                description: "Muitos pensam que o Pai, o Filho e o Espírito Santo são a mesma pessoa. Será?",
+                children: [],
+                articles: ["trindade"]
+              }			  
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },		  
@@ -1638,6 +1656,24 @@ export const themes: Theme[] = [
 
 // Article data
 export const articles: Article[] = [
+  {
+    id: "sombra-de-deus",
+    title: "Sombra de Deus",
+    date: "2023-01-02",
+    summary: "O que vem a ser a expressão bíblica relacionada à vida eterna com Deus e Jesus que fala sobre 'viver debaixo da sua sombra'?",
+    url: "https://otaviotolentino.wordpress.com/2023/01/02/sombra-de-deus-e-do-ungido/",
+    tags: ["Termos Bíblicos", "Sombra de Deus", "Vida Eterna"],
+    category: "Estudos"
+  },
+  {
+    id: "trindade",
+    title: "Trindade",
+    date: "2023-08-06",
+    summary: "Muitos pensam que o Pai, o Filho e o Espírito Santo são a mesma pessoa. Será? Essa confusão costuma ser gerada como decorrência da explicação sobre a doutrina da trindade ou trinitarismo, pois geralmente quem explica essa doutrina costuma gerar essa confusão quando afirma que os três são a mesma pessoa.",
+    url: "https://otaviotolentino.wordpress.com/2023/08/06/pai-filho-e-espirito-santo/",
+    tags: ["Termos Bíblicos", "Trindade", "Pai", "Filho", "Espírito Santo"],
+    category: "Estudos"
+  },
   {
     id: "cedula-contraria",
     title: "Cédula Contrária",
