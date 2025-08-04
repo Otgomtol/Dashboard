@@ -37,6 +37,52 @@ export const themes: Theme[] = [
     description: "Estudos focados em conteúdo bíblico e interpretação",
     children: [
       {
+        id: "lei-de-moises",
+        name: "Lei de Moisés",
+        level: 2,
+        parentId: "biblical-studies",
+        description: "Estudos sobre a Lei de Moisés e suas implicações.",
+        children: [
+          {
+            id: "cedula-contraria",
+            name: "Cédula Contrária",
+            level: 3,
+            parentId: "lei-de-moises",
+            description: "Será que sabemos o que é a “Cédula contra nós” que foi cravada na Cruz por Jesus?",
+            children: [],
+            articles: ["cedula-contraria"]
+          },
+          {
+            id: "maldicao-do-madeiro",
+            name: "Maldição do Madeiro",
+            level: 3,
+            parentId: "lei-de-moises",
+            description: "Você sabe por que Jesus foi morto numa Cruz? Já ouviu falar em “maldição do madeiro“?",
+            children: [],
+            articles: ["maldicao-do-madeiro"]
+          },
+          {
+            id: "lei-do-apedrejamento",
+            name: "Lei do Apedrejamento",
+            level: 3,
+            parentId: "lei-de-moises",
+            description: "Como entender o caso do apedrejamento da mulher adúltera pelos olhos das escrituras?",
+            children: [],
+            articles: ["lei-do-apedrejamento"]
+          },
+          {
+            id: "praga-deus-em-davi",
+            name: "Praga Deus em Davi",
+            level: 3,
+            parentId: "lei-de-moises",
+            description: "Qual o motivo da maldição de Deus por Davi ter contado os filhos do Povo de Israel?",
+            children: [],
+            articles: ["praga-deus-em-davi"]
+          }
+        ].sort((a, b) => a.name.localeCompare(b.name)),
+        articles: []
+      },
+      {
         id: "povo-de-israel",
         name: "Povo de Israel",
         level: 2,
@@ -1592,6 +1638,42 @@ export const themes: Theme[] = [
 
 // Article data
 export const articles: Article[] = [
+  {
+    id: "cedula-contraria",
+    title: "Cédula Contrária",
+    date: "2023-03-13",
+    summary: "Será que sabemos o que é a “Cédula contra nós” que foi cravada na Cruz por Jesus? O que será que Paulo quis dizer com o texto de Colossenses 2:14? Temos ouvido que nessa referência bíblica está sendo falado que a cédula era a nossa dívida para com Deus por causa dos nossos pecados. Será que é isso mesmo que o autor está querendo dizer no verso 14?",
+    url: "https://otaviotolentino.wordpress.com/2023/03/13/cedula-contraria/",
+    tags: ["Lei de Moisés", "Cédula", "Colossenses", "Cruz"],
+    category: "Estudos"
+  },
+  {
+    id: "maldicao-do-madeiro",
+    title: "Maldição do Madeiro",
+    date: "2023-09-17",
+    summary: "Você sabe por que Jesus foi morto numa Cruz? Já ouviu falar em “maldição do madeiro“?",
+    url: "https://otaviotolentino.wordpress.com/2023/09/17/crucificacao-maldicao-do-madeiro/",
+    tags: ["Lei de Moisés", "Crucificação", "Maldição", "Madeiro"],
+    category: "Estudos"
+  },
+  {
+    id: "lei-do-apedrejamento",
+    title: "Lei do Apedrejamento",
+    date: "2024-12-08",
+    summary: "Como entender o caso do apedrejamento da mulher adúltera pelos olhos das escrituras? Neste artigo, pretendemos demonstrar como a Palavra de Deus explica a si mesma.",
+    url: "https://otaviotolentino.wordpress.com/2024/12/08/apedrejamento-da-mulher-adultera/",
+    tags: ["Lei de Moisés", "Apedrejamento", "Mulher Adúltera", "Escrituras"],
+    category: "Estudos"
+  },
+  {
+    id: "praga-deus-em-davi",
+    title: "Praga Deus em Davi",
+    date: "2024-10-06",
+    summary: "Qual o motivo da maldição de Deus por Davi ter contato os filhos do Povo de Israel? Qual foi o motivo dessa maldição que caiu sobre o Povo de Israel por causa de Davi? Os textos que narram a descrição desses fatos apenas citam o ocorrido sem dar nenhum detalhe sobre a causa que faz incidir a maldição.",
+    url: "https://otaviotolentino.wordpress.com/2024/10/06/motivo-praga-por-davi-ter-contado-israel/",
+    tags: ["Lei de Moisés", "Davi", "Praga", "Maldição"],
+    category: "Estudos"
+  },
   {
     id: "primogenitura",
     title: "Primogenitura",
