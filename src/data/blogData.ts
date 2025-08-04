@@ -1045,7 +1045,45 @@ export const themes: Theme[] = [
               }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
-          }
+          },
+          {
+            id: "jabez",
+            name: "Jabez",
+            level: 3,
+            parentId: "biblical-figures",
+            description: "Estudos focados em Jabez",
+            children: [
+              {
+                id: "oracao-jabez",
+                name: "Oração",
+                level: 4,
+                parentId: "jabez",
+                description: "Jabez é um personagem comentado na Bíblia sem muita informação ou referência.",
+                children: [],
+                articles: ["oracao-jabez"]
+              }
+            ].sort((a, b) => a.name.localeCompare(b.name)),
+            articles: []
+          },
+          {
+            id: "lo",
+            name: "Ló",
+            level: 3,
+            parentId: "biblical-figures",
+            description: "Estudos focados em Ló",
+            children: [
+              {
+                id: "lo-justo",
+                name: "Justo",
+                level: 4,
+                parentId: "lo",
+                description: "Qual a sua avaliação sobre o comportamento de Ló? Ló era justo ou não diante de Deus?",
+                children: [],
+                articles: ["lo-justo"]
+              }
+            ].sort((a, b) => a.name.localeCompare(b.name)),
+            articles: []
+          }		  
         ].sort((a, b) => a.name.localeCompare(b.name)),
         articles: []
       },
@@ -1573,7 +1611,43 @@ export const themes: Theme[] = [
                 description: "Há muito tempo que o crente tenta entender como fazer para viver por meio de Cristo, assim como Jesus Cristo vivia por meio do PAI.",
                 children: [],
                 articles: ["viver-por-jesus"]
-              }
+              },
+              {
+                id: "santificado-em-jesus",
+                name: "Santificado em Jesus",
+                level: 4,
+                parentId: "discipleship",
+                description: "Estamos fazendo o que é necessário para estarmos aptos na volta de Jesus?",
+                children: [],
+                articles: ["santificado-em-jesus"]
+              },
+              {
+                id: "parabola-semeador",
+                name: "Parábola Semeador",
+                level: 4,
+                parentId: "discipleship",
+                description: "Por que será que Jesus falava em Parábolas com o Povo?",
+                children: [],
+                articles: ["parabola-semeador"]
+              },
+              {
+                id: "pensamento-nos-ceus",
+                name: "Pensamento nos Céus",
+                level: 4,
+                parentId: "discipleship",
+                description: "O que é pensar nas coisas de cima? Qual deve ser o foco na vida do cristão?",
+                children: [],
+                articles: ["pensamento-nos-ceus"]
+              },
+              {
+                id: "fruto-do-espirito",
+                name: "Fruto do Espírito",
+                level: 4,
+                parentId: "discipleship",
+                description: "O fruto do espírito é ou são? Essa resposta varia a depender do objetivo de quem pergunta.",
+                children: [],
+                articles: ["fruto-do-espirito"]
+              }			  
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },
@@ -1674,6 +1748,60 @@ export const themes: Theme[] = [
 
 // Article data
 export const articles: Article[] = [
+  {
+    id: "santificado-em-jesus",
+    title: "Santificado em Jesus",
+    date: "2023-10-08",
+    summary: "Estamos fazendo o que é necessário para estarmos aptos na volta de Jesus? O que será que Jesus e Deus esperam de nós? Você está ciente da preocupação de Paulo e dos outros apóstolos com a Igreja e os cristãos para a volta de Jesus Cristo?",
+    url: "https://otaviotolentino.wordpress.com/2023/10/08/santificacao-para-a-volta-de-jesus/",
+    tags: ["Discipulado", "Santificação", "Volta de Jesus"],
+    category: "Estudos"
+  },
+  {
+    id: "parabola-semeador",
+    title: "Parábola Semeador",
+    date: "2023-03-26",
+    summary: "Por que será que Jesus falava em Parábolas com o Povo? A Parábola do Semeador é sobre a Parábola da Parábola!",
+    url: "https://otaviotolentino.wordpress.com/2023/03/26/parabola-do-semeador/",
+    tags: ["Discipulado", "Parábola", "Semeador"],
+    category: "Estudos"
+  },
+  {
+    id: "pensamento-nos-ceus",
+    title: "Pensamento nos Céus",
+    date: "2024-06-09",
+    summary: "O que é pensar nas coisas de cima? Qual deve ser o foco na vida do cristão? O que vive pelo Espírito e anda em Espírito deve olhar e pensar nas coisas que são de cima e não nas coisas terrenas ou deste mundo. Pois o que anda na carne atende aos desejos da carne e o salário do pecado é a morte.",
+    url: "https://otaviotolentino.wordpress.com/2024/06/09/pensai-nas-coisas-que-sao-de-cima/",
+    tags: ["Discipulado", "Pensamento", "Céu"],
+    category: "Estudos"
+  },
+  {
+    id: "fruto-do-espirito",
+    title: "Fruto do Espírito",
+    date: "2023-05-21",
+    summary: "O fruto do espírito é ou são? Essa resposta varia a depender do objetivo de quem pergunta. Pois se quem pergunta tiver o foco na origem dos frutos, então o fruto é oriundo do Espírito de Deus, que é um só e o mesmo para gerar os frutos. Mas se o foco da pergunta for direcionado à relação dos frutos, então os frutos são.",
+    url: "https://otaviotolentino.wordpress.com/2023/05/21/fruto-do-espirito/",
+    tags: ["Discipulado", "Fruto do Espírito", "Espírito Santo"],
+    category: "Estudos"
+  },
+  {
+    id: "oracao-jabez",
+    title: "Oração",
+    date: "2024-04-21",
+    summary: "Jabez é um personagem comentado na Bíblia sem muita informação ou referência. Apenas aparece em 1 Crônicas capítulo 4, versos 9 e 10. Antes e depois nada mais é comentado sobre ele. Mas por que sua história brevemente comentada chama tanta atenção dos cristãos?",
+    url: "https://otaviotolentino.wordpress.com/2024/04/21/oracao-de-jabez/",
+    tags: ["Jabez", "Oração", "Bíblia"],
+    category: "Estudos"
+  },
+  {
+    id: "lo-justo",
+    title: "Justo",
+    date: "2023-12-03",
+    summary: "Qual a sua avaliação sobre o comportamento de Ló? Ló era justo ou não diante de Deus?",
+    url: "https://otaviotolentino.wordpress.com/2023/12/03/lo-o-justo/",
+    tags: ["Ló", "Justo", "Bíblia"],
+    category: "Estudos"
+  },
   {
     id: "noite-vem",
     title: "Noite Vem",
