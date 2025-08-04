@@ -37,6 +37,169 @@ export const themes: Theme[] = [
     description: "Estudos focados em conteúdo bíblico e interpretação",
     children: [
       {
+        id: "povo-de-israel",
+        name: "Povo de Israel",
+        level: 2,
+        parentId: "biblical-studies",
+        description: "Estudos sobre a história e a jornada do Povo de Israel.",
+        children: [
+          {
+            id: "primogenitura",
+            name: "Primogenitura",
+            level: 3,
+            parentId: "povo-de-israel",
+            description: "Este artigo analisa a questão das bênçãos do Patriarca ao seu primogênito, dentro da tradição do judaísmo, manifestada no Velho Testamento e que se encontra na Lei de Moisés.",
+            children: [],
+            articles: ["primogenitura"]
+          },
+          {
+            id: "rei-humano",
+            name: "Rei Humano",
+            level: 3,
+            parentId: "povo-de-israel",
+            description: "A história do povo de Israel é marcada por momentos decisivos que revelam a natureza da relação entre Deus e seu povo escolhido.",
+            children: [],
+            articles: ["rei-humano"]
+          },
+          {
+            id: "chuvas-em-israel",
+            name: "Chuvas em Israel",
+            level: 3,
+            parentId: "povo-de-israel",
+            description: "E quem fazia chover em Israel: Elias ou Deus? A questão da chuva na Terra de Israel e a importância de Elias.",
+            children: [],
+            articles: ["chuvas-em-israel"]
+          },
+          {
+            id: "repouso-de-deus",
+            name: "Repouso de Deus",
+            level: 3,
+            parentId: "povo-de-israel",
+            description: "O Povo de Israel entrou no REPOUSO de DEUS? E afinal o que é o Repouso de Deus?",
+            children: [],
+            articles: ["repouso-de-deus"]
+          },
+          {
+            id: "cumprimento-repouso",
+            name: "Cumprimento Repouso",
+            level: 3,
+            parentId: "povo-de-israel",
+            description: "O que deu errado no Cumprimento do Repouso de Deus ao Povo de Israel? E por que o Povo de Israel não permaneceu no Repouso de Deus?",
+            children: [],
+            articles: ["cumprimento-repouso"]
+          },
+          {
+            id: "sacerdocio-perpetuo",
+            name: "Sacerdócio Perpétuo",
+            level: 3,
+            parentId: "povo-de-israel",
+            description: "O que é a Aliança do Sacerdócio Perpétuo Levítico? Quem são as partes envolvidas nesta aliança?",
+            children: [],
+            articles: ["sacerdocio-perpetuo"]
+          },
+          {
+            id: "tempo-no-egito",
+            name: "Tempo no Egito",
+            level: 3,
+            parentId: "povo-de-israel",
+            description: "Qual é o tempo correto de permanência do Povo de Israel no Egito? 430, 400 ou 215 anos?",
+            children: [],
+            articles: ["tempo-no-egito"]
+          },
+          {
+            id: "mumias-em-israel",
+            name: "Múmias em Israel",
+            level: 3,
+            parentId: "povo-de-israel",
+            description: "A terra de Israel não tem uma, mas sim duas múmias enterradas que vieram do Egito.",
+            children: [],
+            articles: ["mumias-em-israel"]
+          },
+          {
+            id: "quem-entrou-na-terra",
+            name: "Quem Entrou na Terra",
+            level: 3,
+            parentId: "povo-de-israel",
+            description: "Quais PESSOAS SAÍRAM do Egito e ENTRARAM na Terra Prometida?",
+            children: [],
+            articles: ["quem-entrou-na-terra"]
+          },
+          {
+            id: "rei-do-povo-deut33-5",
+            name: "Rei do Povo Deut33:5",
+            level: 3,
+            parentId: "povo-de-israel",
+            description: "Quem será que foi Rei em Jesurum na passagem de Deuteronômio 33:5?",
+            children: [],
+            articles: ["rei-do-povo-deut33-5"]
+          },
+          {
+            id: "arca-da-alianca",
+            name: "Arca da Aliança",
+            level: 3,
+            parentId: "povo-de-israel",
+            description: "Por onde andou e por onde anda a Arca da Aliança desde que foi construída no Monte Sinai?",
+            children: [],
+            articles: ["arca-da-alianca"]
+          },
+          {
+            id: "quebra-da-alianca",
+            name: "Quebra da Aliança",
+            level: 3,
+            parentId: "povo-de-israel",
+            description: "Desde a criação do mundo Deus fez várias alianças, acordos ou promessas, com alguns homens ou com seu Povo escolhido.",
+            children: [],
+            articles: ["quebra-da-alianca"]
+          },
+          {
+            id: "franja-das-vestes",
+            name: "Franja das vestes",
+            level: 3,
+            parentId: "povo-de-israel",
+            description: "Tem previsão de CURA na FRANJA ou nas VESTES dos judeus?",
+            children: [],
+            articles: ["franja-das-vestes"]
+          },
+          {
+            id: "sombra-propiciatorio",
+            name: "Sombra Propiciatório",
+            level: 3,
+            parentId: "povo-de-israel",
+            description: "O que significa a Sombra no Propiciatório mencionada por Paulo em Hebreus 9:5 e jamais comentada?",
+            children: [],
+            articles: ["sombra-propiciatorio"]
+          },
+          {
+            id: "lugar-fixo-templo",
+            name: "Lugar Fixo Templo",
+            level: 3,
+            parentId: "povo-de-israel",
+            description: "O lugar fixo do Templo seria o lugar definido por Deus para os serviços sacerdotais.",
+            children: [],
+            articles: ["lugar-fixo-templo"]
+          },
+          {
+            id: "tempo-aviso-de-noe",
+            name: "Tempo Aviso de Noé",
+            level: 3,
+            parentId: "povo-de-israel",
+            description: "Quanto tempo levou desde o aviso de Deus feito à Noé para construir a Arca até a queda das águas do dilúvio?",
+            children: [],
+            articles: ["tempo-aviso-de-noe"]
+          },
+          {
+            id: "subiu-sinai-1a-vez",
+            name: "Subiu Sinai 1ª Vez",
+            level: 3,
+            parentId: "povo-de-israel",
+            description: "Você sabia que Moisés subiu duas vezes ao cume do Monte Sinai, também chamado de Monte Horebe?",
+            children: [],
+            articles: ["subiu-sinai-1a-vez"]
+          }
+        ].sort((a, b) => a.name.localeCompare(b.name)),
+        articles: []
+      },
+      {
         id: "igreja",
         name: "Igreja",
         level: 2,
@@ -1429,6 +1592,159 @@ export const themes: Theme[] = [
 
 // Article data
 export const articles: Article[] = [
+  {
+    id: "primogenitura",
+    title: "Primogenitura",
+    date: "2024-03-10",
+    summary: "Este artigo analisa a questão das bênçãos do Patriarca ao seu primogênito, dentro da tradição do judaísmo, manifestada no Velho Testamento e que se encontra na Lei de Moisés. Com base nessa tradição, respaldada pelo cumprimento divino, as palavras de bênção proferidas pelo patriarca ao seu primogênito são confirmadas e cumpridas por Deus.",
+    url: "https://otaviotolentino.wordpress.com/2024/03/10/primogenitura-das-tribos-de-israel/",
+    tags: ["Povo de Israel", "Primogenitura", "Bênção", "Patriarca"],
+    category: "Estudos"
+  },
+  {
+    id: "rei-humano",
+    title: "Rei Humano",
+    date: "2025-06-29",
+    summary: "A história do povo de Israel é marcada por momentos decisivos que revelam a natureza da relação entre Deus e seu povo escolhido. Um desses momentos cruciais ocorreu quando os israelitas rejeitaram o governo teocrático direto de Deus e pediram um rei humano, seguindo o modelo das nações pagãs ao seu redor.",
+    url: "https://otaviotolentino.wordpress.com/2025/06/29/povo-de-israel-ter-pedido-um-rei-humano-significado/",
+    tags: ["Povo de Israel", "Rei Humano", "Teocracia", "Monarquia"],
+    category: "Estudos"
+  },
+  {
+    id: "chuvas-em-israel",
+    title: "Chuvas em Israel",
+    date: "2024-12-22",
+    summary: "E quem fazia chover em Israel: Elias ou Deus? A questão da chuva na Terra de Israel e a importância de Elias. Esta questão está associada à situação da Terra Prometida ser árida e depender da chuva para produzir frutos, por isso requer o cuidado e providência de Deus.",
+    url: "https://otaviotolentino.wordpress.com/2024/12/22/elias-e-as-chuvas-em-israel/",
+    tags: ["Povo de Israel", "Chuvas", "Elias", "Deus"],
+    category: "Estudos"
+  },
+  {
+    id: "repouso-de-deus",
+    title: "Repouso de Deus",
+    date: "2024-02-25",
+    summary: "O Povo de Israel entrou no REPOUSO de DEUS? E afinal o que é o Repouso de Deus? Seria o lugar de descanso, onde descansariam os cansados? Lugar onde teríamos o refrigério de Deus.",
+    url: "https://otaviotolentino.wordpress.com/2024/02/25/povo-de-israel-e-o-repouso-de-deus/",
+    tags: ["Povo de Israel", "Repouso de Deus", "Descanso", "Refrigério"],
+    category: "Estudos"
+  },
+  {
+    id: "cumprimento-repouso",
+    title: "Cumprimento Repouso",
+    date: "2025-01-05",
+    summary: "O que deu errado no Cumprimento do Repouso de Deus ao Povo de Israel? E por que o Povo de Israel não permaneceu no Repouso de Deus? Pois as escrituras nos afirmam que Deus cumpriu ao Povo de Israel todas as promessas feitas aos Patriarcas.",
+    url: "https://otaviotolentino.wordpress.com/2025/01/05/cumprimento-do-repouso-de-deus-ao-povo-de-israel-o-que-deu-errado/",
+    tags: ["Povo de Israel", "Repouso de Deus", "Promessas", "Patriarcas"],
+    category: "Estudos"
+  },
+  {
+    id: "sacerdocio-perpetuo",
+    title: "Sacerdócio Perpétuo",
+    date: "2024-12-15",
+    summary: "O que é a Aliança do Sacerdócio Perpétuo Levítico? Quem são as partes envolvidas nesta aliança? Será que esta Aliança, embora perpétua, ainda permanece?",
+    url: "https://otaviotolentino.wordpress.com/2024/12/15/quebra-da-alianca-do-sacerdocio-perpetuo-levitico/",
+    tags: ["Povo de Israel", "Sacerdócio Perpétuo", "Aliança", "Levítico"],
+    category: "Estudos"
+  },
+  {
+    id: "tempo-no-egito",
+    title: "Tempo no Egito",
+    date: "2024-01-14",
+    summary: "Qual é o tempo correto de permanência do Povo de Israel no Egito? 430, 400 ou 215 anos? Como se conclui que o Povo de Israel passou 430 anos no Egito? Até o momento há duas vertentes possíveis de cálculo. A de que o tempo de habitação do Povo de Israel no Egito durou 430 anos e a de que durou em torno de 215 anos.",
+    url: "https://otaviotolentino.wordpress.com/2024/01/14/tempo-de-permanencia-do-povo-de-israel-no-egito/",
+    tags: ["Povo de Israel", "Tempo no Egito", "430 anos", "215 anos"],
+    category: "Estudos"
+  },
+  {
+    id: "mumias-em-israel",
+    title: "Múmias em Israel",
+    date: "2024-03-03",
+    summary: "A terra de Israel não tem uma, mas sim duas múmias enterradas que vieram do Egito. Vejamos adiante como se deram esses fatos com Jacó e José separadamente.",
+    url: "https://otaviotolentino.wordpress.com/2024/03/03/mumias-do-egito-em-israel/",
+    tags: ["Povo de Israel", "Múmias", "Jacó", "José"],
+    category: "Estudos"
+  },
+  {
+    id: "quem-entrou-na-terra",
+    title: "Quem Entrou na Terra",
+    date: "2025-01-19",
+    summary: "Quais PESSOAS SAÍRAM do Egito e ENTRARAM na Terra Prometida? Certamente, muitos responderam Josué, filho de Num, e Calebe, filho de Jefoné, sem pestanejar ou titubear. Mas será que essa é a resposta correta e completa? Isto é o que veremos neste estudo.",
+    url: "https://otaviotolentino.wordpress.com/2025/01/19/quais-pessoas-sairam-do-egito-e-entraram-na-terra-prometida/",
+    tags: ["Povo de Israel", "Terra Prometida", "Josué", "Calebe"],
+    category: "Estudos"
+  },
+  {
+    id: "rei-do-povo-deut33-5",
+    title: "Rei do Povo Deut33:5",
+    date: "2024-11-17",
+    summary: "Quem será que foi Rei em Jesurum na passagem de Deuteronômio 33:5? Quem é “Ele” referido no texto original do versículo 5? Teria sido Deus ou será que foi Moisés?",
+    url: "https://otaviotolentino.wordpress.com/2024/11/17/quem-foi-rei-em-deuteronomio-33-5/",
+    tags: ["Povo de Israel", "Rei", "Jesurum", "Deuteronômio 33:5"],
+    category: "Estudos"
+  },
+  {
+    id: "arca-da-alianca",
+    title: "Arca da Aliança",
+    date: "2024-05-05",
+    summary: "Por onde andou e por onde anda a Arca da Aliança desde que foi construída no Monte Sinai? Neste estudo vamos abordar o percurso da Arca da Aliança ou do Testemunho, considerando sua movimentação desde sua construção e montagem, depois que teve a saída do Monte Horebe em Sinai até seu destino final.",
+    url: "https://otaviotolentino.wordpress.com/2024/05/05/arca-da-alianca-percurso/",
+    tags: ["Povo de Israel", "Arca da Aliança", "Monte Sinai", "Testemunho"],
+    category: "Estudos"
+  },
+  {
+    id: "quebra-da-alianca",
+    title: "Quebra da Aliança",
+    date: "2023-05-07",
+    summary: "Desde a criação do mundo Deus fez várias alianças, acordos ou promessas, com alguns homens ou com seu Povo escolhido. Quais seriam os efeitos e consequências dessa quebra de aliança? Vamos então analisar, especificamente, nesse estudo a última Aliança feita por Deus com o Povo de Israel e sua consequência, em caso de descumprimento.",
+    url: "https://otaviotolentino.wordpress.com/2023/05/07/quebra-da-ultima-alianca/",
+    tags: ["Povo de Israel", "Quebra da Aliança", "Aliança", "Deus"],
+    category: "Estudos"
+  },
+  {
+    id: "franja-das-vestes",
+    title: "Franja das vestes",
+    date: "2024-10-20",
+    summary: "Tem previsão de CURA na FRANJA ou nas VESTES dos judeus? Por que a mulher que tinha o fluxo de sangue tocou na borda das vestes de Jesus?",
+    url: "https://otaviotolentino.wordpress.com/2024/10/20/cura-na-franja-nas-vestes-dos-judeus/",
+    tags: ["Povo de Israel", "Franja das vestes", "Cura", "Jesus"],
+    category: "Estudos"
+  },
+  {
+    id: "sombra-propiciatorio",
+    title: "Sombra Propiciatório",
+    date: "2022-03-20",
+    summary: "O que significa a Sombra no Propiciatório mencionada por Paulo em Hebreus 9:5 e jamais comentada?",
+    url: "https://otaviotolentino.wordpress.com/2022/03/20/sombra-propiciatorio/",
+    tags: ["Povo de Israel", "Sombra", "Propiciatório", "Paulo", "Hebreus"],
+    category: "Estudos"
+  },
+  {
+    id: "lugar-fixo-templo",
+    title: "Lugar Fixo Templo",
+    date: "2024-11-10",
+    summary: "O lugar fixo do Templo seria o lugar definido por Deus para os serviços sacerdotais. O Templo fixo também seria o lugar dos sacrifícios e das Solenidades e Santas Convocações que o Senhor instituiu como as Festas Judaicas, comemoradas anualmente.",
+    url: "https://otaviotolentino.wordpress.com/2024/11/10/previsao-do-lugar-fixo-do-templo-de-israel/",
+    tags: ["Povo de Israel", "Templo", "Lugar Fixo", "Deus", "Festas Judaicas"],
+    category: "Estudos"
+  },
+  {
+    id: "tempo-aviso-de-noe",
+    title: "Tempo Aviso de Noé",
+    date: "2024-02-11",
+    summary: "Quanto tempo levou desde o aviso de Deus feito à Noé para construir a Arca até a queda das águas do dilúvio? Esse tempo parece confuso, pois não é dado diretamente nos textos bíblicos. Chegam a afirmar que Noé foi o pregoeiro da justiça ou deu testemunho da vinda do Dilúvio por 120 anos. Será?",
+    url: "https://otaviotolentino.wordpress.com/2024/02/11/tempo-de-espera-ate-o-diluvio/",
+    tags: ["Povo de Israel", "Noé", "Arca", "Dilúvio", "120 anos"],
+    category: "Estudos"
+  },
+  {
+    id: "subiu-sinai-1a-vez",
+    title: "Subiu Sinai 1ª Vez",
+    date: "2024-01-21",
+    summary: "Você sabia que Moisés subiu duas vezes ao cume do Monte Sinai, também chamado de Monte Horebe? A 1ª vez está descrita no capítulo 24 do Livro de Êxodo. A 2ª vez está descrita no capítulo 34 do Livro de Êxodo. Então QUEM subiu até o CUME do Monte SINAI e ficou lá 40 dias, na 1ª vez em Êxodo 24?",
+    url: "https://otaviotolentino.wordpress.com/2024/01/21/subiu-monte-sinai/",
+    tags: ["Povo de Israel", "Moisés", "Monte Sinai", "Horebe", "Êxodo"],
+    category: "Estudos"
+  },
   {
     id: "desigrejados",
     title: "Desigrejados",
