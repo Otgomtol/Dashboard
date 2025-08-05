@@ -13,6 +13,15 @@ export default defineConfig({
   },
   build: {
     outDir: 'docs',
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            return 'vendor';
+          }
+        }
+      }
+    }
   },
   server: {
     allowedHosts: true
