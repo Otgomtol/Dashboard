@@ -1014,7 +1014,16 @@ export const themes: Theme[] = [
                 description: "Será que Deus realmente queria que Abraão sacrificasse o seu único filho de verdade? Veremos qual a verdadeira intenção de Deus ao pedir que Abraão sacrificasse seu Filho único.",
                 children: [],
                 articles: ["profetizou-jesus"]
-              }
+              },
+			  {
+				id: "descendencia-abraao",
+				name: "Descendência Abraão",
+				level: 4,
+                parentId: "abraham",
+				description: "Se o povo de Israel, descendência de Abraão, rejeitou as promessas de Deus cumpridas em Jesus Cristo, seu filho e enviado, o Ungido de Deus, então como fica a promessa de serem abençoadas todas as nações e famílias da Terra?",
+				children: [],
+				articles: ["descendencia-abraao"]
+          }			  
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },
@@ -1183,6 +1192,15 @@ export const themes: Theme[] = [
             description: "Afinal, o que levará à queda das nações no fim dos tempos, na volta de Jesus?",
             children: [],
             articles: ["soberba-das-nacoes"]
+          },
+          {
+            id: "conc-em-jeremias-13",
+            name: "Conc. em Jeremias 13",
+            level: 3,
+            parentId: "apocalypse",
+            description: "Há muito tempo é sabido que os livros dos profetas do antigo testamento estão diretamente relacionados com o livro de Apocalipse. Nesse contexto, apresentaremos neste estudo um resumo direto e sem rodeios do capítulo 13 do profeta Jeremias de forma clara e objetiva.",
+            children: [],
+            articles: ["conc-em-jeremias-13"]
           },		  
           {
             id: "babilonia",
@@ -1529,6 +1547,15 @@ export const themes: Theme[] = [
                 description: "Muitos pensam que o Pai, o Filho e o Espírito Santo são a mesma pessoa. Será?",
                 children: [],
                 articles: ["trindade"]
+              },
+              {
+                id: "esp-santo-no-vt",
+                name: "Esp. Santo no VT",
+                level: 4,
+                parentId: "biblical-terms",
+                description: "Embora haja muitas referências no Velho Testamento sobre o Espírito de Deus, porém só existem 3 referências, em todo o Velho Testamento, à expressão ou locução 'Espírito Santo', nessa forma composta e completa.",
+                children: [],
+                articles: ["esp-santo-no-vt"]
               }			  
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -1647,6 +1674,15 @@ export const themes: Theme[] = [
                 description: "O fruto do espírito é ou são? Essa resposta varia a depender do objetivo de quem pergunta.",
                 children: [],
                 articles: ["fruto-do-espirito"]
+              },
+              {
+                id: "jer-ou-zac-em-mat-27",
+                name: "Jer ou Zac em Mat.27",
+                level: 4,
+                parentId: "discipleship",
+                description: "Responda-nos caro leitor, você é daqueles que ao fazer a leitura de qualquer texto bíblico costuma conferir as referências citadas ou parte do princípio que a referência mencionada no texto está correta? Pois bem, esta resposta dirá muito sobre a sua fé e sobre a sua responsabilidade em propagar os textos das divinas escrituras.",
+                children: [],
+                articles: ["jer-ou-zac-em-mat-27"]
               }			  
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -3169,6 +3205,42 @@ export const articles: Article[] = [
     summary: "Você sabe identificar qual a ligação desses 2 temas? Os 70 anos de exílio na Babilônia e as 70 semanas profetizadas em Daniel 9 são dois pilares interligados que revelam o plano divino de juízo, restauração e redenção.",
     url: "https://otaviotolentino.wordpress.com/2025/02/02/70-anos-do-exilio-x-70-semanas-qual-a-relacao/",
     tags: ["Exílio", "Babilônia", "Daniel 9", "Profecia"],
+    category: "Estudos"
+  },
+  {
+    id: "conc-em-jeremias-13",
+    title: "Conc. em Jeremias 13",
+    date: "2024-07-07",
+    summary: "Há muito tempo é sabido que os livros dos profetas do antigo testamento estão diretamente relacionados com o livro de Apocalipse. Nesse contexto, apresentaremos neste estudo um resumo direto e sem rodeios do capítulo 13 do profeta Jeremias de forma clara e objetiva.",
+    url: "https://otaviotolentino.wordpress.com/2024/07/07/conceitos-do-apocalipse-em-jeremias-13/",
+    tags: ["Apocalipse", "Jeremias", "Profecia"],
+    category: "Estudos"
+  },
+  {
+    id: "descendencia-abraao",
+    title: "Descendência Abraão",
+    date: "2022-01-25",
+    summary: "Se o povo de Israel, descendência de Abraão, rejeitou as promessas de Deus cumpridas em Jesus Cristo, seu filho e enviado, o Ungido de Deus, então como fica a promessa de serem abençoadas todas as nações e famílias da Terra?",
+    url: "https://otaviotolentino.wordpress.com/2022/01/25/descendencia-de-abraao/",
+    tags: ["Abraão", "Descendência", "Promessa", "Israel"],
+    category: "Estudos"
+  },
+  {
+    id: "jer-ou-zac-em-mat-27",
+    title: "Jer ou Zac em Mat.27",
+    date: "2024-06-23",
+    summary: "Responda-nos caro leitor, você é daqueles que ao fazer a leitura de qualquer texto bíblico costuma conferir as referências citadas ou parte do princípio que a referência mencionada no texto está correta? Pois bem, esta resposta dirá muito sobre a sua fé e sobre a sua responsabilidade em propagar os textos das divinas escrituras.",
+    url: "https://otaviotolentino.wordpress.com/2024/06/23/jeremias-ou-zacarias-na-referencia-de-mateus-27/",
+    tags: ["Mateus", "Jeremias", "Zacarias", "Profecia", "Citação"],
+    category: "Estudos"
+  },
+  {
+    id: "esp-santo-no-vt",
+    title: "Esp. Santo no VT",
+    date: "2023-04-02",
+    summary: "Embora haja muitas referências no Velho Testamento sobre o Espírito de Deus, porém só existem 3 referências, em todo o Velho Testamento, à expressão ou locução 'Espírito Santo', nessa forma composta e completa.",
+    url: "https://otaviotolentino.wordpress.com/2023/04/02/espirito-santo-no-vt/",
+    tags: ["Espírito Santo", "Velho Testamento", "Deus"],
     category: "Estudos"
   }  
 ];
