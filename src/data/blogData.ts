@@ -1623,7 +1623,7 @@ export const themes: Theme[] = [
               },
               {
                 id: "perseveranca-fe",
-                name: "Perseverança Fé",
+                name: "Perseverança na Fé",
                 level: 4,
                 parentId: "discipleship",
                 description: "A 'paciência ou perseverança de Jesus ou dos santos' é uma expressão que perpassa todo o Novo Testamento, revelando um dos aspectos mais fundamentais da fé cristã: a necessidade de permanecermos firmes até o fim.",
@@ -2191,7 +2191,7 @@ export const articles: Article[] = [
   },
   {
     id: "perseveranca-fe",
-    title: "Perseverança Fé",
+    title: "Perseverança na Fé",
     date: "2025-07-27",
     summary: "A 'paciência ou perseverança de Jesus ou dos santos' é uma expressão que perpassa todo o Novo Testamento, revelando um dos aspectos mais fundamentais da fé cristã: a necessidade de permanecermos firmes até o fim.",
     url: "https://otaviotolentino.wordpress.com/2025/07/27/paciencia-ou-perseveranca-de-jesus-ou-dos-santos/",
