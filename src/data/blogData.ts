@@ -100,7 +100,7 @@ export const themes: Theme[] = [
           },
           {
             id: "rei-humano",
-            name: "Rei Humano",
+            name: "Pedido Rei Humano",
             level: 3,
             parentId: "povo-de-israel",
             description: "A história do povo de Israel é marcada por momentos decisivos que revelam a natureza da relação entre Deus e seu povo escolhido.",
@@ -287,7 +287,143 @@ export const themes: Theme[] = [
             description: "Por ser a Bíblia composta por textos inspirados por Deus, que dão origem aos livros do Velho e do Novo Testamento, devemos zelar em ter o melhor resultado final, que são as traduções e versões que dão origem às Bíblias disponíveis nas mais diversas línguas em nosso planeta.",
             children: [],
             articles: ["traducao-e-versao"]
-          }
+          },
+		  {
+            id: "discipleship",
+            name: "Discipulado",
+            level: 3,
+            parentId: "igreja",
+            description: "Estudos sobre o discipulado cristão.",
+            children: [
+              {
+                id: "discipulo-missoes",
+                name: "Discípulos/Missões",
+                level: 4,
+                parentId: "discipleship",
+                description: "Repercussão desta Obra de Deus sobre toda a face da Terra; alcançando, por enquanto, mais de 90 Países, somando mais de 48.000 visitações ao Blog 'ÁGUAS VIVAS QUE CORREM MANSAMENTE' até 2025.",
+                children: [],
+                articles: ["discipulo-missoes"]
+              },
+              {
+                id: "passo-a-passo",
+                name: "Passo a Passo",
+                level: 4,
+                parentId: "discipleship",
+                description: "Aspectos fundamentais do discipulado cristão descritos passo a passo. Baseando-nos nos textos Bíblicos do Novo Testamento, podemos identificar vários aspectos cruciais do discipulado.",
+                children: [],
+                articles: ["passo-a-passo"]
+              },
+              {
+                id: "bem-aventurancas",
+                name: "Bem-Aventuranças",
+                level: 4,
+                parentId: "discipleship",
+                description: "As Bem-Aventuranças, como todo o resto do sermão do Monte, faziam parte dos ensinamentos de Jesus sobre o Reino de Deus e como aqueles que queriam segui-lo deveriam se comportar.",
+                children: [],
+                articles: ["bem-aventurancas"]
+              },
+              {
+                id: "lava-pes",
+                name: "Lava Pés",
+                level: 4,
+                parentId: "discipleship",
+                description: "O que será que Cristo quis ensinar quando transmitiu essa doutrina para os seus discípulos e ainda disse que deveriam repetir?",
+                children: [],
+                articles: ["lava-pes"]
+              },
+              {
+                id: "verdade-libertara",
+                name: "Verdade Libertará",
+                level: 4,
+                parentId: "discipleship",
+                description: "Esta frase, dita por Jesus, é tão manipulada por oportunistas que a utilizam fora do contexto e, por isso, nem eles mesmos conseguem entender e, muito menos, manifestar seu real significado. Vamos aproveitar para refletir sobre esse tema extremamente relevante e entender, afinal, o quê Jesus quis dizer com essa afirmação.",
+                children: [],
+                articles: ["verdade-libertara"]
+              },
+              {
+                id: "somos-deuses",
+                name: "Somos deuses",
+                level: 4,
+                parentId: "discipleship",
+                description: "Jesus manifesta abertamente que os santificados e enviados por Deus são Filhos de Deus, logo são deuses. Será que essa afirmação de Jesus tem a ver conosco?",
+                children: [],
+                articles: ["somos-deuses"]
+              },
+              {
+                id: "perseveranca-fe",
+                name: "Perseverança na Fé",
+                level: 4,
+                parentId: "discipleship",
+                description: "A 'paciência ou perseverança de Jesus ou dos santos' é uma expressão que perpassa todo o Novo Testamento, revelando um dos aspectos mais fundamentais da fé cristã: a necessidade de permanecermos firmes até o fim.",
+                children: [],
+                articles: ["perseveranca-fe"]
+              },
+              {
+                id: "viver-por-jesus",
+                name: "Viver por Jesus",
+                level: 4,
+                parentId: "discipleship",
+                description: "Há muito tempo que o crente tenta entender como fazer para viver por meio de Cristo, assim como Jesus Cristo vivia por meio do PAI.",
+                children: [],
+                articles: ["viver-por-jesus"]
+              },
+              {
+                id: "santificado-em-jesus",
+                name: "Santificado em Jesus",
+                level: 4,
+                parentId: "discipleship",
+                description: "Estamos fazendo o que é necessário para estarmos aptos na volta de Jesus?",
+                children: [],
+                articles: ["santificado-em-jesus"]
+              },
+              {
+                id: "parabola-semeador",
+                name: "Parábola Semeador",
+                level: 4,
+                parentId: "discipleship",
+                description: "Por que será que Jesus falava em Parábolas com o Povo?",
+                children: [],
+                articles: ["parabola-semeador"]
+              },
+              {
+                id: "pensamento-nos-ceus",
+                name: "Pensamento nos Céus",
+                level: 4,
+                parentId: "discipleship",
+                description: "O que é pensar nas coisas de cima? Qual deve ser o foco na vida do cristão?",
+                children: [],
+                articles: ["pensamento-nos-ceus"]
+              },
+              {
+                id: "fruto-do-espirito",
+                name: "Fruto do Espírito",
+                level: 4,
+                parentId: "discipleship",
+                description: "O fruto do espírito é ou são? Essa resposta varia a depender do objetivo de quem pergunta.",
+                children: [],
+                articles: ["fruto-do-espirito"]
+              },
+              {
+                id: "jer-ou-zac-em-mat-27",
+                name: "Jer ou Zac em Mat.27",
+                level: 4,
+                parentId: "discipleship",
+                description: "Responda-nos caro leitor, você é daqueles que ao fazer a leitura de qualquer texto bíblico costuma conferir as referências citadas ou parte do princípio que a referência mencionada no texto está correta? Pois bem, esta resposta dirá muito sobre a sua fé e sobre a sua responsabilidade em propagar os textos das divinas escrituras.",
+                children: [],
+                articles: ["jer-ou-zac-em-mat-27"]
+              },
+              {
+                id: 'ministerio-reconciliacao',
+                name: 'Minist. Reconciliação',
+                level: 4,
+                parentId: 'discipleship',
+                description: 'Para você, o que vem a ser o Ministério da Reconciliação dado por Deus aos homens?.',
+                children: [],
+                articles: ['ministerio-reconciliacao']
+              }			  
+            ].sort((a, b) => a.name.localeCompare(b.name)),
+            articles: []
+          },		  
         ].sort((a, b) => a.name.localeCompare(b.name)),
         articles: []
       },
@@ -662,7 +798,7 @@ export const themes: Theme[] = [
                   },
                   {
                     id: "nome",
-                    name: "Nome",
+                    name: "Nome de Jesus",
                     level: 4,
                     parentId: "jesus-christ",
                     description: "Artigo sobre o nome de Jesus.",
@@ -962,7 +1098,7 @@ export const themes: Theme[] = [
             children: [
               {
                 id: "impedido",
-                name: "Impedido",
+                name: "Impedido de Entrar",
                 level: 4,
                 parentId: "moses",
                 description: "Por que DEUS impediu Moisés de entrar na Terra Prometida? Leia o Artigo completo para saber a resposta.",
@@ -980,7 +1116,7 @@ export const themes: Theme[] = [
               },
               {
                 id: "profecia-jesus",
-                name: "Profecia Jesus",
+                name: "Profecia sobre Jesus",
                 level: 4,
                 parentId: "moses",
                 description: "Artigo sobre a profecia de Moisés a respeito de Jesus.",
@@ -1083,7 +1219,7 @@ export const themes: Theme[] = [
             children: [
               {
                 id: "lo-justo",
-                name: "Justo",
+                name: "O Justo",
                 level: 4,
                 parentId: "lo",
                 description: "Qual a sua avaliação sobre o comportamento de Ló? Ló era justo ou não diante de Deus?",
@@ -1238,7 +1374,7 @@ export const themes: Theme[] = [
               },
               {
                 id: "babilonia-sai-dela",
-                name: "Sai dela",
+                name: "Sai dela Povo meu",
                 level: 4,
                 parentId: "babilonia",
                 description: "Sai dela, povo meu, para que não sejas participante dos seus pecados, e para que não incorras nas suas pragas.",
@@ -1560,133 +1696,6 @@ export const themes: Theme[] = [
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },		  
-		  {
-            id: "discipleship",
-            name: "Discipulado",
-            level: 3,
-            parentId: "biblical-concepts",
-            description: "Estudos sobre o discipulado cristão.",
-            children: [
-              {
-                id: "discipulo-missoes",
-                name: "Discípulo/Missões",
-                level: 4,
-                parentId: "discipleship",
-                description: "Repercussão desta Obra de Deus sobre toda a face da Terra; alcançando, por enquanto, mais de 90 Países, somando mais de 48.000 visitações ao Blog 'ÁGUAS VIVAS QUE CORREM MANSAMENTE' até 2025.",
-                children: [],
-                articles: ["discipulo-missoes"]
-              },
-              {
-                id: "passo-a-passo",
-                name: "Passo a Passo",
-                level: 4,
-                parentId: "discipleship",
-                description: "Aspectos fundamentais do discipulado cristão descritos passo a passo. Baseando-nos nos textos Bíblicos do Novo Testamento, podemos identificar vários aspectos cruciais do discipulado.",
-                children: [],
-                articles: ["passo-a-passo"]
-              },
-              {
-                id: "bem-aventurancas",
-                name: "Bem-Aventuranças",
-                level: 4,
-                parentId: "discipleship",
-                description: "As Bem-Aventuranças, como todo o resto do sermão do Monte, faziam parte dos ensinamentos de Jesus sobre o Reino de Deus e como aqueles que queriam segui-lo deveriam se comportar.",
-                children: [],
-                articles: ["bem-aventurancas"]
-              },
-              {
-                id: "lava-pes",
-                name: "Lava Pés",
-                level: 4,
-                parentId: "discipleship",
-                description: "O que será que Cristo quis ensinar quando transmitiu essa doutrina para os seus discípulos e ainda disse que deveriam repetir?",
-                children: [],
-                articles: ["lava-pes"]
-              },
-              {
-                id: "verdade-libertara",
-                name: "Verdade Libertará",
-                level: 4,
-                parentId: "discipleship",
-                description: "Esta frase, dita por Jesus, é tão manipulada por oportunistas que a utilizam fora do contexto e, por isso, nem eles mesmos conseguem entender e, muito menos, manifestar seu real significado. Vamos aproveitar para refletir sobre esse tema extremamente relevante e entender, afinal, o quê Jesus quis dizer com essa afirmação.",
-                children: [],
-                articles: ["verdade-libertara"]
-              },
-              {
-                id: "somos-deuses",
-                name: "Somos deuses",
-                level: 4,
-                parentId: "discipleship",
-                description: "Jesus manifesta abertamente que os santificados e enviados por Deus são Filhos de Deus, logo são deuses. Será que essa afirmação de Jesus tem a ver conosco?",
-                children: [],
-                articles: ["somos-deuses"]
-              },
-              {
-                id: "perseveranca-fe",
-                name: "Perseverança na Fé",
-                level: 4,
-                parentId: "discipleship",
-                description: "A 'paciência ou perseverança de Jesus ou dos santos' é uma expressão que perpassa todo o Novo Testamento, revelando um dos aspectos mais fundamentais da fé cristã: a necessidade de permanecermos firmes até o fim.",
-                children: [],
-                articles: ["perseveranca-fe"]
-              },
-              {
-                id: "viver-por-jesus",
-                name: "Viver por Jesus",
-                level: 4,
-                parentId: "discipleship",
-                description: "Há muito tempo que o crente tenta entender como fazer para viver por meio de Cristo, assim como Jesus Cristo vivia por meio do PAI.",
-                children: [],
-                articles: ["viver-por-jesus"]
-              },
-              {
-                id: "santificado-em-jesus",
-                name: "Santificado em Jesus",
-                level: 4,
-                parentId: "discipleship",
-                description: "Estamos fazendo o que é necessário para estarmos aptos na volta de Jesus?",
-                children: [],
-                articles: ["santificado-em-jesus"]
-              },
-              {
-                id: "parabola-semeador",
-                name: "Parábola Semeador",
-                level: 4,
-                parentId: "discipleship",
-                description: "Por que será que Jesus falava em Parábolas com o Povo?",
-                children: [],
-                articles: ["parabola-semeador"]
-              },
-              {
-                id: "pensamento-nos-ceus",
-                name: "Pensamento nos Céus",
-                level: 4,
-                parentId: "discipleship",
-                description: "O que é pensar nas coisas de cima? Qual deve ser o foco na vida do cristão?",
-                children: [],
-                articles: ["pensamento-nos-ceus"]
-              },
-              {
-                id: "fruto-do-espirito",
-                name: "Fruto do Espírito",
-                level: 4,
-                parentId: "discipleship",
-                description: "O fruto do espírito é ou são? Essa resposta varia a depender do objetivo de quem pergunta.",
-                children: [],
-                articles: ["fruto-do-espirito"]
-              },
-              {
-                id: "jer-ou-zac-em-mat-27",
-                name: "Jer ou Zac em Mat.27",
-                level: 4,
-                parentId: "discipleship",
-                description: "Responda-nos caro leitor, você é daqueles que ao fazer a leitura de qualquer texto bíblico costuma conferir as referências citadas ou parte do princípio que a referência mencionada no texto está correta? Pois bem, esta resposta dirá muito sobre a sua fé e sobre a sua responsabilidade em propagar os textos das divinas escrituras.",
-                children: [],
-                articles: ["jer-ou-zac-em-mat-27"]
-              }			  
-            ].sort((a, b) => a.name.localeCompare(b.name)),
-            articles: []
-          },
           {
             id: "erva-seca",
             name: "Erva Seca",
@@ -1795,7 +1804,7 @@ export const articles: Article[] = [
   },
   {
     id: "parabola-semeador",
-    title: "Parábola Semeador",
+    title: "Parábola do Semeador",
     date: "2023-03-26",
     summary: "Por que será que Jesus falava em Parábolas com o Povo? A Parábola do Semeador é sobre a Parábola da Parábola!",
     url: "https://otaviotolentino.wordpress.com/2023/03/26/parabola-do-semeador/",
@@ -1822,7 +1831,7 @@ export const articles: Article[] = [
   },
   {
     id: "oracao-jabez",
-    title: "Oração",
+    title: "Oração de Jabez",
     date: "2024-04-21",
     summary: "Jabez é um personagem comentado na Bíblia sem muita informação ou referência. Apenas aparece em 1 Crônicas capítulo 4, versos 9 e 10. Antes e depois nada mais é comentado sobre ele. Mas por que sua história brevemente comentada chama tanta atenção dos cristãos?",
     url: "https://otaviotolentino.wordpress.com/2024/04/21/oracao-de-jabez/",
@@ -1831,7 +1840,7 @@ export const articles: Article[] = [
   },
   {
     id: "lo-justo",
-    title: "Justo",
+    title: "O Justo",
     date: "2023-12-03",
     summary: "Qual a sua avaliação sobre o comportamento de Ló? Ló era justo ou não diante de Deus?",
     url: "https://otaviotolentino.wordpress.com/2023/12/03/lo-o-justo/",
@@ -1903,7 +1912,7 @@ export const articles: Article[] = [
   },
   {
     id: "praga-deus-em-davi",
-    title: "Praga Deus em Davi",
+    title: "Praga de Deus por causa de Davi",
     date: "2024-10-06",
     summary: "Qual o motivo da maldição de Deus por Davi ter contato os filhos do Povo de Israel? Qual foi o motivo dessa maldição que caiu sobre o Povo de Israel por causa de Davi? Os textos que narram a descrição desses fatos apenas citam o ocorrido sem dar nenhum detalhe sobre a causa que faz incidir a maldição.",
     url: "https://otaviotolentino.wordpress.com/2024/10/06/motivo-praga-por-davi-ter-contado-israel/",
@@ -1912,7 +1921,7 @@ export const articles: Article[] = [
   },
   {
     id: "primogenitura",
-    title: "Primogenitura",
+    title: "Primogenitura de Israel",
     date: "2024-03-10",
     summary: "Este artigo analisa a questão das bênçãos do Patriarca ao seu primogênito, dentro da tradição do judaísmo, manifestada no Velho Testamento e que se encontra na Lei de Moisés. Com base nessa tradição, respaldada pelo cumprimento divino, as palavras de bênção proferidas pelo patriarca ao seu primogênito são confirmadas e cumpridas por Deus.",
     url: "https://otaviotolentino.wordpress.com/2024/03/10/primogenitura-das-tribos-de-israel/",
@@ -1921,7 +1930,7 @@ export const articles: Article[] = [
   },
   {
     id: "rei-humano",
-    title: "Rei Humano",
+    title: "Ter Pedido Rei Humano",
     date: "2025-06-29",
     summary: "A história do povo de Israel é marcada por momentos decisivos que revelam a natureza da relação entre Deus e seu povo escolhido. Um desses momentos cruciais ocorreu quando os israelitas rejeitaram o governo teocrático direto de Deus e pediram um rei humano, seguindo o modelo das nações pagãs ao seu redor.",
     url: "https://otaviotolentino.wordpress.com/2025/06/29/povo-de-israel-ter-pedido-um-rei-humano-significado/",
@@ -1948,7 +1957,7 @@ export const articles: Article[] = [
   },
   {
     id: "cumprimento-repouso",
-    title: "Cumprimento Repouso",
+    title: "Cumprimento do Repouso",
     date: "2025-01-05",
     summary: "O que deu errado no Cumprimento do Repouso de Deus ao Povo de Israel? E por que o Povo de Israel não permaneceu no Repouso de Deus? Pois as escrituras nos afirmam que Deus cumpriu ao Povo de Israel todas as promessas feitas aos Patriarcas.",
     url: "https://otaviotolentino.wordpress.com/2025/01/05/cumprimento-do-repouso-de-deus-ao-povo-de-israel-o-que-deu-errado/",
@@ -1993,7 +2002,7 @@ export const articles: Article[] = [
   },
   {
     id: "rei-do-povo-deut33-5",
-    title: "Rei do Povo Deut33:5",
+    title: "Rei do Povo em Deuteronômio 33:5",
     date: "2024-11-17",
     summary: "Quem será que foi Rei em Jesurum na passagem de Deuteronômio 33:5? Quem é “Ele” referido no texto original do versículo 5? Teria sido Deus ou será que foi Moisés?",
     url: "https://otaviotolentino.wordpress.com/2024/11/17/quem-foi-rei-em-deuteronomio-33-5/",
@@ -2029,7 +2038,7 @@ export const articles: Article[] = [
   },
   {
     id: "sombra-propiciatorio",
-    title: "Sombra Propiciatório",
+    title: "Sombra no Propiciatório",
     date: "2022-03-20",
     summary: "O que significa a Sombra no Propiciatório mencionada por Paulo em Hebreus 9:5 e jamais comentada?",
     url: "https://otaviotolentino.wordpress.com/2022/03/20/sombra-propiciatorio/",
@@ -2038,7 +2047,7 @@ export const articles: Article[] = [
   },
   {
     id: "lugar-fixo-templo",
-    title: "Lugar Fixo Templo",
+    title: "Lugar Fixo do Templo",
     date: "2024-11-10",
     summary: "O lugar fixo do Templo seria o lugar definido por Deus para os serviços sacerdotais. O Templo fixo também seria o lugar dos sacrifícios e das Solenidades e Santas Convocações que o Senhor instituiu como as Festas Judaicas, comemoradas anualmente.",
     url: "https://otaviotolentino.wordpress.com/2024/11/10/previsao-do-lugar-fixo-do-templo-de-israel/",
@@ -2047,7 +2056,7 @@ export const articles: Article[] = [
   },
   {
     id: "tempo-aviso-de-noe",
-    title: "Tempo Aviso de Noé",
+    title: "Tempo do Aviso de Noé",
     date: "2024-02-11",
     summary: "Quanto tempo levou desde o aviso de Deus feito à Noé para construir a Arca até a queda das águas do dilúvio? Esse tempo parece confuso, pois não é dado diretamente nos textos bíblicos. Chegam a afirmar que Noé foi o pregoeiro da justiça ou deu testemunho da vinda do Dilúvio por 120 anos. Será?",
     url: "https://otaviotolentino.wordpress.com/2024/02/11/tempo-de-espera-ate-o-diluvio/",
@@ -2056,7 +2065,7 @@ export const articles: Article[] = [
   },
   {
     id: "subiu-sinai-1a-vez",
-    title: "Subiu Sinai 1ª Vez",
+    title: "Quem Subiu o Sinai na 1ª Vez?",
     date: "2024-01-21",
     summary: "Você sabia que Moisés subiu duas vezes ao cume do Monte Sinai, também chamado de Monte Horebe? A 1ª vez está descrita no capítulo 24 do Livro de Êxodo. A 2ª vez está descrita no capítulo 34 do Livro de Êxodo. Então QUEM subiu até o CUME do Monte SINAI e ficou lá 40 dias, na 1ª vez em Êxodo 24?",
     url: "https://otaviotolentino.wordpress.com/2024/01/21/subiu-monte-sinai/",
@@ -2074,7 +2083,7 @@ export const articles: Article[] = [
   },
   {
     id: "multiforme-sabedoria",
-    title: "Multiforme Sabedoria",
+    title: "Multiforme Sabedoria de Deus",
     date: "2022-02-07",
     summary: "Qual é o meio pelo qual essa variada ou múltiplas formas da sabedoria de Deus será manifestada? Qual o objetivo ou para quem será manifestada essa diversificada sabedoria de Deus? Quando surgiu ou passou a vigorar essa novidade que deve ser anunciada? Em qual dimensão deve ser anunciada?",
     url: "https://otaviotolentino.wordpress.com/2022/02/07/igreja-sabedoria/",
@@ -2110,7 +2119,7 @@ export const articles: Article[] = [
   },
   {
     id: "arrebatamento",
-    title: "Arrebatamento",
+    title: "Arrebatamento Antecipado: Será?",
     date: "2022-06-26",
     summary: "Será que a doutrina do Arrebatamento Antecipado da Igreja, antes da Tribulação, está prevista em Apocalipse ou na Bíblia?",
     url: "https://otaviotolentino.wordpress.com/2022/06/26/arrebatamento-antecipado/",
@@ -2137,7 +2146,7 @@ export const articles: Article[] = [
   },
   {
     id: "discipulo-missoes",
-    title: "Discípulo/Missões",
+    title: "Discípulos/Missões",
     date: "2025-07-28",
     summary: "Repercussão desta Obra de Deus sobre toda a face da Terra; alcançando, por enquanto, mais de 90 Países, somando mais de 48.000 visitações ao Blog 'ÁGUAS VIVAS QUE CORREM MANSAMENTE' até 2025.",
     url: "https://otaviotolentino.wordpress.com/missoes/",
@@ -2561,7 +2570,7 @@ export const articles: Article[] = [
   },
   {
     id: "nome",
-    title: "Nome",
+    title: "Nome de Jesus",
     date: "June 25, 2023",
     summary: "Esse nome foi anunciado pelo anjo de Deus a Maria e também a José que o Filho de Deus, que nasceria de Maria, deveria ser chamado Jesus. Então o nome em questão a ser analisado neste estudo, numa abordagem de questão semântica, é o nome “JESUS“.",
     url: "https://otaviotolentino.wordpress.com/2023/06/25/nome-de-jesus/",
@@ -2597,7 +2606,7 @@ export const articles: Article[] = [
   },
   {
     id: "profecia-jesus",
-    title: "Profecia Jesus",
+    title: "Profecia sobre Jesus",
     date: "December 18, 2022",
     summary: "Pouco se fala entre os cristãos sobre a profecia de Moisés de que viria um profeta dentre o povo de Israel e que falaria as palavras de Deus. Essa profecia é uma das maiores expectativas que o povo de Israel tem sobre a vinda do Messias, chamado de Cristo.",
     url: "https://otaviotolentino.wordpress.com/2022/12/18/moises-e-jesus/",
@@ -2606,7 +2615,7 @@ export const articles: Article[] = [
   },
   {
     id: "ordem-melquisedeque",
-    title: "Ordem Melquisedeque",
+    title: "Ordem de Melquisedeque",
     date: "November 6, 2022",
     summary: "Jesus Cristo é Rei e Sumo sacerdote eternamente, segundo a ordem de Melquisedeque.",
     url: "https://otaviotolentino.wordpress.com/2022/11/06/jesus-sumo-sacerdote/",
@@ -2669,7 +2678,7 @@ export const articles: Article[] = [
   },
   {
     id: "sangue-clama",
-    title: "Sangue Clama",
+    title: "Sangue que Clama",
     date: "March 24, 2024",
     summary: "A expressão ‘clama ou fala diante de Deus’, quer dizer que ‘chamou a atenção de Deus’ ou que ‘chegou aos seus ouvidos’. Então, como podemos entender o que isso significa: ‘o SANGUE que CLAMA ou FALA diante de Deus’?",
     url: "https://otaviotolentino.wordpress.com/2024/03/24/sangue-que-clama-diante-de-deus/",
@@ -2795,7 +2804,7 @@ export const articles: Article[] = [
   },
   {
     id: "impedido",
-    title: "Impedido",
+    title: "Impedido de entrar na Terra Prometida",
     date: "July 19, 2025",
     summary: "Por que DEUS impediu Moisés de entrar na Terra Prometida? Leia o Artigo completo para saber a resposta.",
     url: "https://otaviotolentino.wordpress.com/2023/06/04/moises-nao-entrou-na-terra-prometida/",
@@ -2804,7 +2813,7 @@ export const articles: Article[] = [
   },
   {
     id: "assinatura-cartas",
-    title: "Assinatura Cartas",
+    title: "Assinatura nas Cartas",
     date: "July 19, 2025",
     summary: "Uma característica interessante em todas as Cartas ou Epístolas de Paulo, que na verdade se torna sua marca, e deveria servir como parâmetro de avaliação se o documento tem origem autoral da parte de Paulo é a sua assinatura.",
     url: "https://otaviotolentino.wordpress.com/2021/12/13/assinatura-paulo-cartas/",
@@ -2813,7 +2822,7 @@ export const articles: Article[] = [
   },
   {
     id: "autor-hebreus",
-    title: "Autor Hebreus",
+    title: "Autor de Hebreus",
     date: "July 19, 2025",
     summary: "Segue análise sobre o texto do Livro de Hebreus, utilizando critério de comparação com todos os outros textos considerados, irrefutavelmente, como sendo de autoria do apóstolo Paulo.",
     url: "https://otaviotolentino.wordpress.com/2023/02/19/autor-de-hebreus/",
@@ -2822,7 +2831,7 @@ export const articles: Article[] = [
   },
   {
     id: "carta-laodicenses",
-    title: "Carta Laodicenses",
+    title: "Carta aos Laodicenses",
     date: "July 19, 2025",
     summary: "Surpreenda-se com a leitura completa desse Artigo sobre a Carta aos Laodicenses: Correção de Destinatário e através dos textos bíblicos descubra sobre esse encontro?",
     url: "https://otaviotolentino.wordpress.com/2022/07/31/carta-laodicenses/",
@@ -2831,7 +2840,7 @@ export const articles: Article[] = [
   },
   {
     id: "profetizou-jesus",
-    title: "Profetizou Jesus",
+    title: "Profetizou sobre Jesus",
     date: "July 19, 2025",
     summary: "Será que Deus realmente queria que Abraão sacrificasse o seu único filho de verdade? Veremos qual a verdadeira intenção de Deus ao pedir que Abraão sacrificasse seu Filho único.",
     url: "https://otaviotolentino.wordpress.com/2024/01/07/sacrificio-de-isaque/",
@@ -2840,7 +2849,7 @@ export const articles: Article[] = [
   },
   {
     id: "origem-periodo",
-    title: "Origem/Período",
+    title: "Origem e Período",
     date: "July 19, 2025",
     summary: "Há muito tempo nos perguntamos qual a origem de Jó? E qual o seu tempo ou momento dentro da cronologia da Bíblia? É o que analisamos.",
     url: "https://otaviotolentino.wordpress.com/2023/02/26/jo-origem-e-periodo/",
@@ -2849,7 +2858,7 @@ export const articles: Article[] = [
   },
   {
     id: "sabio-davi-salomao",
-    title: "Sábio Davi/Salomão",
+    title: "Sábio como Davi e Salomão",
     date: "July 19, 2025",
     summary: "Até onde vai a sabedoria de Jó? Será que sua sabedoria, exposta expressamente nos capítulos do seu Livro, merece o mesmo grau de reconhecimento da sabedoria apresentada por Davi e seu filho Salomão?",
     url: "https://otaviotolentino.wordpress.com/2024/05/26/jo-era-sabio-como-davi-e-salomao/",
@@ -2957,7 +2966,7 @@ export const articles: Article[] = [
   },
   {
     id: "manancial",
-    title: "3. Manancial",
+    title: "3. Manancial de Águas",
     date: "February 27, 2022",
     summary: "Após o nascimento espiritual, devemos nos alimentar pela Palavra de Deus a ser guardada em nossos corações para a obediência da fé. A Palavra de Deus é Espírito e Vida. Deus é a fonte da Vida, o manancial de águas vivas.",
     url: "https://otaviotolentino.wordpress.com/2022/02/27/arvore-e-manancial/",
@@ -3011,7 +3020,7 @@ export const articles: Article[] = [
   },
   {
     id: "babilonia-sai-dela",
-    title: "Sai dela",
+    title: "Sai dela Povo meu",
     date: "July 24, 2022",
     summary: "Sai dela, povo meu, para que não sejas participante dos seus pecados, e para que não incorras nas suas pragas.",
     url: "https://otaviotolentino.wordpress.com/2022/07/24/babilonia-sai-dela/",
@@ -3065,7 +3074,7 @@ export const articles: Article[] = [
   },
   {
     id: "moradas-foi-preparar",
-    title: "Moradas foi Preparar",
+    title: "Moradas que foi Preparar",
     date: "January 29, 2023",
     summary: "Muitos cristãos ainda não entenderam que essas moradas são lugares para que os seus seguidores estivessem para sempre com ele.",
     url: "https://otaviotolentino.wordpress.com/2023/01/29/moradas-de-deus/",
@@ -3092,7 +3101,7 @@ export const articles: Article[] = [
   },
   {
     id: "pedro-redesignado",
-    title: "Pedro Redesignado",
+    title: "Pedro foi Redesignado",
     date: "2023-04-09",
     summary: "Pedro não estava cumprindo bem a tarefa dada a ele por Jesus, por isso fez-se necessário a redesignação do Ministério da Ciruncisão de Pedro para Paulo.",
     url: "https://otaviotolentino.wordpress.com/2023/04/09/ministerio-dos-gentios-redesignacao/",
@@ -3209,7 +3218,7 @@ export const articles: Article[] = [
   },
   {
     id: "conc-em-jeremias-13",
-    title: "Conc. em Jeremias 13",
+    title: "Conceitos em Jeremias 13",
     date: "2024-07-07",
     summary: "Há muito tempo é sabido que os livros dos profetas do antigo testamento estão diretamente relacionados com o livro de Apocalipse. Nesse contexto, apresentaremos neste estudo um resumo direto e sem rodeios do capítulo 13 do profeta Jeremias de forma clara e objetiva.",
     url: "https://otaviotolentino.wordpress.com/2024/07/07/conceitos-do-apocalipse-em-jeremias-13/",
@@ -3218,7 +3227,7 @@ export const articles: Article[] = [
   },
   {
     id: "descendencia-abraao",
-    title: "Descendência Abraão",
+    title: "Descendência de Abraão",
     date: "2022-01-25",
     summary: "Se o povo de Israel, descendência de Abraão, rejeitou as promessas de Deus cumpridas em Jesus Cristo, seu filho e enviado, o Ungido de Deus, então como fica a promessa de serem abençoadas todas as nações e famílias da Terra?",
     url: "https://otaviotolentino.wordpress.com/2022/01/25/descendencia-de-abraao/",
@@ -3227,7 +3236,7 @@ export const articles: Article[] = [
   },
   {
     id: "jer-ou-zac-em-mat-27",
-    title: "Jer ou Zac em Mat.27",
+    title: "Jeremias ou Zacarias em Mateus 27",
     date: "2024-06-23",
     summary: "Responda-nos caro leitor, você é daqueles que ao fazer a leitura de qualquer texto bíblico costuma conferir as referências citadas ou parte do princípio que a referência mencionada no texto está correta? Pois bem, esta resposta dirá muito sobre a sua fé e sobre a sua responsabilidade em propagar os textos das divinas escrituras.",
     url: "https://otaviotolentino.wordpress.com/2024/06/23/jeremias-ou-zacarias-na-referencia-de-mateus-27/",
@@ -3236,12 +3245,21 @@ export const articles: Article[] = [
   },
   {
     id: "esp-santo-no-vt",
-    title: "Esp. Santo no VT",
+    title: "Espírito Santo no Velho Testamento",
     date: "2023-04-02",
     summary: "Embora haja muitas referências no Velho Testamento sobre o Espírito de Deus, porém só existem 3 referências, em todo o Velho Testamento, à expressão ou locução 'Espírito Santo', nessa forma composta e completa.",
     url: "https://otaviotolentino.wordpress.com/2023/04/02/espirito-santo-no-vt/",
     tags: ["Espírito Santo", "Velho Testamento", "Deus"],
     category: "Estudos"
+  },
+  {
+    id: 'ministerio-reconciliacao',
+    title: 'Ministério da Reconciliação',
+    date: '2025-08-10',
+    summary: 'Para você, o que vem a ser o Ministério da Reconciliação dado por Deus aos homens? Todo cristão verdadeiramente nascido de novo recebe de Deus uma missão específica: ser embaixador da reconciliação entre Deus e os homens.',
+    url: 'https://otaviotolentino.wordpress.com/2025/08/10/ministerio-da-reconciliacao/',
+    tags: ["Corpo de Cristo","Cruz de Cristo","Paz com Deus","Paz em Jesus","Reconciliação"],
+    category: 'Estudos',
   }  
 ];
 
