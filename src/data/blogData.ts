@@ -420,6 +420,15 @@ export const themes: Theme[] = [
                 description: 'Para você, o que vem a ser o Ministério da Reconciliação dado por Deus aos homens?.',
                 children: [],
                 articles: ['ministerio-reconciliacao']
+              },
+			  {
+                id: 'Resisti-mal-e-pecado',
+                name: 'Resisti mal e pecado',				
+                level: 4,
+                parentId: 'discipleship',
+                description: 'Você sabe qual é o caminho para vencer a guerra espiritual contra o diabo e o pecado?',
+                children: [],
+                articles: ['Resisti-mal-e-pecado']
               }			  
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -3259,6 +3268,15 @@ export const articles: Article[] = [
     summary: 'Para você, o que vem a ser o Ministério da Reconciliação dado por Deus aos homens? Todo cristão verdadeiramente nascido de novo recebe de Deus uma missão específica: ser embaixador da reconciliação entre Deus e os homens.',
     url: 'https://otaviotolentino.wordpress.com/2025/08/10/ministerio-da-reconciliacao/',
     tags: ["Corpo de Cristo","Cruz de Cristo","Paz com Deus","Paz em Jesus","Reconciliação"],
+    category: 'Estudos',
+  },
+  {
+    id: 'Resisti-mal-e-pecado',
+    title: 'SUJEITAI-vos a DEUS, RESISTI ao diabo (e ao Pecado), e ele FUGIRÁ de vós',
+    date: '2025-08-17',
+    summary: 'A vida cristã é marcada por uma batalha constante contra as forças espirituais das trevas. Esta não é meramente uma sugestão pastoral, mas um mandamento divino que revela a estratégia celestial para a vitória sobre o pecado e as investidas do adversário.',
+    url: 'https://otaviotolentino.wordpress.com/2025/08/17/sujeitai-vos-a-deus-resisti-ao-diabo-e-ao-pecado/',
+    tags: ["Cruz de Cristo","diabo fugirá","Resisitir ao diabo","Resistir ao pecado","Sangue de Jesus","Sujeição a Deus","Testemunho de Jesus"],
     category: 'Estudos',
   }  
 ];
