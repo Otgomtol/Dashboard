@@ -70,10 +70,8 @@ function App() {
         setSelectedArticleId(null); // Ensure no single article is selected
         setSelectedThemeId(null);
       } else if (searchResults.length === 1) {
-        // Single result: Automatically select the article and clear the list
-        setSelectedArticleId(searchResults[0].id);
-        setDisplayedArticles([]); // Clear the list to show only the ArticleView
-        setSelectedThemeId(null);
+        // Single result: call the master selection function
+        handleNodeClick(searchResults[0].id);
       } else {
         // No results
         setDisplayedArticles([]);
@@ -89,6 +87,23 @@ function App() {
       }));
     }
   }, [searchResults, isSearchMode]);
+
+  // Effect to clean up state when exiting search mode
+  useEffect(() => {
+    // This effect cleans up the UI to the initial state.
+    // It only runs if we are not in search mode, not selecting an article, and not selecting a theme.
+    if (!isSearchMode && !selectedArticleId && !selectedThemeId) {
+      setDisplayedArticles([]);
+      
+      // Also collapse the theme navigator
+      window.dispatchEvent(new CustomEvent('search-selection', { 
+        detail: { 
+          fromSearch: true, 
+          articles: [] 
+        } 
+      }));
+    }
+  }, [isSearchMode, selectedArticleId, selectedThemeId]);
 
   // Custom theme selection handler to clear search
   const handleThemeSelect = (themeId: string) => {
@@ -236,7 +251,7 @@ function App() {
                           <div 
                             key={article.id}
                             className={articleClasses.join(' ')}
-                            onClick={() => isClickable && setSelectedArticleId(article.id)}
+                            onClick={() => isClickable && handleNodeClick(article.id)}
                           >
                             {isSearchMode && searchResults.length > 1 && <div className="w-4 h-4 mr-2" />}
                             <span className="truncate dark:text-gray-200 flex-grow min-w-0">{article.title}</span>

@@ -11,29 +11,47 @@ interface SearchBarProps {
 
 const SearchBar: React.FC<SearchBarProps> = ({ onSearchResults, searchQuery, setSearchQuery, setIsSearchMode }) => {
   const [isSearching, setIsSearching] = useState(false);
+  const [debouncedQuery, setDebouncedQuery] = useState(searchQuery);
   const inputRef = useRef<HTMLInputElement>(null);
 
+  // Debounce effect to avoid searching on every keystroke
   useEffect(() => {
-    if (searchQuery.trim().length > 2) {
+    const timer = setTimeout(() => {
+      setDebouncedQuery(searchQuery);
+    }, 300); // 300ms delay
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [searchQuery]);
+
+  // Effect to perform the search based on the debounced query
+  useEffect(() => {
+    const trimmedQuery = debouncedQuery.trim();
+    
+    if (trimmedQuery.length >= 2) {
       setIsSearching(true);
       setIsSearchMode(true); // Activate search mode
-      const results = searchArticles(searchQuery);
+      const results = searchArticles(trimmedQuery);
       onSearchResults(results);
       // Stop the loading indicator after results are returned
       setTimeout(() => {
         setIsSearching(false);
       }, 300);
-    } else if (searchQuery.trim().length === 0) {
+    } else {
+      // This handles query length < 2 (0 or 1)
       onSearchResults([]);
       setIsSearchMode(false); // Deactivate search mode
       setIsSearching(false);
     }
-  }, [searchQuery, onSearchResults, setIsSearchMode]);
+  }, [debouncedQuery, onSearchResults, setIsSearchMode]);
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    if (searchQuery.trim().length > 0) {
-      const results = searchArticles(searchQuery);
+    // Trigger search immediately on form submit (e.g., pressing Enter)
+    const trimmedQuery = searchQuery.trim();
+    if (trimmedQuery.length > 0) {
+      const results = searchArticles(trimmedQuery);
       onSearchResults(results);
     }
   };
