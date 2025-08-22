@@ -1894,7 +1894,7 @@ export const articles: Article[] = [
   },
   {
     id: "cedula-contraria",
-    title: "Cédula Contrária",
+    title: "Cédula que era Contra nós",
     date: "2023-03-13",
     summary: "Será que sabemos o que é a “Cédula contra nós” que foi cravada na Cruz por Jesus? O que será que Paulo quis dizer com o texto de Colossenses 2:14? Temos ouvido que nessa referência bíblica está sendo falado que a cédula era a nossa dívida para com Deus por causa dos nossos pecados. Será que é isso mesmo que o autor está querendo dizer no verso 14?",
     url: "https://otaviotolentino.wordpress.com/2023/03/13/cedula-contraria/",

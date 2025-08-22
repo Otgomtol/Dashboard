@@ -34,7 +34,7 @@ const Mindmap: React.FC<MindmapProps> = ({
   const graphRef = useRef<any>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   // Use fixed dimensions as requested, width will adapt via ResizeObserver
-  const [dimensions, setDimensions] = React.useState({ width: 1264, height: 850 - 48 }); // Target height 850, subtract header
+  const [dimensions, setDimensions] = React.useState({ width: 1264, height: 1000 - 48 }); // Target height 850, subtract header
 
   // Update width dimension when container size changes, keep height fixed
   useEffect(() => {
@@ -46,7 +46,7 @@ const Mindmap: React.FC<MindmapProps> = ({
     const updateDimensions = () => {
       if (containerRef.current) {
         const { width } = containerRef.current.getBoundingClientRect();
-        const fixedHeight = 850 - 48; // Target height 850, subtract header
+        const fixedHeight = 1000 - 48; // Target height 850, subtract header
         console.log(`Container width: ${width}, fixed height: ${fixedHeight}`);
         setDimensions({ width, height: fixedHeight });
       }
@@ -131,7 +131,7 @@ const Mindmap: React.FC<MindmapProps> = ({
       className="mindmap-container border rounded-lg bg-white dark:bg-gray-800 shadow-sm overflow-hidden"
       style={{ 
         position: 'relative', 
-        height: '850px', // Set fixed height as requested
+        height: '1000px', // Set fixed height as requested
         width: '100%' // Allow width to be determined by parent grid
       }}
     >
