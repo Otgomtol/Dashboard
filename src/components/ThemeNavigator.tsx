@@ -324,9 +324,9 @@ const ThemeNavigator: React.FC<ThemeNavigatorProps> = ({
   };
 
   return (
-    <div className="theme-navigator border rounded-lg bg-white dark:bg-gray-800 dark:border-gray-700 shadow-sm p-2">
+    <div className="theme-navigator border rounded-lg bg-white dark:bg-gray-800 dark:border-gray-700 shadow-sm overflow-y-auto">
       <h2 className="text-lg font-semibold p-3 border-b dark:border-gray-700 mb-2 dark:text-white">Navegador de Temas</h2>
-      <div className="theme-list">
+      <div className="theme-list overflow-y-auto space-y-1 p-2">
         {themes.map(theme => renderTheme(theme, 0))}
       </div>
     </div>
