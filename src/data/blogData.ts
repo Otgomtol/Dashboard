@@ -284,10 +284,37 @@ export const themes: Theme[] = [
             name: "Tradução e Versão",
             level: 3,
             parentId: "igreja",
-            description: "Por ser a Bíblia composta por textos inspirados por Deus, que dão origem aos livros do Velho e do Novo Testamento, devemos zelar em ter o melhor resultado final, que são as traduções e versões que dão origem às Bíblias disponíveis nas mais diversas línguas em nosso planeta.",
+            description: "Por ser a Bíblia composta por textos inspirados por Deus, que dão origem aos livros do Velho e do Novo Testamento, devemos zelar em ter o melhor resultado final.",
             children: [],
             articles: ["traducao-e-versao"]
           },
+          {
+            id: "fruto-do-espirito",
+            name: "Fruto do Espírito",
+            level: 3,
+            parentId: "igreja",
+            description: "O fruto do espírito é ou são? Essa resposta varia a depender do objetivo de quem pergunta.",
+            children: [],
+            articles: ["fruto-do-espirito"]
+          },
+          {
+            id: "jer-ou-zac-em-mat-27",
+            name: "Jer ou Zac em Mat.27",
+            level: 3,
+            parentId: "igreja",
+            description: "Responda-nos caro leitor, você é daqueles que ao fazer a leitura de qualquer texto bíblico costuma conferir as referências citadas? ",
+            children: [],
+            articles: ["jer-ou-zac-em-mat-27"]
+          },
+          {
+            id: "discipulo-missoes",
+            name: "Discípulos/Missões",
+            level: 3,
+            parentId: "igreja",
+            description: "Repercussão desta Obra de Deus sobre toda a face da Terra; alcançando, por enquanto, mais de 90 Países, somando mais de 48.000 visitações ao Blog 'ÁGUAS VIVAS QUE CORREM MANSAMENTE' até 2025.",
+            children: [],
+            articles: ["discipulo-missoes"]
+          },		  
 		  {
             id: "discipleship",
             name: "Discipulado",
@@ -295,15 +322,6 @@ export const themes: Theme[] = [
             parentId: "igreja",
             description: "Estudos sobre o discipulado cristão.",
             children: [
-              {
-                id: "discipulo-missoes",
-                name: "Discípulos/Missões",
-                level: 4,
-                parentId: "discipleship",
-                description: "Repercussão desta Obra de Deus sobre toda a face da Terra; alcançando, por enquanto, mais de 90 Países, somando mais de 48.000 visitações ao Blog 'ÁGUAS VIVAS QUE CORREM MANSAMENTE' até 2025.",
-                children: [],
-                articles: ["discipulo-missoes"]
-              },
               {
                 id: "passo-a-passo",
                 name: "Passo a Passo",
@@ -395,24 +413,6 @@ export const themes: Theme[] = [
                 articles: ["pensamento-nos-ceus"]
               },
               {
-                id: "fruto-do-espirito",
-                name: "Fruto do Espírito",
-                level: 4,
-                parentId: "discipleship",
-                description: "O fruto do espírito é ou são? Essa resposta varia a depender do objetivo de quem pergunta.",
-                children: [],
-                articles: ["fruto-do-espirito"]
-              },
-              {
-                id: "jer-ou-zac-em-mat-27",
-                name: "Jer ou Zac em Mat.27",
-                level: 4,
-                parentId: "discipleship",
-                description: "Responda-nos caro leitor, você é daqueles que ao fazer a leitura de qualquer texto bíblico costuma conferir as referências citadas ou parte do princípio que a referência mencionada no texto está correta? Pois bem, esta resposta dirá muito sobre a sua fé e sobre a sua responsabilidade em propagar os textos das divinas escrituras.",
-                children: [],
-                articles: ["jer-ou-zac-em-mat-27"]
-              },
-              {
                 id: 'ministerio-reconciliacao',
                 name: 'Minist. Reconciliação',
                 level: 4,
@@ -429,6 +429,15 @@ export const themes: Theme[] = [
                 description: 'Você sabe qual é o caminho para vencer a guerra espiritual contra o diabo e o pecado?',
                 children: [],
                 articles: ['Resisti-mal-e-pecado']
+              },
+			  {
+                id: 'desvelando-o-veu',
+                name: 'Desvelando o VÉU',				
+                level: 4,
+                parentId: 'discipleship',
+                description: 'Por que alguns veem e outros permanecem cegos diante das verdades espirituais?',
+                children: [],
+                articles: ['desvelando-o-veu']
               }			  
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -3272,11 +3281,20 @@ export const articles: Article[] = [
   },
   {
     id: 'Resisti-mal-e-pecado',
-    title: 'SUJEITAI-vos a DEUS, RESISTI ao diabo (e ao Pecado), e ele FUGIRÁ de vós',
+    title: 'Sujeitai-vos a Deus, Resisti ao diabo (e ao Pecado), e ele Fugirá de vós',
     date: '2025-08-17',
     summary: 'A vida cristã é marcada por uma batalha constante contra as forças espirituais das trevas. Esta não é meramente uma sugestão pastoral, mas um mandamento divino que revela a estratégia celestial para a vitória sobre o pecado e as investidas do adversário.',
     url: 'https://otaviotolentino.wordpress.com/2025/08/17/sujeitai-vos-a-deus-resisti-ao-diabo-e-ao-pecado/',
     tags: ["Cruz de Cristo","diabo fugirá","Resisitir ao diabo","Resistir ao pecado","Sangue de Jesus","Sujeição a Deus","Testemunho de Jesus"],
+    category: 'Estudos',
+  },
+  {
+    id: 'desvelando-o-veu',
+    title: 'Desvelando o Véu para o Entendimento de Deus',
+    date: '2025-08-24',
+    summary: 'Por que alguns veem e outros permanecem cegos diante das verdades espirituais? Uma das mais profundas questões que permeiam as Escrituras é a razão pela qual alguns homens entendem as verdades espirituais enquanto outros permanecem em trevas espirituais.',
+    url: 'https://otaviotolentino.wordpress.com/2025/08/24/desvelando-o-veu/',
+    tags: ["Coração endurecido","Cristo te iluminará","Mistérios","Olhos que não veem","Ouvidos que não ouvem","Revelação","Segredos","Véu"],
     category: 'Estudos',
   }  
 ];
