@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Theme, findThemeById, Article, articles as allArticles } from '../data/blogData'; // Import findThemeById and allArticles
+import { Theme, findThemeById, Article, articles as allArticles } from '../data/blogData';
 import { ChevronDown, ChevronRight } from 'lucide-react';
+import { useIsMobile } from '../hooks/use-mobile';
 
 interface ThemeNavigatorProps {
   themes: Theme[];
@@ -64,6 +65,7 @@ const ThemeNavigator: React.FC<ThemeNavigatorProps> = ({
   selectedThemeId
 }) => {
   const [expandedThemes, setExpandedThemes] = useState<Record<string, boolean>>({});
+  const isMobile = useIsMobile();
   
   const findParentIds = useCallback((currentThemes: Theme[], targetId: string, parentIds: string[] = []): string[] => {
     for (const theme of currentThemes) {
@@ -252,7 +254,7 @@ const ThemeNavigator: React.FC<ThemeNavigatorProps> = ({
       'py-2',
       'px-3',
       'rounded-md',
-      'theme-item', // Add the base class for CSS rule
+      'theme-item',
       'text-gray-800',
       'dark:text-gray-200'
     ];
@@ -264,23 +266,29 @@ const ThemeNavigator: React.FC<ThemeNavigatorProps> = ({
     }
 
     if (isClickable) {
-      themeClasses.push('clickable'); // Add the clickable class
+      themeClasses.push('clickable');
     } else {
-      themeClasses.push('not-clickable'); // Add the not-clickable class
+      themeClasses.push('not-clickable');
     }
 
     const buttonClasses = ['mr-2', 'focus:outline-none', 'flex-shrink-0'];
     if (isClickable) {
-      buttonClasses.push('clickable'); // Add the clickable class
+      buttonClasses.push('clickable');
     } else {
-      buttonClasses.push('not-clickable'); // Add the not-clickable class
+      buttonClasses.push('not-clickable');
     }
+
+    // --- NEW CONDITIONAL LOGIC FOR CHILDREN WRAPPER ---
+    const childrenContainerClasses = isMobile 
+      ? "theme-children pl-3 border-l border-gray-200 dark:border-gray-700"
+      : "theme-children pl-4 border-l border-gray-200 dark:border-gray-700 ml-5";
 
     return (
       <div key={theme.id} className="theme-item">
         <div 
           className={themeClasses.join(' ')}
-          style={{ paddingLeft: `${level * 16 + 12}px` }}
+          // The original desktop indentation logic is preserved via inline style
+          style={!isMobile ? { paddingLeft: `${level * 12}px` } : {}}
           onClick={() => {
             if (isClickable) {
               onSelectTheme(theme.id);
@@ -315,7 +323,7 @@ const ThemeNavigator: React.FC<ThemeNavigatorProps> = ({
         </div>
         
         {isExpanded && hasChildren && (
-          <div className="theme-children pl-4 border-l border-gray-200 dark:border-gray-700 ml-5">
+          <div className={childrenContainerClasses}>
             {theme.children.map(child => renderTheme(child, level + 1))}
           </div>
         )}

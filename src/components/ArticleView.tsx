@@ -29,7 +29,7 @@ const ArticleView: React.FC<ArticleViewProps> = ({
   return (
     <div className="article-view border rounded-lg bg-white dark:bg-gray-800 shadow-sm overflow-y-auto">
       <h2 className="text-lg font-semibold p-3 border-b dark:border-gray-700 mb-2 dark:text-white">Visualizador de Artigos</h2>
-      <div className="p-6">
+      <div className="article-list overflow-y-auto p-6">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
           {article.url ? (
             <a 

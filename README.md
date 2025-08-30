@@ -1,4 +1,4 @@
-# Project Title
+# Dashboard
 
 Dashboard - A modern web application built with React, Vite, and TypeScript.
 
@@ -9,11 +9,21 @@ This project is a responsive and interactive dashboard application. It leverages
 ## Features
 
 *   **Modern Frontend Stack:** Built with React, Vite, and TypeScript for a fast and type-safe development experience.
-*   **Rich UI Components:** Utilizes a comprehensive suite of UI components from Radix UI, including accordions, dialogs, dropdowns, and more.
+*   **Rich UI Components:** Utilizes a comprehensive suite of UI components from the Radix UI library, including accordions, dialogs, dropdowns, and more.
 *   **Data Visualization:** Integrates with Recharts and D3.js to create interactive charts and graphs.
 *   **Mind Mapping:** Includes a mind-mapping component for visualizing and exploring complex data relationships.
 *   **Responsive Design:** Designed to be fully responsive and accessible on all devices.
 *   **Dark Mode:** Supports a dark mode theme for improved readability in low-light environments.
+
+## Project Structure
+
+A brief overview of the key directories in this project:
+
+-   `src/components`: Contains all reusable React components, including UI elements and feature-specific components.
+-   `src/data`: Holds static data and mocks, most notably `blogData.ts` which powers the application content.
+-   `src/hooks`: Contains custom React hooks for shared logic (e.g., `useDarkMode`).
+-   `src/lib`: General utility functions.
+-   `public`: Static assets that are served directly.
 
 ## Getting Started
 

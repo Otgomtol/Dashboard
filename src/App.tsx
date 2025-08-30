@@ -5,6 +5,8 @@ import ThemeNavigator from './components/ThemeNavigator';
 import SearchBar from './components/SearchBar';
 import Mindmap from './components/Mindmap';
 import ArticleView from './components/ArticleView';
+import { HelpDialog } from './components/HelpDialog';
+import { HelpCircle, Sun, Moon } from 'lucide-react';
 import { 
   themes, 
   articles, 
@@ -17,8 +19,9 @@ import './App.css';
 
 function App() {
   // Use dark mode hook
-  useDarkMode();
+  const { isDarkMode, toggleTheme } = useDarkMode();
   
+  const [isHelpDialogOpen, setIsHelpDialogOpen] = useState(false);
   const [selectedThemeId, setSelectedThemeId] = useState<string | null>(null);
   const [selectedArticleId, setSelectedArticleId] = useState<string | null>(null);
   const [displayedArticles, setDisplayedArticles] = useState<typeof articles>([]);
@@ -167,11 +170,19 @@ function App() {
   return (
     <Router>
       <div className={`app min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-200`}>
-        <header className="bg-white dark:bg-gray-800 shadow-sm py-4">
+        <header className="bg-white dark:bg-gray-800 shadow-sm py-4 relative">
           <div className="container mx-auto px-4">
             <h1 className="text-2xl font-bold text-center text-blue-800 dark:text-blue-400">
               ÁGUAS VIVAS QUE CORREM MANSAMENTE
             </h1>
+            {/* Theme Toggle Button */}
+            <button 
+              onClick={toggleTheme}
+              className="absolute top-4 right-4 p-2 text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-100 transition-colors duration-150"
+              aria-label="Alternar tema"
+            >
+              {isDarkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+            </button>
             {/* Updated Header Content */}
             <div className="text-center mt-2">
               <h2 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
@@ -191,7 +202,14 @@ function App() {
                 Visitar Blog Original
               </a>
             </div>
-            <div className="mt-4 flex justify-center">
+            <div className="mt-4 flex justify-center items-center space-x-2">
+              <button 
+                onClick={() => setIsHelpDialogOpen(true)}
+                className="p-2 text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-100 transition-colors duration-150"
+                aria-label="Abrir ajuda"
+              >
+                <HelpCircle className="h-5 w-5" />
+              </button>
               <SearchBar 
                 onSearchResults={setSearchResults} 
                 searchQuery={searchQuery}
@@ -202,7 +220,7 @@ function App() {
           </div>
         </header>
         
-        <main className="container mx-auto px-4 py-6">
+        <main className="w-full px-4 py-6">
           {/* Grid Container - 2 colunas no desktop, 1 coluna no mobile */}
           <div className="main-grid-container">
             {/* Primeira Coluna: Theme Navigator */}
@@ -336,6 +354,7 @@ function App() {
             </div>
           </div>
         </footer>
+        <HelpDialog open={isHelpDialogOpen} onOpenChange={setIsHelpDialogOpen} />
       </div>
     </Router>
   );
