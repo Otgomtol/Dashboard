@@ -5,3 +5,5 @@ docs/
 .env.local
 .DS_Store
 tsconfig.tsbuildinfo
+*storybook.log
+storybook-static

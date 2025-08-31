@@ -1,3 +1,11 @@
+### Imagem do Blog fonte das informações
+
+![Screenshot do Blog](./assets/blog-screenshot.png)
+
+### Imagem do Dashboard - Navegador das Informações do Blog
+
+![Screenshot do Dashboard](./assets/dashboard-screenshot.png)
+
 # Dashboard
 
 Dashboard - A modern web application built with React, Vite, and TypeScript.
@@ -24,6 +32,15 @@ A brief overview of the key directories in this project:
 -   `src/hooks`: Contains custom React hooks for shared logic (e.g., `useDarkMode`).
 -   `src/lib`: General utility functions.
 -   `public`: Static assets that are served directly.
+
+### Arquitetura Simplificada
+
+O `App.tsx` atua como o componente orquestrador principal, gerenciando o estado global da aplicação. O fluxo de dados principal ocorre da seguinte forma:
+
+1.  O usuário interage com um dos componentes de navegação (`ThemeNavigator`, `SearchBar` ou `Mindmap`).
+2.  Essas interações disparam funções no `App.tsx` que atualizam o estado central (ex: `selectedThemeId`, `searchResults`).
+3.  Com base nesse estado atualizado, o `App.tsx` decide qual artigo ou lista de artigos deve ser renderizada.
+4.  Finalmente, o componente `ArticleView` é responsável por exibir o conteúdo do artigo selecionado.
 
 ## Getting Started
 
