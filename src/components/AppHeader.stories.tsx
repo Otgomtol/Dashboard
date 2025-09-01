@@ -16,7 +16,7 @@ const meta = {
   tags: ['autodocs'],
   args: {
     toggleTheme: fn(),
-    setIsHelpDialogOpen: fn(),
+    setHelpContent: fn(),
     setSearchResults: fn(),
     setSearchQuery: fn(),
     setIsSearchMode: fn(),

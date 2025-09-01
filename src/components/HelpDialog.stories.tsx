@@ -22,14 +22,17 @@ type Story = StoryObj<typeof meta>;
 // Story to render the component in a controlled way
 const ControlledHelpDialog = (args: Story['args']) => {
   const [isOpen, setIsOpen] = useState(false);
+  const { title = 'Título Padrão', children = 'Conteúdo de ajuda padrão.', ...rest } = args || {};
 
   return (
     <>
       <Button onClick={() => setIsOpen(true)}>Abrir Ajuda</Button>
       <HelpDialog
-        {...args}
+        {...rest}
+        title={title}
         open={isOpen}
         onOpenChange={setIsOpen}
+        children={children}
       />
     </>
   );
