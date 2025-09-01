@@ -1,12 +1,29 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Theme, findThemeById, Article, articles as allArticles } from '../data/blogData';
-import { ChevronDown, ChevronRight } from 'lucide-react';
+import { ChevronDown, ChevronRight, HelpCircle, ListTree } from 'lucide-react';
 import { useIsMobile } from '../hooks/use-mobile';
 
+/**
+ * Props for the ThemeNavigator component.
+ */
 interface ThemeNavigatorProps {
+  /**
+   * An array of theme objects to be displayed.
+   */
   themes: Theme[];
+  /**
+   * Callback function invoked when a theme is selected.
+   */
   onSelectTheme: (themeId: string) => void;
+  /**
+   * The ID of the currently selected theme, or null if none is selected.
+   */
   selectedThemeId: string | null;
+  /**
+   * Function to set the content of the help dialog.
+   * Passing null closes the dialog.
+   */
+  setHelpContent: (content: { title: string; content: React.ReactNode } | null) => void;
 }
 
 // Helper function to get siblings of a theme
@@ -62,7 +79,8 @@ const isPathToCompleteArticle = (theme: Theme): boolean => {
 const ThemeNavigator: React.FC<ThemeNavigatorProps> = ({ 
   themes, 
   onSelectTheme,
-  selectedThemeId
+  selectedThemeId,
+  setHelpContent
 }) => {
   const [expandedThemes, setExpandedThemes] = useState<Record<string, boolean>>({});
   const isMobile = useIsMobile();
@@ -94,6 +112,46 @@ const ThemeNavigator: React.FC<ThemeNavigatorProps> = ({
       return nextState;
     });
   }, [themes, findParentIds]);
+
+  const showHelp = () => {
+    setHelpContent({
+      title: 'Ajuda - Navegação',
+      content: (
+        <div className="grid gap-4 py-4 text-sm">
+          <div className="flex items-start gap-4">
+            <ListTree className="h-6 w-6 mt-1 text-orange-500 flex-shrink-0" />
+            <div>
+              <h3 className="font-semibold">Navegador de Temas</h3>
+              <p className="text-muted-foreground">
+                O painel "Navegador de Temas" permite que você explore a estrutura de conteúdo do blog de forma hierárquica.
+              </p>
+            </div>
+          </div>
+          <div className="pl-10">
+            <h4 className="font-semibold mb-2">Como Usar:</h4>
+            <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+              <li>
+                <strong>Estrutura em Árvore:</strong> Os temas são organizados como uma árvore. Temas com uma seta ao lado (▶) contêm sub-temas.
+              </li>
+              <li>
+                <strong>Expandir e Recolher:</strong> Clique em um tema com uma seta para expandir e ver os sub-temas. Clique novamente para recolher.
+              </li>
+              <li>
+                <strong>Visualizar Artigos de um Tema:</strong> Clique no nome de um tema para carregar todos os artigos associados a ele.
+                <ul className="list-circle pl-5 mt-2 space-y-1">
+                  <li>Se o tema tiver <strong>um único artigo</strong>, ele será exibido diretamente.</li>
+                  <li>Se tiver <strong>vários artigos</strong>, uma lista aparecerá para seleção.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <p className="mt-2 text-xs text-muted-foreground italic">
+            <strong>Dica:</strong> A seleção de um tema no Navegador limpa qualquer busca ativa. O mapa de conexões também se ajustará para destacar o tema selecionado.
+          </p>
+        </div>
+      )
+    });
+  };
   
   useEffect(() => {
     const handleMindmapSelection = (event: Event) => {
@@ -333,7 +391,18 @@ const ThemeNavigator: React.FC<ThemeNavigatorProps> = ({
 
   return (
     <div className="theme-navigator border rounded-lg bg-white dark:bg-gray-800 dark:border-gray-700 shadow-sm overflow-y-auto">
-      <h2 className="text-lg font-semibold p-3 border-b dark:border-gray-700 mb-2 dark:text-white">Navegador de Temas</h2>
+      <div className="p-3 border-b dark:border-gray-700 mb-2">
+        <div className="flex items-center gap-2">
+          <h2 className="text-lg font-semibold dark:text-white">Navegador de Temas</h2>
+          <button 
+            onClick={showHelp}
+            className="p-1 text-gray-400 hover:text-blue-600 dark:text-gray-500 dark:hover:text-blue-400 transition-colors duration-150"
+            aria-label="Ajuda sobre a navegação de temas"
+          >
+            <HelpCircle className="h-5 w-5" />
+          </button>
+        </div>
+      </div>
       <div className="theme-list overflow-y-auto space-y-1 p-2">
         {themes.map(theme => renderTheme(theme, 0))}
       </div>

@@ -1,13 +1,24 @@
 import React, { useRef, useEffect } from 'react';
 import ForceGraph2D from 'react-force-graph-2d';
 import { Theme, Article, Connection } from '../data/blogData';
+import { HelpCircle, GitBranch } from 'lucide-react';
 
+/**
+ * Props for the Mindmap component.
+ */
 interface MindmapProps {
+  /** An array of connection objects for the graph links. */
   connections: Connection[];
+  /** An array of theme objects for the graph nodes. */
   themes: Theme[];
+  /** An array of article objects for the graph nodes. */
   articles: Article[];
+  /** The ID of the currently selected node (theme or article). */
   selectedId: string | null;
+  /** Callback function invoked when a node is clicked. */
   onNodeClick: (nodeId: string) => void;
+  /** Function to set the content of the help dialog. */
+  setHelpContent: (content: { title: string; content: React.ReactNode } | null) => void;
 }
 
 interface GraphNode {
@@ -24,17 +35,61 @@ interface GraphLink {
   value: number;
 }
 
+/**
+ * A component that renders an interactive 2D force-directed graph
+ * to visualize the connections between themes and articles.
+ */
 const Mindmap: React.FC<MindmapProps> = ({ 
   connections, 
   themes, 
   articles, 
   selectedId,
-  onNodeClick 
+  onNodeClick, 
+  setHelpContent
 }) => {
   const graphRef = useRef<any>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   // Use fixed dimensions as requested, width will adapt via ResizeObserver
   const [dimensions, setDimensions] = React.useState({ width: 1264, height: 1000 - 48 }); // Target height 850, subtract header
+
+  const showHelp = () => {
+    setHelpContent({
+      title: 'Ajuda - Conexões de Temas',
+      content: (
+        <div className="grid gap-4 py-4 text-sm">
+          <div className="flex items-start gap-4">
+            <GitBranch className="h-6 w-6 mt-1 text-blue-500 flex-shrink-0" />
+            <div>
+              <h3 className="font-semibold">Conexões de Temas (Mindmap)</h3>
+              <p className="text-muted-foreground">
+                Oferece uma visão gráfica e interativa de todo o conteúdo do blog.
+              </p>
+            </div>
+          </div>
+          <div className="pl-10">
+            <h4 className="font-semibold mb-2">Como Interagir:</h4>
+            <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+              <li>
+                <strong>Nós:</strong> O mapa é composto por "nós" (círculos). Cada nó representa um tema ou um artigo.
+              </li>
+              <li>
+                <strong>Navegação:</strong> Clique e arraste para mover. Use a roda do mouse para zoom.
+              </li>
+              <li>
+                <strong>Seleção:</strong> Clicar em um nó o seleciona em todo o dashboard.
+              </li>
+               <li>
+                <strong>Hierarquia Visual:</strong> As linhas conectam os nós, mostrando a relação entre temas e artigos.
+              </li>
+            </ul>
+          </div>
+          <p className="mt-2 text-xs text-muted-foreground italic">
+            <strong>Dica:</strong> O mapa é uma ótima ferramenta para descobrir novos artigos e entender a estrutura geral dos temas.
+          </p>
+        </div>
+      )
+    });
+  };
 
   // Update width dimension when container size changes, keep height fixed
   useEffect(() => {
@@ -135,7 +190,16 @@ const Mindmap: React.FC<MindmapProps> = ({
         width: '100%' // Allow width to be determined by parent grid
       }}
     >
-      <h2 className="text-lg font-semibold p-3 border-b dark:border-gray-700 dark:text-white">Conexões de Temas</h2>
+      <div className="flex items-center gap-2 p-3 border-b dark:border-gray-700">
+        <h2 className="text-lg font-semibold dark:text-white">Conexões de Temas</h2>
+        <button 
+          onClick={showHelp}
+          className="p-1 text-gray-400 hover:text-blue-600 dark:text-gray-500 dark:hover:text-blue-400 transition-colors duration-150"
+          aria-label="Ajuda sobre as conexões de temas"
+        >
+          <HelpCircle className="h-5 w-5" />
+        </button>
+      </div>
       
       {/* Debug info - can be removed in final version */}
       <div className="text-xs p-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200">
@@ -243,4 +307,3 @@ function getThemeColor(level: number): string {
 }
 
 export default Mindmap;
-

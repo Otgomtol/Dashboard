@@ -16,12 +16,13 @@ import {
   getRelatedArticles
 } from './data/blogData';
 import './App.css';
+import { HelpCircle, Eye } from 'lucide-react';
 
 function App() {
   // Use dark mode hook
   const { isDarkMode, toggleTheme } = useDarkMode();
   
-  const [isHelpDialogOpen, setIsHelpDialogOpen] = useState(false);
+  const [helpContent, setHelpContent] = useState<{ title: string; content: React.ReactNode } | null>(null);
   const [selectedThemeId, setSelectedThemeId] = useState<string | null>(null);
   const [selectedArticleId, setSelectedArticleId] = useState<string | null>(null);
   const [displayedArticles, setDisplayedArticles] = useState<typeof articles>([]);
@@ -30,6 +31,42 @@ function App() {
   const [isSimpleListView, setIsSimpleListView] = useState(false);
   const [relatedArticles, setRelatedArticles] = useState<typeof articles>([]);
   const [searchQuery, setSearchQuery] = useState('');
+
+  const showArticleViewHelp = () => {
+    setHelpContent({
+      title: 'Ajuda - Visualização',
+      content: (
+        <div className="grid gap-4 py-4 text-sm">
+          <div className="flex items-start gap-4">
+            <Eye className="h-6 w-6 mt-1 text-purple-500 flex-shrink-0" />
+            <div>
+              <h3 className="font-semibold">Visualizador de Artigos</h3>
+              <p className="text-muted-foreground">
+                Esta área, localizada na coluna da direita, é onde o conteúdo dos artigos é exibido.
+              </p>
+            </div>
+          </div>
+          <div className="pl-10">
+            <h4 className="font-semibold mb-2">Funcionalidades:</h4>
+            <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+              <li>
+                <strong>Exibição de Conteúdo:</strong> Quando um artigo é selecionado, seu título, data, tags, resumo e conteúdo principal aparecem aqui.
+              </li>
+              <li>
+                <strong>Link para o Artigo Original:</strong> O título do artigo é um link clicável que abre o post completo em uma nova aba.
+              </li>
+              <li>
+                <strong>Artigos Relacionados:</strong> Ao final do conteúdo, uma lista de artigos relacionados é exibida.
+              </li>
+              <li>
+                <strong>Lista de Artigos:</strong> Se você selecionar um tema com múltiplos artigos, esta área mostrará a lista para você escolher um.
+              </li>
+            </ul>
+          </div>
+        </div>
+      )
+    });
+  };
 
   // Handle theme selection
   useEffect(() => {
@@ -173,7 +210,7 @@ function App() {
         <AppHeader
           isDarkMode={isDarkMode}
           toggleTheme={toggleTheme}
-          setIsHelpDialogOpen={setIsHelpDialogOpen}
+          setHelpContent={setHelpContent}
           setSearchResults={setSearchResults}
           searchQuery={searchQuery}
           setSearchQuery={setSearchQuery}
@@ -189,6 +226,7 @@ function App() {
                 themes={themes} 
                 onSelectTheme={handleThemeSelect}
                 selectedThemeId={selectedThemeId}
+                setHelpContent={setHelpContent}
               />
             </div>
 
@@ -204,7 +242,16 @@ function App() {
                 
                 {!selectedArticle && displayedArticles.length > 0 && (
                   <div className="border rounded-lg bg-white dark:bg-gray-800 shadow-sm overflow-y-auto">
-                    <h2 className="text-lg font-semibold p-3 border-b dark:border-gray-700 mb-2 dark:text-white">Visualizador de Artigos</h2>
+                    <div className="flex items-center gap-2 p-3 border-b dark:border-gray-700 mb-2">
+                      <h2 className="text-lg font-semibold dark:text-white">Visualizador de Artigos</h2>
+                      <button 
+                        onClick={showArticleViewHelp}
+                        className="p-1 text-gray-400 hover:text-blue-600 dark:text-gray-500 dark:hover:text-blue-400 transition-colors duration-150"
+                        aria-label="Ajuda sobre a visualização de artigos"
+                      >
+                        <HelpCircle className="h-5 w-5" />
+                      </button>
+                    </div>
                     <div className="article-list overflow-y-auto space-y-1 p-2">
                       {displayedArticles.map(article => {
                         const isClickable = !!article.url;
@@ -269,15 +316,25 @@ function App() {
                     article={selectedArticle}
                     relatedArticles={relatedArticles}
                     onSelectArticle={setSelectedArticleId}
+                    setHelpContent={setHelpContent}
                   />
                 )}
                 
                 {!selectedArticle && displayedArticles.length === 0 && !isSearchMode && (
                   <div className="flex flex-col items-center justify-center h-full bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-6">
-                    <h2 className="text-lg font-semibold mb-4 dark:text-white">Visualizador de Artigos</h2>
+                    <div className="flex items-center gap-2 mb-4">
+                      <h2 className="text-lg font-semibold dark:text-white">Visualizador de Artigos</h2>
+                      <button 
+                        onClick={showArticleViewHelp}
+                        className="p-1 text-gray-400 hover:text-blue-600 dark:text-gray-500 dark:hover:text-blue-400 transition-colors duration-150"
+                        aria-label="Ajuda sobre a visualização de artigos"
+                      >
+                        <HelpCircle className="h-5 w-5" />
+                      </button>
+                    </div>
                     <div className="text-center">
                       <p className="text-gray-500 dark:text-gray-400">1) Selecione um tema ou pesquise para ver os artigos.</p>
-                      <p className="text-gray-500 dark:text-gray-400">2) Selecione um artigo da lista para mostrar resumo do artigo.</p>					  				  
+                      <p className="text-gray-500 dark:text-gray-400">2) Selecione um artigo da lista para mostrar resumo do artigo.</p>
                     </div>
                   </div>
                 )}
@@ -285,7 +342,16 @@ function App() {
                 {!selectedArticle && displayedArticles.length === 0 && isSearchMode && (
                   <div className="flex items-center justify-center h-full bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-6">
                     <div className="text-center">
-                      <h2 className="text-xl font-semibold mb-2 dark:text-white">Nenhum Resultado Encontrado</h2>
+                      <div className="flex items-center gap-2 mb-2">
+                        <h2 className="text-xl font-semibold dark:text-white">Nenhum Resultado Encontrado</h2>
+                        <button 
+                          onClick={showArticleViewHelp}
+                          className="p-1 text-gray-400 hover:text-blue-600 dark:text-gray-500 dark:hover:text-blue-400 transition-colors duration-150"
+                          aria-label="Ajuda sobre a visualização de artigos"
+                        >
+                          <HelpCircle className="h-5 w-5" />
+                        </button>
+                      </div>
                       <p className="text-gray-600 dark:text-gray-300">
                         Tente termos de pesquisa diferentes ou navegue pelos temas no painel &apos;Navegador de Temas&apos;.
                       </p>
@@ -303,6 +369,7 @@ function App() {
               articles={articles}
               selectedId={selectedArticleId || selectedThemeId}
               onNodeClick={handleNodeClick}
+              setHelpContent={setHelpContent}
             />
           </div>
         </main>
@@ -314,7 +381,16 @@ function App() {
             </div>
           </div>
         </footer>
-        <HelpDialog open={isHelpDialogOpen} onOpenChange={setIsHelpDialogOpen} />
+
+        {helpContent && (
+          <HelpDialog
+            open={!!helpContent}
+            onOpenChange={() => setHelpContent(null)}
+            title={helpContent.title}
+          >
+            {helpContent.content}
+          </HelpDialog>
+        )}
       </div>
     </Router>
   );
