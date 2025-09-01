@@ -314,7 +314,16 @@ export const themes: Theme[] = [
             description: "Repercussão desta Obra de Deus sobre toda a face da Terra; alcançando, por enquanto, mais de 90 Países, somando mais de 48.000 visitações ao Blog 'ÁGUAS VIVAS QUE CORREM MANSAMENTE' até 2025.",
             children: [],
             articles: ["discipulo-missoes"]
-          },		  
+          },
+		  {
+            id: 'anatema-crente-nao',
+            name: 'Contaminar a Herança',			
+            level: 3,
+            parentId: "igreja",
+            description: 'Um Estudo Bíblico Sobre a Santidade da Herança Divina',
+            children: [],
+            articles: ['anatema-crente-nao']
+          },
 		  {
             id: "discipleship",
             name: "Discipulado",
@@ -2512,7 +2521,7 @@ export const articles: Article[] = [
     summary: "Conselhos práticos sobre como evitar taxas bancárias no Brasil, com base na Resolução 3.919/2010 do Banco Central. O artigo fornece informações legais e passos práticos para os leitores economizarem dinheiro em serviços bancários.",
     url: "https://otaviotolentino.wordpress.com/2021/12/11/tarifa-zero/",
     tags: ["Finanças", "Bancos", "Economia"],
-    category: "Estudos"
+    category: "Dicas Úteis"
   },
   {
     id: "aboliu-a-morte",
@@ -3296,7 +3305,16 @@ export const articles: Article[] = [
     url: 'https://otaviotolentino.wordpress.com/2025/08/24/desvelando-o-veu/',
     tags: ["Coração endurecido","Cristo te iluminará","Mistérios","Olhos que não veem","Ouvidos que não ouvem","Revelação","Segredos","Véu"],
     category: 'Estudos',
-  }  
+  },
+  {
+    id: 'anatema-crente-nao',
+    title: 'Anátema: Crente Não pode Contaminar a Herança de Deus',
+    date: '2025-08-31',
+    summary: 'Um Estudo Bíblico Sobre a Santidade da Herança Divina. Ao estudar as Escrituras Sagradas, deparamo-nos com uma verdade de extrema gravidade espiritual que tem sido negligenciada pela igreja contemporânea: o conceito bíblico do anátema e sua relação direta com a contaminação da herança divina.',
+    url: 'https://otaviotolentino.wordpress.com/2025/08/31/anatema-crente-nao-pode-contaminar-a-heranca-de-deus/',
+    tags: ["Abominação","Anátema","Anticristo","Contaminar","Contrário a Deus","Desobediência","Herança dos Santos","Iniquidade","Oposição a Cristo","Pecado","Santificação"],
+    category: 'Estudos',
+  }
 ];
 
 // Generate connections for mindmap visualization
