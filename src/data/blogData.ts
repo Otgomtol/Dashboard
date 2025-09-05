@@ -9,6 +9,7 @@ export interface Article {
   url?: string;
   tags: string[];
   category: string;
+  isNew?: boolean;  
 }
 
 export interface Theme {

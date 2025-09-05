@@ -93,8 +93,8 @@ const ArticleView: React.FC<ArticleViewProps> = ({
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:underline clickable"
-              onClick={() => {
-                if (article.isNew) {
+                            onClick={() => {
+                if (article.isNew && article.url) {
                   localStorage.setItem('lastReadNewUrl', article.url);
                 }
               }}
