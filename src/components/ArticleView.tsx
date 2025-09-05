@@ -32,6 +32,8 @@ const ArticleView: React.FC<ArticleViewProps> = ({
     return null;
   }
 
+  
+
   const showHelp = () => {
     setHelpContent({
       title: 'Ajuda - Visualização',
@@ -91,6 +93,11 @@ const ArticleView: React.FC<ArticleViewProps> = ({
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:underline clickable"
+              onClick={() => {
+                if (article.isNew) {
+                  localStorage.setItem('lastReadNewUrl', article.url);
+                }
+              }}
             >
               <h1 className="text-2xl font-bold text-blue-700 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300">{article.title}</h1>
             </a>

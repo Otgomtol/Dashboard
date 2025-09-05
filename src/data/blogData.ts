@@ -3309,7 +3309,7 @@ export const articles: Article[] = [
   {
     id: 'anatema-crente-nao',
     title: 'Anátema: Crente Não pode Contaminar a Herança de Deus',
-    date: '2025-08-31',
+    date: '2025-08-31',	
     summary: 'Um Estudo Bíblico Sobre a Santidade da Herança Divina. Ao estudar as Escrituras Sagradas, deparamo-nos com uma verdade de extrema gravidade espiritual que tem sido negligenciada pela igreja contemporânea: o conceito bíblico do anátema e sua relação direta com a contaminação da herança divina.',
     url: 'https://otaviotolentino.wordpress.com/2025/08/31/anatema-crente-nao-pode-contaminar-a-heranca-de-deus/',
     tags: ["Abominação","Anátema","Anticristo","Contaminar","Contrário a Deus","Desobediência","Herança dos Santos","Iniquidade","Oposição a Cristo","Pecado","Santificação"],

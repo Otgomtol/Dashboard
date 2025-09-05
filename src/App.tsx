@@ -31,6 +31,7 @@ function App() {
   const [isSimpleListView, setIsSimpleListView] = useState(false);
   const [relatedArticles, setRelatedArticles] = useState<typeof articles>([]);
   const [searchQuery, setSearchQuery] = useState('');
+  const [hasNotification, setHasNotification] = useState(false);
 
   const showArticleViewHelp = () => {
     setHelpContent({
@@ -145,10 +146,28 @@ function App() {
     }
   }, [isSearchMode, selectedArticleId, selectedThemeId]);
 
+  // Check for new article notification on initial load
+  useEffect(() => {
+    const newArticle = articles.find(a => a.isNew === true);
+    if (newArticle) {
+      const lastReadUrl = localStorage.getItem('lastReadNewUrl');
+      if (newArticle.url !== lastReadUrl) {
+        setHasNotification(true);
+      }
+    }
+  }, []); // Empty dependency array ensures this runs only once on mount
+
   // Custom theme selection handler to clear search
   const handleThemeSelect = (themeId: string) => {
     setSelectedThemeId(themeId);
     setSearchQuery(''); // Clear search query
+  };
+
+  const handleNotificationClick = () => {
+    const newArticle = articles.find(a => a.isNew === true);
+    if (newArticle) {
+      handleNodeClick(newArticle.id);
+    }
   };
 
   // Handle node click in mindmap
@@ -208,6 +227,8 @@ function App() {
     <Router>
       <div className={`app min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-200`}>
         <AppHeader
+          hasNotification={hasNotification}
+          onNotificationClick={handleNotificationClick}
           isDarkMode={isDarkMode}
           toggleTheme={toggleTheme}
           setHelpContent={setHelpContent}

@@ -1,11 +1,19 @@
 import React from 'react';
-import { HelpCircle, Sun, Moon, Search, GitBranch, Eye, ListTree, SunMoon } from 'lucide-react';
+import { HelpCircle, Sun, Moon, Search, GitBranch, Eye, ListTree, SunMoon, Bell } from 'lucide-react';
 import SearchBar from './SearchBar';
 
 /**
  * Props for the AppHeader component.
  */
 interface AppHeaderProps {
+  /**
+   * Whether a new article notification is active.
+   */
+  hasNotification?: boolean;
+  /**
+   * Function to handle notification click.
+   */
+  onNotificationClick?: () => void;
   /**
    * Whether dark mode is currently enabled.
    */
@@ -44,6 +52,8 @@ interface AppHeaderProps {
  * @param {AppHeaderProps} props The props for the component.
  */
 const AppHeader: React.FC<AppHeaderProps> = ({
+  hasNotification,
+  onNotificationClick,
   isDarkMode,
   toggleTheme,
   setHelpContent,
@@ -173,7 +183,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
             Pesquise artigos para começar ou selecione um tema no painel &apos;Navegador de Temas&apos; abaixo.
           </p>
         </div>
-        <div className="flex justify-center items-center mt-1">
+        <div className="flex justify-center items-center mt-1 gap-2">
           <a 
             href="https://otaviotolentino.wordpress.com/" 
             target="_blank" 
@@ -182,6 +192,16 @@ const AppHeader: React.FC<AppHeaderProps> = ({
           >
             Visitar Blog Original
           </a>
+          <button
+            onClick={onNotificationClick}
+            className="relative p-1 text-gray-400 hover:text-yellow-500 dark:text-gray-500 dark:hover:text-yellow-400 transition-colors duration-150"
+            aria-label="Ver notificações"
+          >
+            <Bell className="h-5 w-5" />
+            {hasNotification && (
+              <span className="absolute top-0 right-0 block h-2 w-2 rounded-full bg-red-500 ring-2 ring-white dark:ring-gray-800" />
+            )}
+          </button>
         </div>
         <div className="mt-4 flex justify-center items-center space-x-2">
           {/* Theme Toggle Button */}
