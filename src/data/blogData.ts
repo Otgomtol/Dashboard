@@ -1256,6 +1256,25 @@ export const themes: Theme[] = [
               }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
+          },
+          {
+            id: "jose",
+            name: "José no Egito",
+            level: 3,
+            parentId: "biblical-figures",
+            description: "Estudos focados em José",
+            children: [
+			{
+                id: 'exaltao-de-jos-no-eg',
+                name: 'Aponta para Jesus',				
+                level: 4,
+                parentId: 'jose',
+                description: 'Estudo Bíblico sobre os Paralelos Proféticos entre a Exaltação de José e a Glorificação de Cristo.',
+                children: [],
+                articles: ['exaltao-de-jos-no-eg']
+            }
+            ].sort((a, b) => a.name.localeCompare(b.name)),
+            articles: []
           }		  
         ].sort((a, b) => a.name.localeCompare(b.name)),
         articles: []
@@ -3315,7 +3334,17 @@ export const articles: Article[] = [
     url: 'https://otaviotolentino.wordpress.com/2025/08/31/anatema-crente-nao-pode-contaminar-a-heranca-de-deus/',
     tags: ["Abominação","Anátema","Anticristo","Contaminar","Contrário a Deus","Desobediência","Herança dos Santos","Iniquidade","Oposição a Cristo","Pecado","Santificação"],
     category: 'Estudos',
-  }
+  },
+  {
+    id: 'exaltao-de-jos-no-eg',
+    title: 'Exaltação de José no Egito pelo Faraó Aponta para Jesus',
+    date: '2025-09-07',
+    summary: 'O que a exaltação de José pelo Faraó sobre todo o Egito revela acerca da glória futura de Jesus Cristo? Estudo Bíblico sobre os Paralelos Proféticos entre a Exaltação de José e a Glorificação de Cristo.',
+    url: 'https://otaviotolentino.wordpress.com/2025/09/07/exaltacao-de-jose-no-egito-aponta-para-jesus/',
+    tags: ["Exaltação de José","Glorificação de Jesus","Jesus","José no Egito","Profecia Jesus"],
+    category: 'Estudos',
+    isNew: true,
+  } 
 ];
 
 // Generate connections for mindmap visualization

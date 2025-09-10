@@ -200,6 +200,7 @@ function addDataToSourceFile(sourceFile, articleData) {
             url: '${articleData.url}',
             tags: ${JSON.stringify(articleData.tags)},
             category: '${articleData.category}',
+			isNew: true,
         }`);
         console.log(`Artigo '${articleData.title}' adicionado com id: '${themeId}'.`);
     }
