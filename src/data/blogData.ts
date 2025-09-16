@@ -326,6 +326,15 @@ export const themes: Theme[] = [
             articles: ['anatema-crente-nao']
           },
 		  {
+            id: 'dizimo-significado',
+            name: 'Dízimo',
+            level: 3,
+            parentId: "igreja",
+            description: 'O que as Escrituras Sagradas dizem sobre o Dízimo?',
+            children: [],
+            articles: ['dizimo-significado']
+          },
+		  {
             id: "discipleship",
             name: "Discipulado",
             level: 3,
@@ -2689,7 +2698,7 @@ export const articles: Article[] = [
   },
   {
     id: "batismo",
-    title: "Batismo",
+    title: "Batismo de Jesus",
     date: "February 1, 2022",
     summary: "Os critérios do Batismo, morrer para o pecado e nascer do Espírito, se aplicam a Jesus Cristo? Ou será que o Batismo de Jesus tem outro significado?",
     url: "https://otaviotolentino.wordpress.com/2022/02/01/batismo-jesus/",
@@ -2698,7 +2707,7 @@ export const articles: Article[] = [
   },
   {
     id: "descendencia",
-    title: "Descendência",
+    title: "Descendência para Deus",
     date: "June 15, 2025",
     summary: "Desde os primeiros capítulos de Gênesis até as páginas finais do Apocalipse, mostrando-nos como o Criador tem trabalhado incansavelmente para formar um povo que seja verdadeiramente Seu.",
     url: "https://otaviotolentino.wordpress.com/2025/06/15/descendencia-para-deus-o-que-significa/",
@@ -2716,7 +2725,7 @@ export const articles: Article[] = [
   },
   {
     id: "viver-da-palavra",
-    title: "Viver da Palavra",
+    title: "Viver da Palavra de Deus",
     date: "June 2, 2024",
     summary: "O pão alimenta a carne, mas a palavra de Deus é o alimento da alma e do espírito, saindo direto do seu coração.",
     url: "https://otaviotolentino.wordpress.com/2024/06/02/nem-so-de-pao-vivera-o-homem/",
@@ -2734,7 +2743,7 @@ export const articles: Article[] = [
   },
   {
     id: "aliancas",
-    title: "Alianças",
+    title: "Alianças Estabelecidas por Deus",
     date: "March 17, 2024",
     summary: "Você sabe a cronologia, desde Adão, das Alianças estipuladas por Deus e as várias quebras pelo ser humano?",
     url: "https://otaviotolentino.wordpress.com/2024/03/17/aliancas-de-deus-com-os-homens/",
@@ -2743,7 +2752,7 @@ export const articles: Article[] = [
   },
   {
     id: "perdao-diario",
-    title: "Perdão Diário",
+    title: "Eficácia do Perdão Diário Involuntário",
     date: "January 15, 2023",
     summary: "Perdão diário dos nossos pecados involuntários para o processo de santificação até a volta de Cristo.",
     url: "https://otaviotolentino.wordpress.com/2023/01/15/perdao-diario/",
@@ -2752,7 +2761,7 @@ export const articles: Article[] = [
   },
   {
     id: "honrar",
-    title: "Honrar",
+    title: "Honrar a Deus",
     date: "November 20, 2022",
     summary: "Como todo tema bíblico, obviamente, tem base e referência bíblica que define o que ‘Honrar a Deus’ significa e o que devemos fazer para efetivamente honrarmos a Deus de maneira que de fato o agrade.",
     url: "https://otaviotolentino.wordpress.com/2022/11/20/honrar-a-deus/",
@@ -2779,7 +2788,7 @@ export const articles: Article[] = [
   },
   {
     id: "visitacao",
-    title: "Visitação",
+    title: "Visitação de Deus",
     date: "July 10, 2022",
     summary: "A Plenitude dos Tempos é o tempo em que foi consumada a promessa da visitação de Deus na Terra, concretizada através de Jesus Cristo.",
     url: "https://otaviotolentino.wordpress.com/2022/07/10/plenitude-tempos/",
@@ -2788,7 +2797,7 @@ export const articles: Article[] = [
   },
   {
     id: "justica",
-    title: "Justiça",
+    title: "Justiça ou Injustiça de Deus",
     date: "January 11, 2022",
     summary: "As pessoas sempre perguntam: Por que Deus permite que coisas injustas aconteçam? Será que estamos prontos para encarar de vez essa questão?",
     url: "https://otaviotolentino.wordpress.com/2022/01/11/justica-ou-injustica/",
@@ -2797,7 +2806,7 @@ export const articles: Article[] = [
   },
   {
     id: "quem-viu",
-    title: "Quem viu",
+    title: "Quem jamais viu a Deus",
     date: "December 28, 2021",
     summary: "Será que alguém já viu a face de Deus? Algum dos patriarcas, os profetas, Jesus ou Paulo? Quem?",
     url: "https://otaviotolentino.wordpress.com/2021/12/28/quem-viu-deus/",
@@ -2959,7 +2968,7 @@ export const articles: Article[] = [
   },
   {
     id: "a-tua-paz-pertence",
-    title: "À tua Paz Pertence",
+    title: "O que à tua Paz Pertence",
     date: "2023-11-26",
     summary: "Qual o significado da expressão “o que à tua paz pertence” em Lucas 19:41-44? Interessante que nessa mesma passagem Jesus fala que havia uma paz reservada à Jerusalém e seu povo, mas logo em seguida menciona que a cidade e seu povo seriam cercados e destruídos.",
     url: "https://otaviotolentino.wordpress.com/2023/11/26/o-que-a-tua-paz-pertence/",
@@ -2977,7 +2986,7 @@ export const articles: Article[] = [
   },
   {
     id: "nao-peques-mais",
-    title: "Não Peques mais",
+    title: "Vai e Não Peques mais",
     date: "2022-04-03",
     summary: "Neste estudo daremos atenção a uma expressão mencionada algumas vezes por Jesus: “vai e não peques mais”. Alguns acham que por sermos justificados pela fé, estarmos debaixo da graça e sob a lei da liberdade, então não precisamos nos preocupar em deixar de pecar. Será?",
     url: "https://otaviotolentino.wordpress.com/2022/04/03/nao-peques/",
@@ -3112,7 +3121,7 @@ export const articles: Article[] = [
   },
   {
     id: "paz",
-    title: "Paz",
+    title: "Paz em Jesus",
     date: "September 4, 2022",
     summary: "Jesus quando se aproximava de Jerusalém faz uma ressalva que o povo não conhecia o que implicava para que eles tivessem paz, porque estavam sem entendimento.",
     url: "https://otaviotolentino.wordpress.com/2022/09/04/paz/",
@@ -3229,7 +3238,7 @@ export const articles: Article[] = [
   },
   {
     id: "motivo-idolatria",
-    title: "Motivo Idolatria",
+    title: "Motivo dos Ordenamentos de Sacrifícios ao Povo de Israel",
     date: "2024-01-28",
     summary: "Qual será o verdadeiro motivo desse tema abordado com abundância e tanto detalhe nos textos bíblicos do Velho Testamento? Por outro lado, encontramos diversas referências bíblicas de repúdio, da parte de Deus, aos holocaustos e sacrifícios.",
     url: "https://otaviotolentino.wordpress.com/2024/01/28/os-sacrificios-ao-povo-de-israel/",
@@ -3343,8 +3352,17 @@ export const articles: Article[] = [
     url: 'https://otaviotolentino.wordpress.com/2025/09/07/exaltacao-de-jose-no-egito-aponta-para-jesus/',
     tags: ["Exaltação de José","Glorificação de Jesus","Jesus","José no Egito","Profecia Jesus"],
     category: 'Estudos',
+  },
+  {
+    id: 'dizimo-significado',
+    title: 'Dízimo: Significado',
+    date: '2025-09-14',
+    summary: 'O dízimo aparece nas Escrituras muito antes da instituição formal da Lei, demonstrando que esta prática tem raízes profundas na relação entre Deus e o homem.',
+    url: 'https://otaviotolentino.wordpress.com/2025/09/14/dizimo-significado/',
+    tags: ["Agradecimento a Deus","Compartilhamento","Comunhão","Dízimo","Doutrina","Igreja","Participação","Retribuição","Sustento"],
+    category: 'Estudos',
     isNew: true,
-  } 
+  }  
 ];
 
 // Generate connections for mindmap visualization
