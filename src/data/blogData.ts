@@ -1168,6 +1168,15 @@ export const themes: Theme[] = [
                 description: "A pressão era extrema e Moisés não aguentou a carga de liderança, dada por Deus, na condução do Povo de Israel da saída do Egito até a entrada na Terra prometida. Mesmo Moisés, tendo recebido capacitação espiritual de Deus para exercê-la, pede a Deus que reduza sua responsabilidade perante o Povo.",
                 children: [],
                 articles: ["peso-da-lideranca"]
+              },
+			  {
+                id: "quais-e-quantas-foram",
+                name: "Maravilhas no Egito",				
+                level: 4,
+                parentId: "moses",
+                description: "Para você, quantas foram realmente as maravilhas que Deus realizou diante de Faraó no processo de libertação do povo de Israel do Egito?",
+                children: [],
+                articles: ["quais-e-quantas-foram"]
               }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -1196,7 +1205,7 @@ export const themes: Theme[] = [
 				description: "Se o povo de Israel, descendência de Abraão, rejeitou as promessas de Deus cumpridas em Jesus Cristo, seu filho e enviado, o Ungido de Deus, então como fica a promessa de serem abençoadas todas as nações e famílias da Terra?",
 				children: [],
 				articles: ["descendencia-abraao"]
-          }			  
+              }			  
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },
@@ -3360,6 +3369,15 @@ export const articles: Article[] = [
     summary: 'O dízimo aparece nas Escrituras muito antes da instituição formal da Lei, demonstrando que esta prática tem raízes profundas na relação entre Deus e o homem.',
     url: 'https://otaviotolentino.wordpress.com/2025/09/14/dizimo-significado/',
     tags: ["Agradecimento a Deus","Compartilhamento","Comunhão","Dízimo","Doutrina","Igreja","Participação","Retribuição","Sustento"],
+    category: 'Estudos',
+  },
+  {
+    id: 'quais-e-quantas-foram',
+    title: 'Quais e Quantas foram as Maravilhas de Deus diante de Faraó no Egito?',
+    date: '2025-09-21',
+    summary: 'Para você, quantas foram realmente as maravilhas que Deus realizou diante de Faraó, no Egito, no processo de libertação do povo de Israel?',
+    url: 'https://otaviotolentino.wordpress.com/2025/09/21/quais-e-quantas-foram-as-maravilhas-de-deus-diante-de-farao-no-egito/',
+    tags: ["Arão","Egito","Faraó","Maravilhas","Moisés","Povo de Israel","Pragas","Quais","Quantas","Sinais"],
     category: 'Estudos',
     isNew: true,
   }  
