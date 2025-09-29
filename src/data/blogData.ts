@@ -1233,7 +1233,16 @@ export const themes: Theme[] = [
                 description: "Até onde vai a sabedoria de Jó? Será que sua sabedoria, exposta expressamente nos capítulos do seu Livro, merece o mesmo grau de reconhecimento da sabedoria apresentada por Davi e seu filho Salomão?",
                 children: [],
                 articles: ["sabio-davi-salomao"]
-              }
+              },
+			  {
+                id: 'jo-nao-neto-de-jaco',				
+                name: 'Não é Neto de Jacó',				
+                level: 4,
+                parentId: "jo",
+                description: 'Qual é a origem da confusão que leva alguns a afirmarem categoricamente que Jó, o personagem do livro que leva seu nome, seria neto de Jacó?',
+                children: [],
+                articles: ['jo-nao-neto-de-jaco']
+            }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },
@@ -3379,8 +3388,17 @@ export const articles: Article[] = [
     url: 'https://otaviotolentino.wordpress.com/2025/09/21/quais-e-quantas-foram-as-maravilhas-de-deus-diante-de-farao-no-egito/',
     tags: ["Arão","Egito","Faraó","Maravilhas","Moisés","Povo de Israel","Pragas","Quais","Quantas","Sinais"],
     category: 'Estudos',
+  },
+  {
+    id: 'jo-nao-neto-de-jaco',
+    title: 'Jó: DEFINITIVAMENTE NÃO é FILHO de Issacar e, muito menos, NETO de Jacó',
+    date: '2025-09-25',
+    summary: 'Uma interpretação errada tem ganhado espaço em determinados círculos, onde alguns indoutos asseveram que “Jó”, o personagem bíblico do livro que leva seu nome, seria filho de Issacar e, consequentemente, neto de Jacó.',
+    url: 'https://otaviotolentino.wordpress.com/2025/09/25/jo-nao-e-o-filho-de-issacar-e-nem-neto-de-jaco/',
+    tags: ["Exegese","Filho de Issacar","Hermenêutica","Jó","Neto de Jacó","Nome de Jó","Origem do Nome"],
+    category: 'Estudos',
     isNew: true,
-  }  
+  }
 ];
 
 // Generate connections for mindmap visualization
