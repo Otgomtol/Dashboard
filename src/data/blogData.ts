@@ -335,6 +335,15 @@ export const themes: Theme[] = [
             articles: ['dizimo-significado']
           },
 		  {
+            id: 'primognitos-que-servem',
+            name: 'Primogênitos Servos',			
+            level: 3,
+            parentId: "igreja",
+            description: 'Um Estudo Bíblico Sobre os Chamados e Separados para o Serviço Sacerdotal.',
+            children: [],
+            articles: ['primognitos-que-servem']
+          },
+		  {
             id: "discipleship",
             name: "Discipulado",
             level: 3,
@@ -3396,6 +3405,15 @@ export const articles: Article[] = [
     summary: 'Uma interpretação errada tem ganhado espaço em determinados círculos, onde alguns indoutos asseveram que “Jó”, o personagem bíblico do livro que leva seu nome, seria filho de Issacar e, consequentemente, neto de Jacó.',
     url: 'https://otaviotolentino.wordpress.com/2025/09/25/jo-nao-e-o-filho-de-issacar-e-nem-neto-de-jaco/',
     tags: ["Exegese","Filho de Issacar","Hermenêutica","Jó","Neto de Jacó","Nome de Jó","Origem do Nome"],
+    category: 'Estudos',
+  },
+  {
+    id: 'primognitos-que-servem',
+    title: 'Primogênitos do Povo de Deus que Servem ao Senhor',
+    date: '2025-10-11',
+    summary: 'Ao percorrermos as Escrituras Sagradas, deparamo-nos com uma verdade profunda e muitas vezes negligenciada: Deus estabeleceu desde os tempos antigos um princípio espiritual que perpassa toda a revelação bíblica – o princípio dos primogênitos consagrados ao seu serviço.',
+    url: 'https://otaviotolentino.wordpress.com/2025/10/11/primogenitos-do-povo-de-deus-que-servem-ao-senhor/',
+    tags: ["Primícias","Primogênito","Primogênitos","Reino de Sacerdotes","Resgate","Sacerdotes","Serviço Sacerdotal"],
     category: 'Estudos',
     isNew: true,
   }
