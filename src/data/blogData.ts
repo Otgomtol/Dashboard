@@ -466,7 +466,16 @@ export const themes: Theme[] = [
                 description: 'Por que alguns veem e outros permanecem cegos diante das verdades espirituais?',
                 children: [],
                 articles: ['desvelando-o-veu']
-              }			  
+              },
+			  {
+                id: 'cristao-desobediente',
+                name: 'Pecado Sobre Si',				
+                level: 4,
+                parentId: 'discipleship',
+                description: 'O que acontece com os justificados por Deus através de Jesus Cristo que, ainda assim, escolhem o caminho da desobediência aos mandamentos divinos?',
+                children: [],
+                articles: ['cristao-desobediente']
+            }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },		  
@@ -3400,7 +3409,7 @@ export const articles: Article[] = [
   },
   {
     id: 'jo-nao-neto-de-jaco',
-    title: 'Jó: DEFINITIVAMENTE NÃO é FILHO de Issacar e, muito menos, NETO de Jacó',
+    title: 'Jó: Definitivamente Não é Filho de Issacar e, muito menos, Neto de Jacó',
     date: '2025-09-25',
     summary: 'Uma interpretação errada tem ganhado espaço em determinados círculos, onde alguns indoutos asseveram que “Jó”, o personagem bíblico do livro que leva seu nome, seria filho de Issacar e, consequentemente, neto de Jacó.',
     url: 'https://otaviotolentino.wordpress.com/2025/09/25/jo-nao-e-o-filho-de-issacar-e-nem-neto-de-jaco/',
@@ -3414,6 +3423,15 @@ export const articles: Article[] = [
     summary: 'Ao percorrermos as Escrituras Sagradas, deparamo-nos com uma verdade profunda e muitas vezes negligenciada: Deus estabeleceu desde os tempos antigos um princípio espiritual que perpassa toda a revelação bíblica – o princípio dos primogênitos consagrados ao seu serviço.',
     url: 'https://otaviotolentino.wordpress.com/2025/10/11/primogenitos-do-povo-de-deus-que-servem-ao-senhor/',
     tags: ["Primícias","Primogênito","Primogênitos","Reino de Sacerdotes","Resgate","Sacerdotes","Serviço Sacerdotal"],
+    category: 'Estudos',
+  },
+  {
+    id: 'cristao-desobediente',
+    title: 'Cristão Purificado por Deus ou Jesus que Comete Pecado por Desobediência aos Mandamentos Carrega Sobre Si seus Pecados e Iniquidades',
+    date: '2025-10-19',
+    summary: 'O que acontece com os justificados por Deus através de Jesus Cristo que, ainda assim, escolhem o caminho da desobediência aos mandamentos divinos?',
+    url: 'https://otaviotolentino.wordpress.com/2025/10/19/cristao-que-comete-pecado-por-desobediencia-carrega-sobre-si-seus-pecados/',
+    tags: ["Carrega sobre si","Cristão","Desobediência","Iniquidades","Justificados por Deus","Limpos","Mandamentos de Deus","Obediência","Pecados","Purificados","Temor de Deus"],
     category: 'Estudos',
     isNew: true,
   }
