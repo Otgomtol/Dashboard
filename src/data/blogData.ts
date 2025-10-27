@@ -242,6 +242,15 @@ export const themes: Theme[] = [
             description: "Você sabia que Moisés subiu duas vezes ao cume do Monte Sinai, também chamado de Monte Horebe?",
             children: [],
             articles: ["subiu-sinai-1a-vez"]
+          },
+		  {
+            id: 'travessia-do-deserto',
+            name: 'Travessia do Deserto',			
+            level: 3,
+            parentId: "povo-de-israel",
+            description: 'O que representaram os quarenta anos de travessia do deserto para o povo de Israel?',
+            children: [],
+            articles: ['travessia-do-deserto']
           }
         ].sort((a, b) => a.name.localeCompare(b.name)),
         articles: []
@@ -3432,6 +3441,15 @@ export const articles: Article[] = [
     summary: 'O que acontece com os justificados por Deus através de Jesus Cristo que, ainda assim, escolhem o caminho da desobediência aos mandamentos divinos?',
     url: 'https://otaviotolentino.wordpress.com/2025/10/19/cristao-que-comete-pecado-por-desobediencia-carrega-sobre-si-seus-pecados/',
     tags: ["Carrega sobre si","Cristão","Desobediência","Iniquidades","Justificados por Deus","Limpos","Mandamentos de Deus","Obediência","Pecados","Purificados","Temor de Deus"],
+    category: 'Estudos',
+  },
+  {
+    id: 'travessia-do-deserto',
+    title: 'Explicação Divina sobre a Travessia do Deserto do Povo de Israel',	
+    date: '2025-10-25',
+    summary: 'O que representaram os quarenta anos de travessia do deserto para o povo de Israel?',
+    url: 'https://otaviotolentino.wordpress.com/2025/10/25/explicacao-sobre-a-travessia-do-deserto/',
+    tags: ["Alma","Amar a Deus de todo Coração","Coração","Desobediência","Deus único","Forças","Humilhar","Mandamentos de Deus","Obediência","Povo de Israel","Provar","Temor a Deus"],
     category: 'Estudos',
     isNew: true,
   }
