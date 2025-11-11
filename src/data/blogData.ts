@@ -1103,6 +1103,15 @@ export const themes: Theme[] = [
                 description: "Artigo sobre viver da Palavra de Deus.",
                 children: [],
                 articles: ["viver-da-palavra"]
+              },
+			  {
+                id: 'deus-cumpre-palavra',
+                name: 'Cumpre Palavra Homem',				
+                level: 4,
+                parentId: 'deus',
+                description: 'Para você, o que significa afirmar que Deus cumpre a palavra que sai da boca do homem?',
+                children: [],
+                articles: ['deus-cumpre-palavra']
               }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -3450,6 +3459,15 @@ export const articles: Article[] = [
     summary: 'O que representaram os quarenta anos de travessia do deserto para o povo de Israel?',
     url: 'https://otaviotolentino.wordpress.com/2025/10/25/explicacao-sobre-a-travessia-do-deserto/',
     tags: ["Alma","Amar a Deus de todo Coração","Coração","Desobediência","Deus único","Forças","Humilhar","Mandamentos de Deus","Obediência","Povo de Israel","Provar","Temor a Deus"],
+    category: 'Estudos',
+  },
+  {
+    id: 'deus-cumpre-palavra',
+    title: 'Deus Cumpre a Palavra que Sai da Boca do Homem',
+    date: '2025-11-09',
+    summary: 'Para você, o que significa afirmar que Deus cumpre a palavra que sai da boca do homem?',
+    url: 'https://otaviotolentino.wordpress.com/2025/11/09/deus-cumpre-a-palavra-que-sai-da-boca-do-homem/',
+    tags: ["Coração de Deus","Coração preparado para Deus","Cumprir a Vontade de Deus","Desobediência","Deus é o manancial de águas vivas","Mandamentos de Deus","Obediência","Palavra de Deus","Temor a Deus"],
     category: 'Estudos',
     isNew: true,
   }
