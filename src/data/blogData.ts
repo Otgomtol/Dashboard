@@ -1802,7 +1802,16 @@ export const themes: Theme[] = [
                 description: "Embora haja muitas referências no Velho Testamento sobre o Espírito de Deus, porém só existem 3 referências, em todo o Velho Testamento, à expressão ou locução 'Espírito Santo', nessa forma composta e completa.",
                 children: [],
                 articles: ["esp-santo-no-vt"]
-              }			  
+              },
+			  {
+                id: 'sil-ou-shiloh-em-gen',
+                name: 'Siló ou Shiloh',
+                level: 4,
+                parentId: "biblical-terms",
+                description: 'O que significa a misteriosa palavra Siló ou Shiloh mencionada na profecia de Jacó sobre Judá?',
+                children: [],
+                articles: ['sil-ou-shiloh-em-gen']
+              }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },		  
@@ -3468,6 +3477,15 @@ export const articles: Article[] = [
     summary: 'Para você, o que significa afirmar que Deus cumpre a palavra que sai da boca do homem?',
     url: 'https://otaviotolentino.wordpress.com/2025/11/09/deus-cumpre-a-palavra-que-sai-da-boca-do-homem/',
     tags: ["Coração de Deus","Coração preparado para Deus","Cumprir a Vontade de Deus","Desobediência","Deus é o manancial de águas vivas","Mandamentos de Deus","Obediência","Palavra de Deus","Temor a Deus"],
+    category: 'Estudos',
+  },
+  {
+    id: 'sil-ou-shiloh-em-gen',
+    title: 'Siló ou Shiloh em Gênesis 49:10',
+    date: '2025-11-23',
+    summary: 'O que significa a misteriosa palavra Siló ou Shiloh mencionada na profecia de Jacó sobre Judá em Gênesis 49:10?',
+    url: 'https://otaviotolentino.wordpress.com/2025/11/23/silo-ou-shiloh-em-genesis-49-10/',
+    tags: ["Jesus Cristo","Judá","Messias","Profecia","Profecia Jesus","Reino de Deus","Reino Eterno","Shiloh","Siló","Ungido Rei"],
     category: 'Estudos',
     isNew: true,
   }
