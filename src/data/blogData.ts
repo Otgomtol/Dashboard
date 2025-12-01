@@ -353,6 +353,15 @@ export const themes: Theme[] = [
             articles: ['primognitos-que-servem']
           },
 		  {
+            id: 'servo-do-senhor-josue-22-5',
+            name: 'Servo do Senhor',
+            level: 3,
+            parentId: "igreja",
+            description: 'O que é ser SERVO do SENHOR?',
+            children: [],
+            articles: ['servo-do-senhor-josue-22-5']
+          },
+		  {
             id: "discipleship",
             name: "Discipulado",
             level: 3,
@@ -3486,6 +3495,15 @@ export const articles: Article[] = [
     summary: 'O que significa a misteriosa palavra Siló ou Shiloh mencionada na profecia de Jacó sobre Judá em Gênesis 49:10?',
     url: 'https://otaviotolentino.wordpress.com/2025/11/23/silo-ou-shiloh-em-genesis-49-10/',
     tags: ["Jesus Cristo","Judá","Messias","Profecia","Profecia Jesus","Reino de Deus","Reino Eterno","Shiloh","Siló","Ungido Rei"],
+    category: 'Estudos',
+  },
+  {
+    id: 'servo-do-senhor-josue-22-5',
+    title: 'Servo do Senhor em Josué 22:5',
+    date: '2025-11-30',
+    summary: 'O que é ser SERVO do SENHOR? Por que Josué fundamenta seu apelo final na identidade de Moisés como “servo do Senhor”? O que esse título realmente significa, e como seu legado continua a nos instruir hoje?',
+    url: 'https://otaviotolentino.wordpress.com/2025/11/30/servo-do-senhor-em-josue-22-5/',
+    tags: ["Amar a Deus de todo Coração","Jesus Cristo","Mandamentos de Deus","Messias","Moisés","Obedecer","Profecia","Profecia Jesus","Profeta","Servo do Senhor"],
     category: 'Estudos',
     isNew: true,
   }
