@@ -1820,7 +1820,16 @@ export const themes: Theme[] = [
                 description: 'O que significa a misteriosa palavra Siló ou Shiloh mencionada na profecia de Jacó sobre Judá?',
                 children: [],
                 articles: ['sil-ou-shiloh-em-gen']
-              }
+              },
+			  {
+                id: 'altar-ed-ou-altar-ede',
+                name: 'Altar Ed / Altar Ede',
+                level: 4,
+                parentId: "biblical-terms",
+                description: 'EDE: O ALTAR do TESTEMUNHO e da UNIDADE PRESERVADA!',
+                children: [],
+                articles: ['altar-ed-ou-altar-ede']
+            }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },		  
@@ -3504,6 +3513,15 @@ export const articles: Article[] = [
     summary: 'O que é ser SERVO do SENHOR? Por que Josué fundamenta seu apelo final na identidade de Moisés como “servo do Senhor”? O que esse título realmente significa, e como seu legado continua a nos instruir hoje?',
     url: 'https://otaviotolentino.wordpress.com/2025/11/30/servo-do-senhor-em-josue-22-5/',
     tags: ["Amar a Deus de todo Coração","Jesus Cristo","Mandamentos de Deus","Messias","Moisés","Obedecer","Profecia","Profecia Jesus","Profeta","Servo do Senhor"],
+    category: 'Estudos',
+  },
+  {
+    id: 'altar-ed-ou-altar-ede',
+    title: 'Altar Ed ou Altar Ede em Josué 22:34',
+    date: '2025-12-07',
+    summary: 'Este não era um altar qualquer. Seu propósito foi mal compreendido, sua construção quase provocou uma catástrofe, e seu nome final, “Ede”, encapsula uma das lições mais profundas sobre unidade, memória e confissão de fé em todo o Antigo Testamento.',
+    url: 'https://otaviotolentino.wordpress.com/2025/12/07/altar-ed-ou-altar-ede-em-josue-22-34/',
+    tags: ["Altar do Testemunho","Altar Ed","Altar Ede","Mandamentos de Deus","O Senkor é Deus","Obedecer","Sem Holocausto","Sem Sacrifício","Testemunho"],
     category: 'Estudos',
     isNew: true,
   }
