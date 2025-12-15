@@ -493,6 +493,15 @@ export const themes: Theme[] = [
                 description: 'O que acontece com os justificados por Deus através de Jesus Cristo que, ainda assim, escolhem o caminho da desobediência aos mandamentos divinos?',
                 children: [],
                 articles: ['cristao-desobediente']
+            },
+			{
+                id: 'como-devemos-consult',
+                name: 'Consultar ao Senhor',				
+                level: 4,
+                parentId: 'discipleship',
+                description: 'Você sabe quais são as várias formas possíveis de Consultar ao Senhor?',
+                children: [],
+                articles: ['como-devemos-consult']
             }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -3522,6 +3531,15 @@ export const articles: Article[] = [
     summary: 'Este não era um altar qualquer. Seu propósito foi mal compreendido, sua construção quase provocou uma catástrofe, e seu nome final, “Ede”, encapsula uma das lições mais profundas sobre unidade, memória e confissão de fé em todo o Antigo Testamento.',
     url: 'https://otaviotolentino.wordpress.com/2025/12/07/altar-ed-ou-altar-ede-em-josue-22-34/',
     tags: ["Altar do Testemunho","Altar Ed","Altar Ede","Mandamentos de Deus","O Senkor é Deus","Obedecer","Sem Holocausto","Sem Sacrifício","Testemunho"],
+    category: 'Estudos',
+  },
+  {
+    id: 'como-devemos-consult',
+    title: 'Como devemos Consultar ao Senhor?',
+    date: '2025-12-13',
+    summary: 'Você sabe quais são as várias formas possíveis de Consultar ao Senhor?',
+    url: 'https://otaviotolentino.wordpress.com/2025/12/13/como-devemos-consultar-ao-senhor/',
+    tags: ["Éfode","Buscar a Deus","Consultar ao Senhor","Oracão","Palavra de Deus","Profeta","Sortes","Sumo Sacerdote","Urim e Tumim","Veste Sacerdotal"],
     category: 'Estudos',
     isNew: true,
   }
