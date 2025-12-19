@@ -3645,6 +3645,14 @@ export const getRelatedArticles = (articleId: string): Article[] => {
 
 // Helper function for search
 export const searchArticles = (query: string): Article[] => {
+  // Check if search starts with single quote for title-only search
+  if (query.startsWith("'")) {
+    const titleQuery = query.substring(1).toLowerCase();
+    return articles.filter(article => 
+      article.title.toLowerCase().includes(titleQuery)
+    );
+  }
+
   const lowerCaseQuery = query.toLowerCase();
   return articles.filter(article => 
     article.title.toLowerCase().includes(lowerCaseQuery) ||

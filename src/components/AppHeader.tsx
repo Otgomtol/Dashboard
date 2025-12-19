@@ -136,7 +136,10 @@ const AppHeader: React.FC<AppHeaderProps> = ({
             <h4 className="font-semibold mb-2">Como Usar:</h4>
             <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
               <li>
-                <strong>Digite Palavras-chave:</strong> Comece a digitar qualquer termo, palavra-chave, ou parte de um título na barra de busca.
+                <strong>Busca Padrão (Sem Aspas):</strong> Digite qualquer termo para pesquisar em títulos, resumos, conteúdo e tags.
+              </li>
+              <li>
+                <strong>Busca por Título (Com Aspas Simples '):</strong> Inicie a busca com uma aspas simples (ex: <code>'Arrebatamento</code>) para pesquisar <strong>apenas</strong> nos títulos dos artigos.
               </li>
               <li>
                 <strong>Resultados em Tempo Real:</strong> A busca é instantânea. Conforme você digita (após 2 caracteres), as Conexões de Temas e a lista de artigos serão filtrados.
@@ -151,7 +154,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
             </ul>
           </div>
           <p className="mt-2 text-xs text-muted-foreground italic">
-            <strong>Dica:</strong> Você pode buscar por títulos, resumos ou pelas <em>tags</em> de cada artigo.
+            <strong>Dica:</strong> Use a busca com aspas simples para resultados mais precisos quando souber parte do título.
           </p>
         </div>
       )
