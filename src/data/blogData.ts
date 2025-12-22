@@ -251,6 +251,15 @@ export const themes: Theme[] = [
             description: 'O que representaram os quarenta anos de travessia do deserto para o povo de Israel?',
             children: [],
             articles: ['travessia-do-deserto']
+          },
+		  {
+            id: 'reinado-de-saul-e-mo',
+            name: 'Reinado e Queda Saul',			
+            level: 3,
+            parentId: "povo-de-israel",
+            description: 'Você sabe quais são os motivos da queda de Saul e por que ele perdeu o seu reinado?',
+            children: [],
+            articles: ['reinado-de-saul-e-mo']
           }
         ].sort((a, b) => a.name.localeCompare(b.name)),
         articles: []
@@ -3540,6 +3549,15 @@ export const articles: Article[] = [
     summary: 'Você sabe quais são as várias formas possíveis de Consultar ao Senhor?',
     url: 'https://otaviotolentino.wordpress.com/2025/12/13/como-devemos-consultar-ao-senhor/',
     tags: ["Éfode","Buscar a Deus","Consultar ao Senhor","Oracão","Palavra de Deus","Profeta","Sortes","Sumo Sacerdote","Urim e Tumim","Veste Sacerdotal"],
+    category: 'Estudos',
+  },
+  {
+    id: 'reinado-de-saul-e-mo',
+    title: 'Reinado de Saul e Motivo da sua Queda',
+    date: '2025-12-20',
+    summary: 'Você sabe quais são os motivos da queda de Saul e por que ele perdeu o seu reinado?',
+    url: 'https://otaviotolentino.wordpress.com/2025/12/20/reinado-de-saul-e-motivo-da-sua-queda/',
+    tags: ["Desobediência","Mandamentos de Deus","Motivo","Obediência a Deus","Palavra de Deus","Queda","Reinado","Rejeitado","Rejeitou a Deus","Saul","Vontade de Deus"],
     category: 'Estudos',
     isNew: true,
   }
