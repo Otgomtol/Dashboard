@@ -1139,6 +1139,15 @@ export const themes: Theme[] = [
                 description: 'Para você, o que significa afirmar que Deus cumpre a palavra que sai da boca do homem?',
                 children: [],
                 articles: ['deus-cumpre-palavra']
+              },
+			  {
+                id: 'deus-que-habitas-ent',
+                name: 'Habita com Querubins',				
+                level: 4,
+                parentId: 'deus',
+                description: 'Como sabemos que Deus habita entre os Querubins? E como podemos fazer tal afirmação?',
+                children: [],
+                articles: ['deus-que-habitas-ent']
               }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -3558,6 +3567,15 @@ export const articles: Article[] = [
     summary: 'Você sabe quais são os motivos da queda de Saul e por que ele perdeu o seu reinado?',
     url: 'https://otaviotolentino.wordpress.com/2025/12/20/reinado-de-saul-e-motivo-da-sua-queda/',
     tags: ["Desobediência","Mandamentos de Deus","Motivo","Obediência a Deus","Palavra de Deus","Queda","Reinado","Rejeitado","Rejeitou a Deus","Saul","Vontade de Deus"],
+    category: 'Estudos',
+  },
+  {
+    id: 'deus-que-habitas-ent',
+    title: 'Deus que Habitas entre os Querubins',
+    date: '2025-12-26',
+    summary: 'Como sabemos que Deus habita entre os Querubins? E como podemos fazer tal afirmação?',
+    url: 'https://otaviotolentino.wordpress.com/2025/12/26/deus-que-habitas-entre-os-querubins/',
+    tags: ["Arca da Aliança","Deus","Entre os Querubins","Habitação de Deus","Querubins","Serafins","Trono de Deus"],
     category: 'Estudos',
     isNew: true,
   }
