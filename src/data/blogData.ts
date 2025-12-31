@@ -1959,7 +1959,7 @@ export const themes: Theme[] = [
 export const articles: Article[] = [
   {
     id: "santificado-em-jesus",
-    title: "Santificado em Jesus",
+    title: "Santificação: o Preparo do Cristão para a volta de Jesus",
     date: "2023-10-08",
     summary: "Estamos fazendo o que é necessário para estarmos aptos na volta de Jesus? O que será que Jesus e Deus esperam de nós? Você está ciente da preocupação de Paulo e dos outros apóstolos com a Igreja e os cristãos para a volta de Jesus Cristo?",
     url: "https://otaviotolentino.wordpress.com/2023/10/08/santificacao-para-a-volta-de-jesus/",
@@ -1977,7 +1977,7 @@ export const articles: Article[] = [
   },
   {
     id: "pensamento-nos-ceus",
-    title: "Pensamento nos Céus",
+    title: "Pensai nas Coisas que são de Cima",
     date: "2024-06-09",
     summary: "O que é pensar nas coisas de cima? Qual deve ser o foco na vida do cristão? O que vive pelo Espírito e anda em Espírito deve olhar e pensar nas coisas que são de cima e não nas coisas terrenas ou deste mundo. Pois o que anda na carne atende aos desejos da carne e o salário do pecado é a morte.",
     url: "https://otaviotolentino.wordpress.com/2024/06/09/pensai-nas-coisas-que-sao-de-cima/",
@@ -1986,7 +1986,7 @@ export const articles: Article[] = [
   },
   {
     id: "fruto-do-espirito",
-    title: "Fruto do Espírito",
+    title: "Afinal o que é o Fruto do Espírito?",
     date: "2023-05-21",
     summary: "O fruto do espírito é ou são? Essa resposta varia a depender do objetivo de quem pergunta. Pois se quem pergunta tiver o foco na origem dos frutos, então o fruto é oriundo do Espírito de Deus, que é um só e o mesmo para gerar os frutos. Mas se o foco da pergunta for direcionado à relação dos frutos, então os frutos são.",
     url: "https://otaviotolentino.wordpress.com/2023/05/21/fruto-do-espirito/",
@@ -2004,7 +2004,7 @@ export const articles: Article[] = [
   },
   {
     id: "lo-justo",
-    title: "O Justo",
+    title: "LÓ, o JUSTO",
     date: "2023-12-03",
     summary: "Qual a sua avaliação sobre o comportamento de Ló? Ló era justo ou não diante de Deus?",
     url: "https://otaviotolentino.wordpress.com/2023/12/03/lo-o-justo/",
@@ -2013,7 +2013,7 @@ export const articles: Article[] = [
   },
   {
     id: "noite-vem",
-    title: "Noite Vem",
+    title: "Noite Vem quando Ninguém pode Trabalhar",
     date: "2023-03-05",
     summary: "Veremos neste Artigo que Satanás transferirá seu poder para a Besta e o falso profeta de sorte que eles poderão fazer maravilhas e intentarão batalha contra os santos do Altíssimo, leia-se os cristãos que seguem Jesus. E os destruirá assim como vai blasfemar contra a Palavra de Deus, Bíblia e Jesus, e vai prosperar de alguma maneira.",
     url: "https://otaviotolentino.wordpress.com/2023/03/05/noite-ninguem-pode-trabalhar/",
@@ -2022,7 +2022,7 @@ export const articles: Article[] = [
   },
   {
     id: "soberba-das-nacoes",
-    title: "Soberba das Nações",
+    title: "Soberba: Queda das Nações",
     date: "2022-08-21",
     summary: "Afinal, o que levará à queda das nações no fim dos tempos, na volta de Jesus? Também chamado de dia da Ira de Deus ou do Cordeiro.",
     url: "https://otaviotolentino.wordpress.com/2022/08/21/soberba/",
@@ -2031,7 +2031,7 @@ export const articles: Article[] = [
   },
   {
     id: "sombra-de-deus",
-    title: "Sombra de Deus",
+    title: "Viver debaixo da sombra de DEUS e do seu Ungido",
     date: "2023-01-02",
     summary: "O que vem a ser a expressão bíblica relacionada à vida eterna com Deus e Jesus que fala sobre 'viver debaixo da sua sombra'?",
     url: "https://otaviotolentino.wordpress.com/2023/01/02/sombra-de-deus-e-do-ungido/",
@@ -2040,7 +2040,7 @@ export const articles: Article[] = [
   },
   {
     id: "trindade",
-    title: "Trindade",
+    title: "Pai, Filho e Espírito Santo: Semelhanças e Diferenças",
     date: "2023-08-06",
     summary: "Muitos pensam que o Pai, o Filho e o Espírito Santo são a mesma pessoa. Será? Essa confusão costuma ser gerada como decorrência da explicação sobre a doutrina da trindade ou trinitarismo, pois geralmente quem explica essa doutrina costuma gerar essa confusão quando afirma que os três são a mesma pessoa.",
     url: "https://otaviotolentino.wordpress.com/2023/08/06/pai-filho-e-espirito-santo/",
@@ -2049,7 +2049,7 @@ export const articles: Article[] = [
   },
   {
     id: "cedula-contraria",
-    title: "Cédula que era Contra nós",
+    title: "Cédula que nos era Contrária",
     date: "2023-03-13",
     summary: "Será que sabemos o que é a “Cédula contra nós” que foi cravada na Cruz por Jesus? O que será que Paulo quis dizer com o texto de Colossenses 2:14? Temos ouvido que nessa referência bíblica está sendo falado que a cédula era a nossa dívida para com Deus por causa dos nossos pecados. Será que é isso mesmo que o autor está querendo dizer no verso 14?",
     url: "https://otaviotolentino.wordpress.com/2023/03/13/cedula-contraria/",
@@ -2058,7 +2058,7 @@ export const articles: Article[] = [
   },
   {
     id: "maldicao-do-madeiro",
-    title: "Maldição do Madeiro",
+    title: "Crucificação: Maldição do Madeiro",
     date: "2023-09-17",
     summary: "Você sabe por que Jesus foi morto numa Cruz? Já ouviu falar em “maldição do madeiro“?",
     url: "https://otaviotolentino.wordpress.com/2023/09/17/crucificacao-maldicao-do-madeiro/",
@@ -2067,7 +2067,7 @@ export const articles: Article[] = [
   },
   {
     id: "lei-do-apedrejamento",
-    title: "Lei do Apedrejamento",
+    title: "Apedrejamento da Mulher Adúltera",
     date: "2024-12-08",
     summary: "Como entender o caso do apedrejamento da mulher adúltera pelos olhos das escrituras? Neste artigo, pretendemos demonstrar como a Palavra de Deus explica a si mesma.",
     url: "https://otaviotolentino.wordpress.com/2024/12/08/apedrejamento-da-mulher-adultera/",
@@ -2076,7 +2076,7 @@ export const articles: Article[] = [
   },
   {
     id: "praga-deus-em-davi",
-    title: "Praga de Deus por causa de Davi",
+    title: "Motivo da Praga de Deus por Davi ter Contado os filhos de Israel",
     date: "2024-10-06",
     summary: "Qual o motivo da maldição de Deus por Davi ter contato os filhos do Povo de Israel? Qual foi o motivo dessa maldição que caiu sobre o Povo de Israel por causa de Davi? Os textos que narram a descrição desses fatos apenas citam o ocorrido sem dar nenhum detalhe sobre a causa que faz incidir a maldição.",
     url: "https://otaviotolentino.wordpress.com/2024/10/06/motivo-praga-por-davi-ter-contado-israel/",
@@ -2085,7 +2085,7 @@ export const articles: Article[] = [
   },
   {
     id: "primogenitura",
-    title: "Primogenitura de Israel",
+    title: "Primogenitura das Tribos de Israel diante de Deus",
     date: "2024-03-10",
     summary: "Este artigo analisa a questão das bênçãos do Patriarca ao seu primogênito, dentro da tradição do judaísmo, manifestada no Velho Testamento e que se encontra na Lei de Moisés. Com base nessa tradição, respaldada pelo cumprimento divino, as palavras de bênção proferidas pelo patriarca ao seu primogênito são confirmadas e cumpridas por Deus.",
     url: "https://otaviotolentino.wordpress.com/2024/03/10/primogenitura-das-tribos-de-israel/",
@@ -2094,7 +2094,7 @@ export const articles: Article[] = [
   },
   {
     id: "rei-humano",
-    title: "Ter Pedido Rei Humano",
+    title: "Povo de Israel Ter Pedido um Rei Humano",
     date: "2025-06-29",
     summary: "A história do povo de Israel é marcada por momentos decisivos que revelam a natureza da relação entre Deus e seu povo escolhido. Um desses momentos cruciais ocorreu quando os israelitas rejeitaram o governo teocrático direto de Deus e pediram um rei humano, seguindo o modelo das nações pagãs ao seu redor.",
     url: "https://otaviotolentino.wordpress.com/2025/06/29/povo-de-israel-ter-pedido-um-rei-humano-significado/",
@@ -2103,7 +2103,7 @@ export const articles: Article[] = [
   },
   {
     id: "chuvas-em-israel",
-    title: "Chuvas em Israel",
+    title: "Profeta Elias e as Chuvas em Israel",
     date: "2024-12-22",
     summary: "E quem fazia chover em Israel: Elias ou Deus? A questão da chuva na Terra de Israel e a importância de Elias. Esta questão está associada à situação da Terra Prometida ser árida e depender da chuva para produzir frutos, por isso requer o cuidado e providência de Deus.",
     url: "https://otaviotolentino.wordpress.com/2024/12/22/elias-e-as-chuvas-em-israel/",
@@ -2112,7 +2112,7 @@ export const articles: Article[] = [
   },
   {
     id: "repouso-de-deus",
-    title: "Repouso de Deus",
+    title: "Será que o Povo de Israel entrou no Repouso de Deus?",
     date: "2024-02-25",
     summary: "O Povo de Israel entrou no REPOUSO de DEUS? E afinal o que é o Repouso de Deus? Seria o lugar de descanso, onde descansariam os cansados? Lugar onde teríamos o refrigério de Deus.",
     url: "https://otaviotolentino.wordpress.com/2024/02/25/povo-de-israel-e-o-repouso-de-deus/",
@@ -2121,7 +2121,7 @@ export const articles: Article[] = [
   },
   {
     id: "cumprimento-repouso",
-    title: "Cumprimento do Repouso",
+    title: "Cumprimento do Repouso de Deus ao Povo de Israel: O que deu Errado?",
     date: "2025-01-05",
     summary: "O que deu errado no Cumprimento do Repouso de Deus ao Povo de Israel? E por que o Povo de Israel não permaneceu no Repouso de Deus? Pois as escrituras nos afirmam que Deus cumpriu ao Povo de Israel todas as promessas feitas aos Patriarcas.",
     url: "https://otaviotolentino.wordpress.com/2025/01/05/cumprimento-do-repouso-de-deus-ao-povo-de-israel-o-que-deu-errado/",
@@ -2130,7 +2130,7 @@ export const articles: Article[] = [
   },
   {
     id: "sacerdocio-perpetuo",
-    title: "Sacerdócio Perpétuo",
+    title: "Quebra da Aliança do Sacerdócio Perpétuo Levítico",
     date: "2024-12-15",
     summary: "O que é a Aliança do Sacerdócio Perpétuo Levítico? Quem são as partes envolvidas nesta aliança? Será que esta Aliança, embora perpétua, ainda permanece?",
     url: "https://otaviotolentino.wordpress.com/2024/12/15/quebra-da-alianca-do-sacerdocio-perpetuo-levitico/",
@@ -2139,7 +2139,7 @@ export const articles: Article[] = [
   },
   {
     id: "tempo-no-egito",
-    title: "Tempo no Egito",
+    title: "Tempo de Permanência do Povo de Israel no Egito",
     date: "2024-01-14",
     summary: "Qual é o tempo correto de permanência do Povo de Israel no Egito? 430, 400 ou 215 anos? Como se conclui que o Povo de Israel passou 430 anos no Egito? Até o momento há duas vertentes possíveis de cálculo. A de que o tempo de habitação do Povo de Israel no Egito durou 430 anos e a de que durou em torno de 215 anos.",
     url: "https://otaviotolentino.wordpress.com/2024/01/14/tempo-de-permanencia-do-povo-de-israel-no-egito/",
@@ -2148,7 +2148,7 @@ export const articles: Article[] = [
   },
   {
     id: "mumias-em-israel",
-    title: "Múmias em Israel",
+    title: "Múmias do Egito em Israel",
     date: "2024-03-03",
     summary: "A terra de Israel não tem uma, mas sim duas múmias enterradas que vieram do Egito. Vejamos adiante como se deram esses fatos com Jacó e José separadamente.",
     url: "https://otaviotolentino.wordpress.com/2024/03/03/mumias-do-egito-em-israel/",
@@ -2157,7 +2157,7 @@ export const articles: Article[] = [
   },
   {
     id: "quem-entrou-na-terra",
-    title: "Quem Entrou na Terra",
+    title: "Quais Pessoas Saíram do Egito e Entraram na Terra Prometida?",
     date: "2025-01-19",
     summary: "Quais PESSOAS SAÍRAM do Egito e ENTRARAM na Terra Prometida? Certamente, muitos responderam Josué, filho de Num, e Calebe, filho de Jefoné, sem pestanejar ou titubear. Mas será que essa é a resposta correta e completa? Isto é o que veremos neste estudo.",
     url: "https://otaviotolentino.wordpress.com/2025/01/19/quais-pessoas-sairam-do-egito-e-entraram-na-terra-prometida/",
@@ -2166,7 +2166,7 @@ export const articles: Article[] = [
   },
   {
     id: "rei-do-povo-deut33-5",
-    title: "Rei do Povo em Deuteronômio 33:5",
+    title: "Quem foi Rei do Povo de Israel em Deuteronômio 33:5?",
     date: "2024-11-17",
     summary: "Quem será que foi Rei em Jesurum na passagem de Deuteronômio 33:5? Quem é “Ele” referido no texto original do versículo 5? Teria sido Deus ou será que foi Moisés?",
     url: "https://otaviotolentino.wordpress.com/2024/11/17/quem-foi-rei-em-deuteronomio-33-5/",
@@ -2175,7 +2175,7 @@ export const articles: Article[] = [
   },
   {
     id: "arca-da-alianca",
-    title: "Arca da Aliança",
+    title: "Arca da Aliança: Percurso da construção até seu destino final",
     date: "2024-05-05",
     summary: "Por onde andou e por onde anda a Arca da Aliança desde que foi construída no Monte Sinai? Neste estudo vamos abordar o percurso da Arca da Aliança ou do Testemunho, considerando sua movimentação desde sua construção e montagem, depois que teve a saída do Monte Horebe em Sinai até seu destino final.",
     url: "https://otaviotolentino.wordpress.com/2024/05/05/arca-da-alianca-percurso/",
@@ -2184,7 +2184,7 @@ export const articles: Article[] = [
   },
   {
     id: "quebra-da-alianca",
-    title: "Quebra da Aliança",
+    title: "Quebra, pelo Povo de Israel, da Última Aliança feita por Deus",
     date: "2023-05-07",
     summary: "Desde a criação do mundo Deus fez várias alianças, acordos ou promessas, com alguns homens ou com seu Povo escolhido. Quais seriam os efeitos e consequências dessa quebra de aliança? Vamos então analisar, especificamente, nesse estudo a última Aliança feita por Deus com o Povo de Israel e sua consequência, em caso de descumprimento.",
     url: "https://otaviotolentino.wordpress.com/2023/05/07/quebra-da-ultima-alianca/",
@@ -2193,7 +2193,7 @@ export const articles: Article[] = [
   },
   {
     id: "franja-das-vestes",
-    title: "Franja das vestes",
+    title: "Tem previsão de Cura na Franja ou nas vestes dos judeus?",
     date: "2024-10-20",
     summary: "Tem previsão de CURA na FRANJA ou nas VESTES dos judeus? Por que a mulher que tinha o fluxo de sangue tocou na borda das vestes de Jesus?",
     url: "https://otaviotolentino.wordpress.com/2024/10/20/cura-na-franja-nas-vestes-dos-judeus/",
@@ -2211,7 +2211,7 @@ export const articles: Article[] = [
   },
   {
     id: "lugar-fixo-templo",
-    title: "Lugar Fixo do Templo",
+    title: "Previsão do Lugar Fixo da construção do Templo de Israel",
     date: "2024-11-10",
     summary: "O lugar fixo do Templo seria o lugar definido por Deus para os serviços sacerdotais. O Templo fixo também seria o lugar dos sacrifícios e das Solenidades e Santas Convocações que o Senhor instituiu como as Festas Judaicas, comemoradas anualmente.",
     url: "https://otaviotolentino.wordpress.com/2024/11/10/previsao-do-lugar-fixo-do-templo-de-israel/",
@@ -2220,7 +2220,7 @@ export const articles: Article[] = [
   },
   {
     id: "tempo-aviso-de-noe",
-    title: "Tempo do Aviso de Noé",
+    title: "Qual foi o Tempo de Espera até o Dilúvio?",
     date: "2024-02-11",
     summary: "Quanto tempo levou desde o aviso de Deus feito à Noé para construir a Arca até a queda das águas do dilúvio? Esse tempo parece confuso, pois não é dado diretamente nos textos bíblicos. Chegam a afirmar que Noé foi o pregoeiro da justiça ou deu testemunho da vinda do Dilúvio por 120 anos. Será?",
     url: "https://otaviotolentino.wordpress.com/2024/02/11/tempo-de-espera-ate-o-diluvio/",
@@ -2229,7 +2229,7 @@ export const articles: Article[] = [
   },
   {
     id: "subiu-sinai-1a-vez",
-    title: "Quem Subiu o Sinai na 1ª Vez?",
+    title: "Quem Subiu até o Cume do Monte Sinai e ficou lá 40 dias?",
     date: "2024-01-21",
     summary: "Você sabia que Moisés subiu duas vezes ao cume do Monte Sinai, também chamado de Monte Horebe? A 1ª vez está descrita no capítulo 24 do Livro de Êxodo. A 2ª vez está descrita no capítulo 34 do Livro de Êxodo. Então QUEM subiu até o CUME do Monte SINAI e ficou lá 40 dias, na 1ª vez em Êxodo 24?",
     url: "https://otaviotolentino.wordpress.com/2024/01/21/subiu-monte-sinai/",
@@ -2238,7 +2238,7 @@ export const articles: Article[] = [
   },
   {
     id: "desigrejados",
-    title: "Desigrejados",
+    title: "Desigrejados de acordo com a Bíblia",
     date: "2024-05-12",
     summary: "Quem são os verdadeiros desigrejados de acordo com a BÍBLIA? Estamos falando dos desigrejados que são convertidos, frequentam a Igreja e tem alto nível espiritual e de participação nas suas Igrejas, mas foram “desestimulados” a frequentarem a sua Igreja por motivos dados pela própria Igreja.",
     url: "https://otaviotolentino.wordpress.com/2024/05/12/desigrejados/",
@@ -2247,7 +2247,7 @@ export const articles: Article[] = [
   },
   {
     id: "multiforme-sabedoria",
-    title: "Multiforme Sabedoria de Deus",
+    title: "Igreja: Multiforme Sabedoria de Deus",
     date: "2022-02-07",
     summary: "Qual é o meio pelo qual essa variada ou múltiplas formas da sabedoria de Deus será manifestada? Qual o objetivo ou para quem será manifestada essa diversificada sabedoria de Deus? Quando surgiu ou passou a vigorar essa novidade que deve ser anunciada? Em qual dimensão deve ser anunciada?",
     url: "https://otaviotolentino.wordpress.com/2022/02/07/igreja-sabedoria/",
@@ -2256,7 +2256,7 @@ export const articles: Article[] = [
   },
   {
     id: "voto-nas-eleicoes",
-    title: "Voto nas Eleições",
+    title: "Cristão e Voto nas Eleições",
     date: "2022-09-18",
     summary: "O que a Bíblia diz sobre Voto nas eleições? Quais os critérios e será que o cristão deve seguir voto indicado por algum líder espiritual?",
     url: "https://otaviotolentino.wordpress.com/2022/09/18/cristaos-eleicoes/",
@@ -2265,7 +2265,7 @@ export const articles: Article[] = [
   },
   {
     id: "traducao-e-versao",
-    title: "Tradução e Versão",
+    title: "Bíblia: Avaliação sobre Tradução e Versão",
     date: "2023-07-02",
     summary: "Por ser a Bíblia composta por textos inspirados por Deus, que dão origem aos livros do Velho e do Novo Testamento, devemos zelar em ter o melhor resultado final, que são as traduções e versões que dão origem às Bíblias disponíveis nas mais diversas línguas em nosso planeta.",
     url: "https://otaviotolentino.wordpress.com/2023/07/02/biblia-traducao-e-versao/",
@@ -2274,7 +2274,7 @@ export const articles: Article[] = [
   },
   {
     id: "analise-de-textos",
-    title: "Análise de textos",
+    title: "Análise de textos Bíblicos Digitais",
     date: "2023-11-28",
     summary: "A equipe Voyant Tools disponibiliza a ferramenta de modo púbico, livre e gratuito; porém, o conteúdo ou o texto a ser lido ou analisado é inserido por qualquer um que quiser fazer uso da ferramenta.",
     url: "https://otaviotolentino.wordpress.com/2023/11/28/analise-textos-digitais/",
@@ -2283,7 +2283,7 @@ export const articles: Article[] = [
   },
   {
     id: "arrebatamento",
-    title: "Arrebatamento Antecipado: Será?",
+    title: "Arrebatamento Antecipado da Igreja: Será?",
     date: "2022-06-26",
     summary: "Será que a doutrina do Arrebatamento Antecipado da Igreja, antes da Tribulação, está prevista em Apocalipse ou na Bíblia?",
     url: "https://otaviotolentino.wordpress.com/2022/06/26/arrebatamento-antecipado/",
@@ -2292,7 +2292,7 @@ export const articles: Article[] = [
   },
   {
     id: "livrar-da-ira",
-    title: "Livrar da Ira",
+    title: "Livrar da hora da Tentação ou do Dia do Juízo",
     date: "2023-12-10",
     summary: "Esse Dia será crucial, pois nele ocorrerá a Vinda de Jesus onde ele pisará o lagar da Ira de Deus, previsto no final dos capítulos 14 e 19 do livro de Apocalipse. Ainda, sendo mais específico, é o dia da Volta de Cristo e não os dias que antecedem sua volta e nem os dias posteriores.",
     url: "https://otaviotolentino.wordpress.com/2023/12/10/livrar-do-dia-da-ira/",
@@ -2301,7 +2301,7 @@ export const articles: Article[] = [
   },
   {
     id: "operacao-do-erro",
-    title: "Operação do Erro",
+    title: "Operação do Erro para o Apocalipse",
     date: "2023-02-05",
     summary: "Muita gente se admira e se pergunta como alguém seria enganado com mentira? Pois é, parece admirável que assim aconteça, mas é assim mesmo que vai acontecer e vai enganar muita gente e até muitos que se dizem cristãos.",
     url: "https://otaviotolentino.wordpress.com/2023/02/05/operacao-do-erro/",
@@ -2310,7 +2310,7 @@ export const articles: Article[] = [
   },
   {
     id: "discipulo-missoes",
-    title: "Discípulos/Missões",
+    title: "Discipulado / Missões",
     date: "2025-07-28",
     summary: "Repercussão desta Obra de Deus sobre toda a face da Terra; alcançando, por enquanto, mais de 90 Países, somando mais de 48.000 visitações ao Blog 'ÁGUAS VIVAS QUE CORREM MANSAMENTE' até 2025.",
     url: "https://otaviotolentino.wordpress.com/missoes/",
@@ -2319,7 +2319,7 @@ export const articles: Article[] = [
   },
   {
     id: "passo-a-passo",
-    title: "Passo a Passo",
+    title: "Discipulado em Cristo: Passo a Passo",
     date: "2024-07-28",
     summary: "Aspectos fundamentais do discipulado cristão descritos passo a passo. Baseando-nos nos textos Bíblicos do Novo Testamento, podemos identificar vários aspectos cruciais do discipulado.",
     url: "https://otaviotolentino.wordpress.com/2024/07/28/discipulado-em-cristo-passo-a-passo/",
@@ -2337,7 +2337,7 @@ export const articles: Article[] = [
   },
   {
     id: "lava-pes",
-    title: "Lava Pés",
+    title: "Lava Pés: Qual é o Ensinamento?",
     date: "2023-05-14",
     summary: "O que será que Cristo quis ensinar quando transmitiu essa doutrina para os seus discípulos e ainda disse que deveriam repetir?",
     url: "https://otaviotolentino.wordpress.com/2023/05/14/lava-pes/",
@@ -2346,7 +2346,7 @@ export const articles: Article[] = [
   },
   {
     id: "verdade-libertara",
-    title: "Verdade Libertará",
+    title: "Conhecereis a Verdade e ela vos Libertará: Como isso acontece?",
     date: "2023-04-30",
     summary: "Esta frase, dita por Jesus, é tão manipulada por oportunistas que a utilizam fora do contexto e, por isso, nem eles mesmos conseguem entender e, muito menos, manifestar seu real significado. Vamos aproveitar para refletir sobre esse tema extremamente relevante e entender, afinal, o quê Jesus quis dizer com essa afirmação.",
     url: "https://otaviotolentino.wordpress.com/2023/04/30/verdade-vos-libertara/",
@@ -2355,7 +2355,7 @@ export const articles: Article[] = [
   },
   {
     id: "somos-deuses",
-    title: "Somos deuses",
+    title: "Somos deuses: Será?",
     date: "2022-03-13",
     summary: "Jesus manifesta abertamente que os santificados e enviados por Deus são Filhos de Deus, logo são deuses. Será que essa afirmação de Jesus tem a ver conosco?",
     url: "https://otaviotolentino.wordpress.com/2022/03/13/somos-deuses/",
@@ -2364,7 +2364,7 @@ export const articles: Article[] = [
   },
   {
     id: "perseveranca-fe",
-    title: "Perseverança na Fé",
+    title: "Paciência ou Perseverança de Jesus ou dos Santos",
     date: "2025-07-27",
     summary: "A 'paciência ou perseverança de Jesus ou dos santos' é uma expressão que perpassa todo o Novo Testamento, revelando um dos aspectos mais fundamentais da fé cristã: a necessidade de permanecermos firmes até o fim.",
     url: "https://otaviotolentino.wordpress.com/2025/07/27/paciencia-ou-perseveranca-de-jesus-ou-dos-santos/",
@@ -2373,7 +2373,7 @@ export const articles: Article[] = [
   },
   {
     id: "viver-por-jesus",
-    title: "Viver por Jesus",
+    title: "Viver por meio de Jesus, como Cristo viveu por Deus",
     date: "2023-01-08",
     summary: "Há muito tempo que o crente tenta entender como fazer para viver por meio de Cristo, assim como Jesus Cristo vivia por meio do PAI.",
     url: "https://otaviotolentino.wordpress.com/2023/01/08/viver-por-jesus/",
@@ -2382,7 +2382,7 @@ export const articles: Article[] = [
   },
   {
     id: "salvacao-fe-e-esperanca",
-    title: "Mensagem de Fé e Esperança",
+    title: "Salvação: Mensagem de Fé e Esperança",
     date: "September 10, 2023",
     summary: "Apresentamos a mensagem de Fé e Esperança que foi anunciada pelo apóstolo Pedro sobre a Salvação em Jesus Cristo. É muito importante que se tenha em mente que precisamos atender ao apelo do Espírito Santo e nos arrependermos e convertermos ao Senhor nosso Deus por meio do sacrifício remidor e resgatador suportado pelo Príncipe da Vida, Jesus Cristo.",
     url: "https://otaviotolentino.wordpress.com/2023/09/10/salvacao-fe-e-esperanca/",
@@ -2391,7 +2391,7 @@ export const articles: Article[] = [
   },
   {
     id: "salvacao-janela-de-oportunidade",
-    title: "Janela de Oportunidade",
+    title: "Salvação: Janela de Oportunidade",
     date: "May 22, 2022",
     summary: "Ainda há uma Janela de oportunidade para salvação do homem diante de Deus. Vejamos os motivos pelos quais devemos aproveitá-la o quanto antes.",
     url: "https://otaviotolentino.wordpress.com/2022/05/22/salvacao-oportunidade/",
@@ -2400,7 +2400,7 @@ export const articles: Article[] = [
   },
   {
     id: "salvacao-qual-o-preco",
-    title: "Qual o preço?",
+    title: "Salvação: Qual o preço?",
     date: "June 19, 2022",
     summary: "O ser humano dificilmente pensa sobre o custo da Salvação para Jesus e, consequentemente, qual é o preço que Deus cobraria de nós para obtermos a salvação da nossa alma.",
     url: "https://otaviotolentino.wordpress.com/2022/06/19/salvacao-preco/",
@@ -2409,7 +2409,7 @@ export const articles: Article[] = [
   },
   {
     id: "salvacao-so-em-jesus-cristo",
-    title: "Só em Jesus Cristo",
+    title: "Salvação: Só em Jesus Cristo",
     date: "June 13, 2022",
     summary: "Não nos deixemos enganar mais por nenhuma outra afirmação e nem devemos perder mais tempo com outras artimanhas, que não a verdade. Nenhum outro nome há pelo qual devamos ser salvos.",
     url: "https://otaviotolentino.wordpress.com/2022/06/13/salvacao-jesus-cristo/",
@@ -2644,7 +2644,7 @@ export const articles: Article[] = [
   },
   {
     id: "math-secrets",
-    title: "Quadrado/Raiz Quadrada",
+    title: "Quadrado, Raiz Quadrada e Prova do Teorema de Pitágoras",
     date: "December 1, 2024",
     summary: "Uma exploração de conceitos matemáticos relacionados a quadrados, raízes quadradas e o teorema de Pitágoras, usando visualização gráfica para tornar esses conceitos mais acessíveis e compreensíveis.",
     url: "https://otaviotolentino.wordpress.com/2024/12/01/square-square-root-pythagoras-claude-ai-subjected-to-god-en/",
@@ -2653,7 +2653,7 @@ export const articles: Article[] = [
   },
   {
     id: "tarifa-zero",
-    title: "Tarifa Zero no Banco",
+    title: "Tarifa Zero no seu Banco",
     date: "November 15, 2024",
     summary: "Conselhos práticos sobre como evitar taxas bancárias no Brasil, com base na Resolução 3.919/2010 do Banco Central. O artigo fornece informações legais e passos práticos para os leitores economizarem dinheiro em serviços bancários.",
     url: "https://otaviotolentino.wordpress.com/2021/12/11/tarifa-zero/",
@@ -2662,7 +2662,7 @@ export const articles: Article[] = [
   },
   {
     id: "aboliu-a-morte",
-    title: "Aboliu a Morte",
+    title: "Jesus Aboliu a Morte",
     date: "June 22, 2025",
     summary: "A morte sempre foi o grande terror da humanidade, uma realidade inevitável que assombra todos os povos e culturas ao longo da história. Porém, as Escrituras Sagradas nos revelam uma verdade extraordinária e transformadora: Jesus Cristo aboliu a morte.",
     url: "https://otaviotolentino.wordpress.com/2025/06/22/jesus-aboliu-a-morte/",
@@ -2671,7 +2671,7 @@ export const articles: Article[] = [
   },
   {
     id: "dia-da-ressurreicao",
-    title: "Dia da Ressurreição",
+    title: "Qual é o Dia da Ressurreição de Jesus Cristo?",
     date: "November 3, 2024",
     summary: "Será DOMINGO o DIA da RESSURREIÇÃO de Jesus Cristo?",
     url: "https://otaviotolentino.wordpress.com/2024/11/03/dia-da-ressurreicao-de-jesus-cristo/",
@@ -2680,7 +2680,7 @@ export const articles: Article[] = [
   },
   {
     id: "chamado-nazareno",
-    title: "Chamado Nazareno",
+    title: "Jesus Chamado Nazareno. Por que?",
     date: "July 21, 2024",
     summary: "No Evangelho de Mateus há uma referência ao cumprimento de uma profecia que não foi dada nenhum detalhe de quem ou onde estava esta profecia. E chegou, e habitou numa cidade chamada Nazaré, para que se cumprisse o que fora dito pelos profetas: Ele será chamado Nazareno. Mateus 2:23",
     url: "https://otaviotolentino.wordpress.com/2024/07/21/jesus-nazareno/",
@@ -2689,7 +2689,7 @@ export const articles: Article[] = [
   },
   {
     id: "templo-restaurado",
-    title: "Templo Restaurado",
+    title: "Jseus é o Templo que foi Restaurado",
     date: "March 31, 2024",
     summary: "O nome de Jesus carrega a Glória e Honra de Deus, pois ele é o Templo restabelecido por Deus.",
     url: "https://otaviotolentino.wordpress.com/2024/03/31/jesus-e-o-templo/",
@@ -2698,7 +2698,7 @@ export const articles: Article[] = [
   },
   {
     id: "culpados-pelo-sangue",
-    title: "Culpados pelo Sangue",
+    title: "Responsáveis pelo Sangue de Jesus, dos Profetas e dos santos em Apocalipse",
     date: "November 12, 2023",
     summary: "Seremos breves e diretos na abordagem dos responsáveis pelo derramamento do sangue de Jesus, dos profetas e dos santos em Apocalipse.",
     url: "https://otaviotolentino.wordpress.com/2023/11/12/sangue-de-jesus-dos-profetas-e-dos-santos/",
@@ -2707,7 +2707,7 @@ export const articles: Article[] = [
   },
   {
     id: "levou-nossos-pecados",
-    title: "Levou Nossos Pecados",
+    title: "Jesus Levou Sobre Si os Nossos Pecados",
     date: "October 15, 2023",
     summary: "Jesus teve que vir em carne, em forma plenamente humana, e tomou sobre si os nossos pecados, enfermidades, dores, iniquidades etc, para que pudesse remir os nossos pecados e resgatar as nossas almas diante de Deus.",
     url: "https://otaviotolentino.wordpress.com/2023/10/15/jesus-levou-nossos-pecados/",
@@ -2716,7 +2716,7 @@ export const articles: Article[] = [
   },
   {
     id: "tentacao-no-deserto",
-    title: "Tentação no Deserto",
+    title: "Tentação de Jesus no Deserto",
     date: "October 1, 2023",
     summary: "A tentação de Jesus no deserto representa uma declaração de intenções e comprometimentos através do testemunho de fé dado por Jesus.",
     url: "https://otaviotolentino.wordpress.com/2023/10/01/tentacao-de-jesus-no-deserto/",
@@ -2725,7 +2725,7 @@ export const articles: Article[] = [
   },
   {
     id: "pedra-da-igreja",
-    title: "Pedra da Igreja",
+    title: "Quem é a Pedra sobre a qual a Igreja de Cristo seria erguida?",
     date: "July 30, 2023",
     summary: "Será Pedro a Pedra sobre a qual Jesus construiria a sua Igreja?",
     url: "https://otaviotolentino.wordpress.com/2023/07/30/pedra-da-igreja-de-cristo/",
@@ -2734,7 +2734,7 @@ export const articles: Article[] = [
   },
   {
     id: "nome",
-    title: "Nome de Jesus",
+    title: "Nome de Jesus: Significado",
     date: "June 25, 2023",
     summary: "Esse nome foi anunciado pelo anjo de Deus a Maria e também a José que o Filho de Deus, que nasceria de Maria, deveria ser chamado Jesus. Então o nome em questão a ser analisado neste estudo, numa abordagem de questão semântica, é o nome “JESUS“.",
     url: "https://otaviotolentino.wordpress.com/2023/06/25/nome-de-jesus/",
@@ -2743,7 +2743,7 @@ export const articles: Article[] = [
   },
   {
     id: "palavra-de-deus",
-    title: "Palavra de Deus",
+    title: "Jesus Cristo: A Palavra de Deus",
     date: "June 18, 2023",
     summary: "Importante saber que Jesus sustenta todas as coisas com a Palavra do seu Poder, dando assim o cumprimento e a confirmação de toda palavra e promessa de Deus.",
     url: "https://otaviotolentino.wordpress.com/2023/06/18/jesus-cristo-a-palavra-de-deus/",
@@ -2752,7 +2752,7 @@ export const articles: Article[] = [
   },
   {
     id: "natureza-em-3-etapas",
-    title: "Natureza em 3 Etapas",
+    title: "Natureza de Cristo em 3 Etapas",
     date: "June 11, 2023",
     summary: "Cristo Teve 3 etapas diferentes em sua vida, por causa da sua vinda à Terra em forma humana. Quais são elas?",
     url: "https://otaviotolentino.wordpress.com/2023/06/11/natureza-de-cristo-em-3-etapas/",
@@ -2761,7 +2761,7 @@ export const articles: Article[] = [
   },
   {
     id: "genealogia",
-    title: "Genealogia",
+    title: "Entendendo a Genealogia de Jesus",
     date: "April 16, 2023",
     summary: "Existem muitos segredos e mistérios revelados nas genealogias da Bíblia. Neste artigo vamos desvendar um dos grandes mistérios revelados na genealogia de Jesus e que poucas pessoas dão atenção.",
     url: "https://otaviotolentino.wordpress.com/2023/04/16/genealogia-de-jesus/",
@@ -2770,7 +2770,7 @@ export const articles: Article[] = [
   },
   {
     id: "profecia-jesus",
-    title: "Profecia sobre Jesus",
+    title: "Jesus: Profeta anunciado por Moisés",
     date: "December 18, 2022",
     summary: "Pouco se fala entre os cristãos sobre a profecia de Moisés de que viria um profeta dentre o povo de Israel e que falaria as palavras de Deus. Essa profecia é uma das maiores expectativas que o povo de Israel tem sobre a vinda do Messias, chamado de Cristo.",
     url: "https://otaviotolentino.wordpress.com/2022/12/18/moises-e-jesus/",
@@ -2779,7 +2779,7 @@ export const articles: Article[] = [
   },
   {
     id: "ordem-melquisedeque",
-    title: "Ordem de Melquisedeque",
+    title: "Jesus Cristo: Rei e Sumo Sacerdote eternamente, segundo a Ordem de Melquisedeque",
     date: "November 6, 2022",
     summary: "Jesus Cristo é Rei e Sumo sacerdote eternamente, segundo a ordem de Melquisedeque.",
     url: "https://otaviotolentino.wordpress.com/2022/11/06/jesus-sumo-sacerdote/",
@@ -2788,7 +2788,7 @@ export const articles: Article[] = [
   },
   {
     id: "levantado-na-cruz",
-    title: "Levantado na Cruz",
+    title: "Serpente Ardente do Deserto (Neustã) e Jesus",
     date: "May 1, 2022",
     summary: "O que será que tem a ver a serpente ardente do deserto, numa haste de metal, com Jesus Cristo pendurado na Cruz?",
     url: "https://otaviotolentino.wordpress.com/2022/05/01/serpente-e-jesus/",
@@ -2797,7 +2797,7 @@ export const articles: Article[] = [
   },
   {
     id: "dia-e-hora",
-    title: "Dia e Hora",
+    title: "Dia e Hora da Volta de Jesus",
     date: "March 6, 2022",
     summary: "Perceba que não se trata apenas de saber ou não o dia e a hora, trata-se também de saber as demais implicações. Ninguém sabe o dia nem a hora da volta de Jesus, pois virá de improviso quando ninguém pensar que vem.",
     url: "https://otaviotolentino.wordpress.com/2022/03/06/dia-e-hora-jesus/",
@@ -2806,7 +2806,7 @@ export const articles: Article[] = [
   },
   {
     id: "batismo",
-    title: "Batismo de Jesus",
+    title: "Batismo de Jesus: Significado",
     date: "February 1, 2022",
     summary: "Os critérios do Batismo, morrer para o pecado e nascer do Espírito, se aplicam a Jesus Cristo? Ou será que o Batismo de Jesus tem outro significado?",
     url: "https://otaviotolentino.wordpress.com/2022/02/01/batismo-jesus/",
@@ -2815,7 +2815,7 @@ export const articles: Article[] = [
   },
   {
     id: "descendencia",
-    title: "Descendência para Deus",
+    title: "Descendência para Deus: O que significa?",
     date: "June 15, 2025",
     summary: "Desde os primeiros capítulos de Gênesis até as páginas finais do Apocalipse, mostrando-nos como o Criador tem trabalhado incansavelmente para formar um povo que seja verdadeiramente Seu.",
     url: "https://otaviotolentino.wordpress.com/2025/06/15/descendencia-para-deus-o-que-significa/",
@@ -2824,7 +2824,7 @@ export const articles: Article[] = [
   },
   {
     id: "coracao-preparado",
-    title: "Coração Preparado",
+    title: "Nosso Coração está Preparado para Deus?",
     date: "January 26, 2025",
     summary: "Para os que leem a Bíblia com atenção Deus já deixou muito claro que o que ele quer do ser humano é que ele, individualmente, ame a Deus com inteireza do seu coração.",
     url: "https://otaviotolentino.wordpress.com/2025/01/26/nosso-coracao-esta-preparado-para-deus/",
@@ -2833,7 +2833,7 @@ export const articles: Article[] = [
   },
   {
     id: "viver-da-palavra",
-    title: "Viver da Palavra de Deus",
+    title: "Nem só de Pão viverá o Homem, mas da Palavra de Deus",
     date: "June 2, 2024",
     summary: "O pão alimenta a carne, mas a palavra de Deus é o alimento da alma e do espírito, saindo direto do seu coração.",
     url: "https://otaviotolentino.wordpress.com/2024/06/02/nem-so-de-pao-vivera-o-homem/",
@@ -2842,7 +2842,7 @@ export const articles: Article[] = [
   },
   {
     id: "sangue-clama",
-    title: "Sangue que Clama",
+    title: "Sangue que Clama ou Fala diante de Deus",
     date: "March 24, 2024",
     summary: "A expressão ‘clama ou fala diante de Deus’, quer dizer que ‘chamou a atenção de Deus’ ou que ‘chegou aos seus ouvidos’. Então, como podemos entender o que isso significa: ‘o SANGUE que CLAMA ou FALA diante de Deus’?",
     url: "https://otaviotolentino.wordpress.com/2024/03/24/sangue-que-clama-diante-de-deus/",
@@ -2851,7 +2851,7 @@ export const articles: Article[] = [
   },
   {
     id: "aliancas",
-    title: "Alianças Estabelecidas por Deus",
+    title: "Alianças de Deus com os Homens",
     date: "March 17, 2024",
     summary: "Você sabe a cronologia, desde Adão, das Alianças estipuladas por Deus e as várias quebras pelo ser humano?",
     url: "https://otaviotolentino.wordpress.com/2024/03/17/aliancas-de-deus-com-os-homens/",
@@ -2860,7 +2860,7 @@ export const articles: Article[] = [
   },
   {
     id: "perdao-diario",
-    title: "Eficácia do Perdão Diário Involuntário",
+    title: "Eficácia do Perdão Diário de DEUS na vida do Cristão",
     date: "January 15, 2023",
     summary: "Perdão diário dos nossos pecados involuntários para o processo de santificação até a volta de Cristo.",
     url: "https://otaviotolentino.wordpress.com/2023/01/15/perdao-diario/",
@@ -2878,7 +2878,7 @@ export const articles: Article[] = [
   },
   {
     id: "reis-e-sacerdotes",
-    title: "Reis e Sacerdotes",
+    title: "Reis e Sacerdotes para Deus",
     date: "November 13, 2022",
     summary: "Jesus foi consagrado por uma ordem excepcional, não prevista na Lei de Moisés; para que, além de derrogar a regra anterior, pudesse estipular uma nova ordem de Reis e sacerdotes para Deus.",
     url: "https://otaviotolentino.wordpress.com/2022/11/13/reis-e-sacerdotes/",
@@ -2887,7 +2887,7 @@ export const articles: Article[] = [
   },
   {
     id: "dar-gloria",
-    title: "Dar Glória a Deus",
+    title: "Dar Glória a Deus no Apocalipse",
     date: "October 23, 2022",
     summary: "Dar Glória a Deus e ao cordeiro, Jesus Cristo, seu filho, é uma ordem, pois somos o povo de Deus e fomos escolhidos e chamados para o adorar e glorificar.",
     url: "https://otaviotolentino.wordpress.com/2022/10/23/gloria-a-deus/",
@@ -2896,7 +2896,7 @@ export const articles: Article[] = [
   },
   {
     id: "visitacao",
-    title: "Visitação de Deus",
+    title: "Plenitude dos Tempos e a Visitação de Deus",
     date: "July 10, 2022",
     summary: "A Plenitude dos Tempos é o tempo em que foi consumada a promessa da visitação de Deus na Terra, concretizada através de Jesus Cristo.",
     url: "https://otaviotolentino.wordpress.com/2022/07/10/plenitude-tempos/",
@@ -2923,7 +2923,7 @@ export const articles: Article[] = [
   },
   {
     id: "oracao-do-pai",
-    title: "Oração do Pai",
+    title: "Oração do Pai Nosso",
     date: "December 21, 2021",
     summary: "Jesus nos deu uma oração pronta, para ser repetida, ou nos ensinou a orar?",
     url: "https://otaviotolentino.wordpress.com/2021/12/21/oracao-pai-nosso/",
@@ -2941,7 +2941,7 @@ export const articles: Article[] = [
   },
   {
     id: "haja-luz",
-    title: "Haja Luz",
+    title: "Haja Luz: E Jesus Iluminou o Coração dos Homens",
     date: "July 13, 2025",
     summary: "Assim como a terra estava em trevas antes da luz divina, o coração humano permanece nas trevas espirituais até que Cristo, a verdadeira luz, o ilumine.",
     url: "https://otaviotolentino.wordpress.com/2025/07/13/haja-luz-e-jesus-iluminou-o-coracao-dos-homens/",
@@ -2950,7 +2950,7 @@ export const articles: Article[] = [
   },
   {
     id: "siga-jesus",
-    title: "Siga Jesus",
+    title: "Tome sua Crua, Negue a Si mesmo e Siga Jesus",
     date: "July 6, 2025",
     summary: "Jesus Cristo nos convida a uma jornada de transformação radical através de três imperativos fundamentais: tomar a cruz, negar a si mesmo e segui-Lo.",
     url: "https://otaviotolentino.wordpress.com/2025/07/06/tome-sua-cruz-negue-a-si-mesmo-e-siga-a-jesus/",
@@ -2959,7 +2959,7 @@ export const articles: Article[] = [
   },
   {
     id: "pentecostes",
-    title: "Pentecostes",
+    title: "Pentecostes no Velho Testamento",
     date: "July 19, 2025",
     summary: "Estamos falando de eventos específicos em que ocorreram a distribuição do Espírito Santo, como promessa de Deus, para uma quantidade específica de pessoas do povo de Israel.",
     url: "https://otaviotolentino.wordpress.com/2022/05/15/pentecoste-velho-testamento/",
@@ -2968,7 +2968,7 @@ export const articles: Article[] = [
   },
   {
     id: "impedido",
-    title: "Impedido de entrar na Terra Prometida",
+    title: "Por que Deus impediu Moisés de entrar na Terra Prometida?",
     date: "July 19, 2025",
     summary: "Por que DEUS impediu Moisés de entrar na Terra Prometida? Leia o Artigo completo para saber a resposta.",
     url: "https://otaviotolentino.wordpress.com/2023/06/04/moises-nao-entrou-na-terra-prometida/",
@@ -2977,7 +2977,7 @@ export const articles: Article[] = [
   },
   {
     id: "assinatura-cartas",
-    title: "Assinatura nas Cartas",
+    title: "Assinatura de Paulo em todas as suas cartas",
     date: "July 19, 2025",
     summary: "Uma característica interessante em todas as Cartas ou Epístolas de Paulo, que na verdade se torna sua marca, e deveria servir como parâmetro de avaliação se o documento tem origem autoral da parte de Paulo é a sua assinatura.",
     url: "https://otaviotolentino.wordpress.com/2021/12/13/assinatura-paulo-cartas/",
@@ -2995,7 +2995,7 @@ export const articles: Article[] = [
   },
   {
     id: "carta-laodicenses",
-    title: "Carta aos Laodicenses",
+    title: "Carta aos Laodicenses: Correção de Destinatário",
     date: "July 19, 2025",
     summary: "Surpreenda-se com a leitura completa desse Artigo sobre a Carta aos Laodicenses: Correção de Destinatário e através dos textos bíblicos descubra sobre esse encontro?",
     url: "https://otaviotolentino.wordpress.com/2022/07/31/carta-laodicenses/",
@@ -3004,7 +3004,7 @@ export const articles: Article[] = [
   },
   {
     id: "profetizou-jesus",
-    title: "Profetizou sobre Jesus",
+    title: "Profecia de Abraão no Sacrifício de Isaque",
     date: "July 19, 2025",
     summary: "Será que Deus realmente queria que Abraão sacrificasse o seu único filho de verdade? Veremos qual a verdadeira intenção de Deus ao pedir que Abraão sacrificasse seu Filho único.",
     url: "https://otaviotolentino.wordpress.com/2024/01/07/sacrificio-de-isaque/",
@@ -3013,7 +3013,7 @@ export const articles: Article[] = [
   },
   {
     id: "origem-periodo",
-    title: "Origem e Período",
+    title: "Jó: Origem e Período",
     date: "July 19, 2025",
     summary: "Há muito tempo nos perguntamos qual a origem de Jó? E qual o seu tempo ou momento dentro da cronologia da Bíblia? É o que analisamos.",
     url: "https://otaviotolentino.wordpress.com/2023/02/26/jo-origem-e-periodo/",
@@ -3022,7 +3022,7 @@ export const articles: Article[] = [
   },
   {
     id: "sabio-davi-salomao",
-    title: "Sábio como Davi e Salomão",
+    title: "Jó: Tão Sábio como Davi e Salomão",
     date: "July 19, 2025",
     summary: "Até onde vai a sabedoria de Jó? Será que sua sabedoria, exposta expressamente nos capítulos do seu Livro, merece o mesmo grau de reconhecimento da sabedoria apresentada por Davi e seu filho Salomão?",
     url: "https://otaviotolentino.wordpress.com/2024/05/26/jo-era-sabio-como-davi-e-salomao/",
@@ -3031,7 +3031,7 @@ export const articles: Article[] = [
   },
   {
     id: "hosana",
-    title: "Hosana",
+    title: "Hosana: Significado",
     date: "2022-08-28",
     summary: "O termo HOSANA aparece na passagem que aborda a Entrada triunfal de Jesus em Jerusalém. Ele se repete nos Evangelhos de Mateus 21, Marcos 11 e João 12. Afinal qual o significado desse termo? O que ele quer dizer?",
     url: "https://otaviotolentino.wordpress.com/2022/08/28/hosana/",
@@ -3040,7 +3040,7 @@ export const articles: Article[] = [
   },
   {
     id: "jedidiah",
-    title: "Jedidiah",
+    title: "Jedidiah: Filho amado de Deus",
     date: "2024-07-14",
     summary: "Quem ou o que é Jedidiah ou Jedidias? A quem será então que este nome está se referindo? Será que foi usado em referência a uma pessoa específica ou a várias pessoas na Bíblia?",
     url: "https://otaviotolentino.wordpress.com/2024/07/14/jedidiah-amado-de-deus/",
@@ -3049,7 +3049,7 @@ export const articles: Article[] = [
   },
   {
     id: "jesurun",
-    title: "Jesurun",
+    title: "Jesurun: Significado",
     date: "2022-10-09",
     summary: "Foi o título honorífico de Israel. Na Septuaginta grega, “Jesurun” torna-se um termo afetuoso, sendo traduzido “amado”. O designativo “Jesurun” devia lembrar Israel da sua chamada como povo pactuado de Deus, e, assim, da sua obrigação de permanecer reto. Porém, em Deuteronômio 32:15, o nome Jesurun é usado de forma irônica. Por quê?",
     url: "https://otaviotolentino.wordpress.com/2022/10/09/jesurun/",
@@ -3058,7 +3058,7 @@ export const articles: Article[] = [
   },
 {
     id: "aleluia",
-    title: "Aleluia",
+    title: "Aleluia: Louvai a Deus",
     date: "2022-10-30",
     summary: "Essa questão é bastante interessante, pois Aleluia é um termo em hebraico que significa “Louvai a Deus” ou “Louvai ao Senhor” e não foi traduzido e sim transliterado como encontramos nas citações de Apocalipse 19:1-6. Em poucos textos da bíblia em grego, no Novo Testamento, aparece a palavra Ἁλληλουϊά· transliterada do hebraico הַּלֲלוּיָהּ, Haleluyah, para o grego.",
     url: "https://otaviotolentino.wordpress.com/2022/10/30/aleluia/",
@@ -3067,7 +3067,7 @@ export const articles: Article[] = [
   },
   {
     id: "raabe-racabe",
-    title: "Raabe ou Racabe",
+    title: "Raabe ou Racabe? Revelando a distinção entre Dois Nomes",
     date: "2025-06-08",
     summary: "A Bíblia apresenta diversos personagens cujos nomes, à primeira vista, parecem idênticos, mas que na verdade carregam significados e origens completamente distintos. Um exemplo fascinante dessa complexidade linguística e teológica encontra-se no que comumente chamamos de “Raabe”.",
     url: "https://otaviotolentino.wordpress.com/2025/06/08/raabe-e-racabe-revelando-a-distincao-entre-dois-nomes/",
@@ -3076,7 +3076,7 @@ export const articles: Article[] = [
   },
   {
     id: "a-tua-paz-pertence",
-    title: "O que à tua Paz Pertence",
+    title: "O que à tua Paz Pertence: Significado",
     date: "2023-11-26",
     summary: "Qual o significado da expressão “o que à tua paz pertence” em Lucas 19:41-44? Interessante que nessa mesma passagem Jesus fala que havia uma paz reservada à Jerusalém e seu povo, mas logo em seguida menciona que a cidade e seu povo seriam cercados e destruídos.",
     url: "https://otaviotolentino.wordpress.com/2023/11/26/o-que-a-tua-paz-pertence/",
@@ -3103,7 +3103,7 @@ export const articles: Article[] = [
   },
   {
     id: "fe-salvou-ou-curou",
-    title: "Fé Salvou ou Curou",
+    title: "Tua Fé Te Salvou ou Curou?",
     date: "2022-03-27",
     summary: "Claro que a fé salva, mas a fé também é necessária para que haja cura e milagres. E precisamos entender que se todos os que foram curados por Jesus tivessem sido salvos, então a vinda de Jesus teria sido o período de maior quantidade de pessoas salvas. Porém vemos que, na verdade, Jesus passa o capítulo inteiro de Mateus 11 falando exatamente dos lugares onde os milagres de cura aconteceram e que não se converteram.",
     url: "https://otaviotolentino.wordpress.com/2022/03/27/fe-curou/",
@@ -3112,7 +3112,7 @@ export const articles: Article[] = [
   },  
   {
     id: "palavra-eterna",
-    title: "1. Palavra Eterna",
+    title: "1. Erva que Seca X Palavra Eterna",
     date: "February 13, 2022",
     summary: "Seca-se a erva, murcha e cai a flor, porém a palavra de nosso Deus subsiste eternamente.",
     url: "https://otaviotolentino.wordpress.com/2022/02/13/erva-seca/",
@@ -3121,7 +3121,7 @@ export const articles: Article[] = [
   },
   {
     id: "arvore-de-vida",
-    title: "2. Árvore de Vida",
+    title: "2. De Erva que Seca à Árvore de Vida",
     date: "February 20, 2022",
     summary: "Os nascidos de semente incorruptível somos feitos novas criaturas para viver eternamente. Afirmamos que nos tornamos e somos assim chamados de Árvores de Vida, que dão frutos de justiça, agradáveis a Deus e duram para sempre.",
     url: "https://otaviotolentino.wordpress.com/2022/02/20/arvore-de-vida/",
@@ -3130,7 +3130,7 @@ export const articles: Article[] = [
   },
   {
     id: "manancial",
-    title: "3. Manancial de Águas",
+    title: "3. ÁRVORE de Vida e o Manancial de Águas Vivas",
     date: "February 27, 2022",
     summary: "Após o nascimento espiritual, devemos nos alimentar pela Palavra de Deus a ser guardada em nossos corações para a obediência da fé. A Palavra de Deus é Espírito e Vida. Deus é a fonte da Vida, o manancial de águas vivas.",
     url: "https://otaviotolentino.wordpress.com/2022/02/27/arvore-e-manancial/",
@@ -3139,7 +3139,7 @@ export const articles: Article[] = [
   },
   {
     id: "apocalypse-audiovisual",
-    title: "Audiovisual",
+    title: "Audiovisual sobre Apocalipse",
     date: "January 18, 2022",
     summary: "Estudo do Livro de Apocalipse em 34 Vídeos. Podcast e mais.",
     url: "https://otaviotolentino.wordpress.com/2022/01/18/apocalipse-comentado-otavio-tolentino/",
@@ -3148,7 +3148,7 @@ export const articles: Article[] = [
   },
   {
     id: "apocalypse-book-commented",
-    title: "Livro Comentado",
+    title: "Livro Comentado sobre Apocalipse",
     date: "January 18, 2022",
     summary: `Livro "APOCALIPSE. Entendendo a Revelação de Jesus Cristo: Comentários e Mistérios Revelados". Solicite agora e aproveite essa oportunidade única de conhecer e entender a revelação dos mistérios do Livro Apocalipse.`,
     url: "https://otaviotolentino.wordpress.com/livro-apocalipse-comentado-otavio-tolentino/",
@@ -3157,7 +3157,7 @@ export const articles: Article[] = [
   },
   {
     id: "apocalypse-author-prophetized",
-    title: "Autor Profetizado",
+    title: "Autor do Livro de Apocalipse foi Profetizado por Jesus",
     date: "April 14, 2024",
     summary: "Em uma das profecias de Jesus sobre a sua volta Ele acaba revelando quem seria o autor do Livro de Apocalipse. Você já tinha se apercebido disso quando fez a leitura desse texto em João 21?",
     url: "https://otaviotolentino.wordpress.com/2024/04/14/autor-do-livro-de-apocalipse-profetizado/",
@@ -3166,7 +3166,7 @@ export const articles: Article[] = [
   },
   {
     id: "babilonia-declarada-por-pedro",
-    title: "Declarada por Pedro",
+    title: "Babilônia Declarada pelo Apóstolo Pedro",
     date: "July 18, 2022",
     summary: "Precisamos entender alguns outros aspectos para saber qual era esse lugar físico, chamado babilônia, e que já existia na época de Pedro e conhecido por todos os apóstolos e irmãos da época.",
     url: "https://otaviotolentino.wordpress.com/2022/07/18/babilonia-pedro/",
@@ -3175,7 +3175,7 @@ export const articles: Article[] = [
   },
   {
     id: "babilonia-anunciada-por-jesus",
-    title: "Anunciada por Jesus",
+    title: "Babilônia: Anunciada por Jesus",
     date: "April 24, 2022",
     summary: "Há diversos relatos de Jesus, em todo o Evangelho de Mateus e outros livros, que nos apontam para o entendimento de qual é a babilônia do Apocalipse e os motivos.",
     url: "https://otaviotolentino.wordpress.com/2022/04/24/babilonia-por-jesus/",
@@ -3184,7 +3184,7 @@ export const articles: Article[] = [
   },
   {
     id: "babilonia-sai-dela",
-    title: "Sai dela Povo meu",
+    title: "Babilônia - Saí dela Povo meu",
     date: "July 24, 2022",
     summary: "Sai dela, povo meu, para que não sejas participante dos seus pecados, e para que não incorras nas suas pragas.",
     url: "https://otaviotolentino.wordpress.com/2022/07/24/babilonia-sai-dela/",
@@ -3193,7 +3193,7 @@ export const articles: Article[] = [
   },
   {
     id: "babilonia-volta-a-origem",
-    title: "Volta à Origem",
+    title: "Jerusalém -> Babilônia: De Volta à Origem",
     date: "April 17, 2022",
     summary: "Que origem será essa? Quase ninguém se lembra mais do lugar do nascimento do Povo de Israel. Qual a importância desse entendimento para sabermos quem é a babilônia do Apocalipse?",
     url: "https://otaviotolentino.wordpress.com/2022/04/17/jerusalem-babilonia/",
@@ -3202,7 +3202,7 @@ export const articles: Article[] = [
   },
   {
     id: "babilonia-revelacao-biblica",
-    title: "Revelação Bíblica",
+    title: "Revelação Bíblica do nome da Babilônia",
     date: "April 10, 2022",
     summary: "Será revelado o nome da grande cidade de babilônia citada em Apocalipse. E não é o que todos costumam pensar ou dizer, porém essa resposta está anunciada clara e explicitamente nos textos bíblicos, portanto é entendimento espiritual.",
     url: "https://otaviotolentino.wordpress.com/2022/04/10/nome-da-babilonia/",
@@ -3211,7 +3211,7 @@ export const articles: Article[] = [
   },
   {
     id: "primeira-profecia",
-    title: "Primeira Profecia",
+    title: "GÊN. 3:15. Primeira profecia sobre Jesus: Será?",
     date: "July 16, 2023",
     summary: "Apresentaremos, incontestavelmente, algumas outras profecias anteriores a Gênesis 3:15, que remetem diretamente a Jesus e, obviamente, as devidas referências bíblicas que confirmam essa afirmação.",
     url: "https://otaviotolentino.wordpress.com/2023/07/16/gen-3-15-primeira-profecia-sobre-jesus/",
@@ -3220,7 +3220,7 @@ export const articles: Article[] = [
   },
   {
     id: "ministerio-aos-30",
-    title: "Ministério aos 30",
+    title: "Ministério de Jesus aos 30 Anos",
     date: "May 8, 2022",
     summary: "Será apenas coincidência ou existe alguma referência bíblica para que fosse assim? E, se há, qual seria essa referência então?",
     url: "https://otaviotolentino.wordpress.com/2022/05/08/ministerio-30-anos/",
@@ -3238,7 +3238,7 @@ export const articles: Article[] = [
   },
   {
     id: "moradas-foi-preparar",
-    title: "Moradas que foi Preparar",
+    title: "Moradas que Jesus foi Preparar",
     date: "January 29, 2023",
     summary: "Muitos cristãos ainda não entenderam que essas moradas são lugares para que os seus seguidores estivessem para sempre com ele.",
     url: "https://otaviotolentino.wordpress.com/2023/01/29/moradas-de-deus/",
@@ -3247,16 +3247,16 @@ export const articles: Article[] = [
   },
     {
     id: "levou-o-cativeiro",
-    title: "Levou o Cativeiro",
+    title: "Jesus Levou Cativo o Cativeiro: Significado",
     date: "July 20, 2025",
     summary: "Artigo sobre Jesus ter levado cativo o cativeiro.",
-    url: "https://otaviotolentino.wordpress.com/2022/09/11/levou-cativo-o-cativeiro/",
+    url: "https://otaviotolentino.wordpress.com/2023/11/05/levou-cativo-o-cativeiro/",
     tags: ["Jesus", "Cativeiro", "Libertação"],
     category: "Estudos"
   },
   {
     id: "nossa-pascoa",
-    title: "Nossa Páscoa",
+    title: "Mistério do Ev. de João: Jesus, Cumprimento da Páscoa",
     date: "2024-05-19",
     summary: "Para entendermos a revelação desse mistério de Deus e podermos torná-lo claro, precisamos olhar para o conteúdo do Evangelho de João de maneira abrangente e completa, considerando todo o contexto apresentado no livro do princípio até o fim.",
     url: "https://otaviotolentino.wordpress.com/2024/05/19/misterio-ev-de-joao-jesus-cumprimento-da-pascoa/",
@@ -3265,7 +3265,7 @@ export const articles: Article[] = [
   },
   {
     id: "pedro-redesignado",
-    title: "Pedro foi Redesignado",
+    title: "Ministério dos Gentios: Redesignação de Pedro para Paulo",
     date: "2023-04-09",
     summary: "Pedro não estava cumprindo bem a tarefa dada a ele por Jesus, por isso fez-se necessário a redesignação do Ministério da Ciruncisão de Pedro para Paulo.",
     url: "https://otaviotolentino.wordpress.com/2023/04/09/ministerio-dos-gentios-redesignacao/",
@@ -3274,7 +3274,7 @@ export const articles: Article[] = [
   },
   {
     id: "peso-da-lideranca",
-    title: "Peso da Liderança",
+    title: "Moisés e o Peso da Liderança",
     date: "2024-02-18",
     summary: "A pressão era extrema e Moisés não aguentou a carga de liderança, dada por Deus, na condução do Povo de Israel da saída do Egito até a entrada na Terra prometida. Mesmo Moisés, tendo recebido capacitação espiritual de Deus para exercê-la, pede a Deus que reduza sua responsabilidade perante o Povo.",
     url: "https://otaviotolentino.wordpress.com/2024/02/18/moises-e-a-lideranca/",
@@ -3283,7 +3283,7 @@ export const articles: Article[] = [
   },
   {
     id: "salem",
-    title: "Salém",
+    title: "Onde fica Salém: Seria Jerusalém?",
     date: "2024-06-16",
     summary: "Qual a importância da cidade de Salém e por que devemos identificá-la? Ora, seria mais fácil responder, e a todos parece ser, que Salém é a cidade de Jerusalém. Porém, parece, mas “só que não”, como dizem hodiernamente.",
     url: "https://otaviotolentino.wordpress.com/2024/06/16/salem-seria-jerusalem/",
@@ -3292,7 +3292,7 @@ export const articles: Article[] = [
   },
   {
     id: "jebus",
-    title: "Jebus",
+    title: "Jerusalém: Nome prévio e Tribo Herdeira",
     date: "2024-04-07",
     summary: "Você sabe qual era o nome prévio da cidade Jerusalém? A cidade de Jerusalém não se chamava assim nos primórdios, pois era habitada originalmente por outra nação, antes do Povo de Israel entrar na terra prometida e de uma de suas tribos herdá-la e tomar posse dela.",
     url: "https://otaviotolentino.wordpress.com/2024/04/07/jerusalem-nome-previo-e-tribo-herdeira/",
@@ -3301,7 +3301,7 @@ export const articles: Article[] = [
   },
   {
     id: "zelza",
-    title: "Zelza ou Tzeltzach",
+    title: "Lugar da Morte e Sepultamento de Raquel",
     date: "2024-11-24",
     summary: "Raquel morreu quando deu à luz Benjamim, pois teve trabalho em seu parto. A pergunta é simples e direta. Qual o nome do lugar onde Raquel, a mulher de Jacó, foi enterrada?",
     url: "https://otaviotolentino.wordpress.com/2024/11/24/lugar-da-morte-e-sepultamento-de-raquel/",
@@ -3310,7 +3310,7 @@ export const articles: Article[] = [
   },
   {
     id: "efrata",
-    title: "Efrata",
+    title: "Revelação do Mistério que Habitou Belém Efrata",
     date: "2024-04-28",
     summary: "Qual a diferença entre a origem de Efraim ou Efrata? Ao fim e ao cabo, chegaremos a uma conclusão surpreendente jamais vista ou indicada mesmo nas próprias escrituras, mas prepare o seu coração para mais uma revelação de Deus diante dos seus olhos.",
     url: "https://otaviotolentino.wordpress.com/2024/04/28/belem-efrata/",
@@ -3328,7 +3328,7 @@ export const articles: Article[] = [
   },
     {
     id: "louvor-a-deus",
-    title: "Louvor a Deus",
+    title: "Agradecimento - Sacrifício de Louvor a Deus",
     date: "2024-02-04",
     summary: "Existia no serviço do sacerdócio judaico um sacrifício chamado 'Todah', que é a oferta do sacrifício de agradecimento a Deus ou de ação de graças. O termo 'Todah' em hebraico significa 'obrigado', ou seja, é uma declaração de agradecimento.",
     url: "https://otaviotolentino.wordpress.com/2024/02/04/agradecimento-sacrificio-de-louvor-a-deus/",
@@ -3337,7 +3337,7 @@ export const articles: Article[] = [
   },
   {
     id: "holocausto-continuo",
-    title: "Holocausto Contínuo",
+    title: "interrupção do sacrifício Contínuo: Significado e Implicações",
     date: "2024-10-27",
     summary: "O que é o Holocausto ou Sacrifício Contínuo? Qual o significado por trás do sacrifício contínuo, instituído por Deus a Moisés para ser cumprido pelos sacerdotes da descendência de Arão? E, consequentemente, o que implica a interrupção do sacrifício contínuo?",
     url: "https://otaviotolentino.wordpress.com/2024/10/27/interrupcao-do-sacrificio-continuo/",
@@ -3346,7 +3346,7 @@ export const articles: Article[] = [
   },
   {
     id: "motivo-idolatria",
-    title: "Motivo dos Ordenamentos de Sacrifícios ao Povo de Israel",
+    title: "Por Que Deus permitiu os Sacrifícios ao Povo de Israel?",
     date: "2024-01-28",
     summary: "Qual será o verdadeiro motivo desse tema abordado com abundância e tanto detalhe nos textos bíblicos do Velho Testamento? Por outro lado, encontramos diversas referências bíblicas de repúdio, da parte de Deus, aos holocaustos e sacrifícios.",
     url: "https://otaviotolentino.wordpress.com/2024/01/28/os-sacrificios-ao-povo-de-israel/",
@@ -3355,7 +3355,7 @@ export const articles: Article[] = [
   },
   {
     id: "sabado",
-    title: "Sábado",
+    title: "Sábado: Significado",
     date: "2022-12-04",
     summary: "Qual o conceito do Sábado e como podemos entender a resposta de Jesus que trabalhava no sábado quando a Lei de Moisés diz para não trabalhar? Analisemos essa questão de extrema relevância, por ser um mandamento de Deus e pelas suas consequências na vida de todos os cristãos.",
     url: "https://otaviotolentino.wordpress.com/2022/12/04/sabado/",
@@ -3364,7 +3364,7 @@ export const articles: Article[] = [
   },
   {
     id: "todos-os-sabados",
-    title: "Todos os Sábados",
+    title: "Todos os Sábados do Senhor",
     date: "2024-10-13",
     summary: "Quantos tipos de Sábado criados por Deus existem? Você conhece algum outro Sábado que não seja o dos fins de semana? Pois bem, isso é o que veremos, pois já está mais do que na hora de sermos apresentados a todos os tipos de Sábados do Senhor, além do “Sábado Comum” ou tradicional.",
     url: "https://otaviotolentino.wordpress.com/2024/10/13/shabbaton-todos-os-sabados-do-senhor/",
@@ -3373,7 +3373,7 @@ export const articles: Article[] = [
   },
   {
     id: "70-anos-x-70-semanas",
-    title: "70 Anos X 70 Semanas",
+    title: "70 Anos do Exilio X 70 Semanas: Qual a Relação?",
     date: "2025-02-02",
     summary: "Você sabe identificar qual a ligação desses 2 temas? Os 70 anos de exílio na Babilônia e as 70 semanas profetizadas em Daniel 9 são dois pilares interligados que revelam o plano divino de juízo, restauração e redenção.",
     url: "https://otaviotolentino.wordpress.com/2025/02/02/70-anos-do-exilio-x-70-semanas-qual-a-relacao/",
@@ -3382,7 +3382,7 @@ export const articles: Article[] = [
   },
   {
     id: "conc-em-jeremias-13",
-    title: "Conceitos em Jeremias 13",
+    title: "Conceitos do Apocalipse Revelados em Jeremias 13",
     date: "2024-07-07",
     summary: "Há muito tempo é sabido que os livros dos profetas do antigo testamento estão diretamente relacionados com o livro de Apocalipse. Nesse contexto, apresentaremos neste estudo um resumo direto e sem rodeios do capítulo 13 do profeta Jeremias de forma clara e objetiva.",
     url: "https://otaviotolentino.wordpress.com/2024/07/07/conceitos-do-apocalipse-em-jeremias-13/",
@@ -3391,7 +3391,7 @@ export const articles: Article[] = [
   },
   {
     id: "descendencia-abraao",
-    title: "Descendência de Abraão",
+    title: "Verdadeira Descendência de Abraão",
     date: "2022-01-25",
     summary: "Se o povo de Israel, descendência de Abraão, rejeitou as promessas de Deus cumpridas em Jesus Cristo, seu filho e enviado, o Ungido de Deus, então como fica a promessa de serem abençoadas todas as nações e famílias da Terra?",
     url: "https://otaviotolentino.wordpress.com/2022/01/25/descendencia-de-abraao/",
@@ -3400,7 +3400,7 @@ export const articles: Article[] = [
   },
   {
     id: "jer-ou-zac-em-mat-27",
-    title: "Jeremias ou Zacarias em Mateus 27",
+    title: "Jeremias ou Zacarias? Erro ou Interpretação na referência de Mateus 27?",
     date: "2024-06-23",
     summary: "Responda-nos caro leitor, você é daqueles que ao fazer a leitura de qualquer texto bíblico costuma conferir as referências citadas ou parte do princípio que a referência mencionada no texto está correta? Pois bem, esta resposta dirá muito sobre a sua fé e sobre a sua responsabilidade em propagar os textos das divinas escrituras.",
     url: "https://otaviotolentino.wordpress.com/2024/06/23/jeremias-ou-zacarias-na-referencia-de-mateus-27/",
@@ -3409,7 +3409,7 @@ export const articles: Article[] = [
   },
   {
     id: "esp-santo-no-vt",
-    title: "Espírito Santo no Velho Testamento",
+    title: "Espírito Santo no Velho Testamento - Questão Semântica",
     date: "2023-04-02",
     summary: "Embora haja muitas referências no Velho Testamento sobre o Espírito de Deus, porém só existem 3 referências, em todo o Velho Testamento, à expressão ou locução 'Espírito Santo', nessa forma composta e completa.",
     url: "https://otaviotolentino.wordpress.com/2023/04/02/espirito-santo-no-vt/",
