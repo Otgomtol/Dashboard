@@ -1856,7 +1856,16 @@ export const themes: Theme[] = [
                 description: 'EDE: O ALTAR do TESTEMUNHO e da UNIDADE PRESERVADA!',
                 children: [],
                 articles: ['altar-ed-ou-altar-ede']
-            }
+              },
+			  {
+                id: 'anjos-operadores-de-',
+                name: 'Operadores de Deus',				
+                level: 4,
+                parentId: "biblical-terms",
+                description: 'Um Estudo Bíblico sobre os Anjos: Espíritos Ministradores de Deus.',
+                children: [],
+                articles: ['anjos-operadores-de-']
+              }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },		  
@@ -3576,6 +3585,15 @@ export const articles: Article[] = [
     summary: 'Como sabemos que Deus habita entre os Querubins? E como podemos fazer tal afirmação?',
     url: 'https://otaviotolentino.wordpress.com/2025/12/26/deus-que-habitas-entre-os-querubins/',
     tags: ["Arca da Aliança","Deus","Entre os Querubins","Habitação de Deus","Querubins","Serafins","Trono de Deus"],
+    category: 'Estudos',
+  },
+  {
+    id: 'anjos-operadores-de-',
+    title: 'Anjos – Operadores de Deus em Hebreus 1:14',
+    date: '2026-01-04',
+    summary: 'Um Estudo Bíblico sobre os Anjos: Espíritos Ministradores de Deus.',
+    url: 'https://otaviotolentino.wordpress.com/2026/01/04/anjos-operadores-de-deus-em-hebreus-1-14/',
+    tags: ["Anjos","Espíritos Ministradores","Exército do Céu","Executam a Vontade de Deus","Executam o Beneplácito de Deus","Obedecem a Palavra de Deus","Operadores de Deus","Reino dos Céus","Trono de Deus"],
     category: 'Estudos',
     isNew: true,
   }
