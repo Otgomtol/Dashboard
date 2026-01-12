@@ -371,6 +371,15 @@ export const themes: Theme[] = [
             articles: ['servo-do-senhor-josue-22-5']
           },
 		  {
+            id: 'ceia-do-senhor-em-1-',
+            name: 'Ceia do Senhor',
+            level: 3,
+            parentId: "igreja",
+            description: 'A doutrina da Ceia do Senhor se destaca como um memorial instituído pelo próprio Jesus, carregado de significado histórico, teológico e profético.',
+            children: [],
+            articles: ['ceia-do-senhor-em-1-']
+          },
+		  {
             id: "discipleship",
             name: "Discipulado",
             level: 3,
@@ -3594,6 +3603,15 @@ export const articles: Article[] = [
     summary: 'Um Estudo Bíblico sobre os Anjos: Espíritos Ministradores de Deus.',
     url: 'https://otaviotolentino.wordpress.com/2026/01/04/anjos-operadores-de-deus-em-hebreus-1-14/',
     tags: ["Anjos","Espíritos Ministradores","Exército do Céu","Executam a Vontade de Deus","Executam o Beneplácito de Deus","Obedecem a Palavra de Deus","Operadores de Deus","Reino dos Céus","Trono de Deus"],
+    category: 'Estudos',
+  },
+  {
+    id: 'ceia-do-senhor-em-1-',
+    title: 'Ceia do Senhor em 1 Coríntios 11:26',
+    date: '2026-01-10',
+    summary: 'A doutrina da Ceia do Senhor se destaca como um memorial instituído pelo próprio Jesus, carregado de significado histórico, teológico e profético.',
+    url: 'https://otaviotolentino.wordpress.com/2026/01/10/ceia-do-senhor-em-1-corintios-11-26/',
+    tags: ["Ceia do Senhor","Corpo de Cristo","Doutrina","Examine-se a si mesmo","Igreja","Memorial","Morte de Cristo","Pão e Vinho","Sangue de Jesus","Seja digno","Volta de Jesus"],
     category: 'Estudos',
     isNew: true,
   }
