@@ -1874,6 +1874,15 @@ export const themes: Theme[] = [
                 description: 'Um Estudo Bíblico sobre os Anjos: Espíritos Ministradores de Deus.',
                 children: [],
                 articles: ['anjos-operadores-de-']
+              },
+			  {
+                id: 'aliana-de-sal-em-2-c',
+                name: 'Aliança de Sal',
+                level: 4,
+                parentId: "biblical-terms",
+                description: 'O que Aliança de Sal estabelecida com Davi por Deus significa para você?',
+                children: [],
+                articles: ['aliana-de-sal-em-2-c']
               }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -3612,6 +3621,15 @@ export const articles: Article[] = [
     summary: 'A doutrina da Ceia do Senhor se destaca como um memorial instituído pelo próprio Jesus, carregado de significado histórico, teológico e profético.',
     url: 'https://otaviotolentino.wordpress.com/2026/01/10/ceia-do-senhor-em-1-corintios-11-26/',
     tags: ["Ceia do Senhor","Corpo de Cristo","Doutrina","Examine-se a si mesmo","Igreja","Memorial","Morte de Cristo","Pão e Vinho","Sangue de Jesus","Seja digno","Volta de Jesus"],
+    category: 'Estudos',
+  },
+  {
+    id: 'aliana-de-sal-em-2-c',
+    title: 'Aliança de Sal em 2 Crônicas 13:5',
+    date: '2026-01-18',
+    summary: 'O que Aliança de Sal estabelecida com Davi por Deus significa para você?',
+    url: 'https://otaviotolentino.wordpress.com/2026/01/18/alianca-de-sal-em-2-cronicas-13-5/',
+    tags: ["Aliança Davídica","Aliança de Deus","Aliança de Sal","Eternamente","Igreja","Incorruptível","Inquebrantável","Memorial","Volta de Jesus"],
     category: 'Estudos',
     isNew: true,
   }
