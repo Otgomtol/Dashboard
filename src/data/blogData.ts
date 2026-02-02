@@ -1012,7 +1012,16 @@ export const themes: Theme[] = [
                     description: "Para entendermos a revelação desse mistério de Deus e podermos torná-lo claro, precisamos olhar para o conteúdo do Evangelho de João de maneira abrangente e completa, considerando todo o contexto apresentado no livro do princípio até o fim.",
                     children: [],
                     articles: ["nossa-pascoa"]
-                  }
+                  },
+				  {
+					id: 'maria-mae-de-jesus',
+					name: 'Maria: Mãe de Jesus',
+                    level: 4,
+                    parentId: "jesus-christ",
+					description: 'Qual a real dimensão e os limites de Maria, a mãe de Jesus, de acordo com os textos Bíblicos?',
+					children: [],
+					articles: ['maria-mae-de-jesus']
+				  }
                 ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },
@@ -3630,6 +3639,15 @@ export const articles: Article[] = [
     summary: 'O que Aliança de Sal estabelecida com Davi por Deus significa para você?',
     url: 'https://otaviotolentino.wordpress.com/2026/01/18/alianca-de-sal-em-2-cronicas-13-5/',
     tags: ["Aliança Davídica","Aliança de Deus","Aliança de Sal","Eternamente","Igreja","Incorruptível","Inquebrantável","Memorial","Volta de Jesus"],
+    category: 'Estudos',
+  },
+  {
+    id: 'maria-mae-de-jesus',
+    title: 'Maria: Mãe de Jesus',
+    date: '2026-01-31',
+    summary: 'Qual a real dimensão e os limites de Maria, a mãe de Jesus, de acordo com os textos Bíblicos?',
+    url: 'https://otaviotolentino.wordpress.com/2026/01/31/maria-mae-de-jesus/',
+    tags: ["Jesus","Jesus Cristo","José","Maria","Mãe","Mãe de Jesus","Nascimento","Pai","Pai de Jesus"],
     category: 'Estudos',
     isNew: true,
   }
