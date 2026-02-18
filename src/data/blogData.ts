@@ -1021,6 +1021,15 @@ export const themes: Theme[] = [
 					description: 'Qual a real dimensão e os limites de Maria, a mãe de Jesus, de acordo com os textos Bíblicos?',
 					children: [],
 					articles: ['maria-mae-de-jesus']
+				  },
+				  {
+					id: 'ladro-na-cruz-o-que-',
+					name: 'Ladrão na Cruz',
+					level: 4,
+                    parentId: "jesus-christ",
+					description: 'O que realmente aconteceu com o ladrão arrependido na cruz após sua morte?',
+					children: [],
+					articles: ['ladro-na-cruz-o-que-']
 				  }
                 ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -3648,6 +3657,15 @@ export const articles: Article[] = [
     summary: 'Qual a real dimensão e os limites de Maria, a mãe de Jesus, de acordo com os textos Bíblicos?',
     url: 'https://otaviotolentino.wordpress.com/2026/01/31/maria-mae-de-jesus/',
     tags: ["Jesus","Jesus Cristo","José","Maria","Mãe","Mãe de Jesus","Nascimento","Pai","Pai de Jesus"],
+    category: 'Estudos',
+  },
+  {
+    id: 'ladro-na-cruz-o-que-',
+    title: 'Ladrão na Cruz: O que aconteceu depois?',
+    date: '2026-02-16',
+    summary: 'O que realmente aconteceu com o ladrão arrependido na cruz após sua morte?',
+    url: 'https://otaviotolentino.wordpress.com/2026/02/16/ladrao-na-cruz-o-que-aconteceu-depois/',
+    tags: ["Hoje","Jesus Cristo","Ladrão Arrependido","Ladrão na Cruz","Paraíso","Reino"],
     category: 'Estudos',
     isNew: true,
   }
