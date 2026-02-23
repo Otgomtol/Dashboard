@@ -520,6 +520,15 @@ export const themes: Theme[] = [
                 description: 'Você sabe quais são as várias formas possíveis de Consultar ao Senhor?',
                 children: [],
                 articles: ['como-devemos-consult']
+            },
+    {
+                id: 'servir-a-deus-ou-ao-',
+                name: 'Servir:Deus ou Homem',				
+                level: 4,
+                parentId: 'discipleship',
+                description: 'Você sabe a diferença entre servir a Deus ou ao homem?',
+                children: [],
+                articles: ['servir-a-deus-ou-ao-']
             }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -3666,6 +3675,15 @@ export const articles: Article[] = [
     summary: 'O que realmente aconteceu com o ladrão arrependido na cruz após sua morte?',
     url: 'https://otaviotolentino.wordpress.com/2026/02/16/ladrao-na-cruz-o-que-aconteceu-depois/',
     tags: ["Hoje","Jesus Cristo","Ladrão Arrependido","Ladrão na Cruz","Paraíso","Reino"],
+    category: 'Estudos',
+  },
+  {
+    id: 'servir-a-deus-ou-ao-',
+    title: 'Servir a Deus ou ao Homem: Qual a Diferença?',
+    date: '2026-02-22',
+    summary: 'Você sabe a diferença entre servir a Deus ou ao homem? Qual opção você escolheu para sua vida?',
+    url: 'https://otaviotolentino.wordpress.com/2026/02/22/servir-a-deus-ou-ao-homem/',
+    tags: ["Deus","Homem","Reino de Deus","Reino do Homem","Servidão","Servir","Servir a Deus","Servir ao Homen"],
     category: 'Estudos',
     isNew: true,
   }
