@@ -1184,6 +1184,15 @@ export const themes: Theme[] = [
                 description: 'Como sabemos que Deus habita entre os Querubins? E como podemos fazer tal afirmação?',
                 children: [],
                 articles: ['deus-que-habitas-ent']
+              },
+			  {
+                id: 'deus-fogo-consumidor',
+                name: 'Fogo Consumidor',
+                level: 4,
+                parentId: 'deus',
+                description: 'O que ressoa em seu coração ao ouvir a solene declaração de que o nosso “Deus é um fogo consumidor”?',
+                children: [],
+                articles: ['deus-fogo-consumidor']
               }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -3684,6 +3693,15 @@ export const articles: Article[] = [
     summary: 'Você sabe a diferença entre servir a Deus ou ao homem? Qual opção você escolheu para sua vida?',
     url: 'https://otaviotolentino.wordpress.com/2026/02/22/servir-a-deus-ou-ao-homem/',
     tags: ["Deus","Homem","Reino de Deus","Reino do Homem","Servidão","Servir","Servir a Deus","Servir ao Homen"],
+    category: 'Estudos',
+  },
+  {
+    id: 'deus-fogo-consumidor',
+    title: 'Deus é Fogo Consumidor: Significado',
+    date: '2026-03-13',
+    summary: 'O que ressoa em seu coração ao ouvir a solene declaração de que o nosso “Deus é um fogo consumidor”?',
+    url: 'https://otaviotolentino.wordpress.com/2026/03/13/deus-e-fogo-consumidor-significado/',
+    tags: ["Deus","Fogo Consumidor","Perfeição","Perfeito","Purificação","Reverenciar","Santificação","Santo","Servir","Temor a Deus","Zelo"],
     category: 'Estudos',
     isNew: true,
   }
