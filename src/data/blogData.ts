@@ -529,6 +529,15 @@ export const themes: Theme[] = [
                 description: 'Você sabe a diferença entre servir a Deus ou ao homem?',
                 children: [],
                 articles: ['servir-a-deus-ou-ao-']
+            },
+    {
+                id: 'confiana-em-deus',
+                name: 'Confiança em Deus',
+                level: 4,
+                parentId: 'discipleship',
+                description: 'Qual a possibilidade de você se aproximar do Criador de todo o universo sem o peso esmagador do medo ou da incerteza?',
+                children: [],
+                articles: ['confiana-em-deus']
             }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -3703,7 +3712,16 @@ export const articles: Article[] = [
     url: 'https://otaviotolentino.wordpress.com/2026/03/13/deus-e-fogo-consumidor-significado/',
     tags: ["Deus","Fogo Consumidor","Perfeição","Perfeito","Purificação","Reverenciar","Santificação","Santo","Servir","Temor a Deus","Zelo"],
     category: 'Estudos',
-    isNew: true,
+  },
+  {
+    id: 'confiana-em-deus',
+    title: 'Confiança em Deus',
+    date: '2026-03-21',
+    summary: 'Qual a possibilidade de você se aproximar do Criador de todo o universo sem o peso esmagador do medo ou da incerteza?',
+    url: 'https://otaviotolentino.wordpress.com/2026/03/21/confianca-em-deus/',
+    tags: ["Certeza","Confiança","Coração Limpo","Deus","Falar Livremente","Liberdade","Não Duvidar","Oração Respondida","Oracão","Ousadia","Vontade de Deus"],
+    category: 'Estudos',
+  	isNew: true,
   }
 ];
 
