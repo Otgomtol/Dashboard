@@ -380,6 +380,15 @@ export const themes: Theme[] = [
             articles: ['ceia-do-senhor-em-1-']
           },
 		  {
+            id: 'plenitude-dos-gentio',
+            name: 'Tempos dos Gentios',
+            level: 3,
+            parentId: "igreja",
+            description: 'O que significa a declaração de nosso Senhor Jesus sobre Jerusalém ser “pisada pelos gentios” até qu',
+            children: [],
+            articles: ['plenitude-dos-gentio']
+          },
+		  {
             id: "discipleship",
             name: "Discipulado",
             level: 3,
@@ -3721,7 +3730,16 @@ export const articles: Article[] = [
     url: 'https://otaviotolentino.wordpress.com/2026/03/21/confianca-em-deus/',
     tags: ["Certeza","Confiança","Coração Limpo","Deus","Falar Livremente","Liberdade","Não Duvidar","Oração Respondida","Oracão","Ousadia","Vontade de Deus"],
     category: 'Estudos',
-  	isNew: true,
+  },
+  {
+    id: 'plenitude-dos-gentio',
+    title: 'Tempos dos Gentios',
+    date: '2026-04-03',
+    summary: 'O que significa a declaração de nosso Senhor Jesus sobre Jerusalém ser “pisada pelos gentios” até que seus tempos se completem?',
+    url: 'https://otaviotolentino.wordpress.com/2026/04/03/plenitude-dos-gentios/',
+    tags: ["Desobediência","Igreja","Israel","Jerusalém Pisada","Obediência","Plenitude dos Gentios","Tempo da Graça","Tempos dos Gentios","Tempos se Completem","Volta de Jesus"],
+    category: 'Estudos',
+    isNew: true,
   }
 ];
 
