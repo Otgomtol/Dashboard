@@ -1937,6 +1937,15 @@ export const themes: Theme[] = [
                 description: 'O que Aliança de Sal estabelecida com Davi por Deus significa para você?',
                 children: [],
                 articles: ['aliana-de-sal-em-2-c']
+              },
+			  {
+                id: 'coracao-no-contexto',
+                name: 'Coração do Homem',				
+                level: 4,
+                parentId: "biblical-terms",
+                description: 'Qual a importância e o impacto do Coração do homem no contexto das Escrituras?',
+                children: [],
+                articles: ['coracao-no-contexto']
               }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -3738,6 +3747,15 @@ export const articles: Article[] = [
     summary: 'O que significa a declaração de nosso Senhor Jesus sobre Jerusalém ser “pisada pelos gentios” até que seus tempos se completem?',
     url: 'https://otaviotolentino.wordpress.com/2026/04/03/plenitude-dos-gentios/',
     tags: ["Desobediência","Igreja","Israel","Jerusalém Pisada","Obediência","Plenitude dos Gentios","Tempo da Graça","Tempos dos Gentios","Tempos se Completem","Volta de Jesus"],
+    category: 'Estudos',
+  },
+  {
+    id: 'coracao-no-contexto',
+    title: 'Coração no Contexto Bíblico',
+    date: '2026-04-08',
+    summary: 'Qual a importância e o impacto do Coração do homem no contexto das Escrituras?',
+    url: 'https://otaviotolentino.wordpress.com/2026/04/08/coracao-no-contexto-biblico/',
+    tags: ["Amar a Deus de todo Coração","Coração","Coração Íntegro","Coração de Deus","Coração endurecido","Coração Limpo","Coração preparado para Deus","Desobediência","Entregar o Coração a Deus","Inteireza de Coração","Obediência"],
     category: 'Estudos',
     isNew: true,
   }
