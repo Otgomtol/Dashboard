@@ -1946,6 +1946,15 @@ export const themes: Theme[] = [
                 description: 'Qual a importância e o impacto do Coração do homem no contexto das Escrituras?',
                 children: [],
                 articles: ['coracao-no-contexto']
+              },
+			  {
+                id: 'chuva-como-bno-divin',
+                name: 'Chuvas como Bênçãos',
+                level: 4,
+                parentId: "biblical-terms",
+                description: 'Você sabe o significado de Oséias 6:3, que diz: “Conheçamos e prossigamos em conhecer ao Senhor; a s',
+                children: [],
+                articles: ['chuva-como-bno-divin']
               }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -3756,6 +3765,15 @@ export const articles: Article[] = [
     summary: 'Qual a importância e o impacto do Coração do homem no contexto das Escrituras?',
     url: 'https://otaviotolentino.wordpress.com/2026/04/08/coracao-no-contexto-biblico/',
     tags: ["Amar a Deus de todo Coração","Coração","Coração Íntegro","Coração de Deus","Coração endurecido","Coração Limpo","Coração preparado para Deus","Desobediência","Entregar o Coração a Deus","Inteireza de Coração","Obediência"],
+    category: 'Estudos',
+  },
+  {
+    id: 'chuva-como-bno-divin',
+    title: 'Chuva como Bênção Divina em Oséias 6:3',
+    date: '2026-04-15',
+    summary: 'Você sabe o significado de Oséias 6:3, que diz: “Conheçamos e prossigamos em conhecer ao Senhor; a sua manhã é tão certa como o amanhecer; e ele nos visitará como a chuva, como a chuva serôdia e temporã que rega a terra.”?',
+    url: 'https://otaviotolentino.wordpress.com/2026/04/15/chuva-como-bencao-divina-em-oseias-6-3/',
+    tags: ["Bênçãos","Chuva","Chuva Serôdia","Chuva Temporã","Confiança","Desobediência","Espírito Santo","Fé","Obediência","Orvalho","Orvalho da Manhã"],
     category: 'Estudos',
     isNew: true,
   }
