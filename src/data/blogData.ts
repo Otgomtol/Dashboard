@@ -389,6 +389,15 @@ export const themes: Theme[] = [
             articles: ['plenitude-dos-gentio']
           },
 		  {
+            id: 'fraqueza-ou-enfermid',
+            name: 'Fraqueza/Enfermidade',			
+            level: 3,
+            parentId: "igreja",
+            description: 'Paulo fala que quando esteve entre os Gálatas, na Ásia Menor, estava em “enfermidade da carne“.',
+            children: [],
+            articles: ['fraqueza-ou-enfermid']
+          },
+		  {
             id: "discipleship",
             name: "Discipulado",
             level: 3,
@@ -3774,6 +3783,15 @@ export const articles: Article[] = [
     summary: 'Você sabe o significado de Oséias 6:3, que diz: “Conheçamos e prossigamos em conhecer ao Senhor; a sua manhã é tão certa como o amanhecer; e ele nos visitará como a chuva, como a chuva serôdia e temporã que rega a terra.”?',
     url: 'https://otaviotolentino.wordpress.com/2026/04/15/chuva-como-bencao-divina-em-oseias-6-3/',
     tags: ["Bênçãos","Chuva","Chuva Serôdia","Chuva Temporã","Confiança","Desobediência","Espírito Santo","Fé","Obediência","Orvalho","Orvalho da Manhã"],
+    category: 'Estudos',
+  },
+  {
+    id: 'fraqueza-ou-enfermid',
+    title: 'Fraqueza ou Enfermidade da Carne?',
+    date: '2026-04-26',
+    summary: 'Paulo fala que quando esteve entre os Gálatas, na Ásia Menor, estava em “enfermidade da carne“. A que Paulo estava se referindo especificamente?',
+    url: 'https://otaviotolentino.wordpress.com/2026/04/26/fraqueza-ou-enfermidade-da-carne/',
+    tags: ["Artigo","Desobediência","Enfermidade da Carne","Espírito Santo","Fé","Fraqueza da Carne","Natureza Humana","Obediência","Paulo","Vivificados no Espírito"],
     category: 'Estudos',
     isNew: true,
   }
