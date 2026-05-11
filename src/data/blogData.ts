@@ -539,7 +539,7 @@ export const themes: Theme[] = [
                 children: [],
                 articles: ['como-devemos-consult']
             },
-    {
+			{
                 id: 'servir-a-deus-ou-ao-',
                 name: 'Servir:Deus ou Homem',				
                 level: 4,
@@ -548,7 +548,7 @@ export const themes: Theme[] = [
                 children: [],
                 articles: ['servir-a-deus-ou-ao-']
             },
-    {
+			{
                 id: 'confiana-em-deus',
                 name: 'Confiança em Deus',
                 level: 4,
@@ -556,6 +556,15 @@ export const themes: Theme[] = [
                 description: 'Qual a possibilidade de você se aproximar do Criador de todo o universo sem o peso esmagador do medo ou da incerteza?',
                 children: [],
                 articles: ['confiana-em-deus']
+            },
+    {
+                id: 'graa-de-deus-na-vida',
+                name: 'Graça de Deus',
+                level: 4,
+                parentId: 'discipleship',
+                description: 'Você já pensou sobre o significado da Graça de Deus na vida do Crente?',
+                children: [],
+                articles: ['graa-de-deus-na-vida']
             }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -3791,7 +3800,16 @@ export const articles: Article[] = [
     date: '2026-04-26',
     summary: 'Paulo fala que quando esteve entre os Gálatas, na Ásia Menor, estava em “enfermidade da carne“. A que Paulo estava se referindo especificamente?',
     url: 'https://otaviotolentino.wordpress.com/2026/04/26/fraqueza-ou-enfermidade-da-carne/',
-    tags: ["Artigo","Desobediência","Enfermidade da Carne","Espírito Santo","Fé","Fraqueza da Carne","Natureza Humana","Obediência","Paulo","Vivificados no Espírito"],
+    tags: ["Desobediência","Enfermidade da Carne","Espírito Santo","Fé","Fraqueza da Carne","Natureza Humana","Obediência","Paulo","Vivificados no Espírito"],
+    category: 'Estudos',
+  },
+  {
+    id: 'graa-de-deus-na-vida',
+    title: 'Graça de Deus na Vida do Cristão',
+    date: '2026-05-09',
+    summary: 'Você já pensou sobre o significado da Graça de Deus na vida do Crente? E qual foi a sua resposta?',
+    url: 'https://otaviotolentino.wordpress.com/2026/05/09/graca-de-deus-na-vida-do-cristao/',
+    tags: ["A Glória é de Deus","Dom de Deus","Espírito Santo","Fé","Graça de Deus","Jesus é quem justifica","Justiça de Deus","Obediência","Obras","Obras mortas","Salvação pela Fé"],
     category: 'Estudos',
     isNew: true,
   }
