@@ -557,7 +557,7 @@ export const themes: Theme[] = [
                 children: [],
                 articles: ['confiana-em-deus']
             },
-    {
+			{
                 id: 'graa-de-deus-na-vida',
                 name: 'Graça de Deus',
                 level: 4,
@@ -565,6 +565,15 @@ export const themes: Theme[] = [
                 description: 'Você já pensou sobre o significado da Graça de Deus na vida do Crente?',
                 children: [],
                 articles: ['graa-de-deus-na-vida']
+            },
+			{
+                id: 'conscincia-pura-dian',
+                name: 'Consciência Limpa',
+                level: 4,
+                parentId: 'discipleship',
+                description: 'Qual tem sido a voz do seu coração quando os ruídos do mundo se calam?',
+                children: [],
+                articles: ['conscincia-pura-dian']
             }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -3810,6 +3819,15 @@ export const articles: Article[] = [
     summary: 'Você já pensou sobre o significado da Graça de Deus na vida do Crente? E qual foi a sua resposta?',
     url: 'https://otaviotolentino.wordpress.com/2026/05/09/graca-de-deus-na-vida-do-cristao/',
     tags: ["A Glória é de Deus","Dom de Deus","Espírito Santo","Fé","Graça de Deus","Jesus é quem justifica","Justiça de Deus","Obediência","Obras","Obras mortas","Salvação pela Fé"],
+    category: 'Estudos',
+  },
+  {
+    id: 'conscincia-pura-dian',
+    title: 'Consciência Pura Diante de Deus',
+    date: '2026-05-19',
+    summary: 'Qual tem sido a voz do seu coração quando os ruídos do mundo se calam?',
+    url: 'https://otaviotolentino.wordpress.com/2026/05/19/consciencia-pura-diante-de-deus/',
+    tags: ["Boa Consciência","Consciência","Consciência Pura","Consciência Limpa","Coração Limpo","Espírito Santo","Fé","Guardar a Fé","Obras mortas","Salvação pela Fé"],
     category: 'Estudos',
     isNew: true,
   }

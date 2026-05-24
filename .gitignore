@@ -3,6 +3,7 @@ dist/
 docs/
 .env
 .env.local
+.env.*
 .DS_Store
 tsconfig.tsbuildinfo
 *storybook.log
