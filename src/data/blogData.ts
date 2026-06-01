@@ -1238,6 +1238,15 @@ export const themes: Theme[] = [
                 description: 'O que ressoa em seu coração ao ouvir a solene declaração de que o nosso “Deus é um fogo consumidor”?',
                 children: [],
                 articles: ['deus-fogo-consumidor']
+              },
+			  {
+                id: 'deus-no-imputa-o-pec',
+                name: 'Não Imputa o Pecado',
+                level: 4,
+                parentId: 'deus',
+                description: 'Já imaginou ter cada uma das suas transgressões registradas no livro da vida e depois descobrir que ',
+                children: [],
+                articles: ['deus-no-imputa-o-pec']
               }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -3828,6 +3837,15 @@ export const articles: Article[] = [
     summary: 'Qual tem sido a voz do seu coração quando os ruídos do mundo se calam?',
     url: 'https://otaviotolentino.wordpress.com/2026/05/19/consciencia-pura-diante-de-deus/',
     tags: ["Boa Consciência","Consciência","Consciência Pura","Consciência Limpa","Coração Limpo","Espírito Santo","Fé","Guardar a Fé","Obras mortas","Salvação pela Fé"],
+    category: 'Estudos',
+  },
+  {
+    id: 'deus-no-imputa-o-pec',
+    title: 'Deus Não Imputa o Pecado ao seu Povo',
+    date: '2026-05-28',
+    summary: 'Já imaginou ter cada uma das suas transgressões registradas no livro da vida e depois descobrir que Deus decidiu não lançá-las em sua conta?',
+    url: 'https://otaviotolentino.wordpress.com/2026/05/28/deus-nao-imputa-o-pecado-ao-seu-povo/',
+    tags: ["Boa Consciência","Consciência","Consciência Pura","Coração Limpo","Espírito Santo","Fé","Graça","Graça de Deus","Guardar a Fé","Jesus","Justiça de Deus","Obras mortas","Pecado","Pecado Não Imputado","Salvação pela Fé"],
     category: 'Estudos',
     isNew: true,
   }
