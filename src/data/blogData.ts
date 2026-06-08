@@ -1247,7 +1247,16 @@ export const themes: Theme[] = [
                 description: 'Já imaginou ter cada uma das suas transgressões registradas no livro da vida e depois descobrir que ',
                 children: [],
                 articles: ['deus-no-imputa-o-pec']
-              }
+              },
+			  {
+                id: 'deus-no-tem-semelhan',
+                name: 'É sem Comparação',				
+                level: 4,
+                parentId: 'deus',
+                description: 'Quem é Semelhante ao nosso Deus e a quem é possível compará-lo?',
+                children: [],
+                articles: ['deus-no-tem-semelhan']
+			  }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },
@@ -3846,6 +3855,15 @@ export const articles: Article[] = [
     summary: 'Já imaginou ter cada uma das suas transgressões registradas no livro da vida e depois descobrir que Deus decidiu não lançá-las em sua conta?',
     url: 'https://otaviotolentino.wordpress.com/2026/05/28/deus-nao-imputa-o-pecado-ao-seu-povo/',
     tags: ["Boa Consciência","Consciência","Consciência Pura","Coração Limpo","Espírito Santo","Fé","Graça","Graça de Deus","Guardar a Fé","Jesus","Justiça de Deus","Obras mortas","Pecado","Pecado Não Imputado","Salvação pela Fé"],
+    category: 'Estudos',
+  },
+  {
+    id: 'deus-no-tem-semelhan',
+    title: 'Deus Não tem Semelhante e é Sem Comparação',
+    date: '2026-06-06',
+    summary: 'Quem é Semelhante ao nosso Deus e a quem é possível compará-lo?',
+    url: 'https://otaviotolentino.wordpress.com/2026/06/06/deus-nao-tem-semelhante-e-sem-comparacao/',
+    tags: ["Comparação","Deus","Deus é único","Deus é sem Comparação","Deus não tem Semelhante","Não há outro Deus","Semelhante"],
     category: 'Estudos',
     isNew: true,
   }
