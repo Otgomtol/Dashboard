@@ -398,6 +398,15 @@ export const themes: Theme[] = [
             articles: ['fraqueza-ou-enfermid']
           },
 		  {
+            id: 'batismo-de-joo-batis',
+            name: 'Batismo João X Jesus',
+            level: 3,
+            parentId: "igreja",
+            description: 'Você já parou para perceber que nem todo batismo é igual?',
+            children: [],
+            articles: ['batismo-de-joo-batis']
+          },
+		  {
             id: "discipleship",
             name: "Discipulado",
             level: 3,
@@ -3864,6 +3873,15 @@ export const articles: Article[] = [
     summary: 'Quem é Semelhante ao nosso Deus e a quem é possível compará-lo?',
     url: 'https://otaviotolentino.wordpress.com/2026/06/06/deus-nao-tem-semelhante-e-sem-comparacao/',
     tags: ["Comparação","Deus","Deus é único","Deus é sem Comparação","Deus não tem Semelhante","Não há outro Deus","Semelhante"],
+    category: 'Estudos',
+  },
+  {
+    id: 'batismo-de-joo-batis',
+    title: 'Batismo de João Batista X Batismo de Jesus',
+    date: '2026-06-13',
+    summary: 'Você já parou para perceber que nem todo batismo é igual?',
+    url: 'https://otaviotolentino.wordpress.com/2026/06/13/batismo-de-joao-batista-e-batismo-de-jesus/',
+    tags: ["Batismo","Batismo de Jesus","Batismo de João Batista","Batismo do Espírito Santo","Batismo na água","Comparação","Diferenças","Espírito Santo","Fogo"],
     category: 'Estudos',
     isNew: true,
   }
