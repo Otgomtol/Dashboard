@@ -1093,6 +1093,15 @@ export const themes: Theme[] = [
 					description: 'O que realmente aconteceu com o ladrão arrependido na cruz após sua morte?',
 					children: [],
 					articles: ['ladro-na-cruz-o-que-']
+				  },
+				  {
+					id: 'jesus-leo-de-jud-ori',
+					name: 'Leão de Judá: Origem',					
+					level: 4,
+                    parentId: "jesus-christ",
+					description: 'Você já experimentou a angústia de ver o mal prosperar e sentir que ninguém é digno de intervir para',
+					children: [],
+					articles: ['jesus-leo-de-jud-ori']
 				  }
                 ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -3882,6 +3891,15 @@ export const articles: Article[] = [
     summary: 'Você já parou para perceber que nem todo batismo é igual?',
     url: 'https://otaviotolentino.wordpress.com/2026/06/13/batismo-de-joao-batista-e-batismo-de-jesus/',
     tags: ["Batismo","Batismo de Jesus","Batismo de João Batista","Batismo do Espírito Santo","Batismo na água","Comparação","Diferenças","Espírito Santo","Fogo"],
+    category: 'Estudos',
+  },
+  {
+    id: 'jesus-leo-de-jud-ori',
+    title: 'JESUS, Leão de Judá: Origem',
+    date: '2026-06-27',
+    summary: 'Você já experimentou a angústia de ver o mal prosperar e sentir que ninguém é digno de intervir para restaurar a justiça?',
+    url: 'https://otaviotolentino.wordpress.com/2026/06/27/jesus-leao-de-juda-origem/',
+    tags: ["7 Selos do Apocalipse","Apocalipse","Digno","Digno de abrir o Livro","Gênesis 49","Jesus Cristo","Leão da Tribo de Judá","Leão de Judá","Origem","Profecia","Profecia sobre Jesus"],
     category: 'Estudos',
     isNew: true,
   }
