@@ -1102,6 +1102,15 @@ export const themes: Theme[] = [
 					description: 'Você já experimentou a angústia de ver o mal prosperar e sentir que ninguém é digno de intervir para',
 					children: [],
 					articles: ['jesus-leo-de-jud-ori']
+				  },
+				  {
+					id: 'jesus-vara-de-ferro-',
+					name: 'Vara de Ferro:Origem',
+					level: 4,
+                    parentId: "jesus-christ",
+					description: 'Qual a origem da Vara de Ferro com que Jesus vai quebrar todas as nações ao reinar sobre elas?',
+					children: [],
+					articles: ['jesus-vara-de-ferro-']
 				  }
                 ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -3895,11 +3904,20 @@ export const articles: Article[] = [
   },
   {
     id: 'jesus-leo-de-jud-ori',
-    title: 'JESUS, Leão de Judá: Origem',
+    title: 'Jesus, Leão de Judá: Origem',
     date: '2026-06-27',
     summary: 'Você já experimentou a angústia de ver o mal prosperar e sentir que ninguém é digno de intervir para restaurar a justiça?',
     url: 'https://otaviotolentino.wordpress.com/2026/06/27/jesus-leao-de-juda-origem/',
     tags: ["7 Selos do Apocalipse","Apocalipse","Digno","Digno de abrir o Livro","Gênesis 49","Jesus Cristo","Leão da Tribo de Judá","Leão de Judá","Origem","Profecia","Profecia sobre Jesus"],
+    category: 'Estudos',
+  },
+  {
+    id: 'jesus-vara-de-ferro-',
+    title: 'Jesus, Vara de Ferro: Origem',
+    date: '2026-07-04',
+    summary: 'Qual a origem da Vara de Ferro com que Jesus vai quebrar todas as nações ao reinar sobre elas?',
+    url: 'https://otaviotolentino.wordpress.com/2026/07/04/jesus-vara-de-ferro-origem/',
+    tags: ["Apocalipse","Cetro","Gênesis 49","Jesus Cristo","Origem","Profecia","Profecia sobre Jesus","Reinado de Jesus","Vara de Ferro"],
     category: 'Estudos',
     isNew: true,
   }
