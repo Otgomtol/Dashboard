@@ -407,6 +407,15 @@ export const themes: Theme[] = [
             articles: ['batismo-de-joo-batis']
           },
 		  {
+            id: 'a-iluso-do-egito-mon',
+            name: 'Ilusão do Egito:Raabe',
+            level: 3,
+            parentId: "igreja",
+            description: 'Você sabe identificar qual é a relação entre Raabe e o Egito?',
+            children: [],
+            articles: ['a-iluso-do-egito-mon']
+          },
+		  {
             id: "discipleship",
             name: "Discipulado",
             level: 3,
@@ -3918,6 +3927,15 @@ export const articles: Article[] = [
     summary: 'Qual a origem da Vara de Ferro com que Jesus vai quebrar todas as nações ao reinar sobre elas?',
     url: 'https://otaviotolentino.wordpress.com/2026/07/04/jesus-vara-de-ferro-origem/',
     tags: ["Apocalipse","Cetro","Gênesis 49","Jesus Cristo","Origem","Profecia","Profecia sobre Jesus","Reinado de Jesus","Vara de Ferro"],
+    category: 'Estudos',
+  },
+  {
+    id: 'a-iluso-do-egito-mon',
+    title: 'A Ilusão do Egito: Monstro Paralisado',
+    date: '2026-08-09',
+    summary: 'Você sabe identificar qual é a relação entre Raabe e o Egito?',
+    url: 'https://otaviotolentino.wordpress.com/2026/08/09/a-ilusao-do-egito-monstro-paralisado/',
+    tags: ["Apocalipse","Arrogância","Dragão","Egito","Ilusão","Profecia","Raabe","Satanás","Soberba"],
     category: 'Estudos',
     isNew: true,
   }
