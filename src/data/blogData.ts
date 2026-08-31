@@ -1120,6 +1120,15 @@ export const themes: Theme[] = [
 					description: 'Qual a origem da Vara de Ferro com que Jesus vai quebrar todas as nações ao reinar sobre elas?',
 					children: [],
 					articles: ['jesus-vara-de-ferro-']
+				  },
+				  {
+					id: 'eu-sou-o-enviado-o-u',
+					name: 'Eu Sou: O Cristo',
+					level: 4,
+                    parentId: "jesus-christ",
+					description: 'Você já parou para refletir sobre a revelação que Jesus fez abertamente a respeito da sua identidade',
+					children: [],
+					articles: ['eu-sou-o-enviado-o-u']
 				  }
                 ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -3936,6 +3945,15 @@ export const articles: Article[] = [
     summary: 'Você sabe identificar qual é a relação entre Raabe e o Egito?',
     url: 'https://otaviotolentino.wordpress.com/2026/08/09/a-ilusao-do-egito-monstro-paralisado/',
     tags: ["Apocalipse","Arrogância","Dragão","Egito","Ilusão","Profecia","Raabe","Satanás","Soberba"],
+    category: 'Estudos',
+  },
+  {
+    id: 'eu-sou-o-enviado-o-u',
+    title: 'Eu Sou: O Enviado, O Ungido, O Prometido, O Cristo',
+    date: '2026-08-28',
+    summary: 'Você já parou para refletir sobre a revelação que Jesus fez abertamente a respeito da sua identidade divina e messiânica?',
+    url: 'https://otaviotolentino.wordpress.com/2026/08/28/eu-sou-o-enviado-o-ungido-o-prometido-o-cristo/',
+    tags: ["Eu Sou","Eu Sou Aquele","Eu Sou Ele","Filho de Deus","Jesus","Jesus Cristo","O Cristo","O Enviado","O Messias","O Prometido","O Ungido"],
     category: 'Estudos',
     isNew: true,
   }
