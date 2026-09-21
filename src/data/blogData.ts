@@ -1129,6 +1129,15 @@ export const themes: Theme[] = [
 					description: 'Você já parou para refletir sobre a revelação que Jesus fez abertamente a respeito da sua identidade',
 					children: [],
 					articles: ['eu-sou-o-enviado-o-u']
+				  },
+				  {
+					id: 'morremos-todos-em-ad',
+					name: 'Seremos Vivifcados',
+					level: 4,
+                    parentId: "jesus-christ",
+					description: 'Como se dá o processo de passarmos da morte para a Vida?',
+					children: [],
+					articles: ['morremos-todos-em-ad']
 				  }
                 ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
@@ -3954,6 +3963,15 @@ export const articles: Article[] = [
     summary: 'Você já parou para refletir sobre a revelação que Jesus fez abertamente a respeito da sua identidade divina e messiânica?',
     url: 'https://otaviotolentino.wordpress.com/2026/08/28/eu-sou-o-enviado-o-ungido-o-prometido-o-cristo/',
     tags: ["Eu Sou","Eu Sou Aquele","Eu Sou Ele","Filho de Deus","Jesus","Jesus Cristo","O Cristo","O Enviado","O Messias","O Prometido","O Ungido"],
+    category: 'Estudos',
+  },
+  {
+    id: 'morremos-todos-em-ad',
+    title: 'Morremos todos em Adão, mas em Cristo seremos todos Vivificados',
+    date: '2026-09-18',
+    summary: 'Como se dá o processo de passarmos da morte para a Vida? Será isso possível?',
+    url: 'https://otaviotolentino.wordpress.com/2026/09/18/morremos-todos-em-adao-mas-em-cristo-seremos-todos-vivificados/',
+    tags: ["Adão","Graça","Jesus","Jesus Cristo","Morremos","Morte","Morte para a Vida","Pecado","Primeiro Adão","Ressurreição","Segundo Adão","Vida","Vivificados"],
     category: 'Estudos',
     isNew: true,
   }
