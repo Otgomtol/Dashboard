@@ -1645,6 +1645,15 @@ export const themes: Theme[] = [
             description: "Há muito tempo é sabido que os livros dos profetas do antigo testamento estão diretamente relacionados com o livro de Apocalipse. Nesse contexto, apresentaremos neste estudo um resumo direto e sem rodeios do capítulo 13 do profeta Jeremias de forma clara e objetiva.",
             children: [],
             articles: ["conc-em-jeremias-13"]
+          },
+		  {
+            id: 'jesus-vindo-nas-nuve',
+            name: 'Jesus nas nuvens',			
+            level: 3,
+            parentId: "apocalypse",
+            description: 'Você já parou para meditar na promessa do retorno visível de nosso Senhor Jesus Cristo sobre as nuve',
+            children: [],
+            articles: ['jesus-vindo-nas-nuve']
           },		  
           {
             id: "babilonia",
@@ -3972,6 +3981,15 @@ export const articles: Article[] = [
     summary: 'Como se dá o processo de passarmos da morte para a Vida? Será isso possível?',
     url: 'https://otaviotolentino.wordpress.com/2026/09/18/morremos-todos-em-adao-mas-em-cristo-seremos-todos-vivificados/',
     tags: ["Adão","Graça","Jesus","Jesus Cristo","Morremos","Morte","Morte para a Vida","Pecado","Primeiro Adão","Ressurreição","Segundo Adão","Vida","Vivificados"],
+    category: 'Estudos',
+  },
+  {
+    id: 'jesus-vindo-nas-nuve',
+    title: 'Jesus vindo nas nuvens do Céu',
+    date: '2026-10-03',
+    summary: 'Você já parou para meditar na promessa do retorno visível de nosso Senhor Jesus Cristo sobre as nuvens do Céu?',
+    url: 'https://otaviotolentino.wordpress.com/2026/10/03/jesus-vindo-nas-nuvens-do-ceu/',
+    tags: ["Apocalipse","Jesus Cristo","Volta de Jesus","Jesus vindo nas nuvens","Nuvens do Céu"],
     category: 'Estudos',
     isNew: true,
   }
