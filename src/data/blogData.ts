@@ -1310,7 +1310,16 @@ export const themes: Theme[] = [
                 description: 'Quem é Semelhante ao nosso Deus e a quem é possível compará-lo?',
                 children: [],
                 articles: ['deus-no-tem-semelhan']
-			  }
+			  },
+			  {
+                id: 'o-senhor-prover-sign',
+                name: 'O Senhor Proverá',
+                level: 4,
+                parentId: 'deus',
+                description: 'Você já contemplou quando a obediência humana encontra a soberana providência de Deus no cume de uma',
+                children: [],
+                articles: ['o-senhor-prover-sign']
+              }
             ].sort((a, b) => a.name.localeCompare(b.name)),
             articles: []
           },
@@ -3990,6 +3999,15 @@ export const articles: Article[] = [
     summary: 'Você já parou para meditar na promessa do retorno visível de nosso Senhor Jesus Cristo sobre as nuvens do Céu?',
     url: 'https://otaviotolentino.wordpress.com/2026/10/03/jesus-vindo-nas-nuvens-do-ceu/',
     tags: ["Apocalipse","Jesus Cristo","Volta de Jesus","Jesus vindo nas nuvens","Nuvens do Céu"],
+    category: 'Estudos',
+  },
+  {
+    id: 'o-senhor-prover-sign',
+    title: 'O Senhor Proverá: Significado',
+    date: '2026-11-10',
+    summary: 'Você já contemplou quando a obediência humana encontra a soberana providência de Deus no cume de uma montanha?',
+    url: 'https://otaviotolentino.wordpress.com/2026/11/10/o-senhor-provera-significado/',
+    tags: ["Artigo","Fé","Obediência","Proverá","Sacrifício","Senhor Proverá","Verá e dará solução","Verá para si"],
     category: 'Estudos',
     isNew: true,
   }
